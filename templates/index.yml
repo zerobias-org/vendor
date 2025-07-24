@@ -1,0 +1,10 @@
+id: {id}
+name: {name}
+description: {description}
+imageUrl: https://cdn.auditmation.io/logos/{code}.svg
+logo: https://cdn.auditmation.io/logos/{code}.svg
+code: {code}
+status: verified
+url: {url}
+tags: []
+aliases: []
