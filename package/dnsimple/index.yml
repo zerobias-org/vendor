@@ -1,0 +1,11 @@
+code: dnsimple
+status: active
+id: f4bf0c99-c8fe-57de-8f88-43951f9a9984
+name: DNSimple
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.747Z
+updated: 2021-11-24T20:04:58.958Z
+url: https://dnsimple.com/
+description: DNSimple Corporation
+logo: https://cdn.auditmation.io/logos/dnsimple.svg

@@ -1,0 +1,11 @@
+code: iso
+status: active
+id: 88bce5f2-739b-5efd-b114-d751348f7a8a
+name: ISO
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-08T17:15:28.908Z
+updated: 2022-11-08T17:15:28.908Z
+url: https://www.iso.org/home.html
+description: INTERNATIONAL ORGANIZATION FOR STANDARDIZATION
+logo: https://cdn.auditmation.io/logos/iso.svg
