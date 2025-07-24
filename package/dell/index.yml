@@ -1,0 +1,11 @@
+code: dell
+status: active
+id: 7616896c-e8f8-57e0-aa0b-f34b29b30373
+name: Dell
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.617Z
+updated: 2021-11-24T20:04:57.358Z
+url: https://www.dell.com/
+description: Dell Technologies Inc.
+logo: https://cdn.auditmation.io/logos/dell.svg

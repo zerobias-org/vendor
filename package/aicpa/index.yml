@@ -1,0 +1,11 @@
+code: aicpa
+status: active
+id: d3676c22-03b8-5e8b-bc04-44e14e4c0ecc
+name: AICPA
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-08T14:48:35.455Z
+updated: 2022-11-08T14:48:35.455Z
+url: https://www.aicpa.org/home
+description: Association of International Certified Professional Accountants
+logo: https://cdn.auditmation.io/logos/aicpa.svg

@@ -1,0 +1,11 @@
+code: workday
+status: verified
+id: e383bcdc-9334-5eba-a92b-84d4f1038e82
+name: Workday
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-01-27T13:52:43.626Z
+updated: 2022-01-27T13:52:43.626Z
+description: Workday is an enterprise management cloud
+logo: https://cdn.auditmation.io/logos/workday.svg
+url: https://www.workday.com/

@@ -1,0 +1,11 @@
+code: sumologic
+status: active
+id: b27f48e3-2ced-5908-82cb-7060f04c568c
+name: Sumo Logic
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.701Z
+updated: 2021-11-24T20:05:44.810Z
+url: https://www.sumologic.com/
+description: Sumo Logic, Inc.
+logo: https://cdn.auditmation.io/logos/sumologic.svg

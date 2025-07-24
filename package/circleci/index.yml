@@ -1,0 +1,12 @@
+code: circleci
+status: verified
+id: 0f8dbc4c-f695-56e3-9514-3f0c9c112aa7
+name: Circleci
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-08-20T14:58:36.925Z
+updated: 2021-11-24T20:04:54.423Z
+url: https://circleci.com/
+description: The continuous integration platform for the world's best engineering teams.Take control of the change happening all around you · Works with your
+aliases: []
+logo: https://cdn.auditmation.io/logos/circleci.svg

@@ -1,0 +1,11 @@
+code: amazon
+status: active
+id: 9b45d05a-b570-5007-8e0c-8ebac2ea4095
+name: Amazon
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:17:25.849Z
+updated: 2021-11-24T20:04:33.501Z
+url: https://www.amazon.com/
+description: Amazon.com, Inc.
+logo: https://cdn.auditmation.io/logos/amazon.svg

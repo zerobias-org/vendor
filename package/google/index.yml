@@ -1,0 +1,11 @@
+code: google
+status: active
+id: 6e0dcb34-f587-57ea-9940-ba654c962c56
+name: Google
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.626Z
+updated: 2021-11-24T20:05:03.358Z
+url: https://www.google.com/
+description: Google
+logo: https://cdn.auditmation.io/logos/google.svg

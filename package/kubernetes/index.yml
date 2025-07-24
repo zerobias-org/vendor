@@ -1,0 +1,11 @@
+code: kubernetes
+status: active
+id: f64558f8-dc84-58dc-9273-955db7b11daf
+name: The Kubernetes Authors
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.698Z
+updated: 2021-11-24T20:05:18.742Z
+url: https://kubernetes.io/
+description: The Kubernetes Authors
+logo: https://cdn.auditmation.io/logos/kubernetes.svg

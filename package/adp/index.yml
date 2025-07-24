@@ -1,0 +1,11 @@
+code: adp
+status: active
+id: dc0480f7-3244-5169-a373-22b1acf5b3dc
+name: ADP
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.758Z
+updated: 2021-11-24T20:04:30.867Z
+url: https://www.adp.com/
+description: Automatic Data Processing, Inc.
+logo: https://cdn.auditmation.io/logos/adp.svg
