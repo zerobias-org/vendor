@@ -12,7 +12,7 @@
     "prepublishtest": "npx lerna run prepublishtest --since --concurrency 10",
     "validate": "npx lerna run validate --since --concurrency 10",
     "postinstall": "husky install",
-    "build": "npx lerna run transpile --since && npx lerna exec \"npm shrinkwrap\" --concurrency=10",
+    "build": "npx lerna exec \"npm shrinkwrap\"",
     "correct:deps": "npx lerna run correct:deps --concurrency=10",
     "bootstrap": "npx lerna bootstrap --concurrency=10 --include-dependencies",
     "clean": "npx nx reset && npx lerna run clean --since",
