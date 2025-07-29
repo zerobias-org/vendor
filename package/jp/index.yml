@@ -1,0 +1,11 @@
+name: Japan
+code: jp
+description: Japan
+url: https://www.japan.go.jp
+logo: https://cdn.auditmation.io/logos/jp.svg
+id: f6af2c65-b3a1-4688-b357-5822c88e7027
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

@@ -1,0 +1,11 @@
+name: Argentina
+code: ar
+description: Argentina
+url: https://www.argentina.gob.ar
+logo: https://cdn.auditmation.io/logos/ar.svg
+id: e2ced0df-a234-4dc7-8e91-3512f49fff20
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

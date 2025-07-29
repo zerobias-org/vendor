@@ -1,0 +1,11 @@
+name: Vermont
+code: us_vt
+description: State of Vermont (US)
+url: https://www.vermont.gov
+logo: https://cdn.auditmation.io/logos/us_vt.png
+id: ff8099e3-4103-4820-8aac-303f7a59281a
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

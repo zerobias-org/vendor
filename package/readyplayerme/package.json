@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-readyplayerme",
+  "version": "1.0.1",
+  "description": "Integrate customizable avatars into your game or app in minutes",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/readyplayerme/"
+  },
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "vendor",
+    "package": "readyplayerme"
+  }
+}

@@ -1,0 +1,11 @@
+name: Poland
+code: pl
+description: Poland
+url: https://www.gov.pl
+logo: https://cdn.auditmation.io/logos/pl.svg
+id: 0afc276d-e44a-4f7e-b646-6f653c90a8b2
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

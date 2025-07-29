@@ -1,0 +1,11 @@
+name: Ireland
+code: ie
+description: Ireland
+url: https://www.gov.ie
+logo: https://cdn.auditmation.io/logos/ie.svg
+id: 83b9ca4f-b0fc-4fe5-bc29-8a3643044298
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

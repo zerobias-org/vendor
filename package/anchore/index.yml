@@ -1,0 +1,11 @@
+code: anchore
+status: verified
+id: 73646711-cb1d-5915-b498-a0218ae99078
+name: Anchore
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://anchore.com/
+description: Anchore's SBOM-powered modern SCA platform
+logo: https://cdn.auditmation.io/logos/anchore.svg
+cpeVendors:
+  - anchore

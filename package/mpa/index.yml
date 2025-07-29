@@ -1,0 +1,11 @@
+name: MPA
+code: mpa
+description: Motion Picture Association
+url: https://www.motionpictures.org/
+logo: https://cdn.auditmation.io/logos/mpa.png
+id: 996ef2ef-57fa-466c-9f5d-6801d1ec0cca
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

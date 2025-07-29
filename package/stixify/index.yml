@@ -1,0 +1,15 @@
+id: 465b02d3-9bc0-4a2d-925b-ccc18250b31f
+name: Stixify
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-02-04T18:07:21.476Z'
+updated: '2025-02-04T18:07:21.476Z'
+code: stixify
+status: verified
+description: Your automated threat intelligence analyst
+aliases: []
+logo: https://cdn.auditmation.io/logos/stixify.png
+url: https://www.stixify.com/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

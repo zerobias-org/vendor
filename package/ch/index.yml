@@ -1,0 +1,11 @@
+name: Switzerland
+code: ch
+description: Switzerland
+url: https://www.admin.ch
+logo: https://cdn.auditmation.io/logos/ch.svg
+id: f7564af8-6281-4d8d-b5f5-2a056dd8bf47
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

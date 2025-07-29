@@ -1,0 +1,11 @@
+name: IEC
+code: iec
+description: International Electrotechnical Commission
+url: https://www.iec.ch/
+logo: https://cdn.auditmation.io/logos/iec.png
+id: 26e923e1-c3bd-4141-95bb-69f45b883da9
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

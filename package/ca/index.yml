@@ -1,0 +1,11 @@
+name: Canada
+code: ca
+description: Canada
+url: https://www.canada.ca
+logo: https://cdn.auditmation.io/logos/ca.svg
+id: 715a0b01-baf6-48fd-b827-a763d06339ab
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

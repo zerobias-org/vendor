@@ -1,0 +1,14 @@
+id: 28d9674f-ca24-432c-bbd4-36eba10796f5
+name: Chainguard
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-01-24T16:20:09.584Z'
+updated: '2024-01-24T16:20:09.584Z'
+code: chainguard
+status: verified
+description: A control plane for your software supply chain
+logo: https://cdn.auditmation.io/logos/chainguard.svg
+url: https://www.chainguard.dev/
+tags: []
+environment: qa
+hostname: https://api.qa.auditmation.dev
