@@ -1,0 +1,11 @@
+code: splunk
+status: active
+id: a3a7965a-3a8f-55c9-be65-8951158b8300
+name: Splunk
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.752Z
+updated: 2021-11-24T20:05:44.092Z
+url: https://www.splunk.com/
+description: Splunk, Inc.
+logo: https://cdn.auditmation.io/logos/splunk.svg

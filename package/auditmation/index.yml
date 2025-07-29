@@ -1,0 +1,13 @@
+code: auditmation
+status: verified
+id: f3f8d442-1711-55a0-9229-42c36d634df5
+name: Auditmation
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-01-10T15:54:52.206Z
+updated: 2022-01-31T11:29:46.651Z
+url: https://auditmation.io/
+description: The days of auditors accepting omitted, curated, or auditee created evidence are over. Zero trust for 3rd party auditing enables the audit truth.
+aliases:
+  - Auditmation
+logo: https://cdn.auditmation.io/logos/auditmation.svg

@@ -1,0 +1,11 @@
+code: zendesk
+status: active
+id: a776752b-3f90-5129-b2fd-cdb032eaffaf
+name: Zendesk
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.701Z
+updated: 2021-11-24T20:05:50.204Z
+url: https://www.zendesk.com/
+description: Zendesk, Inc.
+logo: https://cdn.auditmation.io/logos/zendesk.svg

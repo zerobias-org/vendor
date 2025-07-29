@@ -1,0 +1,11 @@
+code: dropbox
+status: active
+id: 705207a7-65c0-5bff-9825-1336e6d14fe7
+name: Dropbox
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.731Z
+updated: 2021-11-24T20:04:59.779Z
+url: https://www.dropbox.com/
+description: Dropbox, Inc.
+logo: https://cdn.auditmation.io/logos/dropbox.svg

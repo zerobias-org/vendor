@@ -1,0 +1,11 @@
+code: twilio
+status: active
+id: f0a57f8f-d15b-5333-8e48-3a413e823c16
+name: Twilio
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.744Z
+updated: 2021-11-24T20:05:47.708Z
+url: https://www.twilio.com/
+description: Twilio, Inc.
+logo: https://cdn.auditmation.io/logos/twilio.svg

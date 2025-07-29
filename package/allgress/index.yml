@@ -1,0 +1,13 @@
+code: allgress
+status: verified
+id: a393a7d3-22ec-5025-bb5e-3e116685f6a8
+name: Allgress
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-08-27T12:59:07.919Z
+updated: 2021-12-03T16:01:00.620Z
+url: https://allgress.com/
+description: Full featured GRC without the cost and complexity.
+aliases:
+  - GRC
+logo: https://cdn.auditmation.io/logos/allgress.svg
