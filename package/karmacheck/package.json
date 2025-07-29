@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-karmacheck",
-  "version": "1.0.8",
+  "version": "1.0.9-rc.0",
   "description": "Vendor package for karmacheck",
   "author": "team@zerobias.com",
   "license": "ISC",
