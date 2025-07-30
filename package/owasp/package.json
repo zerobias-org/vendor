@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-owasp",
-  "version": "1.0.2",
+  "version": "1.0.3-rc.0",
   "description": "The Open Worldwide Application Security Project is an online community that produces freely available articles, methodologies, documentation, tools, and technologies in the fields of IoT, system software and web application security.",
   "author": "team@zerobias.com",
   "license": "ISC",

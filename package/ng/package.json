@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-ng",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "vendor package for ng",
   "author": "team@zerobias.com",
   "license": "ISC",

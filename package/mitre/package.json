@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-mitre",
-  "version": "0.2.2",
+  "version": "0.2.3-rc.0",
   "description": "Vendor package for mitre",
   "author": "team@zerobias.com",
   "license": "ISC",

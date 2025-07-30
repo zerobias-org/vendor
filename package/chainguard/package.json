@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-chainguard",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "A control plane for your software supply chain",
   "author": "team@zerobias.com",
   "license": "ISC",
