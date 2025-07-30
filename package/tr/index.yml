@@ -1,0 +1,11 @@
+name: Turkey
+code: tr
+description: Turkey
+url: https://www.turkiye.gov.tr
+logo: https://cdn.auditmation.io/logos/tr.svg
+id: fda10131-8a77-46be-9b6f-928432bef037
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

@@ -1,0 +1,14 @@
+id: 8fc249f2-5bf1-4468-a29b-b05835ba6e3d
+name: IETF
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-16T14:15:32.337Z'
+updated: '2024-05-16T14:15:32.337Z'
+code: ietf
+status: verified
+description: Internet Engineering Task Force
+logo: https://cdn.auditmation.io/logos/ietf.svg
+url: https://www.ietf.org/
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

@@ -1,0 +1,11 @@
+name: Shared Assessments
+code: shared_assessments
+description: Shared Assessments Program
+url: https://sharedassessments.org/
+logo: https://cdn.auditmation.io/logos/shared_assessments.png
+id: eef63030-7bff-45b4-bcdc-988345ccbe23
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

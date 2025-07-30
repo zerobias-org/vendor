@@ -1,0 +1,16 @@
+id: 00ec81f7-aeb8-43aa-904b-8053773e5ce9
+name: SLSA
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-01T20:44:12.066Z'
+updated: '2024-10-01T20:44:12.066Z'
+code: slsa
+status: verified
+description: >-
+  SLSA is a specification for describing and incrementally improving supply chain security, established by industry consensus. It is organized into a series of levels that describe increasing security guarantees.
+aliases: []
+logo: https://cdn.auditmation.io/logos/slsa.png
+url: https://slsa.dev/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

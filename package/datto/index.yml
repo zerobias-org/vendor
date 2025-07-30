@@ -1,0 +1,11 @@
+code: datto
+status: verified
+id: 7c78e6e5-1a09-54af-b5d8-adbb00ca23e1
+name: Datto
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.datto.com/
+description: MSPs rely on Datto for mission-critical business continuity and disaster recovery, networking, business management, and file backup and sync solutions
+logo: https://cdn.auditmation.io/logos/datto.svg
+cpeVendors:
+  - datto

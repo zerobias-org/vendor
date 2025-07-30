@@ -1,0 +1,11 @@
+name: United Nations
+code: un
+description: United Nations
+url: https://www.un.org/
+logo: https://cdn.auditmation.io/logos/un.png
+id: 5d0077dd-265c-4dcc-8d8b-f792b595de7b
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

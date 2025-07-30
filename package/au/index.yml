@@ -1,0 +1,11 @@
+name: Australia
+code: au
+description: Australia
+url: https://www.australia.gov.au
+logo: https://cdn.auditmation.io/logos/au.svg
+id: 8a1d5dce-fed8-4512-8758-3169a6267db4
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

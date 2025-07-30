@@ -1,0 +1,15 @@
+id: 1e898adc-0625-45b7-93c9-904fb95698e8
+name: snyk
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-03-06T13:38:54.236Z'
+updated: '2025-03-06T13:38:54.236Z'
+code: snyk
+status: verified
+description: snyk
+aliases: []
+logo: https://cdn.auditmation.io/logos/snyk.svg
+url: https://snyk.io/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

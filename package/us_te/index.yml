@@ -1,0 +1,11 @@
+name: Tennessee
+code: us_te
+description: State of Tennessee (US)
+url: https://www.tn.gov
+logo: https://cdn.auditmation.io/logos/us_te.jpg
+id: 11e4d9af-ffaf-4c4c-acef-f2bef1d6f748
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

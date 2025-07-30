@@ -1,0 +1,11 @@
+code: veeam
+status: verified
+id: 6b70814a-77d3-54b4-bd9d-9fbcce69abdf
+name: Veeam
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.veeam.com/
+description: Veeam ensures data resiliency for your business through secure data backup, fast and reliable recovery, and data protection solutions for cloud, virtual and
+logo: https://cdn.auditmation.io/logos/veeam.svg
+cpeVendors:
+  - veeam

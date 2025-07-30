@@ -1,0 +1,11 @@
+name: Germany
+code: de
+description: Germany
+url: https://www.bundesregierung.de
+logo: https://cdn.auditmation.io/logos/de.svg
+id: 778ebf4b-9f43-4695-9232-e1a577b83407
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

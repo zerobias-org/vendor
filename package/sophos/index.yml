@@ -1,0 +1,11 @@
+code: sophos
+status: verified
+id: d12cc173-9490-5a20-8f69-57a8dddffc24
+name: Sophos
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.sophos.com/
+description: Centralized security management and operations from the world's most trusted and scalable cloud security platform .
+logo: https://cdn.auditmation.io/logos/sophos.svg
+cpeVendors:
+  - sophos

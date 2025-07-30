@@ -1,0 +1,16 @@
+id: 02e80f36-dfaf-4b67-9b49-b85545f1f4b9
+name: Oasis Open
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-07-04T15:51:48.443Z'
+updated: '2024-07-04T15:51:48.443Z'
+code: oasisopen
+status: verified
+description: >-
+  OASIS Open offers projects—including open source projects—a path to standardization and de jure approval for reference in international policy and procurement.
+aliases: []
+logo: https://cdn.auditmation.io/logos/oasisopen.png
+url: https://www.oasis-open.org/
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

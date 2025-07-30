@@ -1,0 +1,11 @@
+name: Belgium
+code: be
+description: Belgium
+url: https://www.belgium.be
+logo: https://cdn.auditmation.io/logos/be.svg
+id: 67d7a8cd-d0d0-4999-85ea-a29cde658262
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

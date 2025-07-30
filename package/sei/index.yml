@@ -1,0 +1,15 @@
+id: 6bca452d-c43e-4a6e-94e1-b1d985b6a7d8
+name: SEI
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-06-25T17:02:24.695Z'
+updated: '2024-06-25T17:02:24.695Z'
+code: sei
+status: verified
+description: Software Engineering Institute
+aliases: []
+logo: https://cdn.auditmation.io/logos/sei.png
+url: https://www.sei.cmu.edu/
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

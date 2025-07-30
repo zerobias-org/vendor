@@ -1,0 +1,11 @@
+name: Serbia
+code: rs
+description: Serbia
+url: https://www.srbija.gov.rs
+logo: https://cdn.auditmation.io/logos/rs.svg
+id: 85b89f97-f541-4c65-ac4c-ddc78b8b9534
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor
