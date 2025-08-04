@@ -1,0 +1,15 @@
+id: e74ed243-f9e1-48eb-bfdc-68f3e98b516f
+name: Venmo
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-02-04T17:36:28.029Z'
+updated: '2025-02-04T17:36:28.029Z'
+code: venmo
+status: verified
+description: Venmo makes sending money safe, simple, and social.
+aliases: []
+logo: https://cdn.auditmation.io/logos/venmo.png
+url: https://venmo.com/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

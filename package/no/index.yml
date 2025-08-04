@@ -1,0 +1,11 @@
+name: Norway
+code: 'no'
+description: Norway
+url: https://www.regjeringen.no
+logo: https://cdn.auditmation.io/logos/no.svg
+id: 7717d795-999a-4fa5-b4a6-e1b2e59aa041
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

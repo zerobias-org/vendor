@@ -1,0 +1,16 @@
+id: 8960d8cf-b93b-4b95-af3b-8b439c4d935e
+name: ocsf
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-12-11T14:49:24.663Z'
+updated: '2024-12-11T14:49:24.663Z'
+code: ocsf
+status: verified
+description: >-
+  The Open Cybersecurity Schema Framework is an open-source project, delivering an extensible framework for developing schemas
+aliases: []
+logo: https://cdn.auditmation.io/logos/ocsf.png
+url: https://ocsf.io/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

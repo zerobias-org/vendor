@@ -1,0 +1,15 @@
+id: cd3aa70a-09cd-4516-9d9e-7abf08023995
+name: wazuh
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-01-09T13:15:27.988Z'
+updated: '2025-01-09T13:15:27.988Z'
+code: wazuh
+status: verified
+description: Unified XDR and SIEM protection for endpoints and cloud workloads.
+aliases: []
+logo: https://cdn.auditmation.io/logos/wazuh.svg
+url: https://wazuh.com/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

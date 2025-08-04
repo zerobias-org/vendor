@@ -1,0 +1,11 @@
+name: Spain
+code: es
+description: Spain
+url: https://www.lamoncloa.gob.es
+logo: https://cdn.auditmation.io/logos/es.svg
+id: f917c423-7e52-49a7-9070-65676ea91a92
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

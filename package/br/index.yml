@@ -1,0 +1,11 @@
+name: Brazil
+code: br
+description: Brazil
+url: https://www.gov.br
+logo: https://cdn.auditmation.io/logos/br.svg
+id: 7d0ec2d0-b67f-4589-96b5-946116c9aee7
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

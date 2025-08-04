@@ -1,0 +1,11 @@
+name: Texas
+code: us_tx
+description: State of Texas (US)
+url: https://www.texas.gov
+logo: https://cdn.auditmation.io/logos/us_tx.png
+id: 9ebfa0e0-fa80-472d-a128-26909e20e9fb
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

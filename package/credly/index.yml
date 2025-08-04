@@ -1,0 +1,16 @@
+id: dae13eb0-e6c5-48a8-a924-d60185fef191
+name: Credly
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-02-04T17:06:31.738Z'
+updated: '2025-02-04T17:06:31.738Z'
+code: credly
+status: verified
+description: >-
+  Credly by Pearson hosts the largest and most-connected digital credential network. We help the world speak a common language of verified knowledge, skills, and abilitie
+aliases: []
+logo: https://cdn.auditmation.io/logos/credly.svg
+url: https://info.credly.com/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

@@ -1,0 +1,13 @@
+{
+  "name": "@zerobias-org/vendor-cis",
+  "version": "0.1.3",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/vendor-cis",
+      "version": "0.1.3",
+      "license": "ISC"
+    }
+  }
+}

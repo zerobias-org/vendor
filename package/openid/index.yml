@@ -1,0 +1,11 @@
+id: f1bb4f16-05d8-5b7f-a2da-e074c3935bf0
+name: OpenID
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-02-15T15:28:50.696Z'
+updated: '2024-02-15T15:28:50.696Z'
+code: openid
+status: verified
+description: OpenID Foundation
+logo: https://cdn.auditmation.io/logos/openid.svg
+url: https://openid.net/foundation/

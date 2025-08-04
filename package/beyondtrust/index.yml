@@ -1,0 +1,11 @@
+code: beyondtrust
+status: verified
+id: 82af210d-b3eb-5f4c-bce4-c55b4290d39d
+name: BeyondTrust
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.beyondtrust.com/
+description: In a world of stolen identities, phished passwords, and deep fakes, you can't just trust users and systems .
+logo: https://cdn.auditmation.io/logos/beyondtrust.svg
+cpeVendors:
+  - beyondtrust

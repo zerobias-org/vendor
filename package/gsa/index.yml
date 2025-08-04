@@ -1,0 +1,11 @@
+code: gsa
+status: active
+id: 91cdaadd-564e-56c7-a49b-bebb823d8582
+name: GSA
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-08T17:15:28.908Z
+updated: 2022-11-08T17:15:28.908Z
+url: https://www.gsa.gov/
+description: US General Services Administration
+logo: https://cdn.auditmation.io/logos/gsa.svg

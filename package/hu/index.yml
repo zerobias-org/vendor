@@ -1,0 +1,11 @@
+name: Hungary
+code: hu
+description: Hungary
+url: https://www.kormany.hu
+logo: https://cdn.auditmation.io/logos/hu.svg
+id: 92adcc53-70ee-44ec-9adb-0b4778522c83
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

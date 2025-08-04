@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-gitlab",
+  "version": "1.0.8-rc.1",
+  "description": "Vendor package for gitlab",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "vendor/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "auditmation": {
+    "package": "gitlab",
+    "import-artifact": "vendor",
+    "dataloader-version": "5.0.14"
+  }
+}

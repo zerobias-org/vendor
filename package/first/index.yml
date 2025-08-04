@@ -1,0 +1,14 @@
+id: 3c1e0b5c-1fbb-4ade-8eab-9906d593c5c3
+name: FIRST
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-17T10:40:28.013Z'
+updated: '2024-05-17T10:40:28.013Z'
+code: first
+status: verified
+description: FIRST is the global Forum of Incident Response and Security Teams
+logo: https://cdn.auditmation.io/logos/first.svg
+url: https://www.first.org/
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

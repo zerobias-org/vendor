@@ -1,0 +1,11 @@
+name: New York
+code: us_ny
+description: State of New York (US)
+url: https://www.ny.gov/
+logo: https://cdn.auditmation.io/logos/us_ny.jpeg
+id: 38b25706-6477-4df0-8408-ac535a7ec57c
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

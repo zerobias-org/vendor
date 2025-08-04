@@ -1,0 +1,13 @@
+code: smartsheet
+status: active
+id: 6bc1744a-729b-56a4-bdb5-2bafce336219
+name: Smartsheet
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-09-20T15:28:04.355Z
+updated: 2021-11-24T20:05:43.377Z
+url: https://smartsheet.com/
+description: Smartsheet is a software as a service offering for collaboration and work management, developed and marketed by Smartsheet Inc.
+aliases:
+  - GRC
+logo: https://cdn.auditmation.io/logos/smartsheet.svg

@@ -1,0 +1,11 @@
+code: tenable
+status: verified
+id: b318236c-f517-50cc-befd-2f2811a5f715
+name: Tenable
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.tenable.com/
+description: Tenable enables security teams to focus on the vulnerabilities and assets that matter most. From Cloud to OT, gain full visibility of the modern attack ....
+logo: https://cdn.auditmation.io/logos/tenable.svg
+cpeVendors:
+  - tenable

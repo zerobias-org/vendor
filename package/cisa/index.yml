@@ -1,0 +1,16 @@
+id: 9908adfe-7b94-4673-93b5-4d7594b00da5
+name: CISA
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-01T20:48:00.903Z'
+updated: '2024-10-01T20:48:00.903Z'
+code: cisa
+status: verified
+description: >-
+  CISA works with partners to defend against today’s threats and collaborate to build a more secure and resilient infrastructure for the future.
+aliases: []
+logo: https://cdn.auditmation.io/logos/cisa.png
+url: https://www.cisa.gov/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

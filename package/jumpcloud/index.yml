@@ -1,0 +1,11 @@
+code: jumpcloud
+status: active
+id: 94962e52-ea65-5564-9293-a438442d29f7
+name: JumpCloud
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-10-25T12:38:27.904Z
+updated: 2021-11-24T20:05:15.462Z
+url: https://www.jumpcloud.com/
+description: Cloud Directory Platform AD & SSO Reimagined All in one directory, SSO, MDM, MFA, PAM, and more
+logo: https://cdn.auditmation.io/logos/jumpcloud.svg

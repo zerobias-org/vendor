@@ -1,0 +1,14 @@
+id: 8e472793-c4de-4e46-85a2-393d1e6a8fcc
+name: OpenCRE
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-06-18T17:02:26.230Z'
+updated: '2024-06-18T17:02:26.230Z'
+code: opencre
+status: verified
+description: Open Common Requirement Enumeration
+logo: https://cdn.auditmation.io/logos/opencre.svg
+url: https://opencre.org/
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

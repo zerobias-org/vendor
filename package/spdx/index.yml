@@ -1,0 +1,16 @@
+id: 46d9c9d9-7812-481f-bf11-878ce7114eba
+name: System Package Data Exchange (SPDX)
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-06-24T20:51:29.277Z'
+updated: '2024-06-24T20:51:29.277Z'
+code: spdx
+status: verified
+description: >-
+  An open standard capable of representing systems with software components in as SBOMs (Software Bill of Materials) and other AI, data and security references supporting a range of risk management use cases.
+aliases: []
+logo: https://cdn.auditmation.io/logos/spdx.svg
+url: https://spdx.dev/
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

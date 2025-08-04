@@ -1,0 +1,11 @@
+code: gitlab
+status: verified
+id: 9834ddce-a1e8-5f9b-a51e-6cef1855f999
+name: GitLab
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-10-15T12:45:41.304Z
+updated: 2021-11-24T20:05:02.398Z
+url: https://about.gitlab.com/
+description: GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more
+logo: https://cdn.auditmation.io/logos/gitlab.svg

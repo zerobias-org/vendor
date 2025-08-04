@@ -1,0 +1,11 @@
+code: kolide
+status: active
+id: 60cfca7e-7da0-53ed-b339-b304f11cd041
+name: Kolide
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-10-25T12:51:52.753Z
+updated: 2021-11-24T20:05:17.668Z
+url: https://www.kolide.com/
+description: Kolide engages with employees on Slack providing customized security and compliance recommendations for their Mac, Windows, and Linux devices.
+logo: https://cdn.auditmation.io/logos/kolide.svg

@@ -1,0 +1,11 @@
+code: hashicorp
+status: verified
+id: b387a56d-2afa-5941-9e02-b0420371d78b
+name: HashiCorp
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.605Z
+updated: 2022-02-03T16:43:39.776Z
+url: https://www.hashicorp.com/
+description: HashiCorp
+logo: https://cdn.auditmation.io/logos/hashicorp.svg

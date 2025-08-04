@@ -1,0 +1,11 @@
+code: rsa
+status: active
+id: 705ebc83-16b1-52c3-b447-856cafcc71be
+name: RSA Security
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.657Z
+updated: 2021-11-24T20:05:40.285Z
+url: https://www.rsa.com/
+description: RSA Security, LLC
+logo: https://cdn.auditmation.io/logos/rsa.svg

@@ -1,0 +1,13 @@
+code: salesforce
+status: verified
+id: 408b93e2-244c-5700-ab11-e41f6fdd0306
+name: Salesforce
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-01-27T13:47:56.360Z
+updated: 2022-01-28T15:41:03.117Z
+url: https://www.salesforce.com/
+description: "Personalize every experience along the customer journey with the Customer 360. Unify marketing, sales, service, commerce, and IT on the world's   #1 CRM."
+aliases:
+  - salesforce
+logo: https://cdn.auditmation.io/logos/salesforce.svg

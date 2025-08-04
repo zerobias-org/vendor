@@ -1,0 +1,11 @@
+name: Nevada
+code: us_nv
+description: State of Nevada (US)
+url: https://nv.gov/
+logo: https://cdn.auditmation.io/logos/us_nv.jpg
+id: bd344d1f-c8c8-4935-93f8-e7b0ce43a624
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

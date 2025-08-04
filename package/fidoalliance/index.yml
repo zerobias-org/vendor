@@ -1,0 +1,15 @@
+id: eab080d7-7e90-4351-887e-e300a54ce3ef
+name: FIDO Alliance
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-07-04T16:09:29.405Z'
+updated: '2024-07-04T16:09:29.405Z'
+code: fidoalliance
+status: verified
+description: "The FIDO Alliance is an open industry association with a focused mission: reduce the world’s reliance on passwords. "
+aliases: []
+logo: https://cdn.auditmation.io/logos/fidoalliance.svg
+url: https://fidoalliance.org/
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-perforce",
+  "version": "1.0.2-rc.0",
+  "description": "Perforce Software is a leading provider of highly scalable development and DevOps solutions designed to deliver dynamic development, intelligent testing, risk management, and boundaryless collaboration",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/perforce/"
+  },
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "vendor",
+    "package": "perforce"
+  }
+}

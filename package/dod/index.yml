@@ -1,0 +1,9 @@
+code: dod
+status: active
+id: 0231f94f-a672-5208-ac09-ead46da82147
+name: Department of Defense
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.defense.gov/
+description: U.S Department of Defense
+logo: https://cdn.auditmation.io/logos/dod.svg

@@ -1,0 +1,13 @@
+code: devsupply
+status: verified
+id: 3aa9f1a4-d0a6-534f-a056-957eca98c000
+name: DevSupply
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-10-15T13:27:53.405Z
+updated: 2022-01-18T16:40:04.199Z
+url: https://devsupply.com/
+description: DevSupply provides enterprise-grade tools written by developers, for developers. We let you focus on building value instead of plumbing.
+aliases:
+  - devsupply
+logo: https://cdn.auditmation.io/logos/devsupply.svg

@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-ivanti",
+  "version": "1.0.3-rc.0",
+  "description": "We connect industry-leading unified endpoint management, zero trust security and service management solutions to provide a single pane of glass for enterprises to secure and heal devices, and service end users. ",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/ivanti/"
+  },
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "vendor",
+    "package": "ivanti"
+  }
+}

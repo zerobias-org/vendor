@@ -1,0 +1,16 @@
+id: af0e4775-58cd-43da-97d3-f822fc00f030
+name: Perforce
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-06-24T21:27:38.617Z'
+updated: '2024-06-24T21:27:38.617Z'
+code: perforce
+status: verified
+description: >-
+  Perforce Software is a leading provider of highly scalable development and DevOps solutions designed to deliver dynamic development, intelligent testing, risk management, and boundaryless collaboration
+aliases: []
+logo: https://cdn.auditmation.io/logos/perforce.svg
+url: https://www.perforce.com/
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

@@ -1,0 +1,11 @@
+name: Kenya
+code: ke
+description: Kenya
+url: https://www.mygov.go.ke
+logo: https://cdn.auditmation.io/logos/ke.svg
+id: d92693f2-6dd8-49cc-b23c-bf98171b7ff4
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

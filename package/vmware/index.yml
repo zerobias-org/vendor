@@ -1,0 +1,11 @@
+code: vmware
+status: active
+id: 4b6966dd-14e0-538f-9e95-0129fac641ca
+name: VMware
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-10-06T12:03:13.159Z
+updated: 2021-11-24T20:05:49.453Z
+url: https://www.vmware.com/
+description: VMware - Delivering a Digital Foundation For Businesses
+logo: https://cdn.auditmation.io/logos/vmware.svg

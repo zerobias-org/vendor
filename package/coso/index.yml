@@ -1,0 +1,11 @@
+name: COSO
+code: coso
+description: Committee of Sponsoring Organizations
+url: https://www.coso.org/
+logo: https://cdn.auditmation.io/logos/coso.png
+id: 9bb33b12-f789-427e-93b4-26c9bd7e825f
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

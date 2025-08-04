@@ -1,0 +1,11 @@
+code: nist
+status: active
+id: 0743d445-a022-5959-b0f4-593f37247130
+name: NIST
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2022-11-08T17:15:28.908Z
+updated: 2022-11-08T17:15:28.908Z
+url: https://www.nist.gov/
+description: National Institute of Standards and Technology
+logo: https://cdn.auditmation.io/logos/nist.svg

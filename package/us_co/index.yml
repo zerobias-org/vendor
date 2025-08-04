@@ -1,0 +1,11 @@
+name: Colorado
+code: us_co
+description: State of Colorado (US)
+url: https://colorado.gov/
+logo: https://cdn.auditmation.io/logos/us_co.png
+id: c801f1aa-1e8a-4e44-a69b-3340967ed46c
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

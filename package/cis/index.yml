@@ -1,0 +1,11 @@
+id: 0fdbe79a-a734-5d0e-9e72-6952376ec65e
+name: CIS
+code: cis
+status: verified
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.cisecurity.org/
+description: Center for Internet Security
+logo: https://cdn.auditmation.io/logos/cis.png
+cpeVendors:
+  - cisecurity

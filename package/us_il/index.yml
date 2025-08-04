@@ -1,0 +1,11 @@
+name: Illinois
+code: us_il
+description: State of Illinois (US)
+url: https://illinois.gov/
+logo: https://cdn.auditmation.io/logos/us_il.png
+id: e5228a6a-ed7e-4ea1-b747-a22dc140c095
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

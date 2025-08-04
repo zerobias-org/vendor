@@ -1,0 +1,15 @@
+id: ce0ebc7e-93bd-45dd-b2f8-93d8c45dd250
+name: MiraXR
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-10-01T13:14:01.362Z'
+updated: '2024-10-01T13:14:01.362Z'
+code: miraxr
+status: verified
+description: Artificial Intelligence Meets The Power Of Immersive Technology
+aliases: []
+logo: https://cdn.auditmation.io/logos/miraxr.png
+url: https://miraxr.io/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

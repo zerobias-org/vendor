@@ -1,0 +1,11 @@
+name: Alaska
+code: us_ak
+description: State of Alaska (US)
+url: https://alaska.gov/
+logo: https://cdn.auditmation.io/logos/us_ak.png
+id: 2f61f081-0f5a-4a6c-a9ed-9f71ee0a87a3
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

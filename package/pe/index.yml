@@ -1,0 +1,11 @@
+name: Peru
+code: pe
+description: Peru
+url: https://www.gob.pe
+logo: https://cdn.auditmation.io/logos/pe.svg
+id: 6c3c0538-a3ff-4af3-88df-c3cd512585a8
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

@@ -1,0 +1,13 @@
+code: venminder
+status: active
+id: da17773d-451e-5421-8c5b-1e43bc0f38bd
+name: Venminder
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-07-01T15:47:12.334Z
+updated: 2021-11-24T20:05:48.705Z
+url: https://www.venminder.com/
+description: Venminder
+aliases:
+  - GRC
+logo: https://cdn.auditmation.io/logos/venminder.png

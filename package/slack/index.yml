@@ -1,0 +1,12 @@
+code: slack
+status: verified
+id: 1932c1e4-f767-5700-a3b7-069c29b17e32
+name: Slack
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-08-20T14:23:05.703Z
+updated: 2021-11-24T20:05:42.518Z
+url: https://slack.com/
+description: Slack
+aliases: []
+logo: https://cdn.auditmation.io/logos/slack.svg

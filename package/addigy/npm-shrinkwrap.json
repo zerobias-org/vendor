@@ -1,0 +1,13 @@
+{
+  "name": "@zerobias-org/vendor-addigy",
+  "version": "0.4.1",
+  "lockfileVersion": 2,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/vendor-addigy",
+      "version": "0.4.1",
+      "license": "ISC"
+    }
+  }
+}

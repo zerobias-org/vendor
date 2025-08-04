@@ -1,0 +1,16 @@
+id: 5c4f1e9b-849e-46fa-ba8a-c8749ef20112
+name: Checkov
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-03-07T13:14:25.306Z'
+updated: '2025-03-07T13:14:25.306Z'
+code: checkov
+status: verified
+description: >-
+  Checkov scans cloud infrastructure configurations to find misconfigurations before they're deployed.
+aliases: []
+logo: https://cdn.auditmation.io/logos/checkov.png
+url: https://www.checkov.io/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

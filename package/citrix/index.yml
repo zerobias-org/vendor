@@ -1,0 +1,10 @@
+code: citrix
+status: verified
+name: Citrix
+type: vendor
+url: https://www.citrix.com/
+description: Citrix Systems, Inc. is an American multinational cloud computing and virtualization technology company that provides server, application and desktop virtualization, networking, software as a service, and cloud computing technologies.
+id: 1cf74ee4-107c-54bd-a7c8-a50796f82726
+logo: https://cdn.auditmation.io/logos/citrix.svg
+cpeVendors:
+  - citrix

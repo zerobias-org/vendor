@@ -1,0 +1,14 @@
+id: a21d17fa-4fcd-4415-8509-ac0c01e49bb1
+name: TestifySec
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-20T12:12:12.431Z'
+updated: '2024-05-20T12:12:12.431Z'
+code: testifysec
+status: verified
+description: We unify developers and cybersecurity teams
+logo: https://cdn.auditmation.io/logos/testifysec.svg
+url: https://testifysec.com/
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

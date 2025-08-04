@@ -1,0 +1,11 @@
+code: okta
+status: active
+id: 765c2bfb-739a-5355-8546-6aed37079885
+name: Okta
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.766Z
+updated: 2021-11-24T20:05:36.553Z
+url: https://www.okta.com/
+description: Okta, Inc.
+logo: https://cdn.auditmation.io/logos/okta.svg
