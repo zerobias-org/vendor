@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-sonatype",
-  "version": "1.0.2-rc.0",
+  "version": "1.0.2-rc.1",
   "description": "Intercept malicious components with AI-powered behavioral analysis. Protect yourself from malware attacks",
   "author": "team@zerobias.com",
   "license": "ISC",

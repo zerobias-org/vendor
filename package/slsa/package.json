@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-slsa",
-  "version": "1.0.2-rc.0",
+  "version": "1.0.2-rc.1",
   "description": "SLSA is a specification for describing and incrementally improving supply chain security, established by industry consensus. It is organized into a series of levels that describe increasing security guarantees.",
   "author": "team@zerobias.com",
   "license": "ISC",
