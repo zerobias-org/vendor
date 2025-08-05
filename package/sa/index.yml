@@ -1,0 +1,11 @@
+name: Saudi Arabia
+code: sa
+description: Saudi Arabia
+url: https://www.my.gov.sa
+logo: https://cdn.auditmation.io/logos/sa.svg
+id: 95f50e38-08de-44b9-891b-6187c181e21b
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

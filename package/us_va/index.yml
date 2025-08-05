@@ -1,0 +1,11 @@
+name: Virginia
+code: us_va
+description: State of Virginia (US)
+url: https://www.virginia.gov
+logo: https://cdn.auditmation.io/logos/us_va.png
+id: ec9a0d62-876e-4ecf-b3ca-efe613e20862
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

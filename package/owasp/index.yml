@@ -1,0 +1,16 @@
+id: 6536f81a-0e48-4982-ac04-7ae89c30e051
+name: OWASP
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-02-14T15:28:50.696Z'
+updated: '2024-02-14T15:28:50.696Z'
+code: owasp
+status: verified
+description: Open Worldwide Application Security Project
+logo: https://cdn.auditmation.io/logos/owasp.png
+url: https://owasp.org/
+tags: []
+environment: qa
+hostname: https://api.qa.auditmation.dev
+cpeVendors:
+  - owasp

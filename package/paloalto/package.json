@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-paloalto",
+  "version": "1.0.9-rc.2",
+  "description": "Vendor package for paloalto",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "vendor/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "auditmation": {
+    "package": "paloalto",
+    "import-artifact": "vendor",
+    "dataloader-version": "5.0.14"
+  }
+}

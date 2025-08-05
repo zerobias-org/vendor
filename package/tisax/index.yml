@@ -1,0 +1,11 @@
+name: TISAX
+code: tisax
+description: Trusted Information Security Assessment Exchange
+url: https://enx.com/tisax/
+logo: https://cdn.auditmation.io/logos/tisax.png
+id: 13100c53-5d1b-4e7b-bab4-18166828e8be
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

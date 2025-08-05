@@ -1,0 +1,15 @@
+id: edb7217e-17a0-499a-8342-41064aa5105c
+name: CcycloneDX
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-20T12:47:35.521Z'
+updated: '2024-05-20T12:47:35.521Z'
+code: cyclonedx
+status: verified
+description: >-
+  CycloneDX is the standard for multiple world governments and the defense industrial base.
+logo: https://cdn.auditmation.io/logos/cyclonedx.svg
+url: https://cyclonedx.org/
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

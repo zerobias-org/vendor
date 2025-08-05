@@ -1,0 +1,11 @@
+name: SWIFT
+code: swift
+description: Society for Worldwide Interbank Financial Telecommunication
+url: https://www.swift.com/
+logo: https://cdn.auditmation.io/logos/swift.png
+id: e40144c8-d662-478a-ac86-c7095f096b63
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

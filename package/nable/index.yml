@@ -1,0 +1,11 @@
+code: nable
+status: verified
+id: 63e02538-f407-56a7-9d23-9698bbb5f83b
+name: N-ABLE
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.n-able.com/
+description: Software, resources, and tools for MSPs and IT departments with best-in-class Remote Monitoring & Management, Data Protection, and Security solutions .
+logo: https://cdn.auditmation.io/logos/nable.svg
+cpeVendors:
+  - n-able

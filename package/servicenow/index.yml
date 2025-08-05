@@ -1,0 +1,11 @@
+code: servicenow
+status: active
+id: 3abb7023-98eb-5475-89d3-7767b108d845
+name: ServiceNow
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.763Z
+updated: 2021-11-24T20:05:41.749Z
+url: https://www.servicenow.com/
+description: ServiceNow, Inc.
+logo: https://cdn.auditmation.io/logos/servicenow.svg

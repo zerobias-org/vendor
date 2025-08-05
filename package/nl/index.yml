@@ -1,0 +1,11 @@
+name: Netherlands
+code: nl
+description: Netherlands
+url: https://www.government.nl
+logo: https://cdn.auditmation.io/logos/nl.svg
+id: ad6f5da3-88e7-4386-9a6a-523d70e00740
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

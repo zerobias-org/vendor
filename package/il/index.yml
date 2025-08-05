@@ -1,0 +1,11 @@
+name: Israel
+code: il
+description: Israel
+url: https://www.gov.il
+logo: https://cdn.auditmation.io/logos/il.svg
+id: 09644a72-118f-468e-b6c9-b6844368284e
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

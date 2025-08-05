@@ -1,0 +1,15 @@
+id: b10591ab-5fc4-4072-bef7-e2085457e2e3
+name: Sonatype
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-05-16T14:28:37.521Z'
+updated: '2024-05-16T14:28:37.521Z'
+code: sonatype
+status: verified
+description: >-
+  Intercept malicious components with AI-powered behavioral analysis. Protect yourself from malware attacks
+logo: https://cdn.auditmation.io/logos/sonatype.png
+url: https://www.sonatype.com/
+tags: []
+environment: prod
+hostname: https://api.nf.auditmation.io

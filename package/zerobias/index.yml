@@ -1,0 +1,15 @@
+id: 2d2ad6e2-7d68-4cde-ba51-4440e4d6a158
+name: Zerobias
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-21T10:46:17.256Z'
+updated: '2024-11-21T10:46:17.256Z'
+code: zerobias
+status: verified
+description: Cyber, Digital and Risk assessor data and automation platform
+aliases: []
+logo: https://cdn.auditmation.io/logos/zerobias.svg
+url: https://zerobias.com/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

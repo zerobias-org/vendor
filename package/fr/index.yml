@@ -1,0 +1,11 @@
+name: France
+code: fr
+description: France
+url: https://www.gouvernement.fr
+logo: https://cdn.auditmation.io/logos/fr.svg
+id: 2148ddc0-2d98-45b7-96a6-6a5725ea3bda
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

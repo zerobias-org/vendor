@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-spdx",
+  "version": "1.0.2-rc.1",
+  "description": "An open standard capable of representing systems with software components in as SBOMs (Software Bill of Materials) and other AI, data and security references supporting a range of risk management use cases.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/spdx/"
+  },
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "vendor",
+    "package": "spdx"
+  }
+}

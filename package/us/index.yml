@@ -1,0 +1,11 @@
+name: United states
+code: us
+description: United States Federal Standards and Regulations
+url: https://www.nist.gov/standardsgov/what-we-do/federal-policy-standards
+id: 0842e4af-ef1c-4190-b30d-4c6767a9936a
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor
+logo: https://cdn.auditmation.io/logos/us.png

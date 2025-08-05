@@ -1,0 +1,16 @@
+id: ffa4a86c-2553-4bb2-92af-2d7f118e9cdb
+name: Falco
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-03-07T16:21:22.774Z'
+updated: '2025-03-07T16:21:22.774Z'
+code: falco
+status: verified
+description: >-
+  Falco is an open-source runtime security platform that allows you to detect and respond to suspicious behavior within Linux containers and applications.
+aliases: []
+logo: https://cdn.auditmation.io/logos/falco.svg
+url: https://falco.org/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

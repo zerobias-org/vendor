@@ -1,0 +1,11 @@
+name: UL
+code: ul
+description: Underwriters Laboratories
+url: https://www.ul.com/
+logo: https://cdn.auditmation.io/logos/ul.png
+id: c53c691b-35c8-44a9-843c-cf210fde0591
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

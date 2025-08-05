@@ -1,0 +1,11 @@
+name: Finland
+code: fi
+description: Finland
+url: https://valtioneuvosto.fi
+logo: https://cdn.auditmation.io/logos/fi.svg
+id: 6d2d8fa0-3e68-4a51-87ed-00299179f288
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

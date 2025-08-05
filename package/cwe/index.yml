@@ -1,0 +1,10 @@
+deprecate: true
+code: cwe
+status: verified
+id: 6c097678-2fdc-529e-a83f-c9569cfe6216
+name: cwe
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://cwe.mitre.org/
+description: See and secure your cloud with actionable context
+logo: https://cdn.auditmation.io/logos/cwe.svg

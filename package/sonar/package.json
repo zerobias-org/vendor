@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-sonar",
+  "version": "1.0.2-rc.1",
+  "description": "Clean Code as you write maintainable, readable quality code.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/sonar/"
+  },
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "vendor",
+    "package": "sonar"
+  }
+}

@@ -1,0 +1,12 @@
+code: securityscorecard
+status: active
+id: ca3755a9-ce5a-5b8e-808e-3ad80e070798
+name: SecurityScorecard
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-09-03T19:35:07.960Z
+updated: 2021-11-24T20:05:40.982Z
+url: https://securityscorecard.com/
+description: SecurityScorecard is an information security company that rates cybersecurity postures of corporate entities through completing scored analysis of cyber threat intelligence signals for the purposes of third party management and IT risk management
+aliases: []
+logo: https://cdn.auditmation.io/logos/securityscorecard.svg

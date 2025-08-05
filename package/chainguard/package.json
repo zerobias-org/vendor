@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/vendor-chainguard",
+  "version": "1.0.2-rc.1",
+  "description": "A control plane for your software supply chain",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/chainguard"
+  },
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml"
+  ],
+  "auditmation": {
+    "dataloader-version": "3.5.2",
+    "import-artifact": "vendor",
+    "package": "chainguard"
+  }
+}

@@ -1,0 +1,11 @@
+name: New Zealand
+code: nz
+description: New Zealand
+url: https://www.govt.nz
+logo: https://cdn.auditmation.io/logos/nz.svg
+id: a493c9e5-6c2e-4c0a-8b1b-96286b700478
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

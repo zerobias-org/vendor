@@ -1,0 +1,11 @@
+code: qualys
+status: verified
+id: c89189c8-16e5-5252-9e03-695a0fc755a8
+name: Qualys
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.qualys.com/
+description: Qualys, Inc. helps your business automate the full spectrum of auditing, compliance and protection of your IT systems and web applications
+logo: https://cdn.auditmation.io/logos/qualys.svg
+cpeVendors:
+  - qualys

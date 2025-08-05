@@ -1,0 +1,11 @@
+code: kaseya
+status: verified
+id: 2273be23-4fde-57bb-82a5-412018958092
+name: Kaseya
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.kaseya.com/
+description: Kaseya provides IT Management Software to MSPs and IT Teams to improve efficiency and security. Manage IT assets, service desk, and more
+logo: https://cdn.auditmation.io/logos/kaseya.svg
+cpeVendors:
+  - kaseya

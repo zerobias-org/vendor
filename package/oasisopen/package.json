@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-oasisopen",
+  "version": "1.0.2-rc.1",
+  "description": "OASIS Open offers projects—including open source projects—a path to standardization and de jure approval for reference in international policy and procurement.",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/oasisopen/"
+  },
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "vendor",
+    "package": "oasisopen"
+  }
+}

@@ -1,0 +1,11 @@
+name: South Korea
+code: kr
+description: South Korea
+url: https://www.korea.go.kr
+logo: https://cdn.auditmation.io/logos/kr.svg
+id: 382e353d-366f-419d-afe5-1b36a61d0fe5
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

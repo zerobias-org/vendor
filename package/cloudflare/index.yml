@@ -1,0 +1,11 @@
+code: cloudflare
+status: verified
+id: fc313408-2475-5fa9-b844-cbe9392366e6
+name: Cloudflare
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-10-15T11:25:28.330Z
+updated: 2021-11-24T20:04:55.173Z
+url: https://www.cloudflare.com/
+description: A global network built for the cloud
+logo: https://cdn.auditmation.io/logos/cloudflare.svg

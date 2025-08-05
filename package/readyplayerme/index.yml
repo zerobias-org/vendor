@@ -1,0 +1,15 @@
+id: c807d0cd-6458-46ca-a511-165016c307ab
+name: Ready Player Me
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-02-04T17:44:28.530Z'
+updated: '2025-02-04T17:44:28.530Z'
+code: readyplayerme
+status: verified
+description: Integrate customizable avatars into your game or app in minutes
+aliases: []
+logo: https://cdn.auditmation.io/logos/readyplayerme.png
+url: https://readyplayer.me/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

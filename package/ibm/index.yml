@@ -1,0 +1,15 @@
+id: adb33251-c8b5-4de5-92dc-7866d1b38e7e
+name: IBM
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-11-20T15:47:38.561Z'
+updated: '2024-11-20T15:47:38.561Z'
+code: ibm
+status: verified
+description: IBM
+aliases: []
+logo: https://cdn.auditmation.io/logos/ibm.svg
+url: https://www.ibm.com/
+tags: []
+environment: qa
+hostname: https://api.qa.zerobias.com

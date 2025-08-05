@@ -1,0 +1,11 @@
+code: cve
+status: verified
+id: 75a853a7-c2e1-5ef0-8d43-ac25a8ce791b
+name: cve
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.cve.org/
+description: CVE® Program Mission, Identify, define, and catalog publicly disclosed cybersecurity vulnerabilities.
+logo: https://cdn.auditmation.io/logos/cve.svg
+cpeVendors:
+  - cve

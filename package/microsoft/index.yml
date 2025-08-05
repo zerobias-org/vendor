@@ -1,0 +1,11 @@
+code: microsoft
+status: active
+id: f6b6f862-3012-5f64-a523-4b1f28296829
+name: Microsoft
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2021-04-14T12:20:32.751Z
+updated: 2021-11-24T20:05:20.929Z
+url: https://www.microsoft.com/
+description: Microsoft Corporation
+logo: https://cdn.auditmation.io/logos/microsoft.svg

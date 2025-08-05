@@ -1,0 +1,16 @@
+id: 930d6d1a-d4fd-4bf4-b46e-d833ca3c7116
+name: Adobe
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-02-05T18:03:21.210Z'
+updated: '2025-02-05T18:03:21.210Z'
+code: adobe
+status: verified
+description: >-
+  Adobe empowers everyone, everywhere to imagine, create, and bring any digital experience to life. From creators and students to small businesses, global enterprises, and nonprofit organizations
+aliases: []
+logo: https://cdn.auditmation.io/logos/adobe.svg
+url: https://www.adobe.com/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

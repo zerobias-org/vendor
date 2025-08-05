@@ -1,0 +1,16 @@
+id: e1854a34-7ff2-4e63-acdb-0949ffdccf4b
+name: Trivy
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-03-07T14:55:12.690Z'
+updated: '2025-03-07T14:55:12.690Z'
+code: trivy
+status: verified
+description: >-
+  Trivy finds vulnerabilities (CVE) & misconfigurations (IaC) across code repositories, binary artifacts, container images, Kubernetes clusters, and more.
+aliases: []
+logo: https://cdn.auditmation.io/logos/trivy.svg
+url: https://trivy.dev/latest/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

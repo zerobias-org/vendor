@@ -1,0 +1,11 @@
+code: solarwinds
+status: verified
+id: 866e526d-d571-5fde-9a53-15913c8840c5
+name: SolarWinds
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.solarwinds.com/
+description: SolarWinds Platform. The SolarWinds Platform offers comprehensive observability no matter where you are in your digital transformation journey.
+logo: https://cdn.auditmation.io/logos/solarwinds.svg
+cpeVendors:
+  - solarwinds

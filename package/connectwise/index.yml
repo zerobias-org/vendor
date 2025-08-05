@@ -1,0 +1,11 @@
+code: connectwise
+status: verified
+id: 319af1aa-baf4-5333-b8f8-97f1e2dc1ca6
+name: ConnectWise
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.connectwise.com/
+description: From patch automation to scripting to remote access & monitoring, to sales and marketing, ConnectWise helps you upskill your team, protect your clients, and ...
+logo: https://cdn.auditmation.io/logos/connectwise.svg
+cpeVendors:
+  - connectwise

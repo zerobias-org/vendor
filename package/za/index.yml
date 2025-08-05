@@ -1,0 +1,11 @@
+name: South Africa
+code: za
+description: South Africa
+url: https://www.gov.za
+logo: https://cdn.auditmation.io/logos/za.svg
+id: 4757f3c7-0118-4fd6-b7c9-159374bc22fa
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

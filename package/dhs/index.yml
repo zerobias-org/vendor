@@ -1,0 +1,11 @@
+name: DHS
+code: dhs
+description: United States Department of Homeland Security
+url: https://www.dhs.gov/
+id: 1508f9b6-3d54-44a5-9fd1-ff301e5035f0
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-03-12T03:08:45.120Z
+updated: 2025-03-12T03:08:45.120Z
+status: active
+type: vendor
+logo: https://cdn.auditmation.io/logos/dhs.png

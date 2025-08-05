@@ -1,0 +1,14 @@
+id: 977f9327-7b9e-4bd7-9813-8543c49b0603
+name: Ridge Security
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-02-06T12:40:18.387Z'
+updated: '2024-02-06T12:40:18.387Z'
+code: ridge
+status: verified
+description: Continuous Threat Exposure Management
+logo: https://cdn.auditmation.io/logos/ridge.svg
+url: https://ridgesecurity.ai/
+tags: []
+environment: qa
+hostname: https://api.qa.auditmation.dev

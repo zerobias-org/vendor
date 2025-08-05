@@ -1,0 +1,11 @@
+name: Greece
+code: gr
+description: Greece
+url: https://www.gov.gr
+logo: https://cdn.auditmation.io/logos/gr.svg
+id: d994d397-3250-49f3-b958-412f27ab3ca4
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

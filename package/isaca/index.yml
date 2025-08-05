@@ -1,0 +1,11 @@
+name: ISACA
+code: isaca
+description: Information Systems Audit and Control Association
+url: https://www.isaca.org/
+logo: https://cdn.auditmation.io/logos/isaca.png
+id: 9f8e67a6-369b-42c5-a1d6-c3d63e7fa492
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

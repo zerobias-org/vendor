@@ -1,0 +1,14 @@
+id: fdf8ab2a-3f91-4175-9ebf-8b3adbe606ea
+name: CSA
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-06-18T15:21:40.179Z'
+updated: '2024-06-18T15:21:40.179Z'
+code: csa
+status: verified
+description: Cloud Security Alliance
+logo: https://cdn.auditmation.io/logos/csa.svg
+url: https://cloudsecurityalliance.org/
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

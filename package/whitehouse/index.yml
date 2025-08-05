@@ -1,0 +1,15 @@
+id: 4281348c-d376-4fc0-8c1d-bfe6809d1d51
+name: The White House
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2024-07-04T15:57:11.066Z'
+updated: '2024-07-04T15:57:11.066Z'
+code: whitehouse
+status: verified
+description: The White House
+aliases: []
+logo: https://cdn.auditmation.io/logos/whitehouse.png
+url: https://www.whitehouse.gov/
+tags: []
+environment: qa
+hostname: https://api.qa.crunch.zerobias.com:443

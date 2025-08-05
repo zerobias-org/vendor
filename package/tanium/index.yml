@@ -1,0 +1,10 @@
+code: tanium
+status: verified
+name: Tanium
+type: vendor
+url: https://www.tanium.com/
+description: Discover the endpoint management and cyber security platform trusted to provide total endpoint security
+id: 76114b15-2128-5b74-8f50-63c9b0cc7cb2
+logo: https://cdn.auditmation.io/logos/tanium.svg
+cpeVendors:
+  - tanium

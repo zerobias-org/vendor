@@ -1,0 +1,11 @@
+name: BSI
+code: bsi
+description: British Standards Institution
+url: https://www.bsigroup.com/
+logo: https://cdn.auditmation.io/logos/bsi.png
+id: 936ce38b-4193-408b-ae2f-c75059162743
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

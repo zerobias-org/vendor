@@ -1,0 +1,15 @@
+id: f6cfe2c1-0d21-4c84-b568-5904dc6a689a
+name: Kubescape
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-03-05T14:05:58.260Z'
+updated: '2025-03-05T14:05:58.260Z'
+code: kubescape
+status: verified
+description: Comprehensive Kubernetes Security from Development to Runtime
+aliases: []
+logo: https://cdn.auditmation.io/logos/kubescape.svg
+url: https://kubescape.io/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

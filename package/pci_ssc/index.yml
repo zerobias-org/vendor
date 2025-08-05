@@ -1,0 +1,11 @@
+name: PCI SSC
+code: pci_ssc
+description: Payment Card Industry Security Standards Council
+url: https://www.pcisecuritystandards.org/
+logo: https://cdn.auditmation.io/logos/pci_ssc.png
+id: 3b73828a-e6a3-414a-a4e4-c0d55d2a5769
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2024-12-17T16:26:05.228Z
+updated: 2024-12-17T16:26:05.228Z
+status: active
+type: vendor

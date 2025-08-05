@@ -1,0 +1,15 @@
+id: 6616b783-b86d-4af9-b4c6-42bb6c050e95
+name: Aqua Security
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: '2025-03-05T13:41:56.085Z'
+updated: '2025-03-05T13:41:56.085Z'
+code: aquasec
+status: verified
+description: Secure Every Cloud Native Application Everywhere
+aliases: []
+logo: https://cdn.auditmation.io/logos/aquasec.png
+url: https://www.aquasec.com/
+tags: []
+environment: prod
+hostname: https://api.app.zerobias.com

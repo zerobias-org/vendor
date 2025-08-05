@@ -1,0 +1,11 @@
+code: fortinet
+status: verified
+id: 1575ea07-3a79-5eea-96c9-0e8f2ec467d3
+name: Fortinet
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.fortinet.com/
+description: Fortinet delivers award-winning cyber security solutions across the entire digital attack surface, securing devices, data, and applications from the data ...
+logo: https://cdn.auditmation.io/logos/fortinet.svg
+cpeVendors:
+  - fortinet
