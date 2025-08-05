@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-addigy",
-  "version": "0.4.2-rc.1",
+  "version": "0.4.2",
   "description": "Vendor package for addigy",
   "author": "team@zerobias.com",
   "license": "ISC",

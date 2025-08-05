@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-auvik",
-  "version": "0.2.2-rc.1",
+  "version": "0.2.2",
   "description": "Vendor package for auvik",
   "author": "team@zerobias.com",
   "license": "ISC",

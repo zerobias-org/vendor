@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-gr",
-  "version": "1.0.2-rc.1",
+  "version": "1.0.2",
   "description": "vendor package for gr",
   "author": "team@zerobias.com",
   "license": "ISC",

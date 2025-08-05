@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-twilio",
-  "version": "1.0.8-rc.2",
+  "version": "1.0.8",
   "description": "Vendor package for twilio",
   "author": "team@zerobias.com",
   "license": "ISC",

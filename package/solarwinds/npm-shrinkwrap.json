@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/vendor-solarwinds",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/vendor-solarwinds",
-      "version": "0.2.2",
+      "version": "0.2.3",
       "license": "ISC"
     }
   }

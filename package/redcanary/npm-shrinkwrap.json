@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/vendor-redcanary",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/vendor-redcanary",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "license": "ISC"
     }
   }

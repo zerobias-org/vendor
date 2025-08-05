@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/vendor-microsoft",
-  "version": "1.0.8-rc.0",
+  "version": "1.0.8",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/vendor-microsoft",
-      "version": "1.0.8-rc.0",
+      "version": "1.0.8",
       "license": "ISC"
     }
   }
