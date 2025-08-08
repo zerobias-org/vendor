@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-datadog",
-  "version": "1.0.9-rc.1",
+  "version": "1.0.9",
   "description": "Vendor package for datadog",
   "author": "team@zerobias.com",
   "license": "ISC",
