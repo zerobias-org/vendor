@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:49.453Z
 url: https://www.vmware.com/
 description: VMware - Delivering a Digital Foundation For Businesses
 logo: https://cdn.auditmation.io/logos/vmware.svg
+cpeVendors:
+  - vmware

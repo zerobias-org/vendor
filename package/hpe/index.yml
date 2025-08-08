@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:12.633Z
 url: https://www.hpe.com/
 description: Hewlett Packard Enterprise Company
 logo: https://cdn.auditmation.io/logos/hpe.svg
+cpeVendors:
+  - hpe

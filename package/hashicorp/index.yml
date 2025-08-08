@@ -9,3 +9,5 @@ updated: 2022-02-03T16:43:39.776Z
 url: https://www.hashicorp.com/
 description: HashiCorp
 logo: https://cdn.auditmation.io/logos/hashicorp.svg
+cpeVendors:
+  - hashicorp

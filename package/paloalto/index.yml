@@ -6,3 +6,5 @@ url: https://www.paloaltonetworks.com/
 description: Palo Alto Networks enables your team to prevent successful cyberattacks with an automated approach that delivers consistent security across cloud
 id: 88161f25-5947-5fd9-b952-97ff87c7a951
 logo: https://cdn.auditmation.io/logos/paloalto.svg
+cpeVendors:
+  - paloaltonetworks

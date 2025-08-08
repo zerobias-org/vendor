@@ -9,3 +9,5 @@ updated: 2022-11-08T17:15:28.908Z
 url: https://www.nist.gov/
 description: National Institute of Standards and Technology
 logo: https://cdn.auditmation.io/logos/nist.svg
+cpeVendors:
+  - nist

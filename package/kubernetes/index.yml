@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:18.742Z
 url: https://kubernetes.io/
 description: The Kubernetes Authors
 logo: https://cdn.auditmation.io/logos/kubernetes.svg
+cpeVendors:
+  - kubernetes

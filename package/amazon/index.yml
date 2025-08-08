@@ -9,3 +9,5 @@ updated: 2021-11-24T20:04:33.501Z
 url: https://www.amazon.com/
 description: Amazon.com, Inc.
 logo: https://cdn.auditmation.io/logos/amazon.svg
+cpeVendors:
+  - amazon
