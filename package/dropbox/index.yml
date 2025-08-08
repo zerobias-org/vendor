@@ -9,3 +9,5 @@ updated: 2021-11-24T20:04:59.779Z
 url: https://www.dropbox.com/
 description: Dropbox, Inc.
 logo: https://cdn.auditmation.io/logos/dropbox.svg
+cpeVendors:
+  - dropbox

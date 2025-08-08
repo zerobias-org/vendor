@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:20.929Z
 url: https://www.microsoft.com/
 description: Microsoft Corporation
 logo: https://cdn.auditmation.io/logos/microsoft.svg
+cpeVendors:
+  - microsoft

@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:44.092Z
 url: https://www.splunk.com/
 description: Splunk, Inc.
 logo: https://cdn.auditmation.io/logos/splunk.svg
+cpeVendors:
+  - splunk

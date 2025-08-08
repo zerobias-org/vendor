@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:40.285Z
 url: https://www.rsa.com/
 description: RSA Security, LLC
 logo: https://cdn.auditmation.io/logos/rsa.svg
+cpeVendors:
+  - rsa

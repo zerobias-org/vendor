@@ -10,3 +10,5 @@ url: https://slack.com/
 description: Slack
 aliases: []
 logo: https://cdn.auditmation.io/logos/slack.svg
+cpeVendors:
+  - slack

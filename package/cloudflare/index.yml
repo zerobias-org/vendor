@@ -9,3 +9,5 @@ updated: 2021-11-24T20:04:55.173Z
 url: https://www.cloudflare.com/
 description: A global network built for the cloud
 logo: https://cdn.auditmation.io/logos/cloudflare.svg
+cpeVendors:
+  - cloudflare
