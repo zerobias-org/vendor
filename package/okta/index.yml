@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:36.553Z
 url: https://www.okta.com/
 description: Okta, Inc.
 logo: https://cdn.auditmation.io/logos/okta.svg
+cpeVendors:
+  - okta

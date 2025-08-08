@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:03.358Z
 url: https://www.google.com/
 description: Google
 logo: https://cdn.auditmation.io/logos/google.svg
+cpeVendors:
+  - google

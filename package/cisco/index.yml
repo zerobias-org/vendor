@@ -6,3 +6,5 @@ url: https://www.cisco.com/
 description: Cisco delivers innovative software-defined networking, cloud, and security solutions to help transform your business, empowering an inclusive future for ...
 id: 8186272a-89d2-5095-b8a1-2b4ab026aa83
 logo: https://cdn.auditmation.io/logos/cisco.svg
+cpeVendors:
+  - cisco

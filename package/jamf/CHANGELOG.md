@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.9-rc.1](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-jamf@1.0.9-rc.0...@zerobias-org/vendor-jamf@1.0.9-rc.1) (2025-08-08)
+
+**Note:** Version bump only for package @zerobias-org/vendor-jamf
+
+
+
+
+
+## [1.0.9-rc.0](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-jamf@1.0.8...@zerobias-org/vendor-jamf@1.0.9-rc.0) (2025-08-08)
+
+
+### Bug Fixes
+
+* add cpe vendors missing ([53e1005](https://github.com/zerobias-org/vendor/commit/53e100520e848be73b2cba8a0ef4f184844b8abb))
+
+
+
+
+
 ## [1.0.8](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-jamf@1.0.8-rc.2...@zerobias-org/vendor-jamf@1.0.8) (2025-08-05)
 
 **Note:** Version bump only for package @zerobias-org/vendor-jamf

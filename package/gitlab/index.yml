@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:02.398Z
 url: https://about.gitlab.com/
 description: GitLab is an open source end-to-end software development platform with built-in version control, issue tracking, code review, CI/CD, and more
 logo: https://cdn.auditmation.io/logos/gitlab.svg
+cpeVendors:
+  - gitlab

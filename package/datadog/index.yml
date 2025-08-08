@@ -9,3 +9,5 @@ updated: 2021-11-24T20:04:55.891Z
 url: https://www.datadoghq.com/
 description: Modern monitoring & security See inside any stack, any app, at any scale, anywhere.
 logo: https://cdn.auditmation.io/logos/datadog.png
+cpeVendors:
+  - datadoghq
