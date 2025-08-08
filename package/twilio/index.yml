@@ -9,3 +9,5 @@ updated: 2021-11-24T20:05:47.708Z
 url: https://www.twilio.com/
 description: Twilio, Inc.
 logo: https://cdn.auditmation.io/logos/twilio.svg
+cpeVendors:
+  - twilio

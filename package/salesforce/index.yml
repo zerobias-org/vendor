@@ -11,3 +11,5 @@ description: "Personalize every experience along the customer journey with the C
 aliases:
   - salesforce
 logo: https://cdn.auditmation.io/logos/salesforce.svg
+cpeVendors:
+  - salesforce
