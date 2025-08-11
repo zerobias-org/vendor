@@ -1,0 +1,11 @@
+code: united_nations
+status: active
+id: 2386de6f-31e7-4308-b04e-516625b29e5a
+name: United Nations
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-08-11T12:51:03.076Z
+updated: 2025-08-11T12:51:03.076Z
+url: https://unece.org/transport/documents/2021/03/standards/un-regulation-no-155-cyber-security-and-cyber-security
+description: Standards organization that publishes 2 compliance frameworks and standards.
+logo: https://cdn.auditmation.io/logos/united_nations.svg
