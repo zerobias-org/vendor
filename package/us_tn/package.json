@@ -17,7 +17,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.jpg"
   ],
   "auditmation": {
     "package": "us_tn",

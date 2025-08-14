@@ -12,7 +12,8 @@
   "auditmation": {
     "package": "us_te",
     "import-artifact": "vendor",
-    "dataloader-version": "5.0.14"
+    "dataloader-version": "5.0.14",
+    "deprecated": true
   },
   "engines": {
     "node": ">=16.11.0",
