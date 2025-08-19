@@ -82,4 +82,3 @@ Each vendor package (`package/[vendor-name]/`) contains:
 - **Private Registry**: Packages publish to `npm.pkg.github.com/@zerobias-org`
 - **No Direct npm publish**: Always use `npm run nx:publish` to ensure dependencies are correct
 - **Vendor Naming**: Package names should match the pattern `@zerobias-org/vendor-[name]`
-- **SVG Logo Files**: When working with SVG files, do not edit anything on the content. The logos must be kept originals.
