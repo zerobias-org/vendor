@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-avigilon",
+  "version": "1.1.0-rc.0",
+  "description": "Vendor package for Avigilon",
+  "author": "ctamas@zerobias.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/avigilon/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
+    "validate": "ts-node ../../scripts/validate.ts"
+  },
+  "auditmation": {
+    "dataloader-version": "5.0.14",
+    "import-artifact": "vendor",
+    "package": "avigilon"
+  }
+}
