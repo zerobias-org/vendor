@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.1.0 (2025-08-19)
+
+
+### Features
+
+* add avigilon vendor ([11e37bd](https://github.com/zerobias-org/vendor/commit/11e37bd0a05c14d5247344b713bb8c4445048531))
+
+
+
+
+
 # 1.1.0-rc.2 (2025-08-19)
 
 
