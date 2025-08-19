@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -36,6 +36,7 @@
     "@zerobias-org/vendor-au": "1.0.2",
     "@zerobias-org/vendor-auditmation": "1.0.8",
     "@zerobias-org/vendor-auvik": "0.2.2",
+    "@zerobias-org/vendor-avigilon": "1.1.0",
     "@zerobias-org/vendor-bamboohr": "1.0.8",
     "@zerobias-org/vendor-be": "1.0.2",
     "@zerobias-org/vendor-beyondtrust": "0.3.3",
