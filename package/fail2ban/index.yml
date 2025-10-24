@@ -1,0 +1,9 @@
+id: c3cf5c5c-6fe0-47c2-b74f-2a5332b83084
+code: fail2ban
+status: verified
+name: Fail2Ban
+description: Fail2Ban
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-09-27T05:18:54.926407Z
+url: https://www.fail2ban.org/

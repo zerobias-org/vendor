@@ -1,0 +1,10 @@
+id: 4ec829fd-a2d7-48a8-8d5a-af1d442d1f33
+code: sysdig
+status: verified
+name: Sysdig
+description: Sysdig
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-09-27T03:27:36.219721Z
+url: https://sysdig.com/
+logo: https://cdn.auditmation.io/logos/sysdig.svg

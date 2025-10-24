@@ -1,0 +1,10 @@
+id: 387d0aad-c6dc-45a8-b2c9-5dd0f46d57c1
+code: broadcom
+status: verified
+name: Broadcom
+description: Broadcom
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-09-27T01:46:52.347526Z
+url: https://www.broadcom.com/
+logo: https://cdn.auditmation.io/logos/broadcom.svg

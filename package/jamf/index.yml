@@ -1,13 +1,9 @@
+id: fdbdc01a-a0f3-4299-b716-9318fa7b5927
 code: jamf
 status: verified
-id: 1444f533-6bc4-5e1c-9dfa-0c6c8832c22b
-name: jamf
+name: Jamf
+description: Jamf
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2021-10-15T12:50:17.802Z
-updated: 2021-11-24T20:05:14.589Z
+created: 2025-09-27T05:19:37.617635Z
 url: https://www.jamf.com/
-description: Jamf is a software company that is the developer of Jamf Pro, an application used by system administrators to configure and automate IT administration tasks for macOS, iOS, iPadOS, and tvOS devices. Jamf offers on-premises and cloud-based mobile device management.
-logo: https://cdn.auditmation.io/logos/jamf.svg
-cpeVendors:
-  - jamf

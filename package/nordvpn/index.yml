@@ -1,0 +1,10 @@
+id: f16b913a-50c8-4dfe-80ac-4269d6ce1f2d
+code: nordvpn
+status: verified
+name: NordVPN
+description: NordVPN
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-09-27T04:23:56.934903Z
+url: https://nordvpn.com/
+logo: https://cdn.auditmation.io/logos/nordvpn.svg

@@ -1,0 +1,10 @@
+id: 696c7565-b957-467d-9e0c-ecf4cab583d0
+code: sentinelone
+status: verified
+name: SentinelOne
+description: SentinelOne
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2025-09-27T02:16:05.560374Z
+url: https://www.sentinelone.com/
+logo: https://cdn.auditmation.io/logos/sentinelone.svg
