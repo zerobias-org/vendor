@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-stackpath",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0-rc.2",
   "description": "Vendor package for StackPath",
   "author": "opignault@zerobias.com",
   "license": "ISC",
