@@ -1,10 +1,9 @@
-id: 99de9323-2e00-43e9-9762-4df2622e2c23
+id: 9b46c01f-4b5a-48f4-bbac-b5ac37c1734b
 code: synopsys
 status: verified
 name: Synopsys
 description: Synopsys
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T02:31:45.847408Z
 url: https://www.synopsys.com/
 logo: https://cdn.auditmation.io/logos/synopsys.svg

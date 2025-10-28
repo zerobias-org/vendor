@@ -1,9 +1,8 @@
-id: fdbdc01a-a0f3-4299-b716-9318fa7b5927
+id: 4539969f-5342-4701-ba6c-e16e59666d29
 code: jamf
 status: verified
 name: Jamf
 description: Jamf
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T05:19:37.617635Z
 url: https://www.jamf.com/

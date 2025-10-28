@@ -1,10 +1,9 @@
-id: c74f2185-3d3f-4b15-baa8-2031439316a7
+id: 488286c5-9787-494b-a67f-a8461d0ca997
 code: kestra
 status: verified
 name: Kestra
 description: Kestra
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T04:47:26.487004Z
 url: https://kestra.io/
 logo: https://cdn.auditmation.io/logos/kestra.svg

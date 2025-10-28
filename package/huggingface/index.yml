@@ -1,9 +1,9 @@
-id: 2cd140b4-a2a9-4797-9134-c0cdefa5a1b6
+id: 9b011522-c222-4e70-9026-18e06bc24f43
 code: huggingface
 status: verified
 name: Hugging Face
 description: Hugging Face
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T06:47:44.101300Z
 url: https://huggingface.co
+logo: https://cdn.auditmation.io/logos/huggingface.svg

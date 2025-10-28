@@ -1,9 +1,9 @@
-id: d2d9d94a-6e6d-4335-9305-4be415577c1b
+id: b9c2289f-2059-45e3-939b-f727e8bfb2dd
 code: imperva
 status: verified
 name: Imperva
-description: Imperva
+description: Imperva is now part of Thales, a global leader in cybersecurity.
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T06:03:20.191384Z
 url: https://www.imperva.com/
+logo: https://cdn.auditmation.io/logos/imperva.svg

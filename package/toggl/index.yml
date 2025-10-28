@@ -1,10 +1,9 @@
-id: 2ccf1f02-0881-4fd4-a974-948a78b12d9c
+id: f20e1bd8-65ad-461d-9b0a-7a18fab77314
 code: toggl
 status: verified
 name: Toggl
 description: Toggl
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-21T03:21:27.324602Z
 url: https://toggl.com/
 logo: https://cdn.auditmation.io/logos/toggl.svg

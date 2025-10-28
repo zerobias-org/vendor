@@ -1,9 +1,8 @@
-id: 98af0ed7-8685-47d5-bb24-d7ccb0e87481
+id: 83a4d7db-8d1e-42aa-98fa-10fe1ae6e8df
 code: restassured
 status: verified
 name: RestAssured
 description: RestAssured
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T02:47:11.586188Z
 url: http://rest-assured.io

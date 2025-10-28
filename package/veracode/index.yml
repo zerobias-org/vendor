@@ -1,10 +1,9 @@
-id: 9cc3b03c-4f56-4170-8817-b67de134656c
+id: 2e30c628-56c3-4c5e-b7c0-b2e044f5e6ba
 code: veracode
 status: verified
 name: Veracode
 description: Veracode
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T02:31:36.165467Z
 url: https://www.veracode.com/
 logo: https://cdn.auditmation.io/logos/veracode.svg

@@ -1,9 +1,8 @@
-id: 920f2ad5-01b3-4bc9-980c-4b466fe1b39a
+id: 7b4b3693-d032-4b16-8169-78790d41ef2c
 code: kics
 status: verified
 name: KICS
 description: The KICS project is powered by Checkmarx, global leader of Application Security Testing.
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T06:48:15.950261Z
 url: https://www.kics.io/index.html

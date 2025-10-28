@@ -1,10 +1,9 @@
-id: 9c3d0593-f97a-4d4c-82e3-5b56bb1476bb
+id: 9a62e1a2-aff8-4da4-8296-12412a72c3fa
 code: paycor
 status: verified
 name: Paycor
 description: Paycor
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-21T05:44:05.495655Z
 url: https://www.paycor.com/
 logo: https://cdn.auditmation.io/logos/paycor.svg

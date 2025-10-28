@@ -1,10 +1,9 @@
-id: 3fd5a1d6-6a36-4ad4-b9b9-c6c18228019a
+id: 4e9b8a99-c6e0-4bb1-9cfb-7906d419cb21
 code: wrike
 status: verified
 name: Wrike
 description: Wrike
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-21T03:22:02.842284Z
 url: https://www.wrike.com/
 logo: https://cdn.auditmation.io/logos/wrike.svg

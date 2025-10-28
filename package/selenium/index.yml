@@ -1,10 +1,9 @@
-id: 519e512b-6509-46cf-a431-6d6a57cf99f9
+id: 5206509a-392f-4a33-8f42-8c31ed264ae2
 code: selenium
 status: verified
 name: Selenium
 description: Selenium
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T06:17:19.297448Z
 url: https://www.selenium.dev/
 logo: https://cdn.auditmation.io/logos/selenium.svg

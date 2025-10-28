@@ -1,9 +1,8 @@
-id: 4aa67ef1-aa35-4eee-99ff-c0cee0f0f02c
+id: 8215ebad-7205-445b-8505-22e0ad1783f5
 code: robotframeworkfoundation
 status: verified
 name: Robot Framework Foundation
 description: Robot Framework Foundation is a non-profit consortium that fosters the growth of Robot Framework. It was founded by companies with a common interest to ensure the development of Robot Framework now and in the future.
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T06:17:55.591181Z
 url: https://robotframework.org/foundation/

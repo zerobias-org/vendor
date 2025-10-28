@@ -1,10 +1,9 @@
-id: 27b6ea91-4f63-4018-9a72-d37b5a8d437d
+id: e0b23cf7-e304-486a-9c34-ee7653ebe9bb
 code: clockify
 status: verified
 name: Clockify
 description: Clockify
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-21T03:21:35.088037Z
 url: https://clockify.me/
 logo: https://cdn.auditmation.io/logos/clockify.svg

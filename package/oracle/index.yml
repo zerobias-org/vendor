@@ -1,10 +1,9 @@
-id: 85a7b013-2e05-46b2-b760-ead4a3eeed48
+id: 07f06594-b894-4ab1-8a10-934385bc2f20
 code: oracle
 status: verified
 name: Oracle
 description: Oracle
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-21T01:03:48.147060Z
 url: https://www.oracle.com/
 logo: https://cdn.auditmation.io/logos/oracle.svg

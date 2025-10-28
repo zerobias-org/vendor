@@ -1,10 +1,9 @@
-id: d3062e44-236f-4ce6-98dd-a6c6f5809bc4
+id: b7dc0e83-454c-434d-a2b4-7eff3fe4aaa9
 code: barracuda
 status: verified
 name: Barracuda Networks
 description: Barracuda Networks
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T02:23:25.092927Z
 url: https://www.barracuda.com/
 logo: https://cdn.auditmation.io/logos/barracuda.svg

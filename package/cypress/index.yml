@@ -1,10 +1,9 @@
-id: eadb6c2f-7f22-44ce-bb33-55cf675b6e2c
+id: 1011b5db-adc9-4591-a4ac-2c226533d423
 code: cypress
 status: verified
 name: Cypress
 description: Cypress
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T06:17:28.134974Z
 url: https://www.cypress.io/
 logo: https://cdn.auditmation.io/logos/cypress.svg

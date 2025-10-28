@@ -1,10 +1,9 @@
-id: 884d6712-8d93-483a-a494-66fd28114b22
+id: 1ab83b3a-c604-4fa2-adb6-4d303169abb8
 code: sap
 status: verified
 name: SAP
 description: SAP
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-21T01:03:34.679705Z
 url: https://www.sap.com/
 logo: https://cdn.auditmation.io/logos/sap.svg

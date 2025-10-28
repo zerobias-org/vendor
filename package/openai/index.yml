@@ -1,10 +1,9 @@
-id: ae0b3e14-a8ed-46f9-88d5-b8fe8ea64446
+id: 66aa1436-fa9f-4d0c-9260-91f62de77391
 code: openai
 status: verified
 name: OpenAI
 description: OpenAI
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T04:20:14.164090Z
 url: https://openai.com/
 logo: https://cdn.auditmation.io/logos/openai.svg

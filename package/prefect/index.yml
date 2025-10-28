@@ -1,10 +1,9 @@
-id: c5e39854-01da-4fb5-a378-fcdfbfe7a269
+id: 88a9acd0-2003-436e-acef-d9b4b63b8ec4
 code: prefect
 status: verified
 name: Prefect
 description: Prefect
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T04:47:46.400176Z
 url: https://www.prefect.io/
 logo: https://cdn.auditmation.io/logos/prefect.svg

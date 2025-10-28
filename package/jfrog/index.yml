@@ -1,10 +1,9 @@
-id: 0bd7889b-3aff-466c-b23f-8168e0503005
+id: 1162e73d-32aa-458f-ae57-b82a88256376
 code: jfrog
 status: verified
 name: JFrog
 description: JFrog
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T03:25:11.319504Z
 url: https://jfrog.com/tern/
 logo: https://cdn.auditmation.io/logos/jfrog.svg

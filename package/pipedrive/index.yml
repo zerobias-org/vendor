@@ -1,10 +1,9 @@
-id: cf2ae7d1-e081-4b3a-8746-f39f13e51d26
+id: 71c30fdd-7bc5-421b-b969-89fc47157ae9
 code: pipedrive
 status: verified
 name: Pipedrive
 description: Pipedrive
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-21T02:31:15.522487Z
 url: https://www.pipedrive.com/
 logo: https://cdn.auditmation.io/logos/pipedrive.svg

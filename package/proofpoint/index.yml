@@ -1,10 +1,9 @@
-id: 75e0ba6b-6d7a-46f7-87e5-42fe4f5dcf6e
+id: 4095678c-8bf2-4bb3-b6f8-8d2dbc27c7cb
 code: proofpoint
 status: verified
 name: Proofpoint
 description: Proofpoint
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T03:27:07.973819Z
 url: https://www.proofpoint.com
 logo: https://cdn.auditmation.io/logos/proofpoint.svg

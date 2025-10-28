@@ -1,10 +1,9 @@
-id: 896fb4c2-5968-4d71-8c87-92b10aed1aa4
+id: 8f43d79a-0a8b-45a2-a06f-2e355b2a470e
 code: rubrik
 status: verified
 name: Rubrik
 description: Rubrik
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T05:01:59.284485Z
 url: https://www.rubrik.com/
 logo: https://cdn.auditmation.io/logos/rubrik.svg

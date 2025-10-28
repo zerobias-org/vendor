@@ -1,9 +1,8 @@
-id: 8e7b158b-80e4-4c88-a42f-c563565c1cdf
+id: ba358d3c-b69d-418d-85f3-028acf472ce9
 code: playwright
 status: verified
 name: Playwright
 description: Playwright
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T06:17:38.500861Z
 url: https://playwright.dev/

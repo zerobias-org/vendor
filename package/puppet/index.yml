@@ -1,10 +1,9 @@
-id: ab228d61-dfdb-47b2-83ba-3bed87606fcf
+id: 018a1b96-c6e3-4b2b-bb11-8d9a33fcb472
 code: puppet
 status: verified
 name: Puppet Inc.
 description: Puppet is part of Perforce Software.
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T05:02:09.788621Z
 url: https://puppet.com/
 logo: https://cdn.auditmation.io/logos/puppet.svg

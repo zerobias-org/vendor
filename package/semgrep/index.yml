@@ -1,9 +1,8 @@
-id: ffeaff38-9959-4616-9a6e-9c83acfb8ea3
+id: cf901809-02bd-438d-9372-a180ac888c43
 code: semgrep
 status: verified
 name: Semgrep
 description: Semgrep
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T06:31:49.576588Z
 url: https://semgrep.dev

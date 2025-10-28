@@ -1,10 +1,9 @@
-id: 55f88b88-85d9-4c01-8104-9cacbeeaf179
+id: 01dd5b5e-7e22-43b6-9b58-3e16f10ec02a
 code: cncf
 status: verified
 name: Cloud Native Computing Foundation
 description: Cloud Native Computing Foundation
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T03:28:05.027124Z
 url: https://www.cncf.io/
 logo: https://cdn.auditmation.io/logos/cncf.svg

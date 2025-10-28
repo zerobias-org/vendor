@@ -1,10 +1,9 @@
-id: e6b16aad-b5d9-4b05-a026-aec13105e6dc
+id: cdd7fe17-81f8-4d44-9c40-4ab67b2bf854
 code: resolver
 status: verified
 name: Resolver
 description: Resolver
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-21T04:04:05.885141Z
 url: https://www.resolver.com
 logo: https://cdn.auditmation.io/logos/resolver.svg

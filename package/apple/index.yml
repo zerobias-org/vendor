@@ -1,10 +1,9 @@
-id: e1d96a6f-195e-4fca-b487-3cccaaa52a7a
+id: e85615ac-5d27-4989-91dc-712ce013b9f8
 code: apple
 status: verified
 name: Apple
 description: Apple
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T07:02:45.334586Z
 url: https://developer.apple.com/
 logo: https://cdn.auditmation.io/logos/apple.svg

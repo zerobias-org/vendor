@@ -1,10 +1,9 @@
-id: 51e9a76b-6663-41b9-942f-240bfa59ce7e
+id: dbb667d2-3720-4cc0-8ddb-d485c4c57326
 code: zoom
 status: verified
 name: Zoom Video Communications
 description: Zoom Video Communications
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-21T04:32:12.739593Z
 url: https://zoom.us/
 logo: https://cdn.auditmation.io/logos/zoom.svg

@@ -1,9 +1,8 @@
-id: 6fade234-4158-49ff-ad45-8c622dc105b1
+id: 0f75f57a-44cc-40a1-a6b3-9e193d36f53a
 code: gruntwork
 status: verified
 name: Gruntwork
 description: Gruntwork
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T07:03:40.276375Z
 url: https://terragrunt.gruntwork.io

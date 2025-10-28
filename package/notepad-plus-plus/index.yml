@@ -1,0 +1,9 @@
+id: e309aee2-44a8-4a6a-a052-5ce6c6b763d9
+code: notepad-plus-plus
+status: verified
+name: Notepad++
+description: Notepad++ is a free source code editor and Notepad replacement that supports several programming languages. Running in the MS Windows environment, its use is governed by GNU General Public License.
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://notepad-plus-plus.org/
+logo: https://cdn.auditmation.io/logos/notepad-plus-plus.svg

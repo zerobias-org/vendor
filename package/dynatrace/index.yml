@@ -1,9 +1,8 @@
-id: dbe9364c-e870-4bf5-8c2a-4f99554bc60e
+id: f083b4e4-9aa9-40a9-bcb2-5c6d225a20aa
 code: dynatrace
 status: verified
 name: Dynatrace
 description: Dynatrace
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T07:17:39.174242Z
 url: https://www.dynatrace.com/

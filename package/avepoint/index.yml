@@ -1,10 +1,9 @@
-id: b90c892f-3f90-4b68-88c8-d211c87c913b
+id: 6abd1aba-22d8-4db9-b72a-7e40723b4347
 code: avepoint
 status: verified
 name: AvePoint
 description: AvePoint
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-created: 2025-09-27T04:48:28.591948Z
 url: https://www.avepoint.com
 logo: https://cdn.auditmation.io/logos/avepoint.svg
