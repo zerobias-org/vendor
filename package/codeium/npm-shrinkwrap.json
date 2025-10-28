@@ -1,0 +1,13 @@
+{
+  "name": "@zerobias-org/vendor-codeium",
+  "version": "1.0.0-rc.0",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {
+    "": {
+      "name": "@zerobias-org/vendor-codeium",
+      "version": "1.0.0-rc.0",
+      "license": "ISC"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+id: 2971fc9c-c9c5-49d7-9952-8aaeb6a054fb
+code: ossec
+status: verified
+name: Ossec
+description: Ossec
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.ossec.net/

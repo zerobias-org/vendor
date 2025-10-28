@@ -1,0 +1,8 @@
+id: cf901809-02bd-438d-9372-a180ac888c43
+code: semgrep
+status: verified
+name: Semgrep
+description: Semgrep
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://semgrep.dev
