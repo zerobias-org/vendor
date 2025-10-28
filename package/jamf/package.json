@@ -1,30 +1,29 @@
 {
   "name": "@zerobias-org/vendor-jamf",
-  "version": "1.0.9",
-  "description": "Vendor package for jamf",
-  "author": "team@zerobias.com",
+  "version": "1.0.0-rc.0",
+  "description": "Vendor package for Jamf",
+  "author": "opignault@zerobias.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/vendor.git",
-    "directory": "vendor/"
+    "directory": "package/jamf/"
   },
-  "files": [
-    "index.yml",
-    "logo.svg"
-  ],
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",
     "prepublishtest": "../../scripts/prepublish.sh",
     "correct:deps": "ts-node ../../scripts/correctDeps.ts",
     "validate": "ts-node ../../scripts/validate.ts"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml"
+  ],
   "auditmation": {
-    "package": "jamf",
+    "dataloader-version": "5.0.14",
     "import-artifact": "vendor",
-    "dataloader-version": "5.0.14"
+    "package": "jamf"
   }
 }

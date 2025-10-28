@@ -1,0 +1,9 @@
+id: f72d642e-baa4-4b78-8218-34b3e598807d
+code: redhat
+status: verified
+name: Red Hat
+description: Red Hat
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.redhat.com/
+logo: https://cdn.auditmation.io/logos/redhat.svg

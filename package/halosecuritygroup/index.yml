@@ -1,0 +1,9 @@
+id: f49128aa-2fed-4d57-82d5-1e71c6ea26d3
+code: halosecuritygroup
+status: verified
+name: Halo Security Group
+description: Halo Security Group
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://halosecuritygroup.com/
+logo: https://cdn.auditmation.io/logos/halosecuritygroup.svg
