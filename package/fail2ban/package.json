@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-fail2ban",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-rc.1",
   "description": "Vendor package for Fail2Ban",
   "author": "opignault@zerobias.com",
   "license": "ISC",

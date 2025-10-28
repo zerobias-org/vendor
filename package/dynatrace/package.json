@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-dynatrace",
-  "version": "1.0.0-rc.0",
+  "version": "1.0.0-rc.1",
   "description": "Vendor package for Dynatrace",
   "author": "opignault@zerobias.com",
   "license": "ISC",
