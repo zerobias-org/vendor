@@ -1,0 +1,9 @@
+id: bea09dfd-2f62-40a6-bd03-f6804f6da612
+code: docker
+status: verified
+name: Docker, Inc.
+description: Docker, Inc.
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://www.docker.com
+logo: https://cdn.auditmation.io/logos/docker.svg

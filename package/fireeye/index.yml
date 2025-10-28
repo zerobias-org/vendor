@@ -1,0 +1,9 @@
+id: fff1393e-0d9a-4464-af7c-077cb63ca592
+code: fireeye
+status: verified
+name: FireEye
+description: FireEye was acquired by Symphony Technology Group (STG) in 2021. The same year, STG acquired McAfee Enterprise, and combined FireEye with McAfee's enterprise business to launch Trellix, an extended detection and response (XDR) company.
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+url: https://fireeye.dev/
+logo: https://cdn.auditmation.io/logos/fireeye.svg
