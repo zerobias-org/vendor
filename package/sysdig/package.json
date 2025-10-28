@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-sysdig",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Vendor package for Sysdig",
   "author": "opignault@zerobias.com",
   "license": "ISC",

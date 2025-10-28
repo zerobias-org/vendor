@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-replit",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Vendor package for Replit",
   "author": "opignault@zerobias.com",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-pipedrive",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Vendor package for Pipedrive",
   "author": "opignault@zerobias.com",
   "license": "ISC",

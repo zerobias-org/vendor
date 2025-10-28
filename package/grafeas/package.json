@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-grafeas",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Vendor package for Grafeas",
   "author": "opignault@zerobias.com",
   "license": "ISC",

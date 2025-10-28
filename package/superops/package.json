@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-superops",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Vendor package for SuperOps",
   "author": "opignault@zerobias.com",
   "license": "ISC",

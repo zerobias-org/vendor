@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-workflowmax",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Vendor package for WorkflowMax",
   "author": "opignault@zerobias.com",
   "license": "ISC",

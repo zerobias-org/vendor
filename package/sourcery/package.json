@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-sourcery",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Vendor package for Sourcery",
   "author": "opignault@zerobias.com",
   "license": "ISC",
