@@ -1,0 +1,3786 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="og: https://ogp.me/ns#">
+  <head>
+    <title>Manage hybrid IT spend and risk: ITAM, SaaS, FinOps and more | Flexera</title>
+
+        <!-- Start: Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PDSJXT');</script>
+    <!-- End: Google Tag Manager -->
+    
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/themes/custom/flexera/dist/17c0392cf7fce9aceb9f.woff2"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/themes/custom/flexera/dist/d2c7d5c5c14c18a7505a.woff2"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/themes/custom/flexera/dist/ed37bc608c1680ca735f.woff2"/>
+    <link rel="preload" as="font" type="font/woff2" crossorigin="anonymous" href="/themes/custom/flexera/dist/f74389bd42b524dffbb4.woff2"/>
+
+    <meta charset="utf-8" />
+<meta name="description" content="Flexera specializes in IT management software, optimization &amp; solutions. Let Flexera help control &amp; manage your software &amp; IT costs so your business can grow." />
+<link rel="shortlink" href="https://www.flexera.com/" />
+<link rel="canonical" href="https://www.flexera.com/" />
+<meta property="og:url" content="https://www.flexera.com/" />
+<meta property="og:title" content="Manage hybrid IT spend and risk: ITAM, SaaS, FinOps and more | Flexera" />
+<meta property="og:description" content="Flexera specializes in IT management software, optimization &amp; solutions. Let Flexera help control &amp; manage your software &amp; IT costs so your business can grow." />
+<meta property="og:image" content="https://www.flexera.com/themes/custom/flexera/images/flexera_social.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Flexera specializes in IT management software, optimization &amp; solutions. Let Flexera help control &amp; manage your software &amp; IT costs so your business can grow." />
+<meta name="twitter:title" content="Manage hybrid IT spend and risk: ITAM, SaaS, FinOps and more | Flexera" />
+<meta name="twitter:site" content="@flexera" />
+<meta name="Generator" content="Drupal 11 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="alternate" hreflang="x-default" href="https://www.flexera.com/" />
+<link rel="alternate" hreflang="en" href="https://www.flexera.com/" />
+<link rel="alternate" hreflang="de" href="https://www.flexera.de/" />
+<link rel="icon" href="/themes/custom/flexera/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <link rel="stylesheet" media="all" href="/sites/default/files/css/css_N7eJoO9JKbohHNPnnYfq4PBnN857M2QgIzpgfVrgIrY.css?delta=0&amp;language=en&amp;theme=flexera&amp;include=eJyFUFFqQzEMu1BIjhScZ_fVnRMH22F9t1-7lo59lP5IIAkJBO4UlceFtlArm3t2DvpmpOpxCFXAy_LoNMJTUw0Pg_nwvExZO4_cYPvaTdfAuqmo5bZY8G18AiKP_UMq6Br_6k5CVzIoT04Ch66ovyZZDWhe7pA6IUNR6o0wn9Q6RJClCQb7befsBW1NkPyn5DXmasJ-JkyvB0DIovDgSH54UC8NnH4Ag1N6dw" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_MMRnL1jjWvzW5IJrBvw5uunaDtB52XTT4ofJuV71rdI.css?delta=1&amp;language=en&amp;theme=flexera&amp;include=eJyFUFFqQzEMu1BIjhScZ_fVnRMH22F9t1-7lo59lP5IIAkJBO4UlceFtlArm3t2DvpmpOpxCFXAy_LoNMJTUw0Pg_nwvExZO4_cYPvaTdfAuqmo5bZY8G18AiKP_UMq6Br_6k5CVzIoT04Ch66ovyZZDWhe7pA6IUNR6o0wn9Q6RJClCQb7befsBW1NkPyn5DXmasJ-JkyvB0DIovDgSH54UC8NnH4Ag1N6dw" />
+<link rel="stylesheet" media="all" href="/sites/default/files/css/css_28ne8axN_UF7Fmoc_9inv4mnca6h3PWQ7VZhCcPWlI0.css?delta=2&amp;language=en&amp;theme=flexera&amp;include=eJyFUFFqQzEMu1BIjhScZ_fVnRMH22F9t1-7lo59lP5IIAkJBO4UlceFtlArm3t2DvpmpOpxCFXAy_LoNMJTUw0Pg_nwvExZO4_cYPvaTdfAuqmo5bZY8G18AiKP_UMq6Br_6k5CVzIoT04Ch66ovyZZDWhe7pA6IUNR6o0wn9Q6RJClCQb7befsBW1NkPyn5DXmasJ-JkyvB0DIovDgSH54UC8NnH4Ag1N6dw" />
+
+    <script src="/sites/default/files/asset_injector/js/vwo_smartcode-11fcc7383e7b7b12c66bf19e94d98572.js?t55ldu"></script>
+
+
+        <script type="application/ld+json">
+      [
+        {
+          "@context":"https://schema.org",
+          "@type":"WebSite",
+          "url":"https://www.flexera.com/",
+          "potentialAction":{
+              "@type":"SearchAction",
+              "target":"https://www.flexera.com/search-results#!/search?searchString={search_term_string}",
+              "query-input":"required name=search_term_string"
+          }
+        },
+        {
+          "@context":"https://schema.org",
+          "@type":"Organization",
+          "@id":"https://www.flexera.com/#ParentCompany",
+          "name":"Flexera",
+          "legalName":"Flexera Software",
+          "description":"Flexera helps executives succeed at what once seemed impossible: getting clarity into, and full control of, their company’s technology “black hole.” From on-premises to the cloud, Flexera helps business leaders turn IT insights into action. With a portfolio of integrated solutions that deliver unparalleled technology insights, spend optimization and agility, Flexera helps enterprises optimize their technology footprint and realize IT’s full potential to accelerate their businesses. For over 30 years, our 1,300+ team members worldwide have been passionate about helping our more than 20,000 customers fuel business success.",
+          "foundingDate":"1987",
+          "logo":"https://www.flexera.com/themes/custom/flexera/images/logo.svg",
+          "image":"https://www.flexera.com/sites/default/files/2021-11/crpr-careers-whoweare-offices-itasca.jpg",
+          "url":"https://www.flexera.com/",
+          "sameAs":[
+              "https://www.instagram.com/weareflexera/",
+              "https://www.linkedin.com/company/flexera/",
+              "https://www.youtube.com/user/FlexeraSoftware",
+              "https://x.com/flexera"
+          ],
+          "address":{
+              "@type":"PostalAddress",
+              "streetAddress":"300 Park Blvd, Suite 500",
+              "addressLocality":"Itasca",
+              "addressRegion":"IL",
+              "postalCode":"60143",
+              "addressCountry":"USA"
+          },
+          "contactPoint":{
+              "@type":"ContactPoint",
+              "contactType":"PR",
+              "telephone":"(847) 466-4000",
+              "email":"agiliberto@flexera.com"
+          },
+          "subOrganization":[
+            {
+              "@type":"Organization",
+              "@id":"https://www.revenera.com/#subsidiaryorganization",
+              "name":"Revenera",
+              "legalName":"Flexera Software",
+              "description":"Revenera helps product executives build better products, accelerate their time to market and monetize what matters. Revenera’s leading solutions help software and technology companies drive top line revenue with modern software monetization, understand usage and compliance with software usage analytics, empower the use of open source with software composition analysis and deliver an excellent user experience—for embedded, on-premises, cloud and SaaS products. In 2020 Flexera sharpened the profile of its software Supplier Division by branding it as Revenera. Revenera continues to be part of Flexera.",
+              "foundingDate":"1987",
+              "logo":"https://www.revenera.com/themes/custom/revenera/logo.svg",
+              "image":"https://www.flexera.com/sites/default/files/2021-11/crpr-careers-whoweare-offices-itasca.jpg",
+              "url":"../www.revenera.com/index.html",
+              "sameAs":[
+                  "https://www.instagram.com/weareflexera/",
+                  "https://www.linkedin.com/company/revenera/",
+                  "https://www.youtube.com/GetRevenera",
+                  "https://x.com/getrevenera"
+              ],
+              "address":{
+                  "@type":"PostalAddress",
+                  "streetAddress":"300 Park Blvd, Suite 500",
+                  "addressLocality":"Itasca",
+                  "addressRegion":"IL",
+                  "postalCode":"60143",
+                  "addressCountry":"USA"
+              },
+              "contactPoint":{
+                  "@type":"ContactPoint",
+                  "contactType":"PR",
+                  "telephone":"(847) 466-4000",
+                  "email":"revenerapr@clementpeterson.com"
+              }
+            }
+          ]
+        }
+      ]
+    </script>
+    
+  </head>
+  <body class="english page--node page--node--page page--node--4680 flexera" data-current-path="/node/4680">
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PDSJXT" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <a href="#main-content" class="visually-hidden focusable">
+      Skip to main content
+    </a>
+
+    
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+
+<div class="layout-container ">
+
+      <header role="banner">
+      <div class="container">
+  <div class="row">
+
+    <div class="mobile-menu__top col-12 d-md-none d-flex justify-content-between align-items-center">
+      <div class="branding-mobile">
+        <div id="block-flexera-branding">
+  
+    
+              <a href="/" rel="home">
+                  <img class="d-md-block logo_img" src="/themes/custom/flexera/images/logo.svg" alt="Home" />
+              </a>
+          
+</div>
+
+      </div>
+      <button type="button" class="burger-button btn--primary" id="burger-button" aria-expanded="false" aria-haspopup="true" aria-controls="primary-navigation">
+        Menu
+      </button>
+    </div>
+    <div class="mobile-menu col-12">
+      <div class="mobile-menu__inner w-100 d-flex flex-column flex-md-row justify-content-start justify-content-md-between align-items-start align-items-md-center">
+
+        <div class="mobile-menu__first-part d-block d-md-flex align-items-md-center">
+          <div class="d-md-flex justify-content-between align-items-center h-md-100">
+            <div class="site-branding d-none d-md-flex flex-column justify-content-center py-1">
+              <div id="block-flexera-branding">
+  
+    
+              <a href="/" rel="home">
+                  <img class="d-md-block logo_img" src="/themes/custom/flexera/images/logo.svg" alt="Home" />
+              </a>
+          
+</div>
+
+            </div>
+                        <div class="search search-mobile d-flex d-md-none flex-column justify-content-center">
+              <div class="search-bar">
+                <div class="searchunify-search-form" data-drupal-selector="searchunify-search-form" id="block-flexera-search-form-header">
+  
+    
+      <form action="" method="get" id="searchunify-search-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-searchstring js-form-item-searchstring form-no-label">
+      <label for="edit-searchstring" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search" data-drupal-selector="edit-searchstring" type="search" id="edit-searchstring" name="searchString" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-awis2jqpqzpqlsj7wnkoa2gmyjqswnrd1pbpnedz0w" type="hidden" name="form_build_id" value="form-_AwIs2JQpqZpQlsJ7wNKoa2GmyjqsWnrd1pbpnEDz0w" />
+<input data-drupal-selector="edit-searchunify-search-form" type="hidden" name="form_id" value="searchunify_search_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+  </div>
+
+              </div>
+            </div>
+            <div class="main-menu">
+              <nav role="navigation" aria-labelledby="block-flexera-main-menu-menu" id="block-flexera-main-menu">
+            
+  <p class="visually-hidden" id="block-flexera-main-menu-menu">Main navigation</p>
+  
+
+        
+              <ul class="menu-level-0">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>Solutions</span>
+        
+                                <ul class="menu-level-1">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 1</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>Business challenge</span>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/solutions/software-renewals-audits" data-drupal-link-system-path="node/2853">Software renewals and audits</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/software-usage-costs" data-drupal-link-system-path="node/2859">Software license management and optimization</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/saas-spend" data-drupal-link-system-path="node/2852">SaaS spend management</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/cloud-cost" data-drupal-link-system-path="node/2866">Cloud cost management</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/it-asset-lifecycle" data-drupal-link-system-path="node/2850">IT asset lifecycle management</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/cmdb-data-quality" data-drupal-link-system-path="node/2876">CMDB data quality</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/it-inventory" data-drupal-link-system-path="node/2878">Accurate IT inventory</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/it-security-regulatory-risk" data-drupal-link-system-path="node/2882">Security and regulatory risk management</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/sustainable-it" data-drupal-link-system-path="node/2247">Sustainable IT</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/ai-powered-transformation" data-drupal-link-system-path="node/2887">AI-powered transformation</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/public-sector" data-drupal-link-system-path="node/14">Public sector</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 2</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>Spend management by vendor</span>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/solutions/vendor/ibm" data-drupal-link-system-path="node/3026">IBM</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/vendor/oracle" data-drupal-link-system-path="node/2263">Oracle</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/vendor/microsoft" data-drupal-link-system-path="node/2264">Microsoft</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/vendor/sap" data-drupal-link-system-path="node/2265">SAP</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/vendor/vmware" data-drupal-link-system-path="node/2889">VMware</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/vendor/servicenow" data-drupal-link-system-path="node/2890">ServiceNow</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/vendor/aws" data-drupal-link-system-path="node/2267">AWS</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/vendor/salesforce" data-drupal-link-system-path="node/2891">Salesforce</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/cmdb-data-quality/bmc" data-drupal-link-system-path="node/3059">BMC</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/solutions/vendor/adobe" data-drupal-link-system-path="node/2984">Adobe</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                              <div class="menu-mega-item">
+          
+    
+            
+<article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start">
+
+
+  <div>
+          <div class="card__image w-100" style="background-image: url(/sites/default/files/styles/resource_card_image/public/2025-06/report-state-of-itam-2025.jpg?itok=GCI-wHsZ)"></div>
+        <div class="card__body">
+            <p class="card__title">Flexera 2025 State of ITAM Report</p>
+
+              <div class="card__text">
+            <div><p>Discover the latest insights to optimize spend, reduce risk and keep up with the dynamic and evolving IT landscape.</p></div>
+      </div>
+      
+              <div class="card__actions">
+          <a class="link" href="https://info.flexera.com/ITAM-REPORT-State-of-IT-Asset-Management" aria-label="discover">
+            View Report
+          </a>
+        </div>
+      
+    </div>
+  </div>
+</article>
+
+
+        </div>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>Products</span>
+        
+                                <ul class="menu-level-1">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 1</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <a href="/products/flexera-one" data-drupal-link-system-path="node/2820">Flexera One</a>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/products/flexera-one/it-visibility" data-drupal-link-system-path="node/7">IT Visibility</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products/flexera-one/it-asset-management" data-drupal-link-system-path="node/2915">ITAM</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products/snow-atlas" data-drupal-link-system-path="node/2898">Snow Atlas</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products/flexera-one/cloud-license-management" data-drupal-link-system-path="node/4296">Cloud License Management</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products/flexera-one/saas-management" data-drupal-link-system-path="node/2916">SaaS Management</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 2</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="hidden">Hide group</span>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/products/flexera-one/finops" data-drupal-link-system-path="node/2055">FinOps</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products/flexera-one/cloud-cost-optimization" data-drupal-link-system-path="node/2867">Cloud Cost Optimization</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products/flexera-one/cloud-commitment-management" data-drupal-link-system-path="node/4374">Cloud Commitment Management</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 3</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="hidden">Hide group</span>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/products/adminstudio" data-drupal-link-system-path="node/11">Application Readiness</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products/security" data-drupal-link-system-path="node/2901">Security</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products/integrations" data-drupal-link-system-path="node/2902">Integrations</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products/flexera-one/technology-intelligence-platform" data-drupal-link-system-path="node/3067">Technology Intelligence Platform</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/products" data-drupal-link-system-path="node/9">All products</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                              <div class="menu-mega-item">
+          
+    
+            
+<article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start">
+
+
+  <div>
+          <div class="card__image w-100" style="background-image: url(/sites/default/files/styles/resource_card_image/public/2025-07/resource-card-flexera-one-saas-management-page.jpg?itok=E2TRkUaD)"></div>
+        <div class="card__body">
+            <p class="card__title">Introducing Flexera One SaaS Management</p>
+
+              <div class="card__text">
+            <div><p>Discover comprehensive SaaS visibility for taming SaaS sprawl, wasted spend and compliance risks</p>
+</div>
+      </div>
+      
+              <div class="card__actions">
+          <a class="link" href="/products/flexera-one/saas-management" aria-label="discover">
+            Book your personalized demo
+          </a>
+        </div>
+      
+    </div>
+  </div>
+</article>
+
+
+        </div>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>Success</span>
+        
+                                <ul class="menu-level-1">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 1</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <a href="/customer-success" data-drupal-link-system-path="node/16">Customer success</a>
+        
+                                <ul class="menu-level-3">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>Services and training</span>
+        
+                                <ul class="menu-level-4">
+                                                  <li>
+                  
+        
+                          <a href="/customer-success/services" data-drupal-link-system-path="node/18">Services</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/customer-success/training" data-drupal-link-system-path="node/19">Training</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>Support</span>
+        
+                                <ul class="menu-level-4">
+                                                  <li>
+                  
+        
+                          <a href="https://community.flexera.com/s/support-hub" target="_blank">Flexera support portal</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="https://docs.flexera.com" target="_blank">Flexera product documentation</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="https://docs-snow.flexera.com/" target="_blank">Snow product documentation</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 2</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="hidden">Hide group</span>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/customer-success/awards" data-drupal-link-system-path="node/2392">Technology Intelligence Awards</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="https://community.flexera.com/s/" target="_blank">Flexera community</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                              <div class="menu-mega-item">
+          
+    
+            
+<article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start">
+
+
+  <div>
+          <div class="card__image w-100" style="background-image: url(/sites/default/files/styles/resource_card_image/public/2025-07/resource-2025-technology-intelligence-awards.jpg?itok=hL0aA_9G)"></div>
+        <div class="card__body">
+            <p class="card__title">2025 Technology Intelligence Awards</p>
+
+              <div class="card__text">
+            <div><p>The results are in—see how our 2025 winners and honorable mentions are shaping the future of Technology Intelligence.</p>
+</div>
+      </div>
+      
+              <div class="card__actions">
+          <a class="link" href="/customer-success/awards" aria-label="discover">
+            See the winners
+          </a>
+        </div>
+      
+    </div>
+  </div>
+</article>
+
+
+        </div>
+              </ul>
+  
+              </li>
+                                                    <li class="has-columns has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>Resources</span>
+        
+                                <ul class="menu-level-1">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 1</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <a href="/resources" data-drupal-link-system-path="node/711">Resources</a>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/resources?type%5Bwebinar%5D=webinar" data-drupal-link-query="{&quot;type&quot;:{&quot;webinar&quot;:&quot;webinar&quot;}}" data-drupal-link-system-path="node/711">Webinars</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/resources?type%5Bvideo%5D=video" data-drupal-link-query="{&quot;type&quot;:{&quot;video&quot;:&quot;video&quot;}}" data-drupal-link-system-path="node/711">Videos</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/resources/datasheets" data-drupal-link-system-path="node/4307">Datasheets</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/resources?type%5Bwhite-paper-industry-report%5D=white-paper-industry-report" data-drupal-link-query="{&quot;type&quot;:{&quot;white-paper-industry-report&quot;:&quot;white-paper-industry-report&quot;}}" data-drupal-link-system-path="node/711">White papers &amp; reports</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 2</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="hidden">Hide group</span>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/blog/">Blog</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/resources/case-studies" data-drupal-link-system-path="node/1844">Case studies</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/resources?type%5Bevent%5D=event" data-drupal-link-query="{&quot;type&quot;:{&quot;event&quot;:&quot;event&quot;}}" data-drupal-link-system-path="node/711">Events</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/resources/gartner-analyst-research">Analyst Research</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/resources/glossary" data-drupal-link-system-path="node/1987">Glossary</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/resources?type%5Bdemo-trials%5D=demo-trials" data-drupal-link-query="{&quot;type&quot;:{&quot;demo-trials&quot;:&quot;demo-trials&quot;}}" data-drupal-link-system-path="node/711">Demos &amp; trials</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/resources/business-value-calculator" data-drupal-link-system-path="node/1700">Business value calculator</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                              <div class="menu-mega-item">
+          
+    
+            
+<article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start">
+
+
+  <div>
+          <div class="card__image w-100" style="background-image: url(/sites/default/files/styles/resource_card_image/public/2025-09/cm-report-gartner-mq-cfm-tools-2025-resource.jpg?itok=9V6-3vAN)"></div>
+        <div class="card__body">
+            <p class="card__title">Flexera is a Leader in 2025 cloud financial management tools</p>
+
+              <div class="card__text">
+            <div><p>Discover recognized CFM vendors to watch in the 2025 Gartner® Magic Quadrant™</p>
+</div>
+      </div>
+      
+              <div class="card__actions">
+          <a class="link" href="https://info.flexera.com/CM-REPORT-Gartner-Magic-Quadrant-Cloud-Financial-Management-Tools" aria-label="discover">
+            View Report
+          </a>
+        </div>
+      
+    </div>
+  </div>
+</article>
+
+
+        </div>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>About</span>
+        
+                                <ul class="menu-level-1">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 1</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="header-only has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <a href="/about-us" data-drupal-link-system-path="node/755">Company</a>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/about-us" data-drupal-link-system-path="node/755">About</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/about-us/careers" data-drupal-link-system-path="node/30">Careers</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/about-us/contact-us" data-drupal-link-system-path="node/4262">Contact us</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/about-us/leadership" data-drupal-link-system-path="node/93">Leadership</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <a href="/about-us/partners" data-drupal-link-system-path="node/760">Partners</a>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/about-us/partners/partner-program" data-drupal-link-system-path="node/2993">Partner program</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/about-us/partners/locator" data-drupal-link-system-path="node/54">Partner locator</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="column">Column 2</span>
+        
+                                <ul class="menu-level-2">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <a href="/about-us/press-center" data-drupal-link-system-path="node/1609">Press center</a>
+        
+                                <ul class="menu-level-3">
+                                                  <li>
+                  
+        
+                          <a href="/about-us/all-press-releases" data-drupal-link-system-path="node/1613">Press releases</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/about-us/press-center#awards" data-drupal-link-system-path="node/1609">Awards</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/about-us/all-articles" data-drupal-link-system-path="node/712">Articles</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+                                                    <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span class="hidden">Hide group</span>
+        
+                                <ul class="menu-level-3">
+                                                  <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+                  
+        
+                          <span>Social responsibility</span>
+        
+                                <ul class="menu-level-4">
+                                                  <li>
+                  
+        
+                          <a href="/about-us/environmental-social-governance" data-drupal-link-system-path="node/2077">ESG</a>
+        
+              </li>
+                                                    <li>
+                  
+        
+                          <a href="/about-us/diversity" data-drupal-link-system-path="node/79">Belonging and inclusion</a>
+        
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+              </ul>
+  
+              </li>
+                              <div class="menu-mega-item">
+          
+    
+            
+<article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start">
+
+
+  <div>
+          <div class="card__image w-100" style="background-image: url(/sites/default/files/styles/resource_card_image/public/2025-03/report-sotc-2025.jpg?itok=YBbgVyyG)"></div>
+        <div class="card__body">
+            <p class="card__title">The Flexera 2025 State of the Cloud Report</p>
+
+              <div class="card__text">
+            <div><p>How are GenAI, rising cloud costs, security and sustainability shaping your cloud strategies in 2025?</p>
+</div>
+      </div>
+      
+              <div class="card__actions">
+          <a class="link" href="https://info.flexera.com/CM-REPORT-State-of-the-Cloud" aria-label="discover">
+            View Report
+          </a>
+        </div>
+      
+    </div>
+  </div>
+</article>
+
+
+        </div>
+              </ul>
+  
+              </li>
+              </ul>
+  
+
+
+  </nav>
+
+            </div>
+          </div>
+
+          <div class="mobile-menu__second-part d-md-flex flex-column flex-md-row justify-content-end">
+            <div class="external-links d-flex flex-column justify-content-center pb-1 pb-md-0">
+              <nav role="navigation" aria-labelledby="block-externallinks-menu" id="block-externallinks">
+            
+  <p class="visually-hidden" id="block-externallinks-menu">External Links</p>
+  
+
+        
+              <ul class="menu-level-0">
+                                <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+              
+      
+              <span>Customers</span>
+                                <ul class="menu-level-1">
+                                <li>
+              
+      
+              <a href="https://community.flexera.com/" target="_blank">Community</a>
+              </li>
+                            <li>
+              
+      
+              <a href="https://app.flexera.com/login" target="_blank">Product login</a>
+              </li>
+                            <li>
+              
+      
+              <a href="https://partnerhub.flexera.com/" target="_blank">Partner Portal</a>
+              </li>
+      </ul>
+    
+              </li>
+      </ul>
+    
+
+
+  </nav>
+
+            </div>
+
+                        <div class="search search-desktop d-none d-md-flex flex-column justify-content-center">
+              <button>
+                <svg focusable="false" id="icon-nav-search" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+	<path fill="#999999" d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14583 15.3708 4.8875 14.1125C3.62917 12.8542 3 11.3167 3 9.5C3 7.68333 3.62917 6.14583 4.8875 4.8875C6.14583 3.62917 7.68333 3 9.5 3C11.3167 3 12.8542 3.62917 14.1125 4.8875C15.3708 6.14583 16 7.68333 16 9.5C16 10.2333 15.8833 10.925 15.65 11.575C15.4167 12.225 15.1 12.8 14.7 13.3L21 19.6L19.6 21ZM9.5 14C10.75 14 11.8125 13.5625 12.6875 12.6875C13.5625 11.8125 14 10.75 14 9.5C14 8.25 13.5625 7.1875 12.6875 6.3125C11.8125 5.4375 10.75 5 9.5 5C8.25 5 7.1875 5.4375 6.3125 6.3125C5.4375 7.1875 5 8.25 5 9.5C5 10.75 5.4375 11.8125 6.3125 12.6875C7.1875 13.5625 8.25 14 9.5 14Z"></path>
+</svg>
+              </button>
+              <div class="search-bar">
+                <div class="searchunify-search-form" data-drupal-selector="searchunify-search-form" id="block-flexera-search-form-header">
+  
+    
+      <form action="" method="get" id="searchunify-search-form" accept-charset="UTF-8">
+  <div class="js-form-item form-item js-form-type-search form-item-searchstring js-form-item-searchstring form-no-label">
+      <label for="edit-searchstring" class="visually-hidden">Search</label>
+        <input title="Enter the terms you wish to search for." placeholder="Search" data-drupal-selector="edit-searchstring" type="search" id="edit-searchstring" name="searchString" value="" size="15" maxlength="128" class="form-search" />
+
+        </div>
+<input autocomplete="off" data-drupal-selector="form-awis2jqpqzpqlsj7wnkoa2gmyjqswnrd1pbpnedz0w" type="hidden" name="form_build_id" value="form-_AwIs2JQpqZpQlsJ7wNKoa2GmyjqsWnrd1pbpnEDz0w" />
+<input data-drupal-selector="edit-searchunify-search-form" type="hidden" name="form_id" value="searchunify_search_form" />
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions--2"><input data-drupal-selector="edit-submit" type="submit" id="edit-submit" value="Search" class="button js-form-submit form-submit" />
+</div>
+
+</form>
+
+  </div>
+
+              </div>
+            </div>
+
+            <div class="contact-us d-flex flex-column justify-content-center pb-2 pb-md-0 d-md-none d-lg-flex">
+              <div id="block-contactus-header">
+  
+    
+      
+<div class="contact-us">
+  <a class="btn btn--primary btn--small" href="/about-us/contact-us?C_Interest1=sales">Book a demo</a>
+</div>
+
+  </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </header>
+  
+  <div class="layout-overlay"></div>
+
+      <div class="featured">
+      <aside>
+          <div>
+    <div id="block-sitewidealert">
+  
+    
+      <div data-sitewide-alert role="banner"></div>
+  </div>
+<div data-drupal-messages-fallback class="hidden"></div>
+
+  </div>
+
+      </aside>
+    </div>
+  
+  
+
+  <main role="main">
+    <a id="main-content" tabindex="-1"></a>
+    <div class="layout-content front-page">
+        <div>
+    <div id="block-flexera-content">
+  
+    
+      <article>
+
+  
+    
+
+  
+  <div>
+    
+
+<div class="_none" id="rive-hero">
+  <div  class="w-100">  
+  <div  class="layout row no-gutters layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+<div>
+  
+    
+      <canvas
+  class="rive-canvas"
+  data-autoplay="true"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/homepage-hero-desktop-icon4b.riv"  file-url-mobile="https://www.flexera.com/system/files/2025-10/homepage-hero-mobile-icon4.riv"  data-width-desktop="1512px"  data-height-desktop="1298px"  data-width-mobile="393px"  data-height-mobile="856px"    data-use-aspect-ratio="1"  ></canvas>
+
+  </div>
+
+
+
+
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic">
+
+  
+  
+
+  
+  
+      
+            <div><div class="rivehero-content section-text-color--white" id="rive-hero-content"><div class="rotating-text-container"><div class="rotating-text"><h1>Optimize your <span class="d-none">SaaS, ITAM, cloud, software, AI, containers and data center</span></h1><div class="nowrap"><div class="rotation-window"><div class="rotation-window-inner fw-bold h1"><div style="color:#00a1de;">SaaS</div><div style="color:#d539b5;">ITAM</div><div style="color:#fbb513;">cloud</div><div style="color:#753bbd;">software</div><div style="color:#ff6900;">AI</div><div style="color:#981e97;">containers</div><div style="color:#fdd371;">data center</div><div style="color:#00a1de;">SaaS</div></div></div></div></div></div><div class="hero__text"><p>Balancing cost, minimizing risk and maximizing the business value of your technology is no easy feat. We help you save on your technology investments, ensure your technology spend aligns with business goals, simplify complex contracts and licensing, monitor resource usage and optimize your entire tech stack.</p><div class="d-flex align-items-center flex-column flex-md-row justify-content-center buttons"><a class="btn--primary btn--youtube w-fit-content me-md-1 mb-1 mb-md-0" href="https://www.flexera.com/about-us/contact-us">Book a demo </a><a class="btn--secondary w-fit-content" href="https://info.flexera.com/ITV-DEMO-IT-Visibility-Request">See it in action&nbsp;</a></div></div></div></div>
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+      </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic">
+
+  
+  
+
+  
+  
+      
+            <div><style>
+  /* ====================== */
+  /* adjustments lower on page */
+  /* ====================== */
+  .tab-content .tab-pane .basic-block.content-center {
+    margin-block: 2rem;
+    text-wrap: balance;
+  }
+  @media (min-width: 768px) {
+    p.large.text-align-center {
+      font-size: 1.5rem;
+    }
+  }
+  p.large.text-align-center {
+    text-wrap: balance;
+  }
+  /* Title block spacing */
+  .title-block .title-block__content .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1.75rem auto;
+  }
+  .title-block .rive-animation {
+    margin: 0 auto 1.75rem auto;
+  }
+  .title-block .title-block__content .title-block-subtitle {
+    margin-top: 0.75rem;
+  }
+  /* FAQ spacing */
+  #faq .title-block {
+    margin-bottom: 56px;
+  }
+
+  /* ====================== */
+  /* Rive homepage hero body copy layout */
+  /* ====================== */
+  #rive-hero {
+    position: relative;
+  }
+  #rive-hero [aria-live="polite"] {
+    max-width: 1856px;
+    margin-inline: auto;
+    background-image: url(https://www.flexera.com/sites/default/files/2025-10/homepage-hero-desktop-icon4b.svg);
+    background-size: contain;
+    background-position: center 1px;
+    background-repeat: no-repeat;
+  }
+  #rive-hero-content {
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    width: 100%;
+  }
+  @media (max-width: 767.98px) {
+    #rive-hero [aria-live="polite"] {
+      background-size: cover;
+      background-position: center -40px;
+      padding-top: 250px;
+    }
+    #rive-hero-content {
+      top: 3rem;
+    }
+  }
+  .rivehero-content .hero__text {
+    max-width: 1100px;
+    text-align: center;
+    text-wrap: balance;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  .rivehero-content .hero__text p {
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 768px) {
+    .rivehero-content .hero__text p {
+      font-size: 1.5rem;
+    }
+  }
+  /* ====================== */
+  /* Hero text animations */
+  /* ====================== */
+  .rotating-text-container {
+    --font-size: 4rem;
+    --line-height: 1.2;
+    --animation-duration: 22s;
+    width: 100%;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    /* this is for visual centering */
+    padding-left: 80px;
+  }
+  @media (max-width: 991.98px) {
+    .rotating-text-container {
+      --font-size: 3rem;
+      --line-height: 1.2;
+    }
+  }
+  @media (max-width: 767.98px) {
+    .rotating-text-container {
+      --font-size: 2.5rem;
+      --line-height: 1.1923076923;
+      padding-left: 0;
+    }
+  }
+  .rotating-text * {
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+  }
+  .rotating-text h1 {
+    display: inline-block;
+  }
+  @media (max-width: 767.98px) {
+    .rotating-text {
+      text-align: center;
+    }
+  }
+  @media (max-width: 460px) {
+    .rotating-text {
+      display: grid;
+    }
+    .rotating-text h1 {
+      margin-bottom: 0;
+    }
+  }
+  .rotation-window {
+    display: inline-block;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    flex-grow: 1;
+    margin-left: 12px;
+    /* Allows .window to grow and take up remaining space */
+    height: calc(var(--font-size) * var(--line-height));
+    vertical-align: bottom;
+    text-align: left;
+  }
+  @media (max-width: 460px) {
+    .rotation-window {
+      display: block;
+      min-width: 9em;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+  }
+  .rotation-window-inner {
+    display: inline-block;
+    animation: scroll-text var(--animation-duration)
+      linear(0, 0.012 0.9%, 0.05 2%, 0.411 9.2%, 0.517 11.8%, 0.611 14.6%, 0.694 17.7%, 0.765 21.1%, 0.824 24.8%, 0.872 28.9%, 0.91 33.4%, 0.939 38.4%, 0.977 50.9%, 0.994 68.4%, 1) infinite;
+    transform: translateY(calc(var(--line-height) * 0em));
+    color: var(--blue);
+  }
+  .rotation-window span {
+    display: block;
+  }
+  /* SETUP
+0. duplicate the first item in the list, add as last item (but don't count it for the math below)
+1. Multiply number of items by 3 (e.g. 7 * 3 = 21)
+2. Divide 100%/#items. Now we have a % value for 21 steps
+3. Each item holds at 2 steps, with the third available for animation
+	0,2 (item 1)
+	3,5 (item 2)
+	6,8 (item 3)
+	9,11 (item 4)
+	12,14 (item 5)
+	15,17 (item 6)
+	18,20 (item 7)
+	21 = (item 8, aka item 1)
+*/
+  @keyframes scroll-text {
+    0%,
+    9.52% {
+      transform: translateY(calc(var(--line-height) * 0em));
+    }
+    14.29%,
+    23.8% {
+      transform: translateY(calc(var(--line-height) * -1em));
+    }
+    28.57%,
+    39.1% {
+      transform: translateY(calc(var(--line-height) * -2em));
+    }
+    42.86%,
+    52.38% {
+      transform: translateY(calc(var(--line-height) * -3em));
+    }
+    57.14%,
+    66.67% {
+      transform: translateY(calc(var(--line-height) * -4em));
+    }
+    71.43%,
+    80.9% {
+      transform: translateY(calc(var(--line-height) * -5em));
+    }
+    85.71%,
+    95.2% {
+      transform: translateY(calc(var(--line-height) * -6em));
+    }
+    100% {
+      transform: translateY(calc(var(--line-height) * -7em));
+    }
+  }
+  .nowrap {
+    white-space: nowrap;
+    display: inline-block;
+  }
+  /* ====================== */
+  /* Rive homepage hero */
+  /* ====================== */
+  .rivehero-container .btn--primary,
+  .rivehero-container .btn--secondary {
+    background-color: black !important;
+  }
+</style></div>
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+      </div>
+</div>
+
+
+
+
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="_none pt-3 pb-1">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+        
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic content-center col-md-10">
+
+  
+  
+
+  
+            <h2 class="basic-block--heading h1">Flexera One, a unified platform to unlock technology value and drive business impact</h2>
+      
+      
+            <div><p class="large text-align-center" style="text-wrap:balance;">Most vendors separate ITAM, SaaS and FinOps—creating silos, inefficiencies and risk. Flexera&nbsp;One provides market-leading capabilities across these silos in one platform, giving you complete visibility and control to optimize spend, reduce risk and accelerate outcomes.&nbsp;</p></div>
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+      </div>
+</div>
+
+
+
+
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+
+
+<section class="layout layout--tabs layout--horizontal-tabs pt-3 pb-5">
+  <div class="container">
+    <div class="layout__region layout__region--tabs tabs-region row">
+
+      <div class="col-12 tab-titles position-relative">
+        <div class="pt-1  d-flex ">
+          <div class="prev_tab_container first-element">
+            <button type="button" name="previous" class="prev_tab">
+              <span class="sr-only">Previous</span>
+            </button>
+          </div>
+
+          <!-- Nav tabs -->
+          <ul class="tabs tabs-items tab--primary layout-tabs d-flex">
+          </ul>
+
+          <div class="next_tab_container">
+            <button type="button" name="next" class="next_tab">
+              <span class="sr-only">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+
+
+<div class="_none">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+
+
+<div>
+  <div  class="block--tab-title block block-layout-builder block-inline-blocktab-title not-visible">
+  
+  
+  <h2 id="ITAM" class="tab-title pt-2">ITAM</h2>
+  </div>
+
+  </div>
+
+
+
+
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic content-center col-md-10">
+
+  
+  
+
+  
+  
+      
+            <div><p class="text-align-center">Streamline your ITAM and gain full visibility into your software and hardware assets with Flexera One IT Asset Management or Snow Atlas. By automating inventory, compliance and cost optimization, we ensure you're only paying for what you need, reducing waste and maximizing ROI. Our in-depth use rights analytics, product usage data and actionable insights allow you to make informed decisions, stay compliant and drive efficiency across your IT environment.</p>
+</div>
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+          <a class="btn--primary w-fit-content" target="_self" href="https://www.flexera.com/about-us/contact-us?C_Interest1=sales&amp;C_SolutionInterest=ITAM&amp;Comments=I%27m%20interested%20in%20IT%20Asset%20Management" >
+        Get in touch
+      </a>
+      </div>
+</div>
+
+
+
+
+
+<div>
+  
+    
+      <canvas
+  class="rive-canvas"
+  data-autoplay="false"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/section-one-platform-itam.riv"    data-width-desktop="1204px"  data-height-desktop="784px"  data-width-mobile="1204px"  data-height-mobile="784px"    data-use-aspect-ratio="1"  ></canvas>
+
+  </div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="_none">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+
+
+<div>
+  <div  class="block--tab-title block block-layout-builder block-inline-blocktab-title not-visible">
+  
+  
+  <h2 id="SaaS" class="tab-title pt-2">SaaS</h2>
+  </div>
+
+  </div>
+
+
+
+
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic content-center col-md-10">
+
+  
+  
+
+  
+  
+      
+            <div><p class="text-align-center">Optimize your SaaS investments with complete visibility over usage, costs and compliance. With automated discovery and intelligent analytics, you can identify underutilized subscriptions, rationalize your application portfolio, negotiate better contracts, find shadow SaaS and ensure your SaaS ecosystem aligns with business needs. We make it easy to manage and maximize the value of your SaaS portfolio.</p>
+</div>
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+          <a class="btn--primary w-fit-content" target="_self" href="https://www.flexera.com/about-us/contact-us?C_Interest1=sales&amp;C_SolutionInterest=FLX" >
+        Talk with an expert
+      </a>
+      </div>
+</div>
+
+
+
+
+
+<div>
+  
+    
+      <canvas
+  class="rive-canvas"
+  data-autoplay="false"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/section-one-platform-saas_1.riv"    data-width-desktop="1327px"  data-height-desktop="728px"  data-width-mobile="1327px"  data-height-mobile="728px"    data-use-aspect-ratio="1"  ></canvas>
+
+  </div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="_none">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+
+
+<div>
+  <div  class="block--tab-title block block-layout-builder block-inline-blocktab-title not-visible">
+  
+  
+  <h2 id="FinOps" class="tab-title pt-2">FinOps</h2>
+  </div>
+
+  </div>
+
+
+
+
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic content-center col-md-10">
+
+  
+  
+
+  
+  
+      
+            <div><p class="text-align-center">The cloud offers agility and enables rapid innovation, but you need the right tools to allocate costs, build forecasts and budgets, and optimize usage and rates in order to tie spending to real business outcomes. Flexera One FinOps gives you deep visibility, actionable recommendations and policy-based automation to help you maximize the value of your cloud investments.</p>
+</div>
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+          <a class="btn--primary w-fit-content" target="_self" href="https://www.flexera.com/about-us/contact-us?C_Interest1=sales&amp;C_SolutionInterest=FinOps&amp;Comments=I%27m%20interested%20in%20FinOps" >
+        Get started
+      </a>
+      </div>
+</div>
+
+
+
+
+
+<div>
+  
+    
+      <canvas
+  class="rive-canvas"
+  data-autoplay="false"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/section-one-platform-finops_2.riv"    data-width-desktop="1206px"  data-height-desktop="820px"  data-width-mobile="1206px"  data-height-mobile="820px"    data-use-aspect-ratio="1"  ></canvas>
+
+  </div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="_none">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+
+
+<div>
+  <div  class="block--tab-title block block-layout-builder block-inline-blocktab-title not-visible">
+  
+  
+  <h2 id="IT-visibility" class="tab-title pt-2">IT Visibility</h2>
+  </div>
+
+  </div>
+
+
+
+
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic content-center col-md-10">
+
+  
+  
+
+  
+  
+      
+            <div><p class="text-align-center">Gain control of IT risk and improve progress towards sustainability initiatives. With automated discovery, normalization and asset enrichment, you can quickly see where you have tech debt, vulnerabilities and end-of-life assets to mitigate and populate your CMDB with real-time clean data.</p>
+</div>
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+          <a class="btn--primary w-fit-content" target="_self" href="https://www.flexera.com/about-us/contact-us?C_Interest1=sales&amp;C_SolutionInterest=ITV&amp;Comments=I%27m%20interested%20in%20IT%20Visibility" >
+        Chat with an expert
+      </a>
+      </div>
+</div>
+
+
+
+
+
+<div>
+  
+    
+      <canvas
+  class="rive-canvas"
+  data-autoplay="false"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/section-one-platform-itv.riv"    data-width-desktop="1306px"  data-height-desktop="786px"  data-width-mobile="1306px"  data-height-mobile="786px"    data-use-aspect-ratio="1"  ></canvas>
+
+  </div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="_none pt-4">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+  
+<div  class="block title-block block-layout-builder block-inline-blocktitle col-md-10 col-12">
+
+  
+  
+
+    
+  <div class="title-block__content">
+              <div class="rive-animation">
+        <canvas
+  class="rive-canvas"
+  data-autoplay="false"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/icon-trusted.riv"    data-width-desktop="125px"  data-height-desktop="125px"  data-width-mobile="100px"  data-height-mobile="100px"    data-use-aspect-ratio="0"  data-mode="inline"></canvas>
+
+      </div>
+    
+    <h2 class=h1>Trusted by the world’s leading companies </h2>
+
+    
+      </div>
+</div>
+
+
+
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="_none pb-5">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+  <div class="logo-grid">
+  
+    
+      <div class="logo-grid__items logo-grid-animated">
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="Citigroup logo" src="/sites/default/files/2023-05/logo-customer-citigroup.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="HP logo" src="/sites/default/files/2023-11/logo-customer-hp.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="Bank of America logo" src="/sites/default/files/2023-05/logo-customer-bank-of-america.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="Shell logo" src="/sites/default/files/2023-05/logo-customer-shell.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="Johnson &amp; Johnson logo" src="/sites/default/files/2023-11/logo-customer-johnson-and-johnson.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="Amazon Logo" src="/sites/default/files/2023-11/logo-customer-amazon.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="Delta" src="/sites/default/files/2021-12/logo-delta.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="" src="/sites/default/files/2021-11/logo-walmart.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="Wells Fargo logo" src="/sites/default/files/2023-05/logo-customer-wells-fargo.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="FedEx logo" src="/sites/default/files/2023-05/logo-customer-fedex.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="Chase logo" src="/sites/default/files/2021-12/logo-chase.svg" />
+
+
+  </div>
+
+        </div>
+              <div class="logo-grid__logo" style="width: 16.666666666667%">
+          <div class="media media--type-svg media--view-mode-full">
+  
+          <img width="25" height="25" alt="American Airlines logo" src="/sites/default/files/2023-05/logo-customer-american-airlines.svg" />
+
+
+  </div>
+
+        </div>
+          </div>
+  </div>
+
+
+
+
+
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic content-center col-md-10">
+
+  
+  
+
+  
+  
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+          <a class="btn--primary w-fit-content" target="_self" href="https://www.flexera.com/resources/case-studies" >
+        Find out why
+      </a>
+      </div>
+</div>
+
+
+
+
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<section class="show-dot-navigation hide-prev-next-navigation disable-autoplay 14000 bg-gray-light 70 l--carousel-start embla" id="14000" size="70">
+
+  <div class="container embla__prev_next__controls d-flex"></div>
+
+  <div class="embla__viewport">
+      <div class="embla__container">
+
+
+<div class="_none pt-1 pb-7">
+  <div  class="container">  
+  <div  class="layout row no-gutters layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+
+    
+    
+
+    <div class="block block-layout-builder block-inline-blockpromo promo-block"  style="background-color:#821c7b" >
+
+
+
+
+  
+      <div class="promo__bg-desktop  d-md-block" style="background-image: url(/sites/default/files/2025-08/itam-contact-us-audit-readiness-workshop-resource.jpg);"></div>
+  
+          <div class="promo__image">
+            <div><div class="media media--type-svg media--view-mode-default">
+  
+          <img width="25" height="25" alt="" src="/sites/default/files/2025-10/logo-flexera-reverse.svg" />
+
+
+  </div>
+</div>
+      </div>
+    
+          <h2 class="promo__title white"></h2>
+    
+          <div class="promo__text white"><h1>Flexera 2025 State of ITAM Report</h1>
+</div>
+    
+          <a class="promo__cta_button btn btn--secondary btn--small w-fit-content white" href="https://info.flexera.com/ITAM-REPORT-State-of-IT-Asset-Management">
+        Get the report
+      </a>
+    </div>
+
+
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="_none pt-1 pb-7">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+    
+    
+    
+
+    <div class="block block-layout-builder block-inline-blockpromo promo-block"  style="background-color:#07116f" >
+
+
+
+
+  
+      <div class="promo__bg-desktop  d-md-block" style="background-image: url(/sites/default/files/2025-08/background-gartner-mq-saas-management-sitewide-notice-2.jpg);"></div>
+  
+          <div class="promo__image"></div>
+    
+          <h2 class="promo__title white">Flexera 2025 State of the Cloud Report</h2>
+    
+          <div class="promo__text white"><p>Enterprises focus on FinOps to manage costs, while AI, software licensing and sustainability receive increased attention</p>
+</div>
+    
+          <a class="promo__cta_button btn btn--secondary btn--small w-fit-content white" href="https://info.flexera.com/CM-REPORT-State-of-the-Cloud?lead_source=Organic%20Search">
+        Download Now
+      </a>
+    </div>
+
+
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+    </div>
+  </div>
+
+  <div class="container embla__controls">
+    <div class="embla__dots"></div>
+  </div>
+</section>
+
+
+<div class="_none pt-4">
+  <div  class="container">  
+  <div  class="align-items-center layout row layout-builder__layout">
+    
+                        <div  class="col-md-6 col-12">
+          
+
+
+        
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic">
+
+  
+  
+
+      <p class="subtitle text-uppercase"> Technology Intelligence Platform </p>
+  
+            <h2 class="basic-block--heading h1">Backed by the highest-fidelity technology data in the market </h2>
+      
+      
+            <div><p><span>Our solutions are built on the foundation of our next-generation data and analytics platform, </span><a href="https://www.flexera.com/products/flexera-one/technology-intelligence-platform "><span>Technology Intelligence Platform</span></a><span>. This cloud-native, API-first, scalable “system of insight” solves critical problems requiring converged data. Powered by </span><a href="https://www.flexera.com/products/technopedia "><span>Technopedia</span></a><span>, the world’s most complete IT product catalog, we ensure unmatched accuracy in discovery, normalization and decision-making.&nbsp;</span></p>
+</div>
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+      </div>
+</div>
+
+
+
+
+
+        </div>
+                              <div  class="col-md-6 col-12">
+          
+<div>
+  
+    
+      <canvas
+  class="rive-canvas"
+  data-autoplay="false"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/section-ti-platform.riv"    data-width-desktop="858px"  data-height-desktop="784px"  data-width-mobile="858px"  data-height-mobile="784px"    data-use-aspect-ratio="1"  ></canvas>
+
+  </div>
+
+        </div>
+                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="_none pt-5 pb-6">
+  <div  class="container">  
+  <div  class="align-items-center layout row layout-builder__layout">
+    
+                        <div  class="col-md-6 col-12 order-1 order-md-0">
+          
+<div>
+  
+    
+      <canvas
+  class="rive-canvas"
+  data-autoplay="false"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/section-navigating-ai.riv"    data-width-desktop="830px"  data-height-desktop="648px"  data-width-mobile="830px"  data-height-mobile="648px"    data-use-aspect-ratio="1"  ></canvas>
+
+  </div>
+
+        </div>
+                              <div  class="col-md-6 col-12">
+          
+
+
+        
+
+
+<div  class="basic-block block-layout-builder block-inline-blockbasic">
+
+  
+  
+
+      <p class="subtitle text-uppercase">Navigating AI </p>
+  
+            <h2 class="basic-block--heading h1">AI without visibility is a liability </h2>
+      
+      
+            <div><p><span lang="EN-US">Flexera powers agentic and autonomous AI across your enterprise. While others may promise dashboards, we deliver contextual, AI-driven recommendations and actions across IT, finance and procurement. This makes us the ideal partner for customers deploying agentic AI, FinOps automation, AI spend management or ITSM augmentation.</span><span>&nbsp;</span></p>
+</div>
+      
+  
+  <div class="d-flex flex-column flex-md-row buttons">
+    
+          <a class="btn--primary w-fit-content" target="_self" href="/solutions/ai-powered-transformation" >
+        Learn more about Flexera&#039;s AI capabilities
+      </a>
+      </div>
+</div>
+
+
+
+
+
+        </div>
+                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="bg-ultra-blue-dark bg-color section-text-color--white _none pt-4 pb-1">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+  
+<div  class="block title-block block-layout-builder block-inline-blocktitle col-md-10 col-12">
+
+  
+  
+
+    
+  <div class="title-block__content">
+              <div class="rive-animation">
+        <canvas
+  class="rive-canvas"
+  data-autoplay="false"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/icon-success.riv"    data-width-desktop="125px"  data-height-desktop="125px"  data-width-mobile="100px"  data-height-mobile="100px"    data-use-aspect-ratio="0"  data-mode="inline"></canvas>
+
+      </div>
+    
+    <h2 class=h1>Don’t just take our word for it</h2>
+
+          <p class="title-block-subtitle">Real success stories solving real-world problems</p>
+    
+      </div>
+</div>
+
+
+
+
+
+
+
+  <div  class="block embla block-layout-builder block-inline-blockcase-study-carousel show_case_study_carousel show-prev-next-navigation">
+    
+    
+
+          <div class="container embla__controls case_study_carousel_dots">
+        <div class="embla__dots"></div>
+      </div>
+      <div class="container embla__prev_next__controls d-flex"></div>
+      <div class="embla__viewport">
+          <div class="embla__container">
+                                          <div class="_none">
+                  
+
+
+  <div  class="paragraph case-study-carousel paragraph--type--case-study paragraph--view-mode--default">
+
+  
+  
+
+  <div class="case-study-info">
+    <div class="logo">
+            <div><div class="media media--type-svg media--view-mode-default">
+  
+          <img width="25" height="25" alt="Carlsberg Group logo" src="/sites/default/files/2025-03/logo-carlsberg.svg" />
+
+
+  </div>
+</div>
+      </div>
+    <div class="body"><p>Carlsberg increased efficiency and <strong>saved $400,000</strong> within the first year.</p>
+</div>
+          <div class="buttons">
+                  <a class="btn btn--primary" href="/resources/case-studies/carlsberg">
+            Learn more
+          </a>
+                          <a class="btn btn--secondary" href="/resources/case-studies">
+            View all stories
+          </a>
+              </div>
+      </div>
+
+  <div class="case-study-blockquote">
+    <div class="video">
+            <div><div>
+  
+  
+  <div>
+    <div class="visually-hidden">Remote video URL</div>
+              <div><iframe src="https://www.flexera.com/media/oembed?url=https%3A//youtu.be/ygM2dnEuhxQ&amp;max_width=0&amp;max_height=0&amp;hash=a-8vXcQeZW9z0ynBqle58mv3sb0pmDfj9BL2_viCLB8" width="200" height="113" class="media-oembed-content" loading="lazy" title="Carlsberg’s Sonal Gupta talks about her FinOps experience with Flexera"></iframe>
+</div>
+          </div>
+
+</div>
+</div>
+      </div>
+          <div>
+
+  
+  
+  <div class="blockquote__block">
+        <div class="blockquote__text">
+      <div class="blockquote__text">
+<p>Flexera gives me the necessary data quality to provide the financial transparency and overview required in a global software lifecycle management department.</p>
+</div>
+<div class="blockquote__author">
+<p>&nbsp;</p>
+</div>
+
+      <svg width="195" height="141" viewBox="0 0 195 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M123.5 140.191L195 140.191L195 65.6914C195 11.2914 133.333 -1.8086 102.5 0.191398L102.5 62.1914C119.3 62.1914 123.5 76.8581 123.5 84.1914L123.5 140.191Z" fill="#00A1DE" fill-opacity="0.2"/>
+<path d="M21 140.191L92.5 140.191L92.5 65.6914C92.5 11.2914 30.8333 -1.8086 1.22392e-05 0.191398L6.81898e-06 62.1914C16.8 62.1914 21 76.8581 21 84.1914L21 140.191Z" fill="#00A1DE" fill-opacity="0.2"/>
+</svg>
+
+    </div>
+          <div class="blockquote__author">
+                  <div class="blockquote__avatar">
+            
+            <div><div>
+  
+  
+  <div>
+    <div class="visually-hidden">Image</div>
+              <div>  <img loading="lazy" src="/sites/default/files/2025-10/1735910684555.jpg" width="400" height="400" alt="" />
+
+</div>
+          </div>
+
+</div>
+</div>
+      
+          </div>
+                <p>
+                                    <span class="blockquote__person">Melanie Nash</span>
+                                <span class="blockquote__occupation">Senior Software Contract Manager, Carlsberg</span>        </p>
+      </div>
+          </div>
+</div>
+
+      </div>
+
+</div>
+
+
+                </div>
+                                                        <div class="_none">
+                  
+
+
+  <div  class="paragraph case-study-carousel paragraph--type--case-study paragraph--view-mode--default">
+
+  
+  
+
+  <div class="case-study-info">
+    <div class="logo">
+            <div><div class="media media--type-svg media--view-mode-default">
+  
+          <img width="25" height="25" alt="Northern Trust logo" src="/sites/default/files/2022-11/logo-northern-trust.svg" />
+
+
+  </div>
+</div>
+      </div>
+    <div class="body"><p><span lang="EN-US">Flexera One helps Northern Trust advance strategic business goals.</span></p>
+</div>
+          <div class="buttons">
+                  <a class="btn btn--primary" href="/resources/case-studies">
+            Learn more
+          </a>
+                          <a class="btn btn--secondary" href="/resources/case-studies">
+            View all stories
+          </a>
+              </div>
+      </div>
+
+  <div class="case-study-blockquote">
+    <div class="video">
+            <div><div>
+  
+  
+  <div>
+    <div class="visually-hidden">Remote video URL</div>
+              <div><iframe src="https://www.flexera.com/media/oembed?url=https%3A//youtu.be/2iN0yD9Y5Yc&amp;max_width=0&amp;max_height=0&amp;hash=Tqzx2wV4umMB6PGqC5NrO4bIr6TLkm_9fQU-67qg3Q0" width="200" height="113" class="media-oembed-content" loading="lazy" title="Flexera One and Northern Trust case study"></iframe>
+</div>
+          </div>
+
+</div>
+</div>
+      </div>
+          <div>
+
+  
+  
+  <div class="blockquote__block">
+        <div class="blockquote__text">
+      <p>With business adapters sharing data between the tools that drive the engine of these four disciplines, each&nbsp; set of stakeholders is assured the data they’re using is accurate and consistent across business units.</p>
+
+      <svg width="195" height="141" viewBox="0 0 195 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M123.5 140.191L195 140.191L195 65.6914C195 11.2914 133.333 -1.8086 102.5 0.191398L102.5 62.1914C119.3 62.1914 123.5 76.8581 123.5 84.1914L123.5 140.191Z" fill="#00A1DE" fill-opacity="0.2"/>
+<path d="M21 140.191L92.5 140.191L92.5 65.6914C92.5 11.2914 30.8333 -1.8086 1.22392e-05 0.191398L6.81898e-06 62.1914C16.8 62.1914 21 76.8581 21 84.1914L21 140.191Z" fill="#00A1DE" fill-opacity="0.2"/>
+</svg>
+
+    </div>
+          <div class="blockquote__author">
+                  <div class="blockquote__avatar">
+            
+            <div><div>
+  
+  
+  <div>
+    <div class="visually-hidden">Image</div>
+              <div>  <img loading="lazy" src="/sites/default/files/2025-10/1588261657485.jpg" width="321" height="321" alt="" />
+
+</div>
+          </div>
+
+</div>
+</div>
+      
+          </div>
+                <p>
+                                    <span class="blockquote__person">Jeffrey West </span>
+                                <span class="blockquote__occupation">Senior Vice President, Technology Business Management, Northern Trust</span>        </p>
+      </div>
+          </div>
+</div>
+
+      </div>
+
+</div>
+
+
+                </div>
+                                                        <div class="_none">
+                  
+
+
+  <div  class="paragraph case-study-carousel paragraph--type--case-study paragraph--view-mode--default">
+
+  
+  
+
+  <div class="case-study-info">
+    <div class="logo">
+            <div><div class="media media--type-svg media--view-mode-default">
+  
+          <img width="25" height="25" alt="AstraZeneca" src="/sites/default/files/2022-04/logo-astrazeneca.svg" />
+
+
+  </div>
+</div>
+      </div>
+    <div class="body"><p><span>AstraZeneca <strong>saves $2M</strong> in one year with Flexera.</span></p>
+</div>
+          <div class="buttons">
+                  <a class="btn btn--primary" href="/resources/case-studies/astrazeneca">
+            Learn more
+          </a>
+                          <a class="btn btn--secondary" href="/resources/case-studies">
+            View all stories
+          </a>
+              </div>
+      </div>
+
+  <div class="case-study-blockquote">
+    <div class="video">
+            <div><div>
+  
+  
+  <div>
+    <div class="visually-hidden">Remote video URL</div>
+              <div><iframe src="https://www.flexera.com/media/oembed?url=https%3A//www.youtube.com/watch%3Fv%3D91Wsq8uzxTA&amp;max_width=0&amp;max_height=0&amp;hash=00SIkWKvtZhSvFc8KhpPUywc7mtasutO2x63ucy_BAA" width="200" height="113" class="media-oembed-content" loading="lazy" title="Welcome to Flexera One SaaS Management"></iframe>
+</div>
+          </div>
+
+</div>
+</div>
+      </div>
+          <div>
+
+  
+  
+  <div class="blockquote__block">
+        <div class="blockquote__text">
+      <div class="blockquote__text">
+<p>Flexera’s [App Broker] and FlexNet Manager Suite have enabled us to proactively maintain license compliance, streamline service delivery and significantly improve the user experience. The new AZ SoftwareStore has delivered annual labor savings of nearly $2 million. Simplification has really driven results and delivered valuable time and cost savings back to the business.</p>
+</div>
+<div class="blockquote__author">
+<p>&nbsp;</p>
+</div>
+
+      <svg width="195" height="141" viewBox="0 0 195 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M123.5 140.191L195 140.191L195 65.6914C195 11.2914 133.333 -1.8086 102.5 0.191398L102.5 62.1914C119.3 62.1914 123.5 76.8581 123.5 84.1914L123.5 140.191Z" fill="#00A1DE" fill-opacity="0.2"/>
+<path d="M21 140.191L92.5 140.191L92.5 65.6914C92.5 11.2914 30.8333 -1.8086 1.22392e-05 0.191398L6.81898e-06 62.1914C16.8 62.1914 21 76.8581 21 84.1914L21 140.191Z" fill="#00A1DE" fill-opacity="0.2"/>
+</svg>
+
+    </div>
+          <div class="blockquote__author">
+                <p>
+                                    <span class="blockquote__person">Global Software Asset Management Lead</span>
+                                <span class="blockquote__occupation">AstraZeneca</span>        </p>
+      </div>
+          </div>
+</div>
+
+      </div>
+
+</div>
+
+
+                </div>
+                                                        <div class="_none">
+                  
+
+
+  <div  class="paragraph case-study-carousel paragraph--type--case-study paragraph--view-mode--default">
+
+  
+  
+
+  <div class="case-study-info">
+    <div class="logo">
+            <div><div>
+  
+  
+  <div>
+    <div class="visually-hidden">Image</div>
+              <div>  <img loading="lazy" src="/sites/default/files/2024-04/logo-sasol.png" width="229" height="86" alt="Sasol logo" />
+
+</div>
+          </div>
+
+</div>
+</div>
+      </div>
+    <div class="body"><p>Sasol <strong>saves $34M</strong> with SAM from Flexera.</p>
+</div>
+          <div class="buttons">
+                  <a class="btn btn--primary" href="/resources/case-studies/sasol">
+            See how
+          </a>
+                          <a class="btn btn--secondary" href="/resources/case-studies">
+            See more stories
+          </a>
+              </div>
+      </div>
+
+  <div class="case-study-blockquote">
+    <div class="video">
+            <div><div>
+  
+  
+  <div>
+    <div class="visually-hidden">Remote video URL</div>
+              <div><iframe src="https://www.flexera.com/media/oembed?url=https%3A//youtu.be/kbAxIHw_5gg%3Fsi%3DkldJyHDkxc8BBMWv&amp;max_width=0&amp;max_height=0&amp;hash=5Wm7I8VsaY78fiMgpulKfzsJNO0xNLKJ7gBPRfB4rhw" width="200" height="113" class="media-oembed-content" loading="lazy" title="How to Identify Java Licensed Devices with Snow Atlas"></iframe>
+</div>
+          </div>
+
+</div>
+</div>
+      </div>
+          <div>
+
+  
+  
+  <div class="blockquote__block">
+        <div class="blockquote__text">
+      <div class="blockquote__text">
+<div class="page">
+<div class="layoutArea">
+<div class="column">
+<p><span>By providing visibility of assets and software utilization on a global scale, we could deliver better quality management information more rapidly than before, mitigating business risk and enabling data-driven decisions.</span></p>
+</div>
+</div>
+</div>
+</div>
+<div class="blockquote__author">
+<p>&nbsp;</p>
+</div>
+
+      <svg width="195" height="141" viewBox="0 0 195 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M123.5 140.191L195 140.191L195 65.6914C195 11.2914 133.333 -1.8086 102.5 0.191398L102.5 62.1914C119.3 62.1914 123.5 76.8581 123.5 84.1914L123.5 140.191Z" fill="#00A1DE" fill-opacity="0.2"/>
+<path d="M21 140.191L92.5 140.191L92.5 65.6914C92.5 11.2914 30.8333 -1.8086 1.22392e-05 0.191398L6.81898e-06 62.1914C16.8 62.1914 21 76.8581 21 84.1914L21 140.191Z" fill="#00A1DE" fill-opacity="0.2"/>
+</svg>
+
+    </div>
+          <div class="blockquote__author">
+                <p>
+                                    <span class="blockquote__person">Cobie Nel</span>
+                                <span class="blockquote__occupation">Senior Specialist, License and Asset Management, Sasol</span>        </p>
+      </div>
+          </div>
+</div>
+
+      </div>
+
+</div>
+
+
+                </div>
+                                    </div>
+      </div>
+      </div>
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="section-text-color--white _none">
+  <div  class="w-100">  
+  <div  class="layout row no-gutters layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+      
+        
+                                                                                                                                                                                                  
+        
+      
+  
+                  
+        
+          
+  <div class="block-resources block-image block block-layout-builder block-inline-blockblock-resources mb-1">
+
+    
+    
+    <div class=" g-0 with-bg container-resources-asymmetrical">      <div class="container">
+        <div class="row block__container align-content-center heading-resources">
+                      <div class="heading-icon">
+            <div><div class="media media--type-svg media--view-mode-default">
+  
+          <img width="25" height="25" alt="" src="/sites/default/files/2025-10/homepage-icon-resources.svg" />
+
+
+  </div>
+</div>
+      </div>
+                                <div class="col-12">
+                                            <h2 class=h1>Industry insights </h2>
+                                            <p class="subtitle">Resources to help you stay a step ahead</p>
+                          </div>
+                  </div>
+
+                  <div class="row mb-2">
+            <div class="view--grid view--grid-3-col">
+              <div class="view__rows">
+                                  
+  
+
+  
+            
+  
+
+<div class="details">
+  <article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start h-100">
+  
+  
+      <a class="card__link"  target="_blank" href="https://info.flexera.com/CM-EBOOK-Cloud-Commitment-Portfolio-in-Good-Hands"  aria-label="Read more about Optimize your cloud commitment strategy today">
+      <div>
+              <div class="card__image w-100 " style="background-image: url(/sites/default/files/styles/resource_card_image/public/2025-10/cm-ebook-cloud-commitment-portfolio-in-good-hands-resource.jpg?itok=Yo0V9soj)"></div>
+            <div class="card__body">
+        
+                  <h4 class="card__pre-title white-papers--reports">
+            <div>eBook</div>
+      </h4>
+        
+        <h3 class="card__title">Optimize your cloud commitment strategy today</h3>
+
+        
+                  <div class="card__text">
+            <div><p><span lang="EN-GB">Learn how to choose trusted cloud vendors, reduce risk, and optimize spend with this strategic cloud commitment guide.</span></p>
+</div>
+      </div>
+        
+              </div>
+    </div>
+      </a>
+    </article>
+</div>
+
+
+
+                                  
+  
+
+  
+            
+  
+
+<div class="details">
+  <article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start h-100">
+  
+  
+      <a class="card__link"  target="_blank" href="https://info.flexera.com/CM-DEMO-Cloud-Commitment-Management"  aria-label="Read more about Flexera Cloud Commitment Management Demo">
+      <div>
+              <div class="card__image w-100 " style="background-image: url(/sites/default/files/styles/resource_card_image/public/2023-12/resource-demo.jpg?itok=LQwx1_BD)"></div>
+            <div class="card__body">
+        
+                  <h4 class="card__pre-title demo--trials">
+            <div>Demo</div>
+      </h4>
+        
+        <h3 class="card__title">Flexera Cloud Commitment Management Demo</h3>
+
+        
+                  <div class="card__text">
+            <div><p><span>Discover a leading FinOps platform that unifies visibility and automation to helps you maximize savings.</span></p>
+</div>
+      </div>
+        
+              </div>
+    </div>
+      </a>
+    </article>
+</div>
+
+
+
+                                  
+  
+
+  
+            
+  
+
+<div class="details">
+  <article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start h-100">
+  
+  
+      <a class="card__link"  target="_blank" href="https://www.flexera.com/resources/guides/ibm-audit-defense"  aria-label="Read more about IBM audit defense: A best practices guide">
+      <div>
+              <div class="card__image w-100 " style="background-image: url(/sites/default/files/styles/resource_card_image/public/2025-10/resource-ibm-audit-defense.jpg?itok=3zHJNiQd)"></div>
+            <div class="card__body">
+        
+                  <h4 class="card__pre-title white-papers--reports">
+            <div>Guide</div>
+      </h4>
+        
+        <h3 class="card__title">IBM audit defense: A best practices guide</h3>
+
+        
+                  <div class="card__text">
+            <div><p>Valuable insights and practical steps that you’ll need to optimize your IBM license position proactively and prepare for an audit with confidence.</p>
+</div>
+      </div>
+        
+              </div>
+    </div>
+      </a>
+    </article>
+</div>
+
+
+
+                                  
+  
+
+  
+            
+  
+
+<div class="details">
+  <article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start h-100">
+  
+  
+      <a class="card__link"  target="_blank" href="https://www.flexera.com/resources/guides/reduce-SAP-spending"  aria-label="Read more about 5 proven ways to reduce your SAP® spending with Technology Intelligence">
+      <div>
+              <div class="card__image w-100 " style="background-image: url(/sites/default/files/styles/resource_card_image/public/2023-12/resource-white-paper.jpg?itok=ST9pYacd)"></div>
+            <div class="card__body">
+        
+                  <h4 class="card__pre-title white-papers--reports">
+            <div>Guide</div>
+      </h4>
+        
+        <h3 class="card__title">5 proven ways to reduce your SAP® spending with Technology Intelligence</h3>
+
+        
+                  <div class="card__text">
+            <div><p>This guide provides five key initiatives to drive significant savings on SAP Software through effective Software Asset Management.</p>
+</div>
+      </div>
+        
+              </div>
+    </div>
+      </a>
+    </article>
+</div>
+
+
+
+                                  
+  
+
+  
+            
+  
+
+<div class="details">
+  <article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start h-100">
+  
+  
+      <a class="card__link"  target="_blank" href="https://path.flexera.com/finops/datasheet-cloud-commitment-management?PFOVERLAY=TRUE"  aria-label="Read more about Flexera One Cloud Commitment Management">
+      <div>
+              <div class="card__image w-100 " style="background-image: url(/sites/default/files/styles/resource_card_image/public/2023-12/resource-datasheet.jpg?itok=xt90vWJz)"></div>
+            <div class="card__body">
+        
+                  <h4 class="card__pre-title datasheets">
+            <div>Datasheet</div>
+      </h4>
+        
+        <h3 class="card__title">Flexera One Cloud Commitment Management</h3>
+
+        
+                  <div class="card__text">
+            <div><p>Step into FinOps automation. Boost savings, reduce waste and adapt to usage with Cloud<br>Commitment Management.</p>
+</div>
+      </div>
+        
+              </div>
+    </div>
+      </a>
+    </article>
+</div>
+
+
+
+                                  
+  
+
+  
+            
+  
+
+<div class="details">
+  <article class="card--resource image-card u-box-shadow u-border-radius d-flex flex-column justify-content-start align-items-start h-100">
+  
+  
+      <a class="card__link"  target="_blank" href="https://info.flexera.com/ITV-EBOOK-Maximize-Investment-ServiceNow"  aria-label="Read more about Maximize your ServiceNow ROI with Flexera">
+      <div>
+              <div class="card__image w-100 " style="background-image: url(/sites/default/files/styles/resource_card_image/public/2025-10/itv-ebook-maximize-investment-servicenow-resource.jpg?itok=IAVpm76d)"></div>
+            <div class="card__body">
+        
+                  <h4 class="card__pre-title white-papers--reports">
+            <div>eBook</div>
+      </h4>
+        
+        <h3 class="card__title">Maximize your ServiceNow ROI with Flexera</h3>
+
+        
+                  <div class="card__text">
+            <div><p>This eBook reveals how to get the clean, enriched data you need to make the most of your ServiceNow investment</p>
+</div>
+      </div>
+        
+              </div>
+    </div>
+      </a>
+    </article>
+</div>
+
+
+
+                              </div>
+            </div>
+          </div>
+
+                        </div>
+    </div>
+ </div>
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+
+<div class="_none">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+
+  
+  
+<div class="conversion-container ">
+  <div  class="block conversion-block block-layout-builder block-inline-blockconversion-block dark-block">
+    
+    
+        <div class="conversion-content d-flex text-start justify-content-between">
+      <div class="conversion-texts ">
+        <h2 class="h2">Let’s get started</h2>
+                  
+            <div><p><span>Our team is standing by to discuss your requirements and deliver a demo of our industry-leading platform.&nbsp;</span></p>
+</div>
+      
+                <div class="conversion-ctas d-flex gap-1 flex-column flex-md-row align-items-center align-items-md-start section-text-color--white">
+                      <a href="https://info.flexera.com/FLX1-DEMO-Flexera-One-Request" class="btn-conversion-outline w-fit-content px-2">Book a demo</a>
+          
+                      <a href="/about-us/contact-us?C_Interest1=sales&amp;C_SolutionInterest=FLX" class="btn-conversion w-fit-content px-2">Chat with an expert </a>
+                  </div>
+      </div>
+
+              <div class="image-content">
+          
+            <div><div class="media media--type-svg media--view-mode-default">
+  
+          <img width="25" height="25" alt="" src="/sites/default/files/2025-10/homepage-conversion-pie-chart.svg" />
+
+
+  </div>
+</div>
+      
+        </div>
+          </div>
+  </div>
+</div>
+
+
+
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+  
+<div class="_none pt-4 pb-6" id="faq" section_is_faq_container itemscope="itemscope" itemtype="https://schema.org/FAQPage">
+  <div  class="container">  
+  <div  class="layout row layout-builder__layout">
+    
+                        <div  class="col-12">
+          
+
+
+  
+<div  class="block title-block block-layout-builder block-inline-blocktitle col-md-10 col-12">
+
+  
+  
+
+    
+  <div class="title-block__content">
+              <div class="rive-animation">
+        <canvas
+  class="rive-canvas"
+  data-autoplay="false"
+  data-animation-name="State Machine 1"  file-url-desktop="https://www.flexera.com/system/files/2025-10/icon-faq.riv"    data-width-desktop="125px"  data-height-desktop="125px"  data-width-mobile="100px"  data-height-mobile="100px"    data-use-aspect-ratio="0"  data-mode="inline"></canvas>
+
+      </div>
+    
+    <h2 class=h1>Frequently asked questions</h2>
+
+          <p class="title-block-subtitle">Trusted answers for your technology questions</p>
+    
+      </div>
+</div>
+
+
+
+
+
+
+  
+  
+  <div  class="accordion block block-layout-builder block-inline-blockblock-accordion">
+
+  
+  
+
+  <div class="accordion-item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+    <div class="accordion-header">
+      <div role="button" class="accordion-button" tabindex="0" aria-expanded="false">
+                <h3 class="title" itemprop="name">
+          How can I optimize my IT spend? 
+        </h3>
+        <div class="button-icon">
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path fill="#000" d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"></path>
+</svg>
+          <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99px" height="100px" viewBox="0 0 99 100" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,63.137255%,87.058824%);fill-opacity:1;" d="M 89.96875 43.78125 L 17.210938 1.769531 C 14.984375 0.488281 12.246094 0.488281 10.019531 1.769531 C 7.804688 3.0625 6.441406 5.433594 6.441406 8 L 6.441406 92.011719 C 6.441406 95.980469 9.648438 99.191406 13.621094 99.191406 L 13.628906 99.191406 C 14.890625 99.191406 16.128906 98.859375 17.21875 98.230469 L 89.980469 56.21875 C 92.203125 54.9375 93.570312 52.566406 93.570312 50 C 93.566406 47.433594 92.191406 45.0625 89.96875 43.78125 Z M 89.96875 43.78125 "/>
+</g>
+</svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-collapse px-1">
+      <div class="container">
+        <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+          <div class="row">
+                          <div class="col-12" itemprop="text">
+                
+            <div><p><span lang="EN-US">Managing your sprawling hybrid IT portfolio creates a unique challenge when overseeing the associated spend. We help you gain visibility and use actionable insights to improve your ROI by maximizing usage of existing resources across your cloud, SaaS, containers, desktop and data center.&nbsp;</span><span>&nbsp;</span></p>
+</div>
+      
+              </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+    <span class="accordion-bottom-bar" aria-hidden="true"></span>
+  </div>
+</div>
+
+
+
+
+  
+  
+  <div  class="accordion block block-layout-builder block-inline-blockblock-accordion">
+
+  
+  
+
+  <div class="accordion-item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+    <div class="accordion-header">
+      <div role="button" class="accordion-button" tabindex="0" aria-expanded="false">
+                <h3 class="title" itemprop="name">
+          How can I identify unknown, vulnerable, unused or obsolete assets in my IT environment?
+        </h3>
+        <div class="button-icon">
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path fill="#000" d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"></path>
+</svg>
+          <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99px" height="100px" viewBox="0 0 99 100" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,63.137255%,87.058824%);fill-opacity:1;" d="M 89.96875 43.78125 L 17.210938 1.769531 C 14.984375 0.488281 12.246094 0.488281 10.019531 1.769531 C 7.804688 3.0625 6.441406 5.433594 6.441406 8 L 6.441406 92.011719 C 6.441406 95.980469 9.648438 99.191406 13.621094 99.191406 L 13.628906 99.191406 C 14.890625 99.191406 16.128906 98.859375 17.21875 98.230469 L 89.980469 56.21875 C 92.203125 54.9375 93.570312 52.566406 93.570312 50 C 93.566406 47.433594 92.191406 45.0625 89.96875 43.78125 Z M 89.96875 43.78125 "/>
+</g>
+</svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-collapse px-1">
+      <div class="container">
+        <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+          <div class="row">
+                          <div class="col-12" itemprop="text">
+                
+            <div><p><span>When you’re unable to identify unknown, vulnerable, unused or obsolete software and hardware, you incur tech debt and create security or compliance risks—and that can cause major issues for your organization. With Flexera, you can proactively manage software vulnerability and obsolescence risk in your IT environment, prioritize remediation of end-of-life and vulnerable technology, and enable business transformation and modernization.</span></p>
+</div>
+      
+              </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+    <span class="accordion-bottom-bar" aria-hidden="true"></span>
+  </div>
+</div>
+
+
+
+
+  
+  
+  <div  class="accordion block block-layout-builder block-inline-blockblock-accordion">
+
+  
+  
+
+  <div class="accordion-item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+    <div class="accordion-header">
+      <div role="button" class="accordion-button" tabindex="0" aria-expanded="false">
+                <h3 class="title" itemprop="name">
+          What can I do about shadow IT? 
+        </h3>
+        <div class="button-icon">
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path fill="#000" d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"></path>
+</svg>
+          <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99px" height="100px" viewBox="0 0 99 100" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,63.137255%,87.058824%);fill-opacity:1;" d="M 89.96875 43.78125 L 17.210938 1.769531 C 14.984375 0.488281 12.246094 0.488281 10.019531 1.769531 C 7.804688 3.0625 6.441406 5.433594 6.441406 8 L 6.441406 92.011719 C 6.441406 95.980469 9.648438 99.191406 13.621094 99.191406 L 13.628906 99.191406 C 14.890625 99.191406 16.128906 98.859375 17.21875 98.230469 L 89.980469 56.21875 C 92.203125 54.9375 93.570312 52.566406 93.570312 50 C 93.566406 47.433594 92.191406 45.0625 89.96875 43.78125 Z M 89.96875 43.78125 "/>
+</g>
+</svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-collapse px-1">
+      <div class="container">
+        <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+          <div class="row">
+                          <div class="col-12" itemprop="text">
+                
+            <div><p><span>You can’t manage what you can’t see—and shadow IT causes wasted time, inconsistent business approaches, wasted investments, inefficiencies, and a higher incidence of compliance and security risk. With Flexera, shine a light on shadow IT activity across software, SaaS (including generative AI applications), cloud, containers and more. Reduce the operational expense of your tech investments, select and fund revenue-increasing initiatives and increase the success rate of initiatives like cloud migration, data center consolidation and IT transformation.&nbsp;</span></p>
+</div>
+      
+              </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+    <span class="accordion-bottom-bar" aria-hidden="true"></span>
+  </div>
+</div>
+
+
+
+
+  
+  
+  <div  class="accordion block block-layout-builder block-inline-blockblock-accordion">
+
+  
+  
+
+  <div class="accordion-item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+    <div class="accordion-header">
+      <div role="button" class="accordion-button" tabindex="0" aria-expanded="false">
+                <h3 class="title" itemprop="name">
+          How can I rein in unbudgeted spending? 
+        </h3>
+        <div class="button-icon">
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path fill="#000" d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"></path>
+</svg>
+          <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99px" height="100px" viewBox="0 0 99 100" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,63.137255%,87.058824%);fill-opacity:1;" d="M 89.96875 43.78125 L 17.210938 1.769531 C 14.984375 0.488281 12.246094 0.488281 10.019531 1.769531 C 7.804688 3.0625 6.441406 5.433594 6.441406 8 L 6.441406 92.011719 C 6.441406 95.980469 9.648438 99.191406 13.621094 99.191406 L 13.628906 99.191406 C 14.890625 99.191406 16.128906 98.859375 17.21875 98.230469 L 89.980469 56.21875 C 92.203125 54.9375 93.570312 52.566406 93.570312 50 C 93.566406 47.433594 92.191406 45.0625 89.96875 43.78125 Z M 89.96875 43.78125 "/>
+</g>
+</svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-collapse px-1">
+      <div class="container">
+        <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+          <div class="row">
+                          <div class="col-12" itemprop="text">
+                
+            <div><p><span>If you’re not proactively calculating your license positions and IT spend, your organization is at risk for unbudgeted true-up expenses and audits. Plus, with the explosion of cloud, you may struggle with runaway costs and out-of-balance spending. Flexera offers a unique approach to your organization’s hybrid ITAM and FinOps journey that enables IT, operations, procurement, cloud centers of excellence, enterprise architects and FinOps teams to work collaboratively with business units and resource owners to gain visibility and identify areas of savings opportunities.&nbsp;</span></p>
+</div>
+      
+              </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+    <span class="accordion-bottom-bar" aria-hidden="true"></span>
+  </div>
+</div>
+
+
+
+
+  
+  
+  <div  class="accordion block block-layout-builder block-inline-blockblock-accordion">
+
+  
+  
+
+  <div class="accordion-item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+    <div class="accordion-header">
+      <div role="button" class="accordion-button" tabindex="0" aria-expanded="false">
+                <h3 class="title" itemprop="name">
+          How can I identify and remediate waste? 
+        </h3>
+        <div class="button-icon">
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path fill="#000" d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"></path>
+</svg>
+          <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99px" height="100px" viewBox="0 0 99 100" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,63.137255%,87.058824%);fill-opacity:1;" d="M 89.96875 43.78125 L 17.210938 1.769531 C 14.984375 0.488281 12.246094 0.488281 10.019531 1.769531 C 7.804688 3.0625 6.441406 5.433594 6.441406 8 L 6.441406 92.011719 C 6.441406 95.980469 9.648438 99.191406 13.621094 99.191406 L 13.628906 99.191406 C 14.890625 99.191406 16.128906 98.859375 17.21875 98.230469 L 89.980469 56.21875 C 92.203125 54.9375 93.570312 52.566406 93.570312 50 C 93.566406 47.433594 92.191406 45.0625 89.96875 43.78125 Z M 89.96875 43.78125 "/>
+</g>
+</svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-collapse px-1">
+      <div class="container">
+        <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+          <div class="row">
+                          <div class="col-12" itemprop="text">
+                
+            <div><div class="OutlineElement Ltr SCXW267232290 BCX0">
+<p><span lang="EN-US">Wasted spend across desktop, data center, SaaS and IaaS/PaaS remains high among enterprises, around an average 20-30%*. Flexera helps you see the technology you’re using, so you can eliminate unused subscriptions and rationalize applications and vendors based on trusted, actionable data. With Flexera, you get the insights you need to purchase only the technology necessary.&nbsp;</span><span>&nbsp;</span></p>
+</div>
+<div class="OutlineElement Ltr SCXW267232290 BCX0">
+<p><em><span lang="EN-US">*Source: Flexera 2025 State of ITAM Report&nbsp;</span></em><span>&nbsp;</span></p>
+</div>
+</div>
+      
+              </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+    <span class="accordion-bottom-bar" aria-hidden="true"></span>
+  </div>
+</div>
+
+
+
+
+  
+  
+  <div  class="accordion block block-layout-builder block-inline-blockblock-accordion">
+
+  
+  
+
+  <div class="accordion-item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+    <div class="accordion-header">
+      <div role="button" class="accordion-button" tabindex="0" aria-expanded="false">
+                <h3 class="title" itemprop="name">
+          How can I gain control over cloud costs? 
+        </h3>
+        <div class="button-icon">
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path fill="#000" d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"></path>
+</svg>
+          <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99px" height="100px" viewBox="0 0 99 100" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,63.137255%,87.058824%);fill-opacity:1;" d="M 89.96875 43.78125 L 17.210938 1.769531 C 14.984375 0.488281 12.246094 0.488281 10.019531 1.769531 C 7.804688 3.0625 6.441406 5.433594 6.441406 8 L 6.441406 92.011719 C 6.441406 95.980469 9.648438 99.191406 13.621094 99.191406 L 13.628906 99.191406 C 14.890625 99.191406 16.128906 98.859375 17.21875 98.230469 L 89.980469 56.21875 C 92.203125 54.9375 93.570312 52.566406 93.570312 50 C 93.566406 47.433594 92.191406 45.0625 89.96875 43.78125 Z M 89.96875 43.78125 "/>
+</g>
+</svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-collapse px-1">
+      <div class="container">
+        <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+          <div class="row">
+                          <div class="col-12" itemprop="text">
+                
+            <div><p><span>Without proper governance of your cloud instances, you run the risk of compliance issues and could end up with surprising or costly bills. With Flexera, you get a standard approach to managing, optimizing and scaling your cloud environment responsibly, including spend approvals and automated governance. Flexera is also a member of the FinOps Foundation and its technology is enabled to deliver capabilities to keep you at the forefront of cloud financial management best practices.&nbsp;</span></p>
+</div>
+      
+              </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+    <span class="accordion-bottom-bar" aria-hidden="true"></span>
+  </div>
+</div>
+
+
+
+
+  
+  
+  <div  class="accordion block block-layout-builder block-inline-blockblock-accordion">
+
+  
+  
+
+  <div class="accordion-item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+    <div class="accordion-header">
+      <div role="button" class="accordion-button" tabindex="0" aria-expanded="false">
+                <h3 class="title" itemprop="name">
+          What can I do about my unreliable CMDB data? 
+        </h3>
+        <div class="button-icon">
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path fill="#000" d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"></path>
+</svg>
+          <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99px" height="100px" viewBox="0 0 99 100" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,63.137255%,87.058824%);fill-opacity:1;" d="M 89.96875 43.78125 L 17.210938 1.769531 C 14.984375 0.488281 12.246094 0.488281 10.019531 1.769531 C 7.804688 3.0625 6.441406 5.433594 6.441406 8 L 6.441406 92.011719 C 6.441406 95.980469 9.648438 99.191406 13.621094 99.191406 L 13.628906 99.191406 C 14.890625 99.191406 16.128906 98.859375 17.21875 98.230469 L 89.980469 56.21875 C 92.203125 54.9375 93.570312 52.566406 93.570312 50 C 93.566406 47.433594 92.191406 45.0625 89.96875 43.78125 Z M 89.96875 43.78125 "/>
+</g>
+</svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-collapse px-1">
+      <div class="container">
+        <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+          <div class="row">
+                          <div class="col-12" itemprop="text">
+                
+            <div><p><span>Getting accurate information on your IT environment has proven to be difficult with your current CMDB data. With Flexera, you can clean, normalize, standardize and enrich your data automatically. Using curated content from Technopedia, the world’s largest and most comprehensive technology data reference catalog, enhance your CMDB data and discover complete, accurate details on your technology environment.&nbsp;</span></p>
+</div>
+      
+              </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+    <span class="accordion-bottom-bar" aria-hidden="true"></span>
+  </div>
+</div>
+
+
+
+
+  
+  
+  <div  class="accordion block block-layout-builder block-inline-blockblock-accordion">
+
+  
+  
+
+  <div class="accordion-item" itemscope itemtype="https://schema.org/Question" itemprop="mainEntity">
+    <div class="accordion-header">
+      <div role="button" class="accordion-button" tabindex="0" aria-expanded="false">
+                <h3 class="title" itemprop="name">
+          How do I determine the environmental impact of my IT footprint? 
+        </h3>
+        <div class="button-icon">
+          <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path fill="#000" d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"></path>
+</svg>
+          <?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99px" height="100px" viewBox="0 0 99 100" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,63.137255%,87.058824%);fill-opacity:1;" d="M 89.96875 43.78125 L 17.210938 1.769531 C 14.984375 0.488281 12.246094 0.488281 10.019531 1.769531 C 7.804688 3.0625 6.441406 5.433594 6.441406 8 L 6.441406 92.011719 C 6.441406 95.980469 9.648438 99.191406 13.621094 99.191406 L 13.628906 99.191406 C 14.890625 99.191406 16.128906 98.859375 17.21875 98.230469 L 89.980469 56.21875 C 92.203125 54.9375 93.570312 52.566406 93.570312 50 C 93.566406 47.433594 92.191406 45.0625 89.96875 43.78125 Z M 89.96875 43.78125 "/>
+</g>
+</svg>
+
+        </div>
+      </div>
+    </div>
+    <div class="accordion-collapse px-1">
+      <div class="container">
+        <div class="accordion-body" itemscope itemtype="https://schema.org/Answer" itemprop="acceptedAnswer">
+          <div class="row">
+                          <div class="col-12" itemprop="text">
+                
+            <div><p><span>You need to regularly report on environmental, social and corporate governance initiatives, but you lack the visibility and understanding of how your IT environment is driving sustainability initiatives. Flexera provides critical insights on carbon emissions, hardware power ratings, energy consumption and asset lifecycles including end of life or support data so you can accurately report on your IT sustainability position.&nbsp;</span></p>
+</div>
+      
+              </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+    <span class="accordion-bottom-bar" aria-hidden="true"></span>
+  </div>
+</div>
+
+
+        </div>
+                                                                                                                                                                                              
+  </div>
+
+</div>
+</div>
+
+  </div>
+
+</article>
+
+  </div>
+
+  </div>
+
+    </div>
+  </main>
+
+      <footer role="contentinfo">
+      <div class="heading">
+  <div class="container">
+    <div class="heading-content d-flex flex-column flex-md-row justify-content-between">
+      <div class="heading-branding d-flex flex-column flex-md-row align-items-center">
+        <img src="/themes/custom/flexera/images/logo-flexera-reverse.svg" alt="Home"/>
+      </div>
+      <div>
+<div class="social-medias">
+  <div class="social-icons d-flex justify-content-between">
+    <a class="" href="https://www.linkedin.com/company/flexera/">
+      <svg xmlns="http://www.w3.org/2000/svg" id="icon-linkedin" viewBox="0 0 512 512">
+    <path d="M362.922 178.834c-48.037 0-69.55 26.422-81.528 44.96v-38.577h-90.478c1.195 25.557 0 272.2 0 272.2h90.478v-152.02c0-8.111.585-16.249 2.976-22.047 6.535-16.25 21.411-33.084 46.409-33.084 32.753 0 45.85 24.947 45.85 61.54v145.636l90.453-.025V301.355c0-83.613-44.63-122.52-104.16-122.52zm-222.103 6.383H50.366v272.2h90.453v-272.2zM96.165 54C65.217 54 45 74.318 45 101.02c0 26.141 19.632 47.044 50.02 47.044h.56c31.532 0 51.19-20.928 51.19-47.045C146.185 74.32 127.112 54 96.165 54z"/>
+</svg>
+    </a>
+    <a class="" href="https://x.com/flexera">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 65 66" version="1.1">
+<path d="M 38.683594 28.128906 L 62.882812 0 L 57.148438 0 L 36.136719 24.421875 L 19.355469 0 L 0 0 L 25.378906 36.933594 L 0 66.429688 L 5.734375 66.429688 L 27.921875 40.636719 L 45.644531 66.429688 L 65 66.429688 Z M 30.828125 37.257812 L 28.257812 33.578125 L 7.800781 4.316406 L 16.609375 4.316406 L 33.117188 27.933594 L 35.6875 31.609375 L 57.148438 62.308594 L 48.34375 62.308594 Z M 30.828125 37.257812 "/>
+</svg>
+
+    </a>
+    <a class="" href="https://www.instagram.com/weareflexera/">
+      <svg xmlns="http://www.w3.org/2000/svg" id="icon-instagram" viewBox="0 0 512 512">
+    <path d="M256.48 88.858c54.597 0 61.072.204 82.645 1.192 55.414 2.522 81.298 28.815 83.82 83.82.988 21.556 1.175 28.031 1.175 82.628 0 54.613-.204 61.071-1.175 82.627-2.54 54.954-28.355 81.298-83.82 83.82-21.573.988-28.014 1.192-82.645 1.192-54.596 0-61.071-.204-82.627-1.192-55.55-2.54-81.298-28.951-83.82-83.837-.988-21.556-1.192-28.014-1.192-82.628 0-54.596.221-61.054 1.192-82.627 2.54-54.988 28.355-81.298 83.82-83.82 21.573-.97 28.031-1.175 82.627-1.175zm0-36.858c-55.533 0-62.485.239-84.297 1.227-74.26 3.408-115.531 44.61-118.94 118.94C52.24 193.994 52 200.946 52 256.48c0 55.534.239 62.503 1.227 84.315 3.408 74.26 44.61 115.531 118.94 118.94 21.828.987 28.78 1.226 84.313 1.226 55.534 0 62.503-.239 84.315-1.227 74.192-3.408 115.565-44.61 118.922-118.94 1.005-21.81 1.244-28.78 1.244-84.314 0-55.533-.239-62.485-1.227-84.297-3.34-74.192-44.594-115.531-118.922-118.94C318.983 52.24 312.014 52 256.48 52zm0 99.48c-57.987 0-105 47.013-105 105 0 57.988 47.013 105.018 105 105.018 57.988 0 105.001-47.013 105.001-105.018 0-57.987-47.013-105-105-105zm0 173.16c-37.641 0-68.16-30.501-68.16-68.16 0-37.641 30.519-68.16 68.16-68.16 37.642 0 68.16 30.519 68.16 68.16 0 37.659-30.518 68.16-68.16 68.16zM365.64 122.802c-13.564 0-24.555 10.991-24.555 24.538s10.991 24.538 24.555 24.538c13.547 0 24.52-10.991 24.52-24.538s-10.973-24.538-24.52-24.538z"/>
+</svg>
+    </a>
+    <a class="" href="https://www.youtube.com/user/FlexeraSoftware">
+      <svg xmlns="http://www.w3.org/2000/svg" id="icon-youtube" viewBox="0 0 512 512">
+    <path d="M204.08 332.34l133.262-75.962-133.261-77.86v153.821zm294.329 46.129c-3.805 19.017-22.828 39.936-43.754 43.739-39.949 11.41-199.744 11.41-199.744 11.41s-157.893 0-197.841-11.41c-20.926-3.803-39.95-24.722-45.656-43.74C0 336.632 0 256.76 0 256.76s0-81.773 11.414-121.709c5.707-20.919 24.73-41.837 45.656-45.64C97.018 78 254.91 78 254.91 78s159.795 0 199.744 11.41c20.926 3.804 39.949 24.722 43.754 45.641 13.316 39.936 13.316 121.709 13.316 121.709s0 79.871-13.316 121.709z"/>
+</svg>
+    </a>
+  </div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-12 footer__mainmenu">
+      <nav role="navigation" aria-labelledby="block-footer-mainnavigation-menu" id="block-footer-mainnavigation">
+            
+  <p class="visually-hidden" id="block-footer-mainnavigation-menu">Footer Menu</p>
+  
+
+        
+              <ul class="menu-level-0">
+                                <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+              
+      
+              <span class="column hidden">Column</span>
+                                <ul class="menu-level-1">
+                                <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+              
+      
+              <span class="font-weight-bold">Business challenge</span>
+                                <ul class="menu-level-2">
+                                <li>
+              
+      
+              <a href="/solutions/software-renewals-audits" data-drupal-link-system-path="node/2853">Software renewals and audits</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/software-usage-costs" data-drupal-link-system-path="node/2859">Software license management and optimization</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/saas-spend" data-drupal-link-system-path="node/2852">SaaS spend management</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/cloud-cost" data-drupal-link-system-path="node/2866">Cloud cost management</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/it-asset-lifecycle" data-drupal-link-system-path="node/2850">IT asset lifecycle management</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/cmdb-data-quality" data-drupal-link-system-path="node/2876">CMDB data quality</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/it-inventory" data-drupal-link-system-path="node/2878">Accurate IT inventory</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/it-security-regulatory-risk" data-drupal-link-system-path="node/2882">Security and regulatory risk management</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/sustainable-it" data-drupal-link-system-path="node/2247">Sustainable IT</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/ai-powered-transformation" data-drupal-link-system-path="node/2887">AI-powered transformation</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/public-sector" data-drupal-link-system-path="node/14">Public sector</a>
+              </li>
+      </ul>
+    
+              </li>
+      </ul>
+    
+              </li>
+                            <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+              
+      
+              <span class="column hidden">Column</span>
+                                <ul class="menu-level-1">
+                                <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+              
+      
+              <span class="font-weight-bold">Spend management by vendor</span>
+                                <ul class="menu-level-2">
+                                <li>
+              
+      
+              <a href="/solutions/vendor/ibm" data-drupal-link-system-path="node/3026">IBM</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/vendor/oracle" data-drupal-link-system-path="node/2263">Oracle</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/vendor/microsoft" data-drupal-link-system-path="node/2264">Microsoft</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/vendor/sap" data-drupal-link-system-path="node/2265">SAP</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/vendor/vmware" data-drupal-link-system-path="node/2889">VMware</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/vendor/servicenow" data-drupal-link-system-path="node/2890">ServiceNow</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/vendor/aws" data-drupal-link-system-path="node/2267">AWS</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/vendor/salesforce" data-drupal-link-system-path="node/2891">Salesforce</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/cmdb-data-quality/bmc" data-drupal-link-system-path="node/3059">BMC</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/solutions/vendor/adobe" data-drupal-link-system-path="node/2984">Adobe</a>
+              </li>
+      </ul>
+    
+              </li>
+      </ul>
+    
+              </li>
+                            <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+              
+      
+              <span class="column hidden">Column</span>
+                                <ul class="menu-level-1">
+                                <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+              
+      
+              <span class="font-weight-bold">Products</span>
+                                <ul class="menu-level-2">
+                                <li>
+              
+      
+              <a href="/products/flexera-one" data-drupal-link-system-path="node/2820">Flexera One</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/products/snow-atlas" data-drupal-link-system-path="node/2898">Snow Atlas</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/products/adminstudio" data-drupal-link-system-path="node/11">Application Readiness</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/products/security" data-drupal-link-system-path="node/2901">Security</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/products/integrations" data-drupal-link-system-path="node/2902">Integrations</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/products" data-drupal-link-system-path="node/9">All products</a>
+              </li>
+      </ul>
+    
+              </li>
+      </ul>
+    
+              </li>
+                            <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+              
+      
+              <span class="column hidden">Column</span>
+                                <ul class="menu-level-1">
+                                <li class="has-child"><span class="has-child__toggle d-md-none"></span>
+              
+      
+              <span class="font-weight-bold">Company</span>
+                                <ul class="menu-level-2">
+                                <li>
+              
+      
+              <a href="/about-us" data-drupal-link-system-path="node/755">About</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/about-us/careers" data-drupal-link-system-path="node/30">Careers</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/about-us/contact-us" data-drupal-link-system-path="node/4262">Contact us</a>
+              </li>
+                            <li>
+              
+      
+              <a href="https://community.flexera.com/s/support-hub">Get support</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/about-us/leadership" data-drupal-link-system-path="node/93">Leadership</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/about-us/press-center" data-drupal-link-system-path="node/1609">Media / press center</a>
+              </li>
+                            <li>
+              
+      
+              <a href="https://www.revenera.com" target="_blank">Revenera.com</a>
+              </li>
+      </ul>
+    
+              </li>
+      </ul>
+    
+              </li>
+      </ul>
+    
+
+
+  </nav>
+
+    </div>
+
+    <div class="col-12 col-md-4 col-lg-2 footer__right-sidebar ps-md-0">
+      <div class="d-flex flex-column pt-1 pt-md-0">
+        <div><div id="block-phone">
+  
+    
+      
+<div class="phone">
+  <a href="tel: +1.800.374.4353" target="_blank"> +1.800.374.4353</a>
+</div>
+
+  </div>
+</div>
+        <div class="footer__language-switcher">
+
+<div class="language-switcher-language-url" id="block-languageswitcher-2" role="navigation">
+  
+  
+
+  <div class="d-flex align-items-center language-switcher__content">
+  <div class="menu__icon">
+    <svg xmlns="http://www.w3.org/2000/svg" id="icon-nav-globe" width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path d="M12 22C10.6333 22 9.34167 21.7375 8.125 21.2125C6.90833 20.6875 5.84583 19.9708 4.9375 19.0625C4.02917 18.1542 3.3125 17.0917 2.7875 15.875C2.2625 14.6583 2 13.3667 2 12C2 10.6167 2.2625 9.32083 2.7875 8.1125C3.3125 6.90417 4.02917 5.84583 4.9375 4.9375C5.84583 4.02917 6.90833 3.3125 8.125 2.7875C9.34167 2.2625 10.6333 2 12 2C13.3833 2 14.6792 2.2625 15.8875 2.7875C17.0958 3.3125 18.1542 4.02917 19.0625 4.9375C19.9708 5.84583 20.6875 6.90417 21.2125 8.1125C21.7375 9.32083 22 10.6167 22 12C22 13.3667 21.7375 14.6583 21.2125 15.875C20.6875 17.0917 19.9708 18.1542 19.0625 19.0625C18.1542 19.9708 17.0958 20.6875 15.8875 21.2125C14.6792 21.7375 13.3833 22 12 22ZM12 19.95C12.4333 19.35 12.8083 18.725 13.125 18.075C13.4417 17.425 13.7 16.7333 13.9 16H10.1C10.3 16.7333 10.5583 17.425 10.875 18.075C11.1917 18.725 11.5667 19.35 12 19.95ZM9.4 19.55C9.1 19 8.8375 18.4292 8.6125 17.8375C8.3875 17.2458 8.2 16.6333 8.05 16H5.1C5.58333 16.8333 6.1875 17.5583 6.9125 18.175C7.6375 18.7917 8.46667 19.25 9.4 19.55ZM14.6 19.55C15.5333 19.25 16.3625 18.7917 17.0875 18.175C17.8125 17.5583 18.4167 16.8333 18.9 16H15.95C15.8 16.6333 15.6125 17.2458 15.3875 17.8375C15.1625 18.4292 14.9 19 14.6 19.55ZM4.25 14H7.65C7.6 13.6667 7.5625 13.3375 7.5375 13.0125C7.5125 12.6875 7.5 12.35 7.5 12C7.5 11.65 7.5125 11.3125 7.5375 10.9875C7.5625 10.6625 7.6 10.3333 7.65 10H4.25C4.16667 10.3333 4.10417 10.6625 4.0625 10.9875C4.02083 11.3125 4 11.65 4 12C4 12.35 4.02083 12.6875 4.0625 13.0125C4.10417 13.3375 4.16667 13.6667 4.25 14ZM9.65 14H14.35C14.4 13.6667 14.4375 13.3375 14.4625 13.0125C14.4875 12.6875 14.5 12.35 14.5 12C14.5 11.65 14.4875 11.3125 14.4625 10.9875C14.4375 10.6625 14.4 10.3333 14.35 10H9.65C9.6 10.3333 9.5625 10.6625 9.5375 10.9875C9.5125 11.3125 9.5 11.65 9.5 12C9.5 12.35 9.5125 12.6875 9.5375 13.0125C9.5625 13.3375 9.6 13.6667 9.65 14ZM16.35 14H19.75C19.8333 13.6667 19.8958 13.3375 19.9375 13.0125C19.9792 12.6875 20 12.35 20 12C20 11.65 19.9792 11.3125 19.9375 10.9875C19.8958 10.6625 19.8333 10.3333 19.75 10H16.35C16.4 10.3333 16.4375 10.6625 16.4625 10.9875C16.4875 11.3125 16.5 11.65 16.5 12C16.5 12.35 16.4875 12.6875 16.4625 13.0125C16.4375 13.3375 16.4 13.6667 16.35 14ZM15.95 8H18.9C18.4167 7.16667 17.8125 6.44167 17.0875 5.825C16.3625 5.20833 15.5333 4.75 14.6 4.45C14.9 5 15.1625 5.57083 15.3875 6.1625C15.6125 6.75417 15.8 7.36667 15.95 8ZM10.1 8H13.9C13.7 7.26667 13.4417 6.575 13.125 5.925C12.8083 5.275 12.4333 4.65 12 4.05C11.5667 4.65 11.1917 5.275 10.875 5.925C10.5583 6.575 10.3 7.26667 10.1 8ZM5.1 8H8.05C8.2 7.36667 8.3875 6.75417 8.6125 6.1625C8.8375 5.57083 9.1 5 9.4 4.45C8.46667 4.75 7.6375 5.20833 6.9125 5.825C6.1875 6.44167 5.58333 7.16667 5.1 8Z"></path>
+</svg>
+  </div>
+  <div class="active-language">
+    en
+  </div>
+  <div class="dropdown-icon">
+    <svg class="" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+	<path fill="#000" d="M12 15.4L6 9.4L7.4 8L12 12.6L16.6 8L18 9.4L12 15.4Z"></path>
+</svg>
+  </div>
+</div>
+
+<div class="subtab">
+      <ul class="links"><li hreflang="en" data-drupal-link-system-path="&lt;front&gt;" class="is-active" aria-current="page"><a href="/" class="language-link is-active" hreflang="en" data-drupal-link-system-path="&lt;front&gt;" aria-current="page">English</a></li><li hreflang="de" data-drupal-link-system-path="&lt;front&gt;"><a href="https://www.flexera.de/" class="language-link" hreflang="de" data-drupal-link-system-path="&lt;front&gt;">Deutsch</a></li></ul>
+  </div>
+
+
+</div>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="subfooter">
+  <div class="container">
+    <div class="subfooter-content d-flex flex-column-reverse flex-md-row justify-content-between">
+      <div class="subfooter-branding d-flex flex-column flex-md-row align-items-center align-items-md-start">
+        <div id="block-privacypolicy">
+  
+    
+      
+<div class="privacy-policy">
+  <p class="mb-0">© 2025 Flexera. All Rights Reserved.</p>
+</div>
+
+  </div>
+
+      </div>
+      <div class="subfooter-menu">
+        <nav role="navigation" aria-labelledby="block-footer-menu" id="block-footer">
+            
+  <p class="visually-hidden" id="block-footer-menu">Footer</p>
+  
+
+        
+              <ul class="menu-level-0">
+                                <li>
+              
+      
+              <a href="https://www.flexera.com/legal/privacy-policy">Privacy policy</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/legal" data-drupal-link-system-path="node/69">Terms and conditions</a>
+              </li>
+                            <li class="german-only">
+              
+      
+              <a href="/about-us/impressum" data-drupal-link-system-path="node/716">Impressum</a>
+              </li>
+                            <li>
+              
+      
+              <a href="/sitemap" data-drupal-link-system-path="node/2258">Site map</a>
+              </li>
+      </ul>
+    
+
+
+  </nav>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    </footer>
+  
+</div>
+  </div>
+
+    
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/4680","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"ajaxPageState":{"libraries":"eJyFkFFuAzEIRC9k2UeysCEbtraxADfZ2ydNqkb5iPozIzEPkAbMyDOPnaqLpmoWjZ0ujJTNj0YZcF_mnYZbgHd6t_h9kWwd1KsghSLi5grzuWtptrXxiAXq16ayBuYqTTSWxQ0_4hMQeWz_UE5Xfzt3anQlhfTrocEhy_MjJM0OxdKPhE7IkIR6IYwn0Q7upGGCwnb_c7aEuia0-JrENeYqje1MGP4agkbqiQd7sMOceipgdAO844c3","theme":"flexera","theme_token":null},"ajaxTrustedUrl":{"":true},"sitewideAlert":{"refreshInterval":15000,"automaticRefresh":false},"user":{"uid":0,"permissionsHash":"7a13a9443d577139d3ffb1279e37d6f3b26fa8b6850ebbead53d4fce6e9de860"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=4.0.0-rc.1"></script>
+<script src="/sites/default/files/js/js_o1G1NLeXTqbQ6ggWR-1KJfwtdFuk7CiczfO9iT0qS2s.js?scope=footer&amp;delta=1&amp;language=en&amp;theme=flexera&amp;include=eJwtxWEKgCAMBtALSR5pTP2CiTXYZtbtI-jPe-yOIDk7aqjl7tu1lPxgi6oNaR-4YZz_0-BHZ1CZMhqMgovnj-QSWNJAPGCR5ZR4AarjJJQ"></script>
+
+
+    <div class="modal fade" id="bs-modal" tabindex="-1" role="dialog"
+     aria-labelledby="bs-modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bs-modal-title"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">...</div>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
