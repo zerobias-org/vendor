@@ -25,6 +25,7 @@
   "auditmation": {
     "package": "fleetsmith",
     "import-artifact": "vendor",
-    "dataloader-version": "5.0.14"
+    "dataloader-version": "5.0.14",
+    "deprecated": true
   }
 }
