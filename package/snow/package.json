@@ -20,11 +20,12 @@
   },
   "files": [
     "index.yml",
-    "logo.png"
+    "logo.svg"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",
     "import-artifact": "vendor",
-    "package": "snow"
+    "package": "snow",
+    "deprecated": true
   }
 }
