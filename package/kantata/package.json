@@ -1,13 +1,13 @@
 {
-  "name": "@zerobias-org/vendor-zed",
+  "name": "@zerobias-org/vendor-kantata",
   "version": "1.0.0",
-  "description": "Vendor package for Zed Inc.",
-  "author": "opignault@zerobias.com",
+  "description": "Vendor package for Kantata",
+  "author": "team@zerobias.com",
   "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/vendor.git",
-    "directory": "package/zed/"
+    "directory": "package/kantata/"
   },
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",
@@ -25,6 +25,6 @@
   "auditmation": {
     "dataloader-version": "5.0.14",
     "import-artifact": "vendor",
-    "package": "zed"
+    "package": "kantata"
   }
 }
