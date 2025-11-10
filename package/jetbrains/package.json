@@ -20,7 +20,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",

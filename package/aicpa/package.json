@@ -20,7 +20,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "auditmation": {
     "package": "aicpa",
