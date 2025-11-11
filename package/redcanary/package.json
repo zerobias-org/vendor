@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-redcanary",
-  "version": "0.3.2",
+  "version": "0.3.3-rc.0",
   "description": "Vendor package for redcanary",
   "author": "team@zerobias.com",
   "license": "ISC",

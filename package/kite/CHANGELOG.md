@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-rc.0](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-kite@1.0.0...@zerobias-org/vendor-kite@1.1.0-rc.0) (2025-11-11)
+
+
+### Features
+
+* add 72 vendor logos and fix 24 index.yml URL issues ([2db7256](https://github.com/zerobias-org/vendor/commit/2db72562a1da57a53fe25dec7c27812c775541d2))
+* mark defunct vendors as deprecated ([75ac0c5](https://github.com/zerobias-org/vendor/commit/75ac0c5648f9fa2a19e9667eb5783549bd70ccc9))
+
+
+
+
+
 # [1.0.0](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-kite@1.0.0-rc.2...@zerobias-org/vendor-kite@1.0.0) (2025-10-28)
 
 **Note:** Version bump only for package @zerobias-org/vendor-kite
