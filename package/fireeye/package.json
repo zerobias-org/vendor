@@ -20,11 +20,12 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",
     "import-artifact": "vendor",
-    "package": "fireeye"
+    "package": "fireeye",
+    "deprecated": true
   }
 }

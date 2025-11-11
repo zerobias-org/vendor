@@ -14,7 +14,7 @@
   },
   "files": [
     "index.yml",
-    "logo.png"
+    "logo.*"
   ],
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",

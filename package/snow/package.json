@@ -19,11 +19,13 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "index.yml"
+    "index.yml",
+    "logo.*"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",
     "import-artifact": "vendor",
-    "package": "snow"
+    "package": "snow",
+    "deprecated": true
   }
 }

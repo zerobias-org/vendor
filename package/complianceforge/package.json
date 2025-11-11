@@ -20,7 +20,7 @@
   },
   "files": [
     "index.yml",
-    "logo.png"
+    "logo.*"
   ],
   "auditmation": {
     "package": "complianceforge",

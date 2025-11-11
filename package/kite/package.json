@@ -24,6 +24,7 @@
   "auditmation": {
     "dataloader-version": "5.0.14",
     "import-artifact": "vendor",
-    "package": "kite"
+    "package": "kite",
+    "deprecated": true
   }
 }

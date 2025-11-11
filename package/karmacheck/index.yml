@@ -2,7 +2,7 @@ name: KarmaCheck
 code: karmacheck
 status: verified
 type: vendor
-url: hhttps://karmacheck.com/
+url: https://karmacheck.com/
 description: Backgroud check platform
 id: 4a8d0af5-114b-565c-bb7b-aea7c9246f53
 logo: https://cdn.auditmation.io/logos/karmacheck.svg
