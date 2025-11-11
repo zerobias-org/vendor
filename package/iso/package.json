@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-iso",
-  "version": "1.0.5",
+  "version": "1.0.6-rc.0",
   "description": "Vendor package for iso",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -14,7 +14,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-fleetsmith",
-  "version": "1.0.8",
+  "version": "1.1.0-rc.0",
   "description": "Vendor package for fleetsmith",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -14,7 +14,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",
@@ -25,6 +25,7 @@
   "auditmation": {
     "package": "fleetsmith",
     "import-artifact": "vendor",
-    "dataloader-version": "5.0.14"
+    "dataloader-version": "5.0.14",
+    "deprecated": true
   }
 }

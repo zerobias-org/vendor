@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-dell",
-  "version": "1.0.9",
+  "version": "1.0.10-rc.0",
   "description": "Vendor package for dell",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -14,7 +14,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",

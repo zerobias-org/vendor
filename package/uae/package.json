@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-uae",
-  "version": "1.1.0",
+  "version": "1.1.1-rc.0",
   "description": "Vendor package for UAE",
   "author": "team@neverfail.com",
   "license": "ISC",
@@ -17,7 +17,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "auditmation": {
     "package": "uae",

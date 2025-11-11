@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-snow",
-  "version": "1.0.0",
+  "version": "1.1.0-rc.0",
   "description": "Vendor package for Snow Software",
   "author": "opignault@zerobias.com",
   "license": "ISC",
@@ -19,11 +19,13 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "index.yml"
+    "index.yml",
+    "logo.*"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",
     "import-artifact": "vendor",
-    "package": "snow"
+    "package": "snow",
+    "deprecated": true
   }
 }

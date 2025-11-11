@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-adp",
-  "version": "1.0.10",
+  "version": "1.0.11-rc.0",
   "description": "Vendor package for adp",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -20,7 +20,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "auditmation": {
     "package": "adp",
