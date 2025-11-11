@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-resolver",
-  "version": "1.0.1-rc.0",
+  "version": "1.0.1-rc.1",
   "description": "Vendor package for Resolver",
   "author": "opignault@zerobias.com",
   "license": "ISC",

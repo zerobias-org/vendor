@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.4-rc.1](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-hubspot@0.5.4-rc.0...@zerobias-org/vendor-hubspot@0.5.4-rc.1) (2025-11-11)
+
+**Note:** Version bump only for package @zerobias-org/vendor-hubspot
+
+
+
+
+
 ## [0.5.4-rc.0](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-hubspot@0.5.3...@zerobias-org/vendor-hubspot@0.5.4-rc.0) (2025-11-11)
 
 
