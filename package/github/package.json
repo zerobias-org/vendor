@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-github",
-  "version": "1.0.10-rc.1",
+  "version": "1.0.10",
   "description": "Vendor package for github",
   "author": "team@zerobias.com",
   "license": "ISC",

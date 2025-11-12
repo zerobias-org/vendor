@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-dnsimple",
-  "version": "1.0.9-rc.1",
+  "version": "1.0.9",
   "description": "Vendor package for dnsimple",
   "author": "team@zerobias.com",
   "license": "ISC",

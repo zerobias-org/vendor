@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-aicpa",
-  "version": "1.0.7-rc.1",
+  "version": "1.0.7",
   "description": "Vendor package for aicpa",
   "author": "team@zerobias.com",
   "license": "ISC",

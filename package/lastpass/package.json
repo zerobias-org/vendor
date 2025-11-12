@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-lastpass",
-  "version": "0.3.3-rc.1",
+  "version": "0.3.3",
   "description": "Vendor package for lastpass",
   "author": "team@zerobias.com",
   "license": "ISC",
