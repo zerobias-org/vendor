@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-kite",
-  "version": "1.0.0",
+  "version": "1.1.0-rc.1",
   "description": "Vendor package for Kite",
   "author": "opignault@zerobias.com",
   "license": "ISC",
@@ -24,6 +24,7 @@
   "auditmation": {
     "dataloader-version": "5.0.14",
     "import-artifact": "vendor",
-    "package": "kite"
+    "package": "kite",
+    "deprecated": true
   }
 }

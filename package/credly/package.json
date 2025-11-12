@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-credly",
-  "version": "1.0.2",
+  "version": "1.0.3-rc.1",
   "description": "Credly by Pearson hosts the largest and most-connected digital credential network. We help the world speak a common language of verified knowledge, skills, and abilitie",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -20,7 +20,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-hubspot",
-  "version": "0.5.3",
+  "version": "0.5.4-rc.1",
   "description": "Vendor package for hubspot",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -14,7 +14,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",

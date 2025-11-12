@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-databee",
-  "version": "1.0.0",
+  "version": "1.0.1-rc.1",
   "description": "Vendor package for DataBee",
   "author": "opignault@zerobias.com",
   "license": "ISC",
@@ -20,7 +20,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",

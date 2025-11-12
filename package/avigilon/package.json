@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-avigilon",
-  "version": "1.1.1",
+  "version": "1.1.2-rc.1",
   "description": "Vendor package for Avigilon",
   "license": "ISC",
   "author": "ctamas@zerobias.com",
@@ -14,7 +14,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",

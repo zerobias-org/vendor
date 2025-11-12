@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-kaseya",
-  "version": "0.1.4",
+  "version": "0.1.5-rc.1",
   "description": "Vendor package for kaseya",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -14,7 +14,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",

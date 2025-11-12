@@ -4,7 +4,7 @@ name: DISA
 status: active
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-url: hhttps://www.disa.mil/
+url: https://www.disa.mil/
 description: Defense Information Systems Agency (DISA)
 logo: https://cdn.auditmation.io/logos/disa.svg
 aliases:

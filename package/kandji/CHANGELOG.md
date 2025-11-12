@@ -3,6 +3,33 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-rc.1](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-kandji@1.1.0-rc.0...@zerobias-org/vendor-kandji@1.1.0-rc.1) (2025-11-11)
+
+**Note:** Version bump only for package @zerobias-org/vendor-kandji
+
+
+
+
+
+# [1.1.0-rc.0](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-kandji@1.0.9...@zerobias-org/vendor-kandji@1.1.0-rc.0) (2025-11-11)
+
+
+### Bug Fixes
+
+* just change package json to have logo.*, add missing .npmrc ([9595d21](https://github.com/zerobias-org/vendor/commit/9595d21a62ab49f54065a1c70d6d8cfa428f4b68))
+* remove suspicious ClickUp and Kandji logos with embedded PNGs ([65e9e8f](https://github.com/zerobias-org/vendor/commit/65e9e8f7cf1bb15fa0f8eaf5db38ec95c3cdebee))
+
+
+### Features
+
+* add 72 vendor logos and fix 24 index.yml URL issues ([2db7256](https://github.com/zerobias-org/vendor/commit/2db72562a1da57a53fe25dec7c27812c775541d2))
+* **kandji:** add Iru logo ([ee84bff](https://github.com/zerobias-org/vendor/commit/ee84bff815393510ee505e20d4e157fc2b9b0fac))
+* **kandji:** update to Iru rebrand (October 2025) ([af22136](https://github.com/zerobias-org/vendor/commit/af2213671fc1feadd4f6626a15c6f53953a79731))
+
+
+
+
+
 ## [1.0.9](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-kandji@1.0.9-rc.2...@zerobias-org/vendor-kandji@1.0.9) (2025-08-05)
 
 **Note:** Version bump only for package @zerobias-org/vendor-kandji

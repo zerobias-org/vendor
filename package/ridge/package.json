@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-ridge",
-  "version": "1.0.2",
+  "version": "1.0.3-rc.1",
   "description": "Continuous Threat Exposure Management",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -20,7 +20,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",

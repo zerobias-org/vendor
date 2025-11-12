@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-anchore",
-  "version": "0.2.3",
+  "version": "0.2.4-rc.1",
   "description": "Vendor package for anchore",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -14,7 +14,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",

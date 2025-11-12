@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0-rc.1](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-fleetsmith@1.1.0-rc.0...@zerobias-org/vendor-fleetsmith@1.1.0-rc.1) (2025-11-11)
+
+**Note:** Version bump only for package @zerobias-org/vendor-fleetsmith
+
+
+
+
+
+# [1.1.0-rc.0](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-fleetsmith@1.0.8...@zerobias-org/vendor-fleetsmith@1.1.0-rc.0) (2025-11-11)
+
+
+### Bug Fixes
+
+* just change package json to have logo.*, add missing .npmrc ([9595d21](https://github.com/zerobias-org/vendor/commit/9595d21a62ab49f54065a1c70d6d8cfa428f4b68))
+
+
+### Features
+
+* mark Fleetsmith and MarkdownPad as deprecated ([da1b7d7](https://github.com/zerobias-org/vendor/commit/da1b7d7f5d45e8c32f625e2e6065cf730a003b9f))
+
+
+
+
+
 ## [1.0.8](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-fleetsmith@1.0.8-rc.2...@zerobias-org/vendor-fleetsmith@1.0.8) (2025-08-05)
 
 **Note:** Version bump only for package @zerobias-org/vendor-fleetsmith

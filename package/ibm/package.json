@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-ibm",
-  "version": "1.0.2",
+  "version": "1.0.3-rc.1",
   "description": "IBM",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -20,7 +20,7 @@
   },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",

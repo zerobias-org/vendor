@@ -5,5 +5,5 @@ name: Vim
 description: Vim
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
-url: vim.org
+url: https://vim.org
 logo: https://cdn.auditmation.io/logos/vim.svg
