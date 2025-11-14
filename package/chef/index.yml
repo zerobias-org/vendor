@@ -2,6 +2,7 @@ id: 422a1b33-ab52-4b58-86db-d3b26ad19803
 code: chef
 status: verified
 name: Chef Software Inc.
+logo: https://cdn.auditmation.io/logos/chef.svg
 description: Chef is part of Progress Software, a leading provider of application development and digital experience technologies.
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

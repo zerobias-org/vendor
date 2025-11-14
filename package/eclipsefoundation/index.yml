@@ -2,6 +2,7 @@ id: a00e87cf-0b19-4a12-83b6-e4477c1871c4
 code: eclipsefoundation
 status: verified
 name: Eclipse Foundation
+logo: https://cdn.auditmation.io/logos/eclipsefoundation.svg
 description: Eclipse Foundation
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

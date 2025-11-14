@@ -2,6 +2,7 @@ id: 701a72c8-6fe3-4ae2-86fa-307b49e4e147
 code: crytek
 status: verified
 name: Crytek
+logo: https://cdn.auditmation.io/logos/crytek.svg
 description: Crytek
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

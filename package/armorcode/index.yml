@@ -2,6 +2,7 @@ id: c9629817-0752-43d0-8471-8325273980f9
 code: armorcode
 status: verified
 name: ArmorCode
+logo: https://cdn.auditmation.io/logos/armorcode.svg
 description: ArmorCode
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
