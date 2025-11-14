@@ -1,15 +1,6 @@
 # Vendor mono-repo
 Monorepo of vendor.
 
-## Contributing
-
-For detailed instructions on contributing to this repository, including how to add or update vendor logos, please see [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-**Quick Links:**
-- [Fork and Branch Workflow](./CONTRIBUTING.md#fork-and-branch-workflow)
-- [Adding Vendor Logos](./CONTRIBUTING.md#adding-or-updating-vendor-logos)
-- [Submitting Pull Requests](./CONTRIBUTING.md#submitting-a-pull-request)
-
 # Starting Development
 ##  Fork Repository
 
