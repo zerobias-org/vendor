@@ -9,10 +9,10 @@ This agent handles the rebuilding of npm-shrinkwrap.json files for vendor packag
 - Delete `package/{vendor}/npm-shrinkwrap.json` if it exists
 - This ensures a clean rebuild without cached dependency states
 
-### Step 2: Install Dependencies
+### Step 2: Refresh Dependencies
 - Navigate to `package/{vendor}/` directory
-- Run `npm i reset` to install/update the `reset` dependency
-- This is a required dependency for all vendor packages
+- Run `npm install` to refresh/reinstall dependencies
+- This ensures a clean dependency state before generating shrinkwrap
 
 ### Step 3: Generate Shrinkwrap
 - Run `npm shrinkwrap` in the vendor directory
@@ -24,7 +24,7 @@ This agent handles the rebuilding of npm-shrinkwrap.json files for vendor packag
 ```bash
 cd /home/toor/local_zerobiasorg/vendor/package/{vendor}
 rm -f npm-shrinkwrap.json
-npm i reset
+npm install
 npm shrinkwrap
 ```
 
@@ -43,13 +43,13 @@ For vendor `eclipsefoundation`:
 ```bash
 cd /home/toor/local_zerobiasorg/vendor/package/eclipsefoundation
 rm -f npm-shrinkwrap.json
-npm i reset
+npm install
 npm shrinkwrap
 ```
 
 ## Notes
 
 - Always use absolute paths when running commands to avoid directory confusion
-- The `reset` package is a standard dependency for all vendor packages
+- `npm install` refreshes dependencies (most vendor packages have zero dependencies)
 - npm-shrinkwrap.json should be committed to the repository
 - This process ensures consistent package publishing

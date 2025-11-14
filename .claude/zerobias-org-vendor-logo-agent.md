@@ -103,7 +103,7 @@ If validation fails, delete the file and try another source
 
 ### Step 6: Rebuild Dependencies (see zerobias-org-vendor-shrinkwrap agent)
 - Delete existing `package/{vendor}/npm-shrinkwrap.json`
-- Run `npm i reset` in the vendor directory
+- Run `npm install` in the vendor directory to refresh dependencies
 - Run `npm shrinkwrap` to generate new npm-shrinkwrap.json
 
 ## Example Usage

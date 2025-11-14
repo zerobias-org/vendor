@@ -251,8 +251,8 @@ cd package/VENDOR-NAME
 # Delete existing shrinkwrap
 rm -f npm-shrinkwrap.json
 
-# Install reset dependency
-npm i reset
+# Refresh dependencies
+npm install
 
 # Generate new shrinkwrap
 npm shrinkwrap
