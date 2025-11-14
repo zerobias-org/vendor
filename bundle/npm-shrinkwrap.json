@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/vendor-bundle",
-      "version": "0.0.7",
+      "version": "0.0.8",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-accelq": "1.1.0",
