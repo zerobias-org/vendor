@@ -70,12 +70,21 @@ When direct homepage access fails, try these alternatives in order:
 
 ### Step 3: Download and Validate Logo
 - Download the logo using curl: `curl -sL "{logo_url}" -o package/{vendor}/logo.{ext}`
-- **Validate the downloaded file**:
-  - Use `file` command to verify it's actually an SVG/PNG: `file package/{vendor}/logo.{ext}`
-  - Check file size is reasonable (> 100 bytes, typically a few KB to 100KB)
-  - If file contains error messages (like XML error from S3), delete it and try another source
+- **Validate the downloaded file** using the test criteria below
 - Save it to `package/{vendor}/logo.svg` (for SVG) or `package/{vendor}/logo.png` (for PNG)
 - **Critical**: Ensure the file extension matches the actual format downloaded
+
+**Logo Validation Test Criteria:**
+
+| Test | Command | Pass Criteria | Fail Indicators |
+|------|---------|---------------|-----------------|
+| **File Type** | `file package/{vendor}/logo.svg` | Output: `SVG Scalable Vector Graphics image` | `XML 1.0 document`, `HTML document`, `ASCII text`, `ERROR` |
+| **File Type** | `file package/{vendor}/logo.png` | Output: `PNG image data, {width} x {height}...` | `JPEG`, `GIF`, `ERROR` |
+| **File Size (SVG)** | `ls -lh package/{vendor}/logo.svg` | 1KB - 100KB (most < 50KB) | < 200 bytes (likely error), > 5MB (too large) |
+| **File Size (PNG)** | `ls -lh package/{vendor}/logo.png` | 5KB - 500KB | < 500 bytes (likely error), > 5MB (too large) |
+| **Content Check** | `head -5 package/{vendor}/logo.svg` | Starts with `<?xml` or `<svg` | Contains `<Error>`, `AccessDenied`, `<html>` |
+
+If validation fails, delete the file and try another source
 
 ### Step 4: Update package.json
 - Read `package/{vendor}/package.json`

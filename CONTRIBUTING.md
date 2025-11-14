@@ -140,13 +140,57 @@ curl -sL "https://upload.wikimedia.org/wikipedia/commons/X/XX/Vendor_logo.svg" -
 
 #### 3. Validate the Logo File
 
-```bash
-# Check file type
-file package/VENDOR-NAME/logo.svg
-# Should output: "SVG Scalable Vector Graphics image"
+Run these validation tests to ensure the logo file is correct:
 
-# Check file size (should be reasonable, typically < 500KB)
+```bash
+# Test 1: Check file type
+file package/VENDOR-NAME/logo.svg
+
+# Test 2: Check file size
 ls -lh package/VENDOR-NAME/logo.svg
+
+# Test 3: Visual inspection (optional)
+head -5 package/VENDOR-NAME/logo.svg
+```
+
+**Logo Validation Test Criteria:**
+
+| Test | Command | Pass Criteria | Fail Indicators |
+|------|---------|---------------|-----------------|
+| **File Type** | `file package/{vendor}/logo.svg` | Output: `SVG Scalable Vector Graphics image` | `XML 1.0 document`, `HTML document`, `ASCII text`, `ERROR` |
+| **File Type** | `file package/{vendor}/logo.png` | Output: `PNG image data, {width} x {height}...` | `JPEG`, `GIF`, `ERROR` |
+| **File Size (SVG)** | `ls -lh package/{vendor}/logo.svg` | 1KB - 100KB (most < 50KB) | < 200 bytes (likely error), > 5MB (too large) |
+| **File Size (PNG)** | `ls -lh package/{vendor}/logo.png` | 5KB - 500KB | < 500 bytes (likely error), > 5MB (too large) |
+| **Content Check** | `head -5 package/{vendor}/logo.svg` | Starts with `<?xml` or `<svg` | Contains `<Error>`, `AccessDenied`, `<html>` |
+
+**Examples:**
+
+✅ **Valid SVG:**
+```bash
+$ file package/epicgames/logo.svg
+package/epicgames/logo.svg: SVG Scalable Vector Graphics image
+
+$ ls -lh package/epicgames/logo.svg
+-rw-r--r-- 1 user user 25K Nov 14 14:37 package/epicgames/logo.svg
+
+$ head -3 package/epicgames/logo.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 647 751">
+<path d="M95.9384 29.6047..."/>
+```
+
+❌ **Invalid File (Error Message):**
+```bash
+$ file package/vendor/logo.svg
+package/vendor/logo.svg: XML 1.0 document, ASCII text
+
+$ ls -lh package/vendor/logo.svg
+-rw-r--r-- 1 user user 243 Nov 14 14:36 package/vendor/logo.svg
+
+$ head -3 package/vendor/logo.svg
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code>
+<Message>Access Denied</Message>
 ```
 
 **Important Logo Rules:**
