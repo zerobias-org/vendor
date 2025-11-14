@@ -2,6 +2,7 @@ id: ae826334-4db2-4c37-9aa1-782d9dcc735d
 code: grafeas
 status: verified
 name: Grafeas
+logo: https://cdn.auditmation.io/logos/grafeas.svg
 description: Grafeas
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

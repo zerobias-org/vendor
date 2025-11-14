@@ -2,6 +2,7 @@ id: 176bc82d-4e44-478e-9938-d3d0bae2ba9b
 code: workflowmax
 status: verified
 name: WorkflowMax
+logo: https://cdn.auditmation.io/logos/workflowmax.png
 description: WorkflowMax
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

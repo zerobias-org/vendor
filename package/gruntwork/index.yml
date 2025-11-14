@@ -2,6 +2,7 @@ id: 0f75f57a-44cc-40a1-a6b3-9e193d36f53a
 code: gruntwork
 status: verified
 name: Gruntwork
+logo: https://cdn.auditmation.io/logos/gruntwork.svg
 description: Gruntwork
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

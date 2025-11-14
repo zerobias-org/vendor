@@ -2,6 +2,7 @@ id: e831f464-7d9a-4d3f-a58c-e0f2c2ec4d7b
 code: pango
 status: verified
 name: Pango Inc.
+logo: https://cdn.auditmation.io/logos/pango.svg
 description: Pango Inc.
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
