@@ -2,6 +2,7 @@ id: f083b4e4-9aa9-40a9-bcb2-5c6d225a20aa
 code: dynatrace
 status: verified
 name: Dynatrace
+logo: https://cdn.auditmation.io/logos/dynatrace.svg
 description: Dynatrace
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

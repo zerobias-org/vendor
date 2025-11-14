@@ -2,6 +2,7 @@ id: 700c8178-acde-4753-a178-7efff647b223
 code: doxygen
 status: verified
 name: Doxygen
+logo: https://cdn.auditmation.io/logos/doxygen.svg
 description: Doxygen
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

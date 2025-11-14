@@ -2,6 +2,7 @@ id: 768409b4-97a6-49f2-94d3-20a26d9648c0
 code: netskope
 status: verified
 name: Netskope
+logo: https://cdn.auditmation.io/logos/netskope.svg
 description: Netskope
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

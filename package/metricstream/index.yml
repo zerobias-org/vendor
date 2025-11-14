@@ -2,6 +2,7 @@ id: 8696425e-7dd5-47be-90d0-66b96086d5d1
 code: metricstream
 status: verified
 name: MetricStream
+logo: https://cdn.auditmation.io/logos/metricstream.svg
 description: MetricStream
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

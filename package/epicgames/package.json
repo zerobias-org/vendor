@@ -19,7 +19,8 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "files": [
-    "index.yml"
+    "index.yml",
+    "logo.svg"
   ],
   "auditmation": {
     "dataloader-version": "5.0.14",

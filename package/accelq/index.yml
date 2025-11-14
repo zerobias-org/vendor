@@ -2,6 +2,7 @@ id: 8a742e89-4206-45ff-aa35-479dbe48a238
 code: accelq
 status: verified
 name: ACCELQ
+logo: https://cdn.auditmation.io/logos/accelq.svg
 description: ACCELQ
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

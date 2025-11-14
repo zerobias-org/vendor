@@ -2,6 +2,7 @@ id: 47eedad2-90ae-4ccb-ad9c-07201ba2779d
 code: pulumi
 status: verified
 name: Pulumi
+logo: https://cdn.auditmation.io/logos/pulumi.svg
 description: Pulumi
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

@@ -2,6 +2,7 @@ id: 63c31615-7f5f-49b4-b698-dacbad17e116
 code: qlik
 status: verified
 name: Qlik
+logo: https://cdn.auditmation.io/logos/qlik.svg
 description: Qlik
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

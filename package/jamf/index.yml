@@ -2,6 +2,7 @@ id: 4539969f-5342-4701-ba6c-e16e59666d29
 code: jamf
 status: verified
 name: Jamf
+logo: https://cdn.auditmation.io/logos/jamf.svg
 description: Jamf
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

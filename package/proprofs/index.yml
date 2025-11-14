@@ -2,6 +2,7 @@ id: b6a9432d-2d5e-4f5e-89df-eb1e7b419076
 code: proprofs
 status: verified
 name: ProProfs
+logo: https://cdn.auditmation.io/logos/proprofs.svg
 description: ProProfs
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

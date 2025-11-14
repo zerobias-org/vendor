@@ -2,6 +2,7 @@ id: f906368a-79f2-4848-b433-e6000c9d0fb8
 code: action1
 status: verified
 name: Action1
+logo: https://cdn.auditmation.io/logos/action1.svg
 description: Action1
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

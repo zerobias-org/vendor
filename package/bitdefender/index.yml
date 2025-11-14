@@ -2,6 +2,7 @@ id: 2bc2e170-cd68-4d7f-93aa-f92bc6801654
 code: bitdefender
 status: verified
 name: Bitdefender
+logo: https://cdn.auditmation.io/logos/bitdefender.svg
 description: Bitdefender
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
