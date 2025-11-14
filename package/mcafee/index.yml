@@ -2,6 +2,7 @@ id: 3e4bb266-5e34-43c8-a735-f47c94632cba
 code: mcafee
 status: verified
 name: McAfee
+logo: https://cdn.auditmation.io/logos/mcafee.svg
 description: McAfee
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
