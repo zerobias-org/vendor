@@ -304,10 +304,6 @@ git commit -m "feat(vendor-name): add logo for Vendor Name
 - Added logo.svg to vendor package
 - Updated package.json and index.yml
 - Rebuilt npm-shrinkwrap.json
-
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
-
-Co-Authored-By: Claude <noreply@anthropic.com>"
 ```
 
 **Commit Message Format:**
