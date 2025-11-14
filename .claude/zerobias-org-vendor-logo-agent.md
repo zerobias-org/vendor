@@ -3,6 +3,9 @@
 ## Purpose
 This agent automates the process of grabbing a vendor's logo from their homepage and integrating it into the vendor package.
 
+## For Contributors
+If you're contributing to the zerobias-org/vendor repository, please see [CONTRIBUTING.md](../../CONTRIBUTING.md) for the complete fork and pull request workflow. This document focuses on the technical steps for adding logos.
+
 ## Logo Format Rules
 - **Accepted formats**: SVG or PNG only
 - **One logo per vendor**: Each vendor can have ONLY ONE logo file (either `logo.svg` OR `logo.png`, never both)
