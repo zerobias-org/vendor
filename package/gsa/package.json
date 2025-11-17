@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-gsa",
-  "version": "1.0.6",
+  "version": "1.0.7-rc.0",
   "description": "Vendor package for GSA",
   "author": "team@zerobias.com",
   "license": "ISC",

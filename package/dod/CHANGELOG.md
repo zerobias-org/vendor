@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6-rc.0](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-dod@0.1.5-rc.0...@zerobias-org/vendor-dod@0.1.6-rc.0) (2025-11-17)
+
+**Note:** Version bump only for package @zerobias-org/vendor-dod
+
+
+
+
+
 ## [0.1.5-rc.0](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-dod@0.1.4...@zerobias-org/vendor-dod@0.1.5-rc.0) (2025-11-11)
 
 
