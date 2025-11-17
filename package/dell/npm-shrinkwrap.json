@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/vendor-dell",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/vendor-dell",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "license": "ISC"
     }
   }
