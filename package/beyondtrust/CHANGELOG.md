@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.5-rc.2](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-beyondtrust@0.3.5-rc.1...@zerobias-org/vendor-beyondtrust@0.3.5-rc.2) (2025-11-17)
+
+**Note:** Version bump only for package @zerobias-org/vendor-beyondtrust
+
+
+
+
+
 ## [0.3.5-rc.1](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-beyondtrust@0.3.4...@zerobias-org/vendor-beyondtrust@0.3.5-rc.1) (2025-11-17)
 
 **Note:** Version bump only for package @zerobias-org/vendor-beyondtrust
