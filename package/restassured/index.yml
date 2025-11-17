@@ -2,6 +2,7 @@ id: 83a4d7db-8d1e-42aa-98fa-10fe1ae6e8df
 code: restassured
 status: verified
 name: RestAssured
+logo: https://cdn.auditmation.io/logos/restassured.png
 description: RestAssured
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

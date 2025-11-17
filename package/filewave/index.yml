@@ -2,6 +2,7 @@ id: e23352fc-2f05-4e50-bae4-08234df139ad
 code: filewave
 status: verified
 name: FileWave
+logo: https://cdn.auditmation.io/logos/filewave.png
 description: FileWave
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

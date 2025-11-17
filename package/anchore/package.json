@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-anchore",
-  "version": "0.2.4",
+  "version": "0.2.5-rc.1",
   "description": "Vendor package for anchore",
   "author": "team@zerobias.com",
   "license": "ISC",

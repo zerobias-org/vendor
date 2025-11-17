@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.7-rc.1](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-datto@0.1.6...@zerobias-org/vendor-datto@0.1.7-rc.1) (2025-11-17)
+
+**Note:** Version bump only for package @zerobias-org/vendor-datto
+
+
+
+
+
 ## [0.1.6](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-datto@0.1.6-rc.1...@zerobias-org/vendor-datto@0.1.6) (2025-11-12)
 
 **Note:** Version bump only for package @zerobias-org/vendor-datto

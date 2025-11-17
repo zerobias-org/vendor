@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-certero",
-  "version": "1.1.0",
+  "version": "1.1.1-rc.1",
   "description": "Vendor package for Certero",
   "author": "opignault@zerobias.com",
   "license": "ISC",

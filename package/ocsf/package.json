@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-ocsf",
-  "version": "1.0.4",
+  "version": "1.0.5-rc.1",
   "description": "The Open Cybersecurity Schema Framework is an open-source project, delivering an extensible framework for developing schemas",
   "author": "team@zerobias.com",
   "license": "ISC",

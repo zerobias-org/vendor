@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-microsoft",
-  "version": "1.0.10",
+  "version": "1.0.11-rc.1",
   "description": "Vendor package for microsoft",
   "author": "team@zerobias.com",
   "license": "ISC",

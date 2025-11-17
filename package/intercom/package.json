@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-intercom",
-  "version": "1.0.10",
+  "version": "1.0.11-rc.1",
   "description": "Vendor package for intercom",
   "author": "team@zerobias.com",
   "license": "ISC",

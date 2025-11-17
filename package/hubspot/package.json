@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-hubspot",
-  "version": "0.5.4",
+  "version": "0.5.5-rc.1",
   "description": "Vendor package for hubspot",
   "author": "team@zerobias.com",
   "license": "ISC",

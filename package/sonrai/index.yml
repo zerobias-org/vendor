@@ -2,6 +2,7 @@ id: 32fd2089-c36c-478d-a8db-a49d6539f655
 code: sonrai
 status: verified
 name: Sonrai Security
+logo: https://cdn.auditmation.io/logos/sonrai.svg
 description: Sonrai Security
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000

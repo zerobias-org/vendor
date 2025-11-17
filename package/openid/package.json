@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-openid",
-  "version": "1.1.3",
+  "version": "1.1.4-rc.1",
   "description": "The OpenID Foundation's vision is to help people assert their identity wherever they choose.",
   "author": "team@zerobias.com",
   "license": "ISC",

@@ -2,6 +2,7 @@ id: 004c7f71-f185-42f2-9834-dfa33473c3cd
 code: vectra
 status: verified
 name: Vectra AI
+logo: https://cdn.auditmation.io/logos/vectra.svg
 description: Vectra AI
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
