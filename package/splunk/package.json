@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-splunk",
-  "version": "1.0.11-rc.0",
+  "version": "1.0.11-rc.1",
   "description": "Vendor package for splunk",
   "author": "team@zerobias.com",
   "license": "ISC",
