@@ -1,7 +1,7 @@
 {
   "name": "@zerobias-org/vendor-kantata",
   "version": "1.0.1",
-  "lockfileVersion": 2,
+  "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
