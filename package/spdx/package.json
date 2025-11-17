@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-spdx",
-  "version": "1.0.3",
+  "version": "1.0.4-rc.0",
   "description": "An open standard capable of representing systems with software components in as SBOMs (Software Bill of Materials) and other AI, data and security references supporting a range of risk management use cases.",
   "author": "team@zerobias.com",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-servicenow",
-  "version": "1.0.10",
+  "version": "1.0.11-rc.0",
   "description": "Vendor package for servicenow",
   "author": "team@zerobias.com",
   "license": "ISC",

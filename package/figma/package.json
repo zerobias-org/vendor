@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-figma",
-  "version": "1.0.1",
+  "version": "1.0.2-rc.0",
   "description": "Vendor package for Figma",
   "author": "opignault@zerobias.com",
   "license": "ISC",
