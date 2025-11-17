@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-infor",
-  "version": "1.0.1-rc.0",
+  "version": "1.0.1",
   "description": "Vendor package for Infor",
   "author": "opignault@zerobias.com",
   "license": "ISC",

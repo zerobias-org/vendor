@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-solarwinds",
-  "version": "0.2.4-rc.0",
+  "version": "0.2.4",
   "description": "Vendor package for solarwinds",
   "author": "team@zerobias.com",
   "license": "ISC",

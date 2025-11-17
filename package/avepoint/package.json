@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-avepoint",
-  "version": "1.0.1-rc.0",
+  "version": "1.0.1",
   "description": "Vendor package for AvePoint",
   "author": "opignault@zerobias.com",
   "license": "ISC",

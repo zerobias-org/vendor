@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-rippling",
-  "version": "1.0.9-rc.0",
+  "version": "1.0.9",
   "description": "Vendor package for rippling",
   "author": "team@zerobias.com",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-wasabi",
-  "version": "0.2.3-rc.0",
+  "version": "0.2.3",
   "description": "Vendor package for wasabi",
   "author": "team@zerobias.com",
   "license": "ISC",

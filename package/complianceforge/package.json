@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-complianceforge",
-  "version": "1.0.6-rc.0",
+  "version": "1.0.6",
   "description": "Vendor package for Compliance Forge",
   "author": "team@zerobias.com",
   "license": "ISC",

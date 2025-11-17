@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-kolide",
-  "version": "1.0.10-rc.0",
+  "version": "1.0.10",
   "description": "Vendor package for kolide",
   "author": "team@zerobias.com",
   "license": "ISC",

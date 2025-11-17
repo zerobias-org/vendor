@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-google",
-  "version": "1.0.10-rc.0",
+  "version": "1.0.10",
   "description": "Vendor package for google",
   "author": "team@zerobias.com",
   "license": "ISC",
