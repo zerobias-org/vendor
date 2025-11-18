@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-telos",
-  "version": "1.0.11-rc.2",
+  "version": "1.0.11",
   "description": "Vendor package for telos",
   "author": "team@zerobias.com",
   "license": "ISC",

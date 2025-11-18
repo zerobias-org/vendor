@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-monday",
-  "version": "1.0.10-rc.2",
+  "version": "1.0.10",
   "description": "Vendor package for monday",
   "author": "team@zerobias.com",
   "license": "ISC",

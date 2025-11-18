@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-mavenlink",
-  "version": "1.2.0-rc.2",
+  "version": "1.2.0",
   "description": "Vendor package for Mavenlink",
   "author": "opignault@zerobias.com",
   "license": "ISC",

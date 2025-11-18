@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-tanium",
-  "version": "1.0.5-rc.2",
+  "version": "1.0.5",
   "description": "Vendor package for tanium",
   "author": "team@zerobias.com",
   "license": "ISC",

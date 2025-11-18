@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-beyondtrust",
-  "version": "0.3.5-rc.2",
+  "version": "0.3.5",
   "description": "Vendor package for beyondtrust",
   "author": "team@zerobias.com",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-qlik",
-  "version": "1.2.0-rc.2",
+  "version": "1.2.0",
   "description": "Vendor package for Qlik",
   "author": "opignault@zerobias.com",
   "license": "ISC",

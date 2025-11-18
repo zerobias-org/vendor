@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-auditmation",
-  "version": "1.0.10-rc.2",
+  "version": "1.0.10",
   "description": "Vendor package for auditmation",
   "author": "team@zerobias.com",
   "license": "ISC",

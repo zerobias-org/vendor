@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-chef",
-  "version": "1.2.0-rc.2",
+  "version": "1.2.0",
   "description": "Vendor package for Chef Software Inc.",
   "author": "opignault@zerobias.com",
   "license": "ISC",
