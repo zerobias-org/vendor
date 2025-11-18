@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-cis",
-  "version": "0.1.5",
+  "version": "0.1.6-rc.2",
   "description": "Vendor package for cis",
   "author": "team@zerobias.com",
   "license": "ISC",

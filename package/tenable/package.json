@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-tenable",
-  "version": "0.2.4",
+  "version": "0.2.5-rc.2",
   "description": "Vendor package for tenable",
   "author": "team@zerobias.com",
   "license": "ISC",

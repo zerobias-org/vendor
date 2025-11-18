@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.6-rc.2](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-qualys@0.1.6-rc.1...@zerobias-org/vendor-qualys@0.1.6-rc.2) (2025-11-17)
+
+**Note:** Version bump only for package @zerobias-org/vendor-qualys
+
+
+
+
+
+## [0.1.6-rc.1](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-qualys@0.1.5...@zerobias-org/vendor-qualys@0.1.6-rc.1) (2025-11-17)
+
+**Note:** Version bump only for package @zerobias-org/vendor-qualys
+
+
+
+
+
 ## [0.1.5](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-qualys@0.1.5-rc.1...@zerobias-org/vendor-qualys@0.1.5) (2025-11-12)
 
 **Note:** Version bump only for package @zerobias-org/vendor-qualys

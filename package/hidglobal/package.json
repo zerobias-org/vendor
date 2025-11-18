@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-hidglobal",
-  "version": "0.2.4",
+  "version": "0.2.5-rc.2",
   "description": "Vendor package for hidglobal",
   "author": "team@zerobias.com",
   "license": "ISC",
