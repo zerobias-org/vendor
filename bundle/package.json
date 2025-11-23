@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -199,7 +199,7 @@
     "@zerobias-org/vendor-itarian": "1.1.1",
     "@zerobias-org/vendor-itglue": "0.3.4",
     "@zerobias-org/vendor-ivanti": "1.0.5",
-    "@zerobias-org/vendor-jamf": "1.1.1",
+    "@zerobias-org/vendor-jamf": "1.1.2",
     "@zerobias-org/vendor-jetbrains": "1.0.2",
     "@zerobias-org/vendor-jfrog": "1.0.2",
     "@zerobias-org/vendor-jit": "1.2.0",

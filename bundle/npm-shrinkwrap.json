@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/vendor-bundle",
-      "version": "0.0.12",
+      "version": "0.0.13",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-accelq": "1.2.0",
@@ -190,7 +190,7 @@
         "@zerobias-org/vendor-itarian": "1.1.1",
         "@zerobias-org/vendor-itglue": "0.3.4",
         "@zerobias-org/vendor-ivanti": "1.0.5",
-        "@zerobias-org/vendor-jamf": "1.1.1",
+        "@zerobias-org/vendor-jamf": "1.1.2",
         "@zerobias-org/vendor-jetbrains": "1.0.2",
         "@zerobias-org/vendor-jfrog": "1.0.2",
         "@zerobias-org/vendor-jit": "1.2.0",
@@ -1502,9 +1502,9 @@
       "integrity": "sha512-66dKKArkWj5vQQqFLa05VOnwX4DWfM/7Me8ublwKB1brPsQokWehsB8p/VvAFtA3LsFgPXSGm7/y29aEzRI+Sg=="
     },
     "node_modules/@zerobias-org/vendor-jamf": {
-      "version": "1.1.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-jamf/-/vendor-jamf-1.1.1.tgz",
-      "integrity": "sha512-GxHrlJBHzgObCAR1VkN6Ih4v5mhJ5p89rUjaBIPPtX4R1yriT8aarSrh+HaLQphZv081e9JnBtnNDPb0+TSltQ=="
+      "version": "1.1.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-jamf/-/vendor-jamf-1.1.2.tgz",
+      "integrity": "sha512-X08kMMggxiD3Ek3pJjxyJRaNbNLzkEt7oyo1YWrtiBgXG2Ixa4xQ7DXmRizThuC6YfkadCZWIXerBlHsIqcthQ=="
     },
     "node_modules/@zerobias-org/vendor-jetbrains": {
       "version": "1.0.2",
@@ -3921,9 +3921,9 @@
       "integrity": "sha512-66dKKArkWj5vQQqFLa05VOnwX4DWfM/7Me8ublwKB1brPsQokWehsB8p/VvAFtA3LsFgPXSGm7/y29aEzRI+Sg=="
     },
     "@zerobias-org/vendor-jamf": {
-      "version": "1.1.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-jamf/-/vendor-jamf-1.1.1.tgz",
-      "integrity": "sha512-GxHrlJBHzgObCAR1VkN6Ih4v5mhJ5p89rUjaBIPPtX4R1yriT8aarSrh+HaLQphZv081e9JnBtnNDPb0+TSltQ=="
+      "version": "1.1.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-jamf/-/vendor-jamf-1.1.2.tgz",
+      "integrity": "sha512-X08kMMggxiD3Ek3pJjxyJRaNbNLzkEt7oyo1YWrtiBgXG2Ixa4xQ7DXmRizThuC6YfkadCZWIXerBlHsIqcthQ=="
     },
     "@zerobias-org/vendor-jetbrains": {
       "version": "1.0.2",
