@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.2](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-jamf@1.1.1...@zerobias-org/vendor-jamf@1.1.2) (2025-11-23)
+
+
+### Bug Fixes
+
+* missing cpe vendor from jamf ([ec260db](https://github.com/zerobias-org/vendor/commit/ec260db20db074323738741f196fca12d612f3c2))
+
+
+
+
+
 ## [1.1.1](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-jamf@1.1.0...@zerobias-org/vendor-jamf@1.1.1) (2025-11-23)
 
 
