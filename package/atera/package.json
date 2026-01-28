@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-atera",
-  "version": "1.0.2",
+  "version": "1.0.3-rc.0",
   "description": "Vendor package for Atera",
   "author": "opignault@zerobias.com",
   "license": "ISC",

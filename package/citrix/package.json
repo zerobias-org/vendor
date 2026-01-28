@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-citrix",
-  "version": "1.1.5",
+  "version": "1.1.6-rc.0",
   "description": "Vendor package for citrix.",
   "author": "team@zerobias.com",
   "license": "ISC",

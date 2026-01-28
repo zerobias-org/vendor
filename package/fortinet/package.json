@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-fortinet",
-  "version": "0.2.5",
+  "version": "0.2.6-rc.0",
   "description": "Vendor package for fortinet",
   "author": "team@zerobias.com",
   "license": "ISC",

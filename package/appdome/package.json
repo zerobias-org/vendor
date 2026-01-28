@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-appdome",
-  "version": "1.2.0",
+  "version": "1.2.1-rc.0",
   "description": "Vendor package for Appdome",
   "author": "opignault@zerobias.com",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-akamai",
-  "version": "1.0.0",
+  "version": "1.0.1-rc.0",
   "description": "Vendor package for Akamai",
   "author": "opignault@zerobias.com",
   "license": "ISC",
