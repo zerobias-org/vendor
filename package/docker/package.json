@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-docker",
-  "version": "1.0.3-rc.0",
+  "version": "1.0.3",
   "description": "Vendor package for Docker, Inc.",
   "author": "opignault@zerobias.com",
   "license": "ISC",

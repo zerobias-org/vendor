@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-asciicorporation",
-  "version": "1.2.1-rc.0",
+  "version": "1.2.1",
   "description": "Vendor package for ASCII Corporation",
   "author": "opignault@zerobias.com",
   "license": "ISC",

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-datto",
-  "version": "0.1.8-rc.0",
+  "version": "0.1.8",
   "description": "Vendor package for datto",
   "author": "team@zerobias.com",
   "license": "ISC",

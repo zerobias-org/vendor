@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-es",
-  "version": "1.0.3-rc.0",
+  "version": "1.0.3",
   "description": "vendor package for es",
   "author": "team@zerobias.com",
   "license": "ISC",
