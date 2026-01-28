@@ -1,0 +1,18 @@
+code: aiuc
+status: active
+id: 6509d194-9d3e-4607-9639-6006b008b8b5
+name: AI Use Case Consortium (AIUC)
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-01-26T20:10:00.000Z
+updated: 2026-01-26T20:10:00.000Z
+url: https://www.aiuc-1.com
+description: >-
+  The AI Use Case Consortium (AIUC) is a collaborative effort to create
+  standards for AI agent security and compliance. Members include Microsoft,
+  Google, Meta, Anthropic, JPMorgan Chase, Cisco, Stanford, and MIT.
+  The consortium develops the AIUC-1 standard - the world's first AI agent
+  standard for enterprise adoption
+logo: https://cdn.auditmation.io/logos/aiuc.svg
+cpeVendors:
+  - aiuc
