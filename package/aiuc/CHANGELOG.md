@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 1.1.0-rc.5 (2026-01-28)
+
+* chore: migrate workflows to nx and update dependencies (#31) ([a4833a3](https://github.com/zerobias-org/vendor/commit/a4833a3)), closes [#31](https://github.com/zerobias-org/vendor/issues/31) [#30](https://github.com/zerobias-org/vendor/issues/30)
+* chore(release): bump version ([866a3b6](https://github.com/zerobias-org/vendor/commit/866a3b6))
+
+
+
+
+
 ## 1.1.0-rc.4 (2026-01-28)
 
 * chore: migrate workflows to nx and update dependencies (#31) ([a4833a3](https://github.com/zerobias-org/vendor/commit/a4833a3)), closes [#31](https://github.com/zerobias-org/vendor/issues/31) [#30](https://github.com/zerobias-org/vendor/issues/30)
