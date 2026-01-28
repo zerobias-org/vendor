@@ -3,7 +3,17 @@ import fs from 'fs/promises';
 import path from 'path';
 import yaml from 'yaml';
 import { UUID, URL } from '@zerobias-org/types-core-js';
-import { VspStatusEnum } from '@zerobias-com/platform-core';
+
+// Local enum for vendor status validation
+const VspStatusEnum = {
+  values: ['active', 'verified', 'inactive', 'deprecated'] as const,
+  from(value: string): string {
+    if (!this.values.includes(value as any)) {
+      throw new Error(`Invalid VspStatus: ${value}. Valid values: ${this.values.join(', ')}`);
+    }
+    return value;
+  }
+};
 
 const vendorTypes: Record<string, number> = {};
 
