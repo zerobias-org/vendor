@@ -31,6 +31,8 @@
   },
   "homepage": "https://github.com/zerobias-org/vendor#readme",
   "devDependencies": {
+    "@commitlint/cli": "^20.3.1",
+    "@commitlint/config-conventional": "^20.3.1",
     "@zerobias-com/platform-core": "^1.0.25",
     "@zerobias-org/devops-tools": "^1.0.34",
     "@zerobias-org/types-core-js": "^1.2.11",
