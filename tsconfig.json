@@ -1,14 +1,11 @@
 {
   "compilerOptions": {
     "module": "NodeNext",
-    "target": "ES2022",
+    "target": "ES2023",
     "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "strict": false,
-    "skipLibCheck": true
-  },
-  "ts-node": {
-    "esm": true,
-    "experimentalSpecifierResolution": "node"
+    "skipLibCheck": true,
+    "lib": ["ES2023"]
   }
 }

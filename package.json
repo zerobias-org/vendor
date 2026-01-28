@@ -38,6 +38,6 @@
     "conventional-changelog-conventionalcommits": "^9.1.0",
     "lerna": "^9.0.3",
     "nx": "^20.5.0",
-    "ts-node": "^10.9.2"
+    "tsx": "^4.19.2"
   }
 }
