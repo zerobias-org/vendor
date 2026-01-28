@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-kubesec",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vendor package for Kubesec",
   "author": "opignault@zerobias.com",
   "license": "ISC",
