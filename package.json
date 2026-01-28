@@ -14,7 +14,8 @@
     "clean:full": "nx reset && rm -rf node_modules",
     "reset": "npm run clean:full && npm install",
     "lerna:dry-run": "lerna version --no-git-tag-version --no-push --conventional-commits",
-    "lerna:version": "lerna version --no-git-tag-version --no-push --conventional-commits --yes"
+    "lerna:version": "lerna version --no-git-tag-version --no-push --conventional-commits --yes",
+    "prepublish-init": "bash scripts/prepublish-init.sh"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -31,6 +32,7 @@
   "homepage": "https://github.com/zerobias-org/vendor#readme",
   "devDependencies": {
     "@zerobias-com/platform-core": "^1.0.25",
+    "@zerobias-org/devops-tools": "^1.0.34",
     "@zerobias-org/types-core-js": "^1.2.11",
     "lerna": "^9.0.3",
     "nx": "^20.5.0",

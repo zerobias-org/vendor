@@ -13,6 +13,7 @@
       ],
       "devDependencies": {
         "@zerobias-com/platform-core": "^1.0.25",
+        "@zerobias-org/devops-tools": "^1.0.34",
         "@zerobias-org/types-core-js": "^1.2.11",
         "lerna": "^9.0.3",
         "nx": "^20.5.0",
@@ -4842,14 +4843,14 @@
       }
     },
     "node_modules/@zerobias-org/devops-tools": {
-      "version": "1.0.32",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/devops-tools/-/devops-tools-1.0.32.tgz",
-      "integrity": "sha512-M/ZfZ2WWaKgsYoJKYbEHIeXe9sIbvYut5wFMlpMaM5poTnfpyOz9jtItydTsrhVtQdW+nCX23ArnBC/HcvHNdA==",
+      "version": "1.0.34",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/devops-tools/-/devops-tools-1.0.34.tgz",
+      "integrity": "sha512-GGo8D/1Dv4nUPf2Jpt+HqFZ9hg8ACi2rPHX8fpyDnPNwyt7jq1z+MtWM82Y/gVPl53GeMmDCZjgzP+jpkoRzEA==",
       "dev": true,
       "license": "UNLICENSED",
       "dependencies": {
         "@octokit/rest": "^22.0.1",
-        "@zerobias-org/devops-tools": "1.0.32",
+        "@zerobias-org/devops-tools": "1.0.34",
         "yargs": "^18.0.0"
       },
       "bin": {
@@ -4860,6 +4861,7 @@
         "prepublish-standalone": "scripts/prepublish-standalone.sh",
         "prepublishtest": "scripts/prepublishtest.sh",
         "publish": "scripts/publish.sh",
+        "publish-hoisted": "scripts/publish-hoisted.sh",
         "sort-by-deps": "scripts/sort-by-deps.sh",
         "triggerSchemaDocs": "src/triggerSchemaDocs.js"
       }
@@ -27158,13 +27160,13 @@
       }
     },
     "@zerobias-org/devops-tools": {
-      "version": "1.0.32",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/devops-tools/-/devops-tools-1.0.32.tgz",
-      "integrity": "sha512-M/ZfZ2WWaKgsYoJKYbEHIeXe9sIbvYut5wFMlpMaM5poTnfpyOz9jtItydTsrhVtQdW+nCX23ArnBC/HcvHNdA==",
+      "version": "1.0.34",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/devops-tools/-/devops-tools-1.0.34.tgz",
+      "integrity": "sha512-GGo8D/1Dv4nUPf2Jpt+HqFZ9hg8ACi2rPHX8fpyDnPNwyt7jq1z+MtWM82Y/gVPl53GeMmDCZjgzP+jpkoRzEA==",
       "dev": true,
       "requires": {
         "@octokit/rest": "^22.0.1",
-        "@zerobias-org/devops-tools": "1.0.32",
+        "@zerobias-org/devops-tools": "1.0.34",
         "yargs": "^18.0.0"
       },
       "dependencies": {
