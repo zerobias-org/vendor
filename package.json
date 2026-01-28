@@ -36,6 +36,7 @@
     "@zerobias-com/platform-core": "^1.0.25",
     "@zerobias-org/devops-tools": "^1.0.34",
     "@zerobias-org/types-core-js": "^1.2.11",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
     "lerna": "^9.0.3",
     "nx": "^20.5.0",
     "ts-node": "^10.9.2"
