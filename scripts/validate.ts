@@ -2,8 +2,8 @@
 import fs from 'fs/promises';
 import path from 'path';
 import yaml from 'yaml';
-import { UUID, URL } from '@auditmation/types-core-js';
-import { VspStatusEnum } from '@auditmation/module-auditmation-auditmation-portal';
+import { UUID, URL } from '@zerobias-org/types-core-js';
+import { VspStatusEnum } from '@zerobias-com/platform-core';
 
 const vendorTypes: Record<string, number> = {};
 

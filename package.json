@@ -2,6 +2,7 @@
   "name": "@zerobias-org/vendor",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "Zerobias vendor artifacts",
   "main": "main.js",
   "workspaces": [
@@ -29,14 +30,10 @@
   },
   "homepage": "https://github.com/zerobias-org/vendor#readme",
   "devDependencies": {
-    "@auditmation/devops-tools": "^0.17.3",
-    "@auditmation/module-auditmation-auditmation-portal": "^3.0.52",
-    "@auditmation/types-core-js": "^4.9.11",
-    "@commitlint/cli": "^20.3.1",
-    "@commitlint/config-conventional": "^20.3.1",
+    "@zerobias-com/platform-core": "^1.0.25",
+    "@zerobias-org/types-core-js": "^1.2.11",
     "lerna": "^9.0.3",
     "nx": "^20.5.0",
-    "ts-node": "^10.8.0",
-    "typescript": "4.8.4"
+    "ts-node": "^10.9.2"
   }
 }
