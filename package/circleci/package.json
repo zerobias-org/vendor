@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-circleci",
-  "version": "1.0.10",
+  "version": "1.0.11-rc.0",
   "description": "Vendor package for circleci",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -19,8 +19,8 @@
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",
     "prepublishtest": "../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../scripts/validate.ts"
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
   },
   "auditmation": {
     "package": "circleci",

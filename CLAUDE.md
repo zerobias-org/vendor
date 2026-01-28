@@ -82,3 +82,48 @@ Each vendor package (`package/[vendor-name]/`) contains:
 - **Private Registry**: Packages publish to `npm.pkg.github.com/@zerobias-org`
 - **No Direct npm publish**: Always use `npm run nx:publish` to ensure dependencies are correct
 - **Vendor Naming**: Package names should match the pattern `@zerobias-org/vendor-[name]`
+
+---
+
+## ZeroBias Task Integration
+
+For creating vendors from ZeroBias tasks, use the skill:
+
+```
+/create-vendor [task-id]
+```
+
+See **[.claude/skills/create-vendor.md](.claude/skills/create-vendor.md)** for the complete workflow.
+
+### Quick Reference
+
+**Orchestration Documentation:**
+- [Meta-repo: DEPENDENCY_CHAIN.md](../../docs/orchestration/DEPENDENCY_CHAIN.md) - Vendors are the ROOT
+- [Meta-repo: TASK_MANAGEMENT.md](../../docs/orchestration/TASK_MANAGEMENT.md) - Task API patterns
+- [Meta-repo: API_REFERENCE.md](../../docs/orchestration/API_REFERENCE.md) - Quick API reference
+
+**Dependency Chain:**
+```
+vendor → suite → framework/standard/benchmark → crosswalk
+```
+
+Vendors have NO dependencies - they are at the root of the chain.
+
+### Key APIs
+
+```javascript
+// Check if vendor exists
+zerobias_execute("portal.Vendor.search", { searchVendorBody: { search: "code" }})
+
+// Get your party ID for assignment
+zerobias_execute("platform.Party.getMyParty", {})
+
+// Transition task to in_progress (use transitionId, NOT status)
+zerobias_execute("platform.Task.update", {
+  id: taskId,
+  updateTask: {
+    assigned: partyId,
+    transitionId: "7f140bbe-4c10-54ac-922c-460c66392fad"
+  }
+})
+```

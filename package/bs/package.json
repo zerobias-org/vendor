@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bs",
-  "version": "1.0.2",
+  "version": "1.0.3-rc.0",
   "description": "vendor package for bs",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -28,7 +28,7 @@
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",
     "prepublishtest": "../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../scripts/validate.ts"
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
   }
 }

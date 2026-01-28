@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-complianceforge",
-  "version": "1.0.7",
+  "version": "1.0.8-rc.0",
   "description": "Vendor package for Compliance Forge",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -10,8 +10,8 @@
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",
     "prepublishtest": "../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../scripts/validate.ts"
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
   },
   "repository": {
     "type": "git",

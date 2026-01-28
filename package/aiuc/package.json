@@ -1,0 +1,30 @@
+{
+  "name": "@zerobias-org/vendor-aiuc",
+  "version": "1.1.0-rc.7",
+  "description": "Vendor package for AIUC (AI Use Case Consortium)",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "nx:publish": "../../scripts/publish.sh",
+    "prepublishtest": "../../scripts/prepublish.sh",
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "vendor/"
+  },
+  "files": [
+    "index.yml",
+    "logo.svg"
+  ],
+  "auditmation": {
+    "package": "aiuc",
+    "import-artifact": "vendor",
+    "dataloader-version": "5.0.14"
+  }
+}

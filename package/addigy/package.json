@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-addigy",
-  "version": "0.4.4",
+  "version": "0.4.5-rc.0",
   "description": "Vendor package for addigy",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -19,8 +19,8 @@
   "scripts": {
     "nx:publish": "../../scripts/publish.sh",
     "prepublishtest": "../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../scripts/validate.ts"
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
   },
   "auditmation": {
     "package": "addigy",

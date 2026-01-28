@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.13-rc.0 (2026-01-28)</small>
+
+* chore(vendor): migrate a-f packages from ts-node to tsx ([a227ca5](https://github.com/zerobias-org/vendor/commit/a227ca5))
+
+
+
+
+
 ## [1.0.12](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-cisco@1.0.12-rc.2...@zerobias-org/vendor-cisco@1.0.12) (2025-11-18)
 
 **Note:** Version bump only for package @zerobias-org/vendor-cisco

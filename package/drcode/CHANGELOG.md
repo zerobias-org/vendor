@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.1-rc.0 (2026-01-28)</small>
+
+* chore(vendor): migrate a-f packages from ts-node to tsx ([a227ca5](https://github.com/zerobias-org/vendor/commit/a227ca5))
+
+
+
+
+
 # [1.0.0](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-drcode@1.0.0-rc.2...@zerobias-org/vendor-drcode@1.0.0) (2025-10-28)
 
 **Note:** Version bump only for package @zerobias-org/vendor-drcode
