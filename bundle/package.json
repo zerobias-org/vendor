@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -27,7 +27,7 @@
     "@zerobias-org/vendor-aicoder": "1.2.1",
     "@zerobias-org/vendor-aicpa": "1.0.9",
     "@zerobias-org/vendor-aikido": "1.0.3",
-    "@zerobias-org/vendor-aiuc": "1.1.0",
+    "@zerobias-org/vendor-aiuc": "1.1.1",
     "@zerobias-org/vendor-aiven": "1.0.12",
     "@zerobias-org/vendor-akamai": "1.0.1",
     "@zerobias-org/vendor-allgress": "1.0.11",
