@@ -4,6 +4,7 @@
   "description": "{name}",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -17,13 +18,11 @@
     "logo.svg"
   ],
   "scripts": {
-    "nx:publish": "../../scripts/publish.sh",
-    "prepublishtest": "../../scripts/prepublish.sh",
     "correct:deps": "ts-node ../../scripts/correctDeps.ts",
     "validate": "ts-node ../../scripts/validate.ts"
   },
-  "auditmation": {
-    "dataloader-version": "5.0.14",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
     "package": "{code}"
   }
