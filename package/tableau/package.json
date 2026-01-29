@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-tableau",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vendor package for Tableau Software",
   "author": "opignault@zerobias.com",
   "license": "ISC",

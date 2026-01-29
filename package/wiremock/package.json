@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-wiremock",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Vendor package for WireMock",
   "author": "opignault@zerobias.com",
   "license": "ISC",

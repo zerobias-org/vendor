@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.12 (2026-01-29)</small>
+
+* chore(vendor): migrate t-z packages from ts-node to tsx ([fecc383](https://github.com/zerobias-org/vendor/commit/fecc383))
+
+
+
+
+
 ## [1.0.11](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-telos@1.0.11-rc.2...@zerobias-org/vendor-telos@1.0.11) (2025-11-18)
 
 **Note:** Version bump only for package @zerobias-org/vendor-telos
