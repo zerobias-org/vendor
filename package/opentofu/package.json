@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-opentofu",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Vendor package for OpenTofu",
   "author": "opignault@zerobias.com",
   "license": "ISC",

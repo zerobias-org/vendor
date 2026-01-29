@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.2.6 (2026-01-29)</small>
+
+* chore(vendor): migrate n-s packages from ts-node to tsx ([55727b8](https://github.com/zerobias-org/vendor/commit/55727b8))
+
+
+
+
+
 ## [0.2.5](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-nable@0.2.5-rc.2...@zerobias-org/vendor-nable@0.2.5) (2025-11-18)
 
 **Note:** Version bump only for package @zerobias-org/vendor-nable

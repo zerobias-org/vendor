@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-readthedocs",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Vendor package for Read the Docs",
   "author": "opignault@zerobias.com",
   "license": "ISC",
