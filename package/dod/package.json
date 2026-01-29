@@ -4,27 +4,26 @@
   "description": "Vendor package for Department of Defense",
   "author": "team@zerobias.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/vendor.git",
     "directory": "vendor/"
   },
+  "scripts": {
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "index.yml",
     "logo.*"
   ],
-  "scripts": {
-    "nx:publish": "../../scripts/publish.sh",
-    "prepublishtest": "../../scripts/prepublish.sh",
-    "correct:deps": "tsx ../../scripts/correctDeps.ts",
-    "validate": "tsx ../../scripts/validate.ts"
-  },
-  "auditmation": {
-    "package": "dod",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "dataloader-version": "5.0.14"
+    "package": "dod"
   }
 }
