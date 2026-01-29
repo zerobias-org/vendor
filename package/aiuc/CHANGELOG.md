@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.1 (2026-01-29)</small>
+
+* chore: trigger ([bdfbca6](https://github.com/zerobias-org/vendor/commit/bdfbca6))
+
+
+
+
+
 ## 1.1.0 (2026-01-28)
 
 * chore: cdn update ([9cad3ab](https://github.com/zerobias-org/vendor/commit/9cad3ab))
