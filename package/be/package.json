@@ -4,19 +4,15 @@
   "description": "vendor package for be",
   "author": "team@zerobias.com",
   "license": "ISC",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/vendor.git",
     "directory": "package/be/"
   },
-  "auditmation": {
-    "package": "be",
-    "import-artifact": "vendor",
-    "dataloader-version": "5.0.14"
-  },
-  "engines": {
-    "node": ">=16.11.0",
-    "npm": ">=8.0.0"
+  "scripts": {
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -25,10 +21,9 @@
     "index.yml",
     "logo.*"
   ],
-  "scripts": {
-    "nx:publish": "../../scripts/publish.sh",
-    "prepublishtest": "../../scripts/prepublish.sh",
-    "correct:deps": "tsx ../../scripts/correctDeps.ts",
-    "validate": "tsx ../../scripts/validate.ts"
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "vendor",
+    "package": "be"
   }
 }
