@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-cloudflare",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Vendor package for cloudflare",
   "author": "team@zerobias.com",
   "license": "ISC",

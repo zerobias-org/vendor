@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-cve",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Vendor package for cve",
   "author": "team@zerobias.com",
   "license": "ISC",
