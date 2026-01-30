@@ -4,24 +4,23 @@
   "description": "Vendor package for UAE",
   "author": "team@neverfail.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "scripts": {
-    "nx:publish": "../../scripts/publish.sh"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/vendor.git",
     "directory": "package/uae/"
   },
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "index.yml",
     "logo.*"
   ],
-  "auditmation": {
-    "package": "uae",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "dataloader-version": "0.5.4"
+    "package": "uae"
   }
 }
