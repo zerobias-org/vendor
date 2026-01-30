@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.3 (2026-01-30)</small>
+
+* chore(vendor): migrate packages devsupply-kite to zerobias config ([995e104](https://github.com/zerobias-org/vendor/commit/995e104))
+
+
+
+
+
 ## <small>1.1.2 (2026-01-28)</small>
 
 * Qa (#32) ([0cecdcc](https://github.com/zerobias-org/vendor/commit/0cecdcc)), closes [#32](https://github.com/zerobias-org/vendor/issues/32) [#31](https://github.com/zerobias-org/vendor/issues/31) [#30](https://github.com/zerobias-org/vendor/issues/30)

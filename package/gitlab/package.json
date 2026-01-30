@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-gitlab",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Vendor package for gitlab",
   "author": "team@zerobias.com",
   "license": "ISC",
