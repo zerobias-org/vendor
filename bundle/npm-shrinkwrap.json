@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "0.0.23",
+  "version": "0.0.24",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/vendor-bundle",
-      "version": "0.0.23",
+      "version": "0.0.24",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-accelq": "1.2.2",
@@ -409,52 +409,52 @@
         "@zerobias-org/vendor-ul": "1.0.4",
         "@zerobias-org/vendor-un": "1.0.4",
         "@zerobias-org/vendor-unitytechnologies": "1.0.2",
-        "@zerobias-org/vendor-us": "1.0.3",
-        "@zerobias-org/vendor-us_ak": "1.0.3",
-        "@zerobias-org/vendor-us_ca": "1.0.3",
-        "@zerobias-org/vendor-us_co": "1.0.3",
-        "@zerobias-org/vendor-us_il": "1.0.3",
-        "@zerobias-org/vendor-us_ma": "1.0.3",
-        "@zerobias-org/vendor-us_nv": "1.0.3",
-        "@zerobias-org/vendor-us_ny": "1.0.3",
-        "@zerobias-org/vendor-us_or": "1.0.3",
-        "@zerobias-org/vendor-us_sc": "1.0.3",
-        "@zerobias-org/vendor-us_te": "1.0.5",
-        "@zerobias-org/vendor-us_tn": "1.1.0",
-        "@zerobias-org/vendor-us_tx": "1.0.3",
-        "@zerobias-org/vendor-us_va": "1.0.3",
-        "@zerobias-org/vendor-us_vt": "1.0.3",
-        "@zerobias-org/vendor-usu": "1.2.1",
-        "@zerobias-org/vendor-uy": "1.0.3",
-        "@zerobias-org/vendor-varonis": "1.0.3",
-        "@zerobias-org/vendor-vectra": "1.2.1",
-        "@zerobias-org/vendor-veeam": "0.2.6",
-        "@zerobias-org/vendor-venminder": "1.0.11",
-        "@zerobias-org/vendor-venmo": "1.0.5",
-        "@zerobias-org/vendor-veracode": "1.0.3",
-        "@zerobias-org/vendor-vim": "1.1.2",
-        "@zerobias-org/vendor-visily": "1.2.1",
-        "@zerobias-org/vendor-vmware": "1.0.12",
-        "@zerobias-org/vendor-vulcan": "1.0.1",
-        "@zerobias-org/vendor-wasabi": "0.2.5",
-        "@zerobias-org/vendor-wazuh": "1.0.5",
-        "@zerobias-org/vendor-webdriverio": "1.2.1",
-        "@zerobias-org/vendor-whitehouse": "1.0.5",
-        "@zerobias-org/vendor-wiremock": "1.2.1",
-        "@zerobias-org/vendor-wiz": "0.2.5",
-        "@zerobias-org/vendor-workday": "1.0.12",
-        "@zerobias-org/vendor-workflowmax": "1.2.1",
-        "@zerobias-org/vendor-workplace": "0.2.5",
-        "@zerobias-org/vendor-wrike": "1.0.3",
-        "@zerobias-org/vendor-yoyogames": "1.2.1",
-        "@zerobias-org/vendor-za": "1.0.3",
-        "@zerobias-org/vendor-zed": "1.2.1",
-        "@zerobias-org/vendor-zendesk": "1.0.12",
-        "@zerobias-org/vendor-zenefits": "1.0.11",
-        "@zerobias-org/vendor-zerobias": "1.0.5",
-        "@zerobias-org/vendor-zhuyin": "1.0.1",
-        "@zerobias-org/vendor-zoho": "1.0.12",
-        "@zerobias-org/vendor-zoom": "1.0.3"
+        "@zerobias-org/vendor-us": "1.0.4",
+        "@zerobias-org/vendor-us_ak": "1.0.4",
+        "@zerobias-org/vendor-us_ca": "1.0.4",
+        "@zerobias-org/vendor-us_co": "1.0.4",
+        "@zerobias-org/vendor-us_il": "1.0.4",
+        "@zerobias-org/vendor-us_ma": "1.0.4",
+        "@zerobias-org/vendor-us_nv": "1.0.4",
+        "@zerobias-org/vendor-us_ny": "1.0.4",
+        "@zerobias-org/vendor-us_or": "1.0.4",
+        "@zerobias-org/vendor-us_sc": "1.0.4",
+        "@zerobias-org/vendor-us_te": "1.0.6",
+        "@zerobias-org/vendor-us_tn": "1.1.1",
+        "@zerobias-org/vendor-us_tx": "1.0.4",
+        "@zerobias-org/vendor-us_va": "1.0.4",
+        "@zerobias-org/vendor-us_vt": "1.0.4",
+        "@zerobias-org/vendor-usu": "1.2.2",
+        "@zerobias-org/vendor-uy": "1.0.4",
+        "@zerobias-org/vendor-varonis": "1.0.4",
+        "@zerobias-org/vendor-vectra": "1.2.2",
+        "@zerobias-org/vendor-veeam": "0.2.7",
+        "@zerobias-org/vendor-venminder": "1.0.12",
+        "@zerobias-org/vendor-venmo": "1.0.6",
+        "@zerobias-org/vendor-veracode": "1.0.4",
+        "@zerobias-org/vendor-vim": "1.1.3",
+        "@zerobias-org/vendor-visily": "1.2.2",
+        "@zerobias-org/vendor-vmware": "1.0.13",
+        "@zerobias-org/vendor-vulcan": "1.0.2",
+        "@zerobias-org/vendor-wasabi": "0.2.6",
+        "@zerobias-org/vendor-wazuh": "1.0.6",
+        "@zerobias-org/vendor-webdriverio": "1.2.2",
+        "@zerobias-org/vendor-whitehouse": "1.0.6",
+        "@zerobias-org/vendor-wiremock": "1.2.2",
+        "@zerobias-org/vendor-wiz": "0.2.6",
+        "@zerobias-org/vendor-workday": "1.0.13",
+        "@zerobias-org/vendor-workflowmax": "1.2.2",
+        "@zerobias-org/vendor-workplace": "0.2.6",
+        "@zerobias-org/vendor-wrike": "1.0.4",
+        "@zerobias-org/vendor-yoyogames": "1.2.2",
+        "@zerobias-org/vendor-za": "1.0.4",
+        "@zerobias-org/vendor-zed": "1.2.2",
+        "@zerobias-org/vendor-zendesk": "1.0.13",
+        "@zerobias-org/vendor-zenefits": "1.0.12",
+        "@zerobias-org/vendor-zerobias": "1.0.6",
+        "@zerobias-org/vendor-zhuyin": "1.0.2",
+        "@zerobias-org/vendor-zoho": "1.0.13",
+        "@zerobias-org/vendor-zoom": "1.0.4"
       }
     },
     "node_modules/@zerobias-org/vendor-accelq": {
@@ -2858,342 +2858,279 @@
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us/-/vendor-us-1.0.3.tgz",
-      "integrity": "sha512-Ev0qm819JxCRS1w8hNTd0yAXKpaIQxSi4xkTR9j0lpGTs1YQztQH0+QaQSoRLh7XoiY4FLcWrM+0UKYMAHl2iQ==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us/-/vendor-us-1.0.4.tgz",
+      "integrity": "sha512-Vnr2lCSS9hQiEBvjn/EBlFRfimw4EmCRvc6Aerv/YCR6RC9hUYzxV9Bk9DwghtAH8prqKxepUX8jPus4fzHYrA==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_ak": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ak/-/vendor-us_ak-1.0.3.tgz",
-      "integrity": "sha512-aYb5+cbAS3rk7uislfXViUD27ZE/eMDWI61dO9OUytlcMFiDR2uIaP/S/AKWoAZnP0nSkhGVue5taqoEmayEiw==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ak/-/vendor-us_ak-1.0.4.tgz",
+      "integrity": "sha512-uKaCsm5hUkNdJ5KdGIEUgnPoN6WqCZjpkFTJxsl+dRJgzVjnnWRXsyYEodkOSQmjRFby0f2SxijXKsz0q2A1RQ==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_ca": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ca/-/vendor-us_ca-1.0.3.tgz",
-      "integrity": "sha512-1QDCFNBHu8seH1yOySTrbN+zAKZEOfuUUqdwQwMcdh0aUyA+xp6rEJZPFj/AB/kuIuceRv+I1Lvv4dqPRU35lw==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ca/-/vendor-us_ca-1.0.4.tgz",
+      "integrity": "sha512-9LLnUqg3fcTK6J/MnVXjqM1AoTK74KlOLoz28AlYXjq51XG724hABvxdSKgqsAkza27wp5aR6t0AKBMoA2pbew==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_co": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_co/-/vendor-us_co-1.0.3.tgz",
-      "integrity": "sha512-ZK+L4vR1KCWfOMA1MJ2Y0u9fJFydgk5wuqNkb3ANOLsqqrC5OnDLkd5irqaUpPisXi5cqSSsCnmouuTt6A3/MA==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_co/-/vendor-us_co-1.0.4.tgz",
+      "integrity": "sha512-fehKEzfRcjP2MxkGdl1QtmvIoRvX+Ft5utnqU4XyjD5GvDh8OAK268/Ubs83awUPZm4a9nncXMeqSbAzyKG6VA==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_il": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_il/-/vendor-us_il-1.0.3.tgz",
-      "integrity": "sha512-Ac64ZsqgzJTpURFIzyGuoYq32zWHCTzoeJtfp5PJzcMxRGxnwEM3GHpWH9jlk8j5iaS/nFFulXsDKNEugdPL9A==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_il/-/vendor-us_il-1.0.4.tgz",
+      "integrity": "sha512-4QRZmfUn3Zt3YltVeC6/dO1Bjac6cWIjUQ57n/CE1L3rVjqy9Z46sAEFF+xcYIJthMhmtfbXAnG3VQXusctOTw==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_ma": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ma/-/vendor-us_ma-1.0.3.tgz",
-      "integrity": "sha512-mD9MJKY7K5kZHGuGr+kLFQhX071Xi4BNsSjckdQ8zb/eT07Snfwf+RHUtkwCb8vvVMyfAKpLWFcBZ1PAPBOIWQ==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ma/-/vendor-us_ma-1.0.4.tgz",
+      "integrity": "sha512-ZjAxm+HBjZGHZNATvWuEv1BnyTFSxcDozEBh2o5zJLvZcaTKJr347guKON21eBttUN6uzelsvUhkDv1zvjtqzw==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_nv": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_nv/-/vendor-us_nv-1.0.3.tgz",
-      "integrity": "sha512-DvDjAVD0iNoMubNr0CHqqaPNdG6i6KE62xqTDfcp1Pa3yDxUeI6P9+vW7jsGnS5VQnv/TsGubuIcAImDC5P0TA==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_nv/-/vendor-us_nv-1.0.4.tgz",
+      "integrity": "sha512-JlXhIbJ/c4xuL/IsW8eCTJkmr0RT9Qn/L5RNWDS500QclipZUx5H/RRXwlvdB1/4P7PgwizBDNSccn2GvdSMOg==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_ny": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ny/-/vendor-us_ny-1.0.3.tgz",
-      "integrity": "sha512-66TuKTnKiFM5O2MDO9Y2Dd+q34VWVnZcvO4qV/lGuZcGktAYH6w76OBXoG6RnlqF5Lp2uMSXtxSXrxTs6kYxNQ==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ny/-/vendor-us_ny-1.0.4.tgz",
+      "integrity": "sha512-PVNN1Hp7E9rjzMsg/UC6ockRnSZ9gwHjPjW5b5m+zsJiBolG0VVZL22Tn8lnw/bwjJfw3J1qcMeNGoGQ00BarA==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_or": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_or/-/vendor-us_or-1.0.3.tgz",
-      "integrity": "sha512-wt97u5n8eoNBirFkd8YlE4vAb7LwXwvetUDI95BE5Zcz4tkxRoiL/jmLlxYsNX9rL4AZk8vldd5YK1TlKwOa7w==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_or/-/vendor-us_or-1.0.4.tgz",
+      "integrity": "sha512-sbr9kiCNvz2SYqOCaCF7H1VTW3tIqwyjVaqUiLPVHRaqYnaKU7aWYmJgsyNb6ZfnJXtaGPfrrZ/y9w3D6xj+2A==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_sc": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_sc/-/vendor-us_sc-1.0.3.tgz",
-      "integrity": "sha512-CPAWyb/ilPB22KwjxFROXpXYCJijtn6bbFCwHT3Si/2nyos8hJWCTUDI/agE6jTMekA4myVAww2PzrWzql9uXg==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_sc/-/vendor-us_sc-1.0.4.tgz",
+      "integrity": "sha512-6YrcFobjk65EbNlXzGz2WB41xcZrKU7MTA7fnUTAicA9ZHxBQEeCT6LccK0xFuWmWbKhTzykdK4g1Q+p1HNYAA==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_te": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_te/-/vendor-us_te-1.0.5.tgz",
-      "integrity": "sha512-cNHrRRspEs/xR9nOut1bmSJ9LBVI2nJ/EwbxGrTdu1glN87Usdj8ylJ52fkDOaPWZkMhQw7TqTYgIz6IJjoVsw==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_te/-/vendor-us_te-1.0.6.tgz",
+      "integrity": "sha512-RTKaoKBOEFocUWPrjd0I/OIT/dUUaNqzxbo8DGi/YnB2/zcxVul8QixiP55Ksxd4c0jG8V40uXR+mGj8cR3TDg==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_tn": {
-      "version": "1.1.0",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tn/-/vendor-us_tn-1.1.0.tgz",
-      "integrity": "sha512-km4/D7fFRzACGw97itk/YTnX8jx5qvYQc/NK+FFWs7T7DaLdf1M0kZLJTjxLY38aFktDnoD5YDeOdlbGJvonzw=="
+      "version": "1.1.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tn/-/vendor-us_tn-1.1.1.tgz",
+      "integrity": "sha512-TsEEPtEnNYldb3hCiQl3I3f6kbM1O240mEAcuGnEXISvVKJ35fddH6smNHpVvKS1lb3Y13dsJL9ZXqExgbOIJw==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_tx": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tx/-/vendor-us_tx-1.0.3.tgz",
-      "integrity": "sha512-rUaHTUn0ehRZ86dWGsW2aolGNC0so8r8lJV31PrTdcxVKlg7rk7z3WmMpqwarsBGhqxj2rwmXW9lMG/Q3zTZQg==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tx/-/vendor-us_tx-1.0.4.tgz",
+      "integrity": "sha512-YyckFLX0yuAg1B2X+xjoKMjZ7DalPzk740CyhFhlHRyXOnr1s1L4h2u6i57PcFnINlxHViGgnGl6/FkV5RqH9g==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_va": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_va/-/vendor-us_va-1.0.3.tgz",
-      "integrity": "sha512-B0MNGiWi3RDqEyLE2ITGMbqrFmylF3YCXAcDxGfCPzCWsxuytqWJKQ3AbHPHBb6unL9sgGs12izdMa1+urVwZQ==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_va/-/vendor-us_va-1.0.4.tgz",
+      "integrity": "sha512-8NHtmzTZj+imgEID7UwwFmEAo+q46XVGouNO0dMzwV6h/AwqQzTVOh1h6ljPSz+JW7Afp9XJfDH5XWNa0gnt6A==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-us_vt": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_vt/-/vendor-us_vt-1.0.3.tgz",
-      "integrity": "sha512-WUUqUWbaUuyxR7z5Ecex68cr6XoAcwBHJrH0uL0tyfkW1XY2+8ZugjA7W2HKTetIentlboFZpkD7AuJI/qTUqw==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_vt/-/vendor-us_vt-1.0.4.tgz",
+      "integrity": "sha512-/IFjtypafnZrZ5OscP73xwucnerosa0zIgHa2nKBWNiEbYxiXARHy4qix2vyJDtOCq/Add5dxG6l3YTnzBe3Gw==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-usu": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-usu/-/vendor-usu-1.2.1.tgz",
-      "integrity": "sha512-TDok/AWD+bP+9nkeZ5ifQuq/waKNijLZP5Em6xSHfxa4ViDuuYZoMU6FvYfD9QGzCDgai/Bi88gnGI5i8xBt3g==",
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-usu/-/vendor-usu-1.2.2.tgz",
+      "integrity": "sha512-PR23AUNgp+E9/3aySy+0pEeoSdLiLM2BRszzvs7zAo2phBQA7SIyb1BBz1/WTz8ikk/H/fHRuRi/z3WVF1Ggtw==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-uy": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-uy/-/vendor-uy-1.0.3.tgz",
-      "integrity": "sha512-GWPOci5v61EG/PF99OerIcEpdViLaeLTiXnOtKPtIi++wq3iHDbPXHZ5BaK9m3LC8t7k2tHWcDnwPd7amoHrdA==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-uy/-/vendor-uy-1.0.4.tgz",
+      "integrity": "sha512-/4ifPoKgbHFH8zN+5aovmFnJoNog7goo+xbW2/C1N+Nfz+tDW0rD/w0p3ERqKRr7Q/xT4+OUHkm+PLsuuUydvA==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-varonis": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-varonis/-/vendor-varonis-1.0.3.tgz",
-      "integrity": "sha512-XSM/aFZmQg06gVmibpscFNUr3iM+o2Y+Nv6leWWjqbALvUngd+ZZhG9luR7BDm2MTM5OK+wzLxVeCaIqtUvwaw==",
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-varonis/-/vendor-varonis-1.0.4.tgz",
+      "integrity": "sha512-KbFjwYIzXcjmW6MdCltafJkC13go/xFZ583BCIy7Q+erUcTk5wwLPgBjJx6lLeS7H0TRSeZO2bnropXktT+ypw==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-vectra": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vectra/-/vendor-vectra-1.2.1.tgz",
-      "integrity": "sha512-9OwBWr8i6nAVweuOTatTX7VO0aJq3pSZJzGqugYzPJEcyv48E0tgx5XsmRSO5cmcbLhMlXmDAY/PaL5RCjt+QQ==",
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vectra/-/vendor-vectra-1.2.2.tgz",
+      "integrity": "sha512-HN80B4MyvVlA/6Y2Z78JCQXabreLxMJ14QIW9Y6Vgjtnw5rrwhUTjqU9xJeKP0gIBi1mfgffpfsDsC90Lp8A7Q==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-veeam": {
-      "version": "0.2.6",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-veeam/-/vendor-veeam-0.2.6.tgz",
-      "integrity": "sha512-UwRJq2kHpRhyPz+MRJTZ/xiV+wZf6a70tjRF98QlR7uXTIFyTZ1/v+vQJL7Lg288Kd9AKIsukOZyP0ZCMz5cZQ==",
+      "version": "0.2.7",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-veeam/-/vendor-veeam-0.2.7.tgz",
+      "integrity": "sha512-ZWpoQ/Ccy9Re83nVz6MwSwLMGsUnInzkewmedlKqstF5d+xWPlkayt/CcQNG4JzdG9H3qorQH8xJ83MfpyHYZA==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-venminder": {
-      "version": "1.0.11",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-venminder/-/vendor-venminder-1.0.11.tgz",
-      "integrity": "sha512-O4zuq81aUKJ3VQbo2jVvvTFT7EzAyCAifvxeK0H/JBF63bCg02LJsSnVo7QWCcmBB8BrAbXB6wFKhnwx25OpCQ==",
+      "version": "1.0.12",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-venminder/-/vendor-venminder-1.0.12.tgz",
+      "integrity": "sha512-zct0hSwLI7Tj0Hgiuh8Gpnn/3pFSRQY/LQWViZH2iTloaFncMWIfqyxsN+D8d2nkCk0dG05gKI2qlAmQt0qowg==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-venmo": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-venmo/-/vendor-venmo-1.0.5.tgz",
-      "integrity": "sha512-vnLv5ewpY5u5b06Zv1oOTZH5AyA0W2aZ/lkl6KJZOk313r1dOpBT5a+jEybasTBwqyQihDC3Fxr8zn1ewFIltw==",
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-venmo/-/vendor-venmo-1.0.6.tgz",
+      "integrity": "sha512-71Wc4APN6axbLQ16d234Uz9ZKQBZHkgYuYSVsSj1AogbnwXAGHC5Gm6pjokTM1H3aaxtIajkSbtsVltoYZMpkg==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-veracode": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-veracode/-/vendor-veracode-1.0.3.tgz",
-      "integrity": "sha512-/97uglp8A2mie3omGlrILE72oU2XuT/0H7NgqN3lRgxQxjSNzGtn7+TtpyfzN4KR4nS9WIfFf/agxeWG3BYk9w==",
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-veracode/-/vendor-veracode-1.0.4.tgz",
+      "integrity": "sha512-hZ6jclUe6rQFJopymzsrdRi+BOgG/fPLH9CT823W/Rb9YO6HKgc3TLay51wcAiw7gszf9TUaN5xbLCuio3kR/A==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-vim": {
-      "version": "1.1.2",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vim/-/vendor-vim-1.1.2.tgz",
-      "integrity": "sha512-uttR4YZk/fYo2gUQT2T5QTEgFWaFoD/2Xy5JsDOKqLbmSssbEiuEIZUYt739ur2xQAICaod73zRK3Z2GygU6Ag==",
+      "version": "1.1.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vim/-/vendor-vim-1.1.3.tgz",
+      "integrity": "sha512-YAQVEA/9UtqBquy9twcDftZ0sUMJZJx4q55+k8v4Tpgk+6m/UciBVzIPy7jdUuHwkXGKTxJ3DN/J2ZXWuJVvjw==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-visily": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-visily/-/vendor-visily-1.2.1.tgz",
-      "integrity": "sha512-9GWHbf92TfoF7IBxnC/U9DAX4eM5ux1XH3FsGajC7RyJR959eupNxGTrRW1V3w7SRBQDKZow7vivw1L7UCE7dg==",
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-visily/-/vendor-visily-1.2.2.tgz",
+      "integrity": "sha512-zTyGfkvOS4whEPVYQ7EneRX+bKUGXvZUHWmR2X2LHhW/VOvFSOMWqZlX9DJED0EXjDxRcnknKSF+g2mSfFlUbQ==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-vmware": {
-      "version": "1.0.12",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vmware/-/vendor-vmware-1.0.12.tgz",
-      "integrity": "sha512-4yphXS5lDDrKohLyw/RxAwmskwndqaCGtXlw1sf+LXtu5laTfGU6ce8X7AREMgZl6cr9khFQoVOshgBxVL3plQ==",
+      "version": "1.0.13",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vmware/-/vendor-vmware-1.0.13.tgz",
+      "integrity": "sha512-DuRCqtVEEHmFn4kxhkjc6+6yhG2aY3J3+vQ7X6ZyybzQN21Nqaz6CgK2kdAlcW32KWo1FaEyDtSXZ8/GogOViA==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-vulcan": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vulcan/-/vendor-vulcan-1.0.1.tgz",
-      "integrity": "sha512-rSb571Ad2gSiYt3jPKdOOCxIsDgXRMqMRrExez9twXb57QuDyChkRRwTsrMdNzdnsQMoUDgOjntsrzsyiBBrQw==",
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vulcan/-/vendor-vulcan-1.0.2.tgz",
+      "integrity": "sha512-OUnZ4UddbRQskhvfSriqJmvHVqsqvjlHBzkZnk5xEHugMhvHIqRfFVKP4jxOubRPJJMIySVwYpLUh31oZc8eMg==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-wasabi": {
-      "version": "0.2.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wasabi/-/vendor-wasabi-0.2.5.tgz",
-      "integrity": "sha512-FRZA6Rli5xgxRA7cRSQI+K0b0GqNBxPRuhEZda8aQWdO7bft74FtUP3c7UTNUptP7Phjbiat7Qc5H59mNJ6/Ig==",
+      "version": "0.2.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wasabi/-/vendor-wasabi-0.2.6.tgz",
+      "integrity": "sha512-/VmiZPnOXACs2Ngy4dDt/+paSZ1PHBjv4NVDNW04Y8klWl/ycKbNG8Ub+H8toj3QUPRLJWPv4TQOp0llYF3M7Q==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-wazuh": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wazuh/-/vendor-wazuh-1.0.5.tgz",
-      "integrity": "sha512-srXS/3ne1Y7mTPlHgYnw/yyznlrCdQZc3eam1wuAOnJmBE2QwleogZhMeJ4/OpFsshvILSN31OZt1iLZm2Zcvg==",
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wazuh/-/vendor-wazuh-1.0.6.tgz",
+      "integrity": "sha512-Ly4BeiTOCY3fP1OAMPim4j9WyQrxzXx9SVU1S77lo1jJhgMp4wzgOa8btA6vE54rD2LJz0vq37X9iHddM6YhFA==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-webdriverio": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-webdriverio/-/vendor-webdriverio-1.2.1.tgz",
-      "integrity": "sha512-oHYjpwmWI1PUTEQVJxOMGwcH6OjzL+1BzpIDvgdlNeO7/MyeuTaaEd4sBWqdMhPzYk5ZtBDQxwwrOH1MxeQZiw==",
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-webdriverio/-/vendor-webdriverio-1.2.2.tgz",
+      "integrity": "sha512-ejTWUSB3+W/Ib5Cc5CfROOUSlKnxB4xIyYmXQcNZ2Vo6WpRcMykH3aIxYjzfh50U0R1C92NEKPWyBclfGBaeWA==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-whitehouse": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-whitehouse/-/vendor-whitehouse-1.0.5.tgz",
-      "integrity": "sha512-OsO9g4s+frrXhI2xaq/RcrBteS8Mo/nHiCwHoMzGKEBNIVn//CJzLIC7vBJRsmzUEP3BSXbxcRhdFgISIEqT0g==",
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-whitehouse/-/vendor-whitehouse-1.0.6.tgz",
+      "integrity": "sha512-48sARqsH87G1lH6m7oKaslV6GnaAdOX5fxw0HsRNe7CIgaoujQIpwFKewGCT1blfk5im61CjfR7yNYW2C7Knvw==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-wiremock": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wiremock/-/vendor-wiremock-1.2.1.tgz",
-      "integrity": "sha512-zMMVI+GJkwNcrGhGuOOukXTcZEXyUOk6amHg17wfdsWE7y3N+9YyoDCJzxCJ586m8UKJTyeAVMC24HipBEq63w==",
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wiremock/-/vendor-wiremock-1.2.2.tgz",
+      "integrity": "sha512-APV88cuKCReF3nWfo/m1jkex71M2KYJXsqXwrZP1f0po7hbYJz4w7PAmD7HtJ6rL+elgF6kmvki8AD9oQx1cTw==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-wiz": {
-      "version": "0.2.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wiz/-/vendor-wiz-0.2.5.tgz",
-      "integrity": "sha512-+nTVs5UNksGFGyPgS1Gny5jttXMR5jp8fnOB1Op1YBpsIEA633M8LihVpOID0NexWrr0WsPO3JgHIIJztkPKmw==",
+      "version": "0.2.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wiz/-/vendor-wiz-0.2.6.tgz",
+      "integrity": "sha512-GArqqQgthh7Ad1qicdYvVnmsigVBL7pwXw+zs1921pWk/kNhYZovgLXWBQX047piq/jpMuwGDzpmc5OWjlRWag==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-workday": {
-      "version": "1.0.12",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workday/-/vendor-workday-1.0.12.tgz",
-      "integrity": "sha512-1CW+V8qPboJip3thWbro6Dyquz1sx6fXDxD6CxDjCff2yjdZ7kqMczp1cS3eYizzH6QQlBNlcb488Jof5g6lJg==",
+      "version": "1.0.13",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workday/-/vendor-workday-1.0.13.tgz",
+      "integrity": "sha512-o/0SL7kWd6oEEBVClFGf7NdmWoQnd0VkkgVShOX+RX4spqGhOP55DWTWFKBfg1L9HaPBclPQlHiwDH+YnEqcHw==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-workflowmax": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workflowmax/-/vendor-workflowmax-1.2.1.tgz",
-      "integrity": "sha512-Jy+zP4qRJNdS7QSHKyc9sHh/kzpLKSk7/sNkhaeGjRDy31zwAg7rkIKrnktCBMkLBWaJss9QNEx9ngeCaeqFBg==",
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workflowmax/-/vendor-workflowmax-1.2.2.tgz",
+      "integrity": "sha512-6lyPeO+hbYIUwVsKgOrNEXwXS0f0dvynKr9gNq3hu7kuqCUeB0IHsSWBdyI2i1CAjVvSS4AYWukcwh0jvZ4gaQ==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-workplace": {
-      "version": "0.2.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workplace/-/vendor-workplace-0.2.5.tgz",
-      "integrity": "sha512-A4fOYOuCE6mFtgmO7PiiIaRzmxIaSmAt2qubV5S9LLV0aKmtIrFpPXgueoaMqAEqkK1mJqP1Z2xKQH8eEGlcpQ==",
+      "version": "0.2.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workplace/-/vendor-workplace-0.2.6.tgz",
+      "integrity": "sha512-XdfQWbIh3S+4AmE583SrqaB4j4oq+IHG2XSyGdAKevWpPyQwZMzM7XsPQOKDofuZiUS060therXLuD5f3SkryQ==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-wrike": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wrike/-/vendor-wrike-1.0.3.tgz",
-      "integrity": "sha512-Y/ph/2JnkwEZ1qXQCeKkZzySxDMaMGuIK34Oodd7rm5os8XUaynGqkIaOLwzFzWzAwsw1l2hislbAv0ezVxREg==",
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wrike/-/vendor-wrike-1.0.4.tgz",
+      "integrity": "sha512-R6kpF61UXVQnPvTErzJD33UBkkvkTrhpj2nSZ1zktRYuvPRntkpOSsvKjSqTk76kgJRKi4QwGV/mPVN85Dad9w==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-yoyogames": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-yoyogames/-/vendor-yoyogames-1.2.1.tgz",
-      "integrity": "sha512-Vixsj8TrzqPo/1CuocQzP3NfcSKcYOMYuRleqaRp+RfuwjUdE5DEVyOTqD1nuSQ5Q5IzQnlztX6ETKHWdpPrzA==",
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-yoyogames/-/vendor-yoyogames-1.2.2.tgz",
+      "integrity": "sha512-nEFimrhqAsiFrdm/GLs9YMCdSE5oYKTkCJhsqz9RFmSoIH7PBzoGVTYINLF7NE2nEKqFMWXQWO+6Em9ziAWX2g==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-za": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-za/-/vendor-za-1.0.3.tgz",
-      "integrity": "sha512-zRSd7MNPokJJReCofp8mFvyCFlZlsepG041Do7pF86MaDmOPX7NtGX0QI67/oMZb26uWU6tVsrOGSj8uLoGKfw==",
-      "license": "ISC",
-      "engines": {
-        "node": ">=16.11.0",
-        "npm": ">=8.0.0"
-      }
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-za/-/vendor-za-1.0.4.tgz",
+      "integrity": "sha512-ASAXDxgoW5idpXL76L7lIzmzuisHScH/8x3kDHBnsO9fVM6g9KjB24aKpOXkgnqhGnCk8EFTc5285paUVyuudw==",
+      "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-zed": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zed/-/vendor-zed-1.2.1.tgz",
-      "integrity": "sha512-D1cf8GDvJ9VT3tphkM/aJOEC+5nNMIuENRxt6fIZARwAy+sXjcKZPFPMElqnkl63sprdDNJZA4C6k6YaI0Y5RA==",
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zed/-/vendor-zed-1.2.2.tgz",
+      "integrity": "sha512-Exia0g79nbO3TTV3+Ws5TUvBqPs+OfS+ZNxYav+yK31Rl3M3olBO+z9NERkHplJ5uLQY5oRWeAg1WgB0Kz05Dg==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-zendesk": {
-      "version": "1.0.12",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zendesk/-/vendor-zendesk-1.0.12.tgz",
-      "integrity": "sha512-FG6vtBhk7UT2v8HM/mvn0DEHufPtZeHTG7XV6hyr0IqTEgrDA6Ky0ia+svPbtZaQrOfcn3RWK1+DEUTDtPhGlw==",
+      "version": "1.0.13",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zendesk/-/vendor-zendesk-1.0.13.tgz",
+      "integrity": "sha512-kK3lpasMD1H+Jw50Falaydg4A5l8pjuI291bgDFABG797X3iE9vsP9Yll2VBMe/Wu42EdmYfb3orHgBCJ78jyg==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-zenefits": {
-      "version": "1.0.11",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zenefits/-/vendor-zenefits-1.0.11.tgz",
-      "integrity": "sha512-8D9PPx+TgP0bdU7JMvaj5iQy2VWrTlTAtOWxYflOrA4wqkUdtuoLSUFFlhfmdtlpxeVMCXG0+h9wyHXFwUTHDA==",
+      "version": "1.0.12",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zenefits/-/vendor-zenefits-1.0.12.tgz",
+      "integrity": "sha512-8yjBTi4ck7XeOrhHuJi1W/3gdDmVL4n9iAH/vtffcYtlLNo93rLPOcewkww1XrA1GNCIqm14bcFOebgFEHHJzA==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-zerobias": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zerobias/-/vendor-zerobias-1.0.5.tgz",
-      "integrity": "sha512-GUuVUDwX3ju34uuXoJJ3R5bRnvnTaXH4Gx5G76HWRd5jkihTCAWPQBNXSwPmuvdKuuGxU4XNv9be1i16PrO0pw==",
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zerobias/-/vendor-zerobias-1.0.6.tgz",
+      "integrity": "sha512-k9cEu70epNoV49jV4H/B7HVDEAAlGd0AupG/ErOmRRgC4HQYJW4Q1OfgF88ZSQeTO+QORs18ZSD7dOJkwAi3Yw==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-zhuyin": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zhuyin/-/vendor-zhuyin-1.0.1.tgz",
-      "integrity": "sha512-csv78zxZKl3gUKN2IvuCpwPKyn7UuPxsWgbIUFhK27Pmer4ey9Tvi6GE7r/N61/1mz94D7Xg0xGXlqd0CP6MOQ==",
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zhuyin/-/vendor-zhuyin-1.0.2.tgz",
+      "integrity": "sha512-tTdqjxFJq0LKpijFT0hrrmLEv9f2PlT/3HaVjbj5tAlHhNm0yyKFQpNVdzhqGVo4XtYJ7coBDcbUD+AE+NdKeA==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-zoho": {
-      "version": "1.0.12",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zoho/-/vendor-zoho-1.0.12.tgz",
-      "integrity": "sha512-53BSuQvl9GEf+Ke1P/XtSpWx3rM6PYbYiBnXVe2r4S3e/uXWQiWcTtcxwtV4AUryQPeyvY6vzw8IWIlhwJLtfQ==",
+      "version": "1.0.13",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zoho/-/vendor-zoho-1.0.13.tgz",
+      "integrity": "sha512-3dynMu7Jz6pUreMk324hsFqCbQXHS6EgUCyK7FVTZ6P8Cdf8QdO/0lfajF675/ebejtlkU0adzEDVnQRaTZ/Wg==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-zoom": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zoom/-/vendor-zoom-1.0.3.tgz",
-      "integrity": "sha512-GR3dDSwIGd1VLk4UM8XysJxXLfIvA12j30BnUYtAEkjjAseRGGc2JEOEUeVOt1j07RiiVlEHqlM3lRgFviLP7A==",
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zoom/-/vendor-zoom-1.0.4.tgz",
+      "integrity": "sha512-UIrB6uWx0gyMb8enbmqa3mG1zKW+QJ1R1jY7C6/gCdzE6aN254ogMJf4lEW34bbaTCh50LKIri3Xv/h1u8QiOA==",
       "license": "ISC"
     }
   },
@@ -5199,234 +5136,234 @@
       "integrity": "sha512-kTXGCNjpAa+5zANUNlIyIHGQOLTZWTbIGGQQWZBFrNdjdmo2ogGkt1HbyzAmu6HXuzvdqsTXU1cW0Y+rskMktQ=="
     },
     "@zerobias-org/vendor-us": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us/-/vendor-us-1.0.3.tgz",
-      "integrity": "sha512-Ev0qm819JxCRS1w8hNTd0yAXKpaIQxSi4xkTR9j0lpGTs1YQztQH0+QaQSoRLh7XoiY4FLcWrM+0UKYMAHl2iQ=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us/-/vendor-us-1.0.4.tgz",
+      "integrity": "sha512-Vnr2lCSS9hQiEBvjn/EBlFRfimw4EmCRvc6Aerv/YCR6RC9hUYzxV9Bk9DwghtAH8prqKxepUX8jPus4fzHYrA=="
     },
     "@zerobias-org/vendor-us_ak": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ak/-/vendor-us_ak-1.0.3.tgz",
-      "integrity": "sha512-aYb5+cbAS3rk7uislfXViUD27ZE/eMDWI61dO9OUytlcMFiDR2uIaP/S/AKWoAZnP0nSkhGVue5taqoEmayEiw=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ak/-/vendor-us_ak-1.0.4.tgz",
+      "integrity": "sha512-uKaCsm5hUkNdJ5KdGIEUgnPoN6WqCZjpkFTJxsl+dRJgzVjnnWRXsyYEodkOSQmjRFby0f2SxijXKsz0q2A1RQ=="
     },
     "@zerobias-org/vendor-us_ca": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ca/-/vendor-us_ca-1.0.3.tgz",
-      "integrity": "sha512-1QDCFNBHu8seH1yOySTrbN+zAKZEOfuUUqdwQwMcdh0aUyA+xp6rEJZPFj/AB/kuIuceRv+I1Lvv4dqPRU35lw=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ca/-/vendor-us_ca-1.0.4.tgz",
+      "integrity": "sha512-9LLnUqg3fcTK6J/MnVXjqM1AoTK74KlOLoz28AlYXjq51XG724hABvxdSKgqsAkza27wp5aR6t0AKBMoA2pbew=="
     },
     "@zerobias-org/vendor-us_co": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_co/-/vendor-us_co-1.0.3.tgz",
-      "integrity": "sha512-ZK+L4vR1KCWfOMA1MJ2Y0u9fJFydgk5wuqNkb3ANOLsqqrC5OnDLkd5irqaUpPisXi5cqSSsCnmouuTt6A3/MA=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_co/-/vendor-us_co-1.0.4.tgz",
+      "integrity": "sha512-fehKEzfRcjP2MxkGdl1QtmvIoRvX+Ft5utnqU4XyjD5GvDh8OAK268/Ubs83awUPZm4a9nncXMeqSbAzyKG6VA=="
     },
     "@zerobias-org/vendor-us_il": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_il/-/vendor-us_il-1.0.3.tgz",
-      "integrity": "sha512-Ac64ZsqgzJTpURFIzyGuoYq32zWHCTzoeJtfp5PJzcMxRGxnwEM3GHpWH9jlk8j5iaS/nFFulXsDKNEugdPL9A=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_il/-/vendor-us_il-1.0.4.tgz",
+      "integrity": "sha512-4QRZmfUn3Zt3YltVeC6/dO1Bjac6cWIjUQ57n/CE1L3rVjqy9Z46sAEFF+xcYIJthMhmtfbXAnG3VQXusctOTw=="
     },
     "@zerobias-org/vendor-us_ma": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ma/-/vendor-us_ma-1.0.3.tgz",
-      "integrity": "sha512-mD9MJKY7K5kZHGuGr+kLFQhX071Xi4BNsSjckdQ8zb/eT07Snfwf+RHUtkwCb8vvVMyfAKpLWFcBZ1PAPBOIWQ=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ma/-/vendor-us_ma-1.0.4.tgz",
+      "integrity": "sha512-ZjAxm+HBjZGHZNATvWuEv1BnyTFSxcDozEBh2o5zJLvZcaTKJr347guKON21eBttUN6uzelsvUhkDv1zvjtqzw=="
     },
     "@zerobias-org/vendor-us_nv": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_nv/-/vendor-us_nv-1.0.3.tgz",
-      "integrity": "sha512-DvDjAVD0iNoMubNr0CHqqaPNdG6i6KE62xqTDfcp1Pa3yDxUeI6P9+vW7jsGnS5VQnv/TsGubuIcAImDC5P0TA=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_nv/-/vendor-us_nv-1.0.4.tgz",
+      "integrity": "sha512-JlXhIbJ/c4xuL/IsW8eCTJkmr0RT9Qn/L5RNWDS500QclipZUx5H/RRXwlvdB1/4P7PgwizBDNSccn2GvdSMOg=="
     },
     "@zerobias-org/vendor-us_ny": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ny/-/vendor-us_ny-1.0.3.tgz",
-      "integrity": "sha512-66TuKTnKiFM5O2MDO9Y2Dd+q34VWVnZcvO4qV/lGuZcGktAYH6w76OBXoG6RnlqF5Lp2uMSXtxSXrxTs6kYxNQ=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_ny/-/vendor-us_ny-1.0.4.tgz",
+      "integrity": "sha512-PVNN1Hp7E9rjzMsg/UC6ockRnSZ9gwHjPjW5b5m+zsJiBolG0VVZL22Tn8lnw/bwjJfw3J1qcMeNGoGQ00BarA=="
     },
     "@zerobias-org/vendor-us_or": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_or/-/vendor-us_or-1.0.3.tgz",
-      "integrity": "sha512-wt97u5n8eoNBirFkd8YlE4vAb7LwXwvetUDI95BE5Zcz4tkxRoiL/jmLlxYsNX9rL4AZk8vldd5YK1TlKwOa7w=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_or/-/vendor-us_or-1.0.4.tgz",
+      "integrity": "sha512-sbr9kiCNvz2SYqOCaCF7H1VTW3tIqwyjVaqUiLPVHRaqYnaKU7aWYmJgsyNb6ZfnJXtaGPfrrZ/y9w3D6xj+2A=="
     },
     "@zerobias-org/vendor-us_sc": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_sc/-/vendor-us_sc-1.0.3.tgz",
-      "integrity": "sha512-CPAWyb/ilPB22KwjxFROXpXYCJijtn6bbFCwHT3Si/2nyos8hJWCTUDI/agE6jTMekA4myVAww2PzrWzql9uXg=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_sc/-/vendor-us_sc-1.0.4.tgz",
+      "integrity": "sha512-6YrcFobjk65EbNlXzGz2WB41xcZrKU7MTA7fnUTAicA9ZHxBQEeCT6LccK0xFuWmWbKhTzykdK4g1Q+p1HNYAA=="
     },
     "@zerobias-org/vendor-us_te": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_te/-/vendor-us_te-1.0.5.tgz",
-      "integrity": "sha512-cNHrRRspEs/xR9nOut1bmSJ9LBVI2nJ/EwbxGrTdu1glN87Usdj8ylJ52fkDOaPWZkMhQw7TqTYgIz6IJjoVsw=="
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_te/-/vendor-us_te-1.0.6.tgz",
+      "integrity": "sha512-RTKaoKBOEFocUWPrjd0I/OIT/dUUaNqzxbo8DGi/YnB2/zcxVul8QixiP55Ksxd4c0jG8V40uXR+mGj8cR3TDg=="
     },
     "@zerobias-org/vendor-us_tn": {
-      "version": "1.1.0",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tn/-/vendor-us_tn-1.1.0.tgz",
-      "integrity": "sha512-km4/D7fFRzACGw97itk/YTnX8jx5qvYQc/NK+FFWs7T7DaLdf1M0kZLJTjxLY38aFktDnoD5YDeOdlbGJvonzw=="
+      "version": "1.1.1",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tn/-/vendor-us_tn-1.1.1.tgz",
+      "integrity": "sha512-TsEEPtEnNYldb3hCiQl3I3f6kbM1O240mEAcuGnEXISvVKJ35fddH6smNHpVvKS1lb3Y13dsJL9ZXqExgbOIJw=="
     },
     "@zerobias-org/vendor-us_tx": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tx/-/vendor-us_tx-1.0.3.tgz",
-      "integrity": "sha512-rUaHTUn0ehRZ86dWGsW2aolGNC0so8r8lJV31PrTdcxVKlg7rk7z3WmMpqwarsBGhqxj2rwmXW9lMG/Q3zTZQg=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_tx/-/vendor-us_tx-1.0.4.tgz",
+      "integrity": "sha512-YyckFLX0yuAg1B2X+xjoKMjZ7DalPzk740CyhFhlHRyXOnr1s1L4h2u6i57PcFnINlxHViGgnGl6/FkV5RqH9g=="
     },
     "@zerobias-org/vendor-us_va": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_va/-/vendor-us_va-1.0.3.tgz",
-      "integrity": "sha512-B0MNGiWi3RDqEyLE2ITGMbqrFmylF3YCXAcDxGfCPzCWsxuytqWJKQ3AbHPHBb6unL9sgGs12izdMa1+urVwZQ=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_va/-/vendor-us_va-1.0.4.tgz",
+      "integrity": "sha512-8NHtmzTZj+imgEID7UwwFmEAo+q46XVGouNO0dMzwV6h/AwqQzTVOh1h6ljPSz+JW7Afp9XJfDH5XWNa0gnt6A=="
     },
     "@zerobias-org/vendor-us_vt": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_vt/-/vendor-us_vt-1.0.3.tgz",
-      "integrity": "sha512-WUUqUWbaUuyxR7z5Ecex68cr6XoAcwBHJrH0uL0tyfkW1XY2+8ZugjA7W2HKTetIentlboFZpkD7AuJI/qTUqw=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-us_vt/-/vendor-us_vt-1.0.4.tgz",
+      "integrity": "sha512-/IFjtypafnZrZ5OscP73xwucnerosa0zIgHa2nKBWNiEbYxiXARHy4qix2vyJDtOCq/Add5dxG6l3YTnzBe3Gw=="
     },
     "@zerobias-org/vendor-usu": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-usu/-/vendor-usu-1.2.1.tgz",
-      "integrity": "sha512-TDok/AWD+bP+9nkeZ5ifQuq/waKNijLZP5Em6xSHfxa4ViDuuYZoMU6FvYfD9QGzCDgai/Bi88gnGI5i8xBt3g=="
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-usu/-/vendor-usu-1.2.2.tgz",
+      "integrity": "sha512-PR23AUNgp+E9/3aySy+0pEeoSdLiLM2BRszzvs7zAo2phBQA7SIyb1BBz1/WTz8ikk/H/fHRuRi/z3WVF1Ggtw=="
     },
     "@zerobias-org/vendor-uy": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-uy/-/vendor-uy-1.0.3.tgz",
-      "integrity": "sha512-GWPOci5v61EG/PF99OerIcEpdViLaeLTiXnOtKPtIi++wq3iHDbPXHZ5BaK9m3LC8t7k2tHWcDnwPd7amoHrdA=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-uy/-/vendor-uy-1.0.4.tgz",
+      "integrity": "sha512-/4ifPoKgbHFH8zN+5aovmFnJoNog7goo+xbW2/C1N+Nfz+tDW0rD/w0p3ERqKRr7Q/xT4+OUHkm+PLsuuUydvA=="
     },
     "@zerobias-org/vendor-varonis": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-varonis/-/vendor-varonis-1.0.3.tgz",
-      "integrity": "sha512-XSM/aFZmQg06gVmibpscFNUr3iM+o2Y+Nv6leWWjqbALvUngd+ZZhG9luR7BDm2MTM5OK+wzLxVeCaIqtUvwaw=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-varonis/-/vendor-varonis-1.0.4.tgz",
+      "integrity": "sha512-KbFjwYIzXcjmW6MdCltafJkC13go/xFZ583BCIy7Q+erUcTk5wwLPgBjJx6lLeS7H0TRSeZO2bnropXktT+ypw=="
     },
     "@zerobias-org/vendor-vectra": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vectra/-/vendor-vectra-1.2.1.tgz",
-      "integrity": "sha512-9OwBWr8i6nAVweuOTatTX7VO0aJq3pSZJzGqugYzPJEcyv48E0tgx5XsmRSO5cmcbLhMlXmDAY/PaL5RCjt+QQ=="
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vectra/-/vendor-vectra-1.2.2.tgz",
+      "integrity": "sha512-HN80B4MyvVlA/6Y2Z78JCQXabreLxMJ14QIW9Y6Vgjtnw5rrwhUTjqU9xJeKP0gIBi1mfgffpfsDsC90Lp8A7Q=="
     },
     "@zerobias-org/vendor-veeam": {
-      "version": "0.2.6",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-veeam/-/vendor-veeam-0.2.6.tgz",
-      "integrity": "sha512-UwRJq2kHpRhyPz+MRJTZ/xiV+wZf6a70tjRF98QlR7uXTIFyTZ1/v+vQJL7Lg288Kd9AKIsukOZyP0ZCMz5cZQ=="
+      "version": "0.2.7",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-veeam/-/vendor-veeam-0.2.7.tgz",
+      "integrity": "sha512-ZWpoQ/Ccy9Re83nVz6MwSwLMGsUnInzkewmedlKqstF5d+xWPlkayt/CcQNG4JzdG9H3qorQH8xJ83MfpyHYZA=="
     },
     "@zerobias-org/vendor-venminder": {
-      "version": "1.0.11",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-venminder/-/vendor-venminder-1.0.11.tgz",
-      "integrity": "sha512-O4zuq81aUKJ3VQbo2jVvvTFT7EzAyCAifvxeK0H/JBF63bCg02LJsSnVo7QWCcmBB8BrAbXB6wFKhnwx25OpCQ=="
+      "version": "1.0.12",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-venminder/-/vendor-venminder-1.0.12.tgz",
+      "integrity": "sha512-zct0hSwLI7Tj0Hgiuh8Gpnn/3pFSRQY/LQWViZH2iTloaFncMWIfqyxsN+D8d2nkCk0dG05gKI2qlAmQt0qowg=="
     },
     "@zerobias-org/vendor-venmo": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-venmo/-/vendor-venmo-1.0.5.tgz",
-      "integrity": "sha512-vnLv5ewpY5u5b06Zv1oOTZH5AyA0W2aZ/lkl6KJZOk313r1dOpBT5a+jEybasTBwqyQihDC3Fxr8zn1ewFIltw=="
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-venmo/-/vendor-venmo-1.0.6.tgz",
+      "integrity": "sha512-71Wc4APN6axbLQ16d234Uz9ZKQBZHkgYuYSVsSj1AogbnwXAGHC5Gm6pjokTM1H3aaxtIajkSbtsVltoYZMpkg=="
     },
     "@zerobias-org/vendor-veracode": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-veracode/-/vendor-veracode-1.0.3.tgz",
-      "integrity": "sha512-/97uglp8A2mie3omGlrILE72oU2XuT/0H7NgqN3lRgxQxjSNzGtn7+TtpyfzN4KR4nS9WIfFf/agxeWG3BYk9w=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-veracode/-/vendor-veracode-1.0.4.tgz",
+      "integrity": "sha512-hZ6jclUe6rQFJopymzsrdRi+BOgG/fPLH9CT823W/Rb9YO6HKgc3TLay51wcAiw7gszf9TUaN5xbLCuio3kR/A=="
     },
     "@zerobias-org/vendor-vim": {
-      "version": "1.1.2",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vim/-/vendor-vim-1.1.2.tgz",
-      "integrity": "sha512-uttR4YZk/fYo2gUQT2T5QTEgFWaFoD/2Xy5JsDOKqLbmSssbEiuEIZUYt739ur2xQAICaod73zRK3Z2GygU6Ag=="
+      "version": "1.1.3",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vim/-/vendor-vim-1.1.3.tgz",
+      "integrity": "sha512-YAQVEA/9UtqBquy9twcDftZ0sUMJZJx4q55+k8v4Tpgk+6m/UciBVzIPy7jdUuHwkXGKTxJ3DN/J2ZXWuJVvjw=="
     },
     "@zerobias-org/vendor-visily": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-visily/-/vendor-visily-1.2.1.tgz",
-      "integrity": "sha512-9GWHbf92TfoF7IBxnC/U9DAX4eM5ux1XH3FsGajC7RyJR959eupNxGTrRW1V3w7SRBQDKZow7vivw1L7UCE7dg=="
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-visily/-/vendor-visily-1.2.2.tgz",
+      "integrity": "sha512-zTyGfkvOS4whEPVYQ7EneRX+bKUGXvZUHWmR2X2LHhW/VOvFSOMWqZlX9DJED0EXjDxRcnknKSF+g2mSfFlUbQ=="
     },
     "@zerobias-org/vendor-vmware": {
-      "version": "1.0.12",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vmware/-/vendor-vmware-1.0.12.tgz",
-      "integrity": "sha512-4yphXS5lDDrKohLyw/RxAwmskwndqaCGtXlw1sf+LXtu5laTfGU6ce8X7AREMgZl6cr9khFQoVOshgBxVL3plQ=="
+      "version": "1.0.13",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vmware/-/vendor-vmware-1.0.13.tgz",
+      "integrity": "sha512-DuRCqtVEEHmFn4kxhkjc6+6yhG2aY3J3+vQ7X6ZyybzQN21Nqaz6CgK2kdAlcW32KWo1FaEyDtSXZ8/GogOViA=="
     },
     "@zerobias-org/vendor-vulcan": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vulcan/-/vendor-vulcan-1.0.1.tgz",
-      "integrity": "sha512-rSb571Ad2gSiYt3jPKdOOCxIsDgXRMqMRrExez9twXb57QuDyChkRRwTsrMdNzdnsQMoUDgOjntsrzsyiBBrQw=="
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-vulcan/-/vendor-vulcan-1.0.2.tgz",
+      "integrity": "sha512-OUnZ4UddbRQskhvfSriqJmvHVqsqvjlHBzkZnk5xEHugMhvHIqRfFVKP4jxOubRPJJMIySVwYpLUh31oZc8eMg=="
     },
     "@zerobias-org/vendor-wasabi": {
-      "version": "0.2.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wasabi/-/vendor-wasabi-0.2.5.tgz",
-      "integrity": "sha512-FRZA6Rli5xgxRA7cRSQI+K0b0GqNBxPRuhEZda8aQWdO7bft74FtUP3c7UTNUptP7Phjbiat7Qc5H59mNJ6/Ig=="
+      "version": "0.2.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wasabi/-/vendor-wasabi-0.2.6.tgz",
+      "integrity": "sha512-/VmiZPnOXACs2Ngy4dDt/+paSZ1PHBjv4NVDNW04Y8klWl/ycKbNG8Ub+H8toj3QUPRLJWPv4TQOp0llYF3M7Q=="
     },
     "@zerobias-org/vendor-wazuh": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wazuh/-/vendor-wazuh-1.0.5.tgz",
-      "integrity": "sha512-srXS/3ne1Y7mTPlHgYnw/yyznlrCdQZc3eam1wuAOnJmBE2QwleogZhMeJ4/OpFsshvILSN31OZt1iLZm2Zcvg=="
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wazuh/-/vendor-wazuh-1.0.6.tgz",
+      "integrity": "sha512-Ly4BeiTOCY3fP1OAMPim4j9WyQrxzXx9SVU1S77lo1jJhgMp4wzgOa8btA6vE54rD2LJz0vq37X9iHddM6YhFA=="
     },
     "@zerobias-org/vendor-webdriverio": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-webdriverio/-/vendor-webdriverio-1.2.1.tgz",
-      "integrity": "sha512-oHYjpwmWI1PUTEQVJxOMGwcH6OjzL+1BzpIDvgdlNeO7/MyeuTaaEd4sBWqdMhPzYk5ZtBDQxwwrOH1MxeQZiw=="
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-webdriverio/-/vendor-webdriverio-1.2.2.tgz",
+      "integrity": "sha512-ejTWUSB3+W/Ib5Cc5CfROOUSlKnxB4xIyYmXQcNZ2Vo6WpRcMykH3aIxYjzfh50U0R1C92NEKPWyBclfGBaeWA=="
     },
     "@zerobias-org/vendor-whitehouse": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-whitehouse/-/vendor-whitehouse-1.0.5.tgz",
-      "integrity": "sha512-OsO9g4s+frrXhI2xaq/RcrBteS8Mo/nHiCwHoMzGKEBNIVn//CJzLIC7vBJRsmzUEP3BSXbxcRhdFgISIEqT0g=="
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-whitehouse/-/vendor-whitehouse-1.0.6.tgz",
+      "integrity": "sha512-48sARqsH87G1lH6m7oKaslV6GnaAdOX5fxw0HsRNe7CIgaoujQIpwFKewGCT1blfk5im61CjfR7yNYW2C7Knvw=="
     },
     "@zerobias-org/vendor-wiremock": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wiremock/-/vendor-wiremock-1.2.1.tgz",
-      "integrity": "sha512-zMMVI+GJkwNcrGhGuOOukXTcZEXyUOk6amHg17wfdsWE7y3N+9YyoDCJzxCJ586m8UKJTyeAVMC24HipBEq63w=="
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wiremock/-/vendor-wiremock-1.2.2.tgz",
+      "integrity": "sha512-APV88cuKCReF3nWfo/m1jkex71M2KYJXsqXwrZP1f0po7hbYJz4w7PAmD7HtJ6rL+elgF6kmvki8AD9oQx1cTw=="
     },
     "@zerobias-org/vendor-wiz": {
-      "version": "0.2.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wiz/-/vendor-wiz-0.2.5.tgz",
-      "integrity": "sha512-+nTVs5UNksGFGyPgS1Gny5jttXMR5jp8fnOB1Op1YBpsIEA633M8LihVpOID0NexWrr0WsPO3JgHIIJztkPKmw=="
+      "version": "0.2.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wiz/-/vendor-wiz-0.2.6.tgz",
+      "integrity": "sha512-GArqqQgthh7Ad1qicdYvVnmsigVBL7pwXw+zs1921pWk/kNhYZovgLXWBQX047piq/jpMuwGDzpmc5OWjlRWag=="
     },
     "@zerobias-org/vendor-workday": {
-      "version": "1.0.12",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workday/-/vendor-workday-1.0.12.tgz",
-      "integrity": "sha512-1CW+V8qPboJip3thWbro6Dyquz1sx6fXDxD6CxDjCff2yjdZ7kqMczp1cS3eYizzH6QQlBNlcb488Jof5g6lJg=="
+      "version": "1.0.13",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workday/-/vendor-workday-1.0.13.tgz",
+      "integrity": "sha512-o/0SL7kWd6oEEBVClFGf7NdmWoQnd0VkkgVShOX+RX4spqGhOP55DWTWFKBfg1L9HaPBclPQlHiwDH+YnEqcHw=="
     },
     "@zerobias-org/vendor-workflowmax": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workflowmax/-/vendor-workflowmax-1.2.1.tgz",
-      "integrity": "sha512-Jy+zP4qRJNdS7QSHKyc9sHh/kzpLKSk7/sNkhaeGjRDy31zwAg7rkIKrnktCBMkLBWaJss9QNEx9ngeCaeqFBg=="
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workflowmax/-/vendor-workflowmax-1.2.2.tgz",
+      "integrity": "sha512-6lyPeO+hbYIUwVsKgOrNEXwXS0f0dvynKr9gNq3hu7kuqCUeB0IHsSWBdyI2i1CAjVvSS4AYWukcwh0jvZ4gaQ=="
     },
     "@zerobias-org/vendor-workplace": {
-      "version": "0.2.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workplace/-/vendor-workplace-0.2.5.tgz",
-      "integrity": "sha512-A4fOYOuCE6mFtgmO7PiiIaRzmxIaSmAt2qubV5S9LLV0aKmtIrFpPXgueoaMqAEqkK1mJqP1Z2xKQH8eEGlcpQ=="
+      "version": "0.2.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-workplace/-/vendor-workplace-0.2.6.tgz",
+      "integrity": "sha512-XdfQWbIh3S+4AmE583SrqaB4j4oq+IHG2XSyGdAKevWpPyQwZMzM7XsPQOKDofuZiUS060therXLuD5f3SkryQ=="
     },
     "@zerobias-org/vendor-wrike": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wrike/-/vendor-wrike-1.0.3.tgz",
-      "integrity": "sha512-Y/ph/2JnkwEZ1qXQCeKkZzySxDMaMGuIK34Oodd7rm5os8XUaynGqkIaOLwzFzWzAwsw1l2hislbAv0ezVxREg=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-wrike/-/vendor-wrike-1.0.4.tgz",
+      "integrity": "sha512-R6kpF61UXVQnPvTErzJD33UBkkvkTrhpj2nSZ1zktRYuvPRntkpOSsvKjSqTk76kgJRKi4QwGV/mPVN85Dad9w=="
     },
     "@zerobias-org/vendor-yoyogames": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-yoyogames/-/vendor-yoyogames-1.2.1.tgz",
-      "integrity": "sha512-Vixsj8TrzqPo/1CuocQzP3NfcSKcYOMYuRleqaRp+RfuwjUdE5DEVyOTqD1nuSQ5Q5IzQnlztX6ETKHWdpPrzA=="
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-yoyogames/-/vendor-yoyogames-1.2.2.tgz",
+      "integrity": "sha512-nEFimrhqAsiFrdm/GLs9YMCdSE5oYKTkCJhsqz9RFmSoIH7PBzoGVTYINLF7NE2nEKqFMWXQWO+6Em9ziAWX2g=="
     },
     "@zerobias-org/vendor-za": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-za/-/vendor-za-1.0.3.tgz",
-      "integrity": "sha512-zRSd7MNPokJJReCofp8mFvyCFlZlsepG041Do7pF86MaDmOPX7NtGX0QI67/oMZb26uWU6tVsrOGSj8uLoGKfw=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-za/-/vendor-za-1.0.4.tgz",
+      "integrity": "sha512-ASAXDxgoW5idpXL76L7lIzmzuisHScH/8x3kDHBnsO9fVM6g9KjB24aKpOXkgnqhGnCk8EFTc5285paUVyuudw=="
     },
     "@zerobias-org/vendor-zed": {
-      "version": "1.2.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zed/-/vendor-zed-1.2.1.tgz",
-      "integrity": "sha512-D1cf8GDvJ9VT3tphkM/aJOEC+5nNMIuENRxt6fIZARwAy+sXjcKZPFPMElqnkl63sprdDNJZA4C6k6YaI0Y5RA=="
+      "version": "1.2.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zed/-/vendor-zed-1.2.2.tgz",
+      "integrity": "sha512-Exia0g79nbO3TTV3+Ws5TUvBqPs+OfS+ZNxYav+yK31Rl3M3olBO+z9NERkHplJ5uLQY5oRWeAg1WgB0Kz05Dg=="
     },
     "@zerobias-org/vendor-zendesk": {
-      "version": "1.0.12",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zendesk/-/vendor-zendesk-1.0.12.tgz",
-      "integrity": "sha512-FG6vtBhk7UT2v8HM/mvn0DEHufPtZeHTG7XV6hyr0IqTEgrDA6Ky0ia+svPbtZaQrOfcn3RWK1+DEUTDtPhGlw=="
+      "version": "1.0.13",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zendesk/-/vendor-zendesk-1.0.13.tgz",
+      "integrity": "sha512-kK3lpasMD1H+Jw50Falaydg4A5l8pjuI291bgDFABG797X3iE9vsP9Yll2VBMe/Wu42EdmYfb3orHgBCJ78jyg=="
     },
     "@zerobias-org/vendor-zenefits": {
-      "version": "1.0.11",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zenefits/-/vendor-zenefits-1.0.11.tgz",
-      "integrity": "sha512-8D9PPx+TgP0bdU7JMvaj5iQy2VWrTlTAtOWxYflOrA4wqkUdtuoLSUFFlhfmdtlpxeVMCXG0+h9wyHXFwUTHDA=="
+      "version": "1.0.12",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zenefits/-/vendor-zenefits-1.0.12.tgz",
+      "integrity": "sha512-8yjBTi4ck7XeOrhHuJi1W/3gdDmVL4n9iAH/vtffcYtlLNo93rLPOcewkww1XrA1GNCIqm14bcFOebgFEHHJzA=="
     },
     "@zerobias-org/vendor-zerobias": {
-      "version": "1.0.5",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zerobias/-/vendor-zerobias-1.0.5.tgz",
-      "integrity": "sha512-GUuVUDwX3ju34uuXoJJ3R5bRnvnTaXH4Gx5G76HWRd5jkihTCAWPQBNXSwPmuvdKuuGxU4XNv9be1i16PrO0pw=="
+      "version": "1.0.6",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zerobias/-/vendor-zerobias-1.0.6.tgz",
+      "integrity": "sha512-k9cEu70epNoV49jV4H/B7HVDEAAlGd0AupG/ErOmRRgC4HQYJW4Q1OfgF88ZSQeTO+QORs18ZSD7dOJkwAi3Yw=="
     },
     "@zerobias-org/vendor-zhuyin": {
-      "version": "1.0.1",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zhuyin/-/vendor-zhuyin-1.0.1.tgz",
-      "integrity": "sha512-csv78zxZKl3gUKN2IvuCpwPKyn7UuPxsWgbIUFhK27Pmer4ey9Tvi6GE7r/N61/1mz94D7Xg0xGXlqd0CP6MOQ=="
+      "version": "1.0.2",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zhuyin/-/vendor-zhuyin-1.0.2.tgz",
+      "integrity": "sha512-tTdqjxFJq0LKpijFT0hrrmLEv9f2PlT/3HaVjbj5tAlHhNm0yyKFQpNVdzhqGVo4XtYJ7coBDcbUD+AE+NdKeA=="
     },
     "@zerobias-org/vendor-zoho": {
-      "version": "1.0.12",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zoho/-/vendor-zoho-1.0.12.tgz",
-      "integrity": "sha512-53BSuQvl9GEf+Ke1P/XtSpWx3rM6PYbYiBnXVe2r4S3e/uXWQiWcTtcxwtV4AUryQPeyvY6vzw8IWIlhwJLtfQ=="
+      "version": "1.0.13",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zoho/-/vendor-zoho-1.0.13.tgz",
+      "integrity": "sha512-3dynMu7Jz6pUreMk324hsFqCbQXHS6EgUCyK7FVTZ6P8Cdf8QdO/0lfajF675/ebejtlkU0adzEDVnQRaTZ/Wg=="
     },
     "@zerobias-org/vendor-zoom": {
-      "version": "1.0.3",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zoom/-/vendor-zoom-1.0.3.tgz",
-      "integrity": "sha512-GR3dDSwIGd1VLk4UM8XysJxXLfIvA12j30BnUYtAEkjjAseRGGc2JEOEUeVOt1j07RiiVlEHqlM3lRgFviLP7A=="
+      "version": "1.0.4",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-zoom/-/vendor-zoom-1.0.4.tgz",
+      "integrity": "sha512-UIrB6uWx0gyMb8enbmqa3mG1zKW+QJ1R1jY7C6/gCdzE6aN254ogMJf4lEW34bbaTCh50LKIri3Xv/h1u8QiOA=="
     }
   }
 }
