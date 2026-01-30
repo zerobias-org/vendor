@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.1 (2026-01-30)</small>
+
+* chore(vendor): migrate packages us-zoom to zerobias config ([af41c97](https://github.com/zerobias-org/vendor/commit/af41c97))
+
+
+
+
+
 # 1.1.0 (2025-08-14)
 
 **Note:** Version bump only for package @zerobias-org/vendor-us_tn

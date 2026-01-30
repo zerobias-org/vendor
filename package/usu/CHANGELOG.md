@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.2.2 (2026-01-30)</small>
+
+* chore(vendor): migrate packages us-zoom to zerobias config ([af41c97](https://github.com/zerobias-org/vendor/commit/af41c97))
+
+
+
+
+
 ## <small>1.2.1 (2026-01-29)</small>
 
 * chore(vendor): migrate t-z packages from ts-node to tsx ([fecc383](https://github.com/zerobias-org/vendor/commit/fecc383))
