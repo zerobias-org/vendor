@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-slack",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Vendor package for slack",
   "author": "team@zerobias.com",
   "license": "ISC",

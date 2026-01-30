@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-rsa",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Vendor package for rsa",
   "author": "team@zerobias.com",
   "license": "ISC",

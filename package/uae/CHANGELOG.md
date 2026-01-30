@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.1.3 (2026-01-30)</small>
+
+* chore(vendor): migrate packages qa-unitytechnologies to zerobias config ([a218b44](https://github.com/zerobias-org/vendor/commit/a218b44))
+
+
+
+
+
 ## [1.1.2](https://github.com/zerobias-org/vendor/compare/@zerobias-org/vendor-uae@1.1.2-rc.2...@zerobias-org/vendor-uae@1.1.2) (2025-11-18)
 
 **Note:** Version bump only for package @zerobias-org/vendor-uae

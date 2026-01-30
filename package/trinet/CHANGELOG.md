@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.12 (2026-01-30)</small>
+
+* chore(vendor): migrate packages qa-unitytechnologies to zerobias config ([a218b44](https://github.com/zerobias-org/vendor/commit/a218b44))
+
+
+
+
+
 ## <small>1.0.11 (2026-01-29)</small>
 
 * chore(vendor): migrate t-z packages from ts-node to tsx ([fecc383](https://github.com/zerobias-org/vendor/commit/fecc383))
