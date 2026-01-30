@@ -4,24 +4,24 @@
   "description": "Vendor package for Tennessee",
   "author": "team@neverfail.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "scripts": {
-    "nx:publish": "../../scripts/publish.sh"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/vendor.git",
     "directory": "package/us_tn/"
   },
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "index.yml",
-    "logo.jpg"
+    "logo.jpg",
+    "logo.*"
   ],
-  "auditmation": {
-    "package": "us_tn",
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "dataloader-version": "0.5.4"
+    "package": "us_tn"
   }
 }
