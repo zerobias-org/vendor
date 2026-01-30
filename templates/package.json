@@ -5,22 +5,22 @@
   "author": "team@zerobias.com",
   "license": "ISC",
   "type": "module",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/vendor.git",
     "directory": "package/{code}/"
   },
+  "scripts": {
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "files": [
     "index.yml",
-    "logo.svg"
+    "logo.*"
   ],
-  "scripts": {
-    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../scripts/validate.ts"
-  },
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
