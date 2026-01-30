@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>0.3.6 (2026-01-30)</small>
+
+* chore(vendor): migrate packages knowbe4-puppet to zerobias config ([ae54e41](https://github.com/zerobias-org/vendor/commit/ae54e41))
+
+
+
+
+
 ## <small>0.3.5 (2026-01-28)</small>
 
 * chore(vendor): migrate g-m packages from ts-node to tsx ([d13fb61](https://github.com/zerobias-org/vendor/commit/d13fb61))

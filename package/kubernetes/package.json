@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-kubernetes",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Vendor package for kubernetes",
   "author": "team@zerobias.com",
   "license": "ISC",
