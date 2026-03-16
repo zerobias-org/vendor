@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-w3geekery",
-  "version": "1.0.0-rc.2",
+  "version": "1.0.0",
   "description": "Vendor package for W3Geekery",
   "author": "team@zerobias.com",
   "license": "ISC",
