@@ -162,6 +162,8 @@ mkdir -p package/{vendorCode}
 cd package/{vendorCode}
 ```
 
+**Code format:** `{vendorCode}` must match `^[a-z0-9]+$` — lowercase alphanumeric only, no hyphens/underscores/dots (matches ZB platform `vspCodeValidator`).
+
 **Required files:**
 
 ```
