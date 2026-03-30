@@ -16,7 +16,9 @@ permissions:
 jobs:
   pull-request:
     if: github.repository == 'zerobias-org/vendor'
-    uses: zerobias-org/devops/.github/workflows/pull-request-target-reusable-nx.yml@main
+    uses: zerobias-org/devops/.github/workflows/pull-request-target-reusable-nx.yml@feat/neon-support
     secrets: inherit
     with:
-      run-integration-tests: 'false'
+      run-integration-tests: false
+      use-neon: true
+      neon-parent-branch: content-base
