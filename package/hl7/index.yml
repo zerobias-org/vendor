@@ -19,5 +19,6 @@ tags:
   - standards
   - fhir
   - ehr
+  - clinical-data
 environment: prod
 hostname: https://api.app.zerobias.com
