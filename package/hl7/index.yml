@@ -18,5 +18,6 @@ tags:
   - interoperability
   - standards
   - fhir
+  - ehr
 environment: prod
 hostname: https://api.app.zerobias.com
