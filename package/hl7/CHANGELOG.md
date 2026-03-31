@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.8 (2026-03-31)</small>
+
+* fix(hl7): add healthcare tag ([5ef1cde](https://github.com/zerobias-org/vendor/commit/5ef1cde))
+* fix(hl7): fix description punctuation, remove tag ([7b88735](https://github.com/zerobias-org/vendor/commit/7b88735))
+
+
+
+
+
 ## <small>1.0.7 (2026-03-31)</small>
 
 * chore(release): bump version ([f445e8e](https://github.com/zerobias-org/vendor/commit/f445e8e))
