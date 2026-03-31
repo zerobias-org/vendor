@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.1 (2026-03-31)</small>
+
+* chore(release): bump version ([f445e8e](https://github.com/zerobias-org/vendor/commit/f445e8e))
+* chore(release): bump version ([1ed896f](https://github.com/zerobias-org/vendor/commit/1ed896f))
+
+
+
+
+
 ## <small>1.0.1-rc.1 (2026-03-31)</small>
 
 * chore(release): bump version ([1ed896f](https://github.com/zerobias-org/vendor/commit/1ed896f))
