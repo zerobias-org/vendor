@@ -1,12 +1,12 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "lockfileVersion": 2,
   "requires": true,
   "packages": {
     "": {
       "name": "@zerobias-org/vendor-bundle",
-      "version": "0.0.27",
+      "version": "0.0.28",
       "license": "ISC",
       "dependencies": {
         "@zerobias-org/vendor-accelq": "1.2.2",
@@ -167,7 +167,7 @@
         "@zerobias-org/vendor-hexnode": "1.0.12",
         "@zerobias-org/vendor-hidglobal": "0.2.7",
         "@zerobias-org/vendor-hk": "1.0.4",
-        "@zerobias-org/vendor-hl7": "1.0.8",
+        "@zerobias-org/vendor-hl7": "1.0.9",
         "@zerobias-org/vendor-hpe": "1.0.13",
         "@zerobias-org/vendor-hu": "1.0.4",
         "@zerobias-org/vendor-hubspot": "0.5.7",
@@ -1407,9 +1407,9 @@
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-hl7": {
-      "version": "1.0.8",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-hl7/-/vendor-hl7-1.0.8.tgz",
-      "integrity": "sha512-cKP4Wcq5a0939/zWtKlOMnaGCf2p8/un7/DVfwCbn/FD26lau9wP0J4NXhQy/NGgfOYtL17lV9wlHJyqwe8z5Q==",
+      "version": "1.0.9",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-hl7/-/vendor-hl7-1.0.9.tgz",
+      "integrity": "sha512-T7gAiTW7biN/mT8kqEJv5JfxqSVaUr0ZLCd/W+cR9JsYX9GbJRK+//OZV/SfravF/ReOJJoq7m5vOax0kivSLw==",
       "license": "ISC"
     },
     "node_modules/@zerobias-org/vendor-hpe": {
@@ -3933,9 +3933,9 @@
       "integrity": "sha512-vFgX/Wv7jJr8yNvRCXhJSCg8KbdFA6XxvDvGd0erMiwmSHystffnw94XXbpqkFAmQsV/Vv/O0kAhJGmuiJRefg=="
     },
     "@zerobias-org/vendor-hl7": {
-      "version": "1.0.8",
-      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-hl7/-/vendor-hl7-1.0.8.tgz",
-      "integrity": "sha512-cKP4Wcq5a0939/zWtKlOMnaGCf2p8/un7/DVfwCbn/FD26lau9wP0J4NXhQy/NGgfOYtL17lV9wlHJyqwe8z5Q=="
+      "version": "1.0.9",
+      "resolved": "https://pkg.zerobias.org/@zerobias-org/vendor-hl7/-/vendor-hl7-1.0.9.tgz",
+      "integrity": "sha512-T7gAiTW7biN/mT8kqEJv5JfxqSVaUr0ZLCd/W+cR9JsYX9GbJRK+//OZV/SfravF/ReOJJoq7m5vOax0kivSLw=="
     },
     "@zerobias-org/vendor-hpe": {
       "version": "1.0.13",
