@@ -12,6 +12,7 @@ aliases:
   - Health Level 7
 logo: https://cdn.auditmation.io/logos/hl7.png
 url: https://www.hl7.org/
-tags: []
+tags:
+  - healthcare
 environment: prod
 hostname: https://api.app.zerobias.com
