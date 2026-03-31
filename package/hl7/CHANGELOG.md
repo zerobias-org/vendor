@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.7-rc.0 (2026-03-31)</small>
+
+* fix(hl7): add alias ([176a3ae](https://github.com/zerobias-org/vendor/commit/176a3ae))
+
+
+
+
+
 ## <small>1.0.6 (2026-01-30)</small>
 
 * chore(vendor): migrate packages devsupply-kite to zerobias config ([995e104](https://github.com/zerobias-org/vendor/commit/995e104))

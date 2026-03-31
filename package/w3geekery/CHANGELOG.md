@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.1-rc.0 (2026-03-31)</small>
+
+**Note:** Version bump only for package @zerobias-org/vendor-w3geekery
+
+
+
+
+
 ## 1.0.0 (2026-03-16)
 
 * chore: cdn update ([fb4ea6e](https://github.com/zerobias-org/vendor/commit/fb4ea6e))
