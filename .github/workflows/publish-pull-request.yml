@@ -15,7 +15,7 @@ permissions:
 jobs:
   pull-request:
     if: github.repository == 'zerobias-org/vendor'
-    uses: zerobias-org/devops/.github/workflows/content-prerelease-reusable.yml@feat/nx-workflow-cleanup
+    uses: zerobias-org/devops/.github/workflows/content-prerelease-reusable.yml@main
     secrets: inherit
     with:
       test-timeout: 900
