@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>1.0.10-rc.0 (2026-04-01)</small>
+
+**Note:** Version bump only for package @zerobias-org/vendor-hl7
+
+
+
+
+
 ## <small>1.0.9 (2026-03-31)</small>
 
 * fix(hl7): add HL7 International alias ([97f0755](https://github.com/zerobias-org/vendor/commit/97f0755))
