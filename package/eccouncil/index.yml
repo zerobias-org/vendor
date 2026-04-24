@@ -1,0 +1,18 @@
+id: 3ac41448-073c-443e-abb9-2eba0d775242
+name: EC-Council
+description: >-
+  The International Council of E-Commerce Consultants (EC-Council) is a leading information security certification body. Issues widely recognized credentials including CEH (Certified Ethical Hacker), CCISO (on DoD 8140.3), CHFI, CND, CASE, and LPT.
+imageUrl: https://cdn.auditmation.io/logos/eccouncil.png
+logo: https://cdn.auditmation.io/logos/eccouncil.png
+code: eccouncil
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://www.eccouncil.org/
+tags: []
+aliases:
+  - International Council of E-Commerce Consultants
+  - EC Council
+cpeVendors: []
