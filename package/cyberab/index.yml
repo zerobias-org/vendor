@@ -1,0 +1,19 @@
+id: a7e11051-958c-4804-a198-feec1446f975
+name: Cyber AB
+description: >-
+  The Cyber AB (Cybersecurity Maturity Model Certification Accreditation Body) is the sole authorized non-governmental accreditation body for the DoD CMMC program. Oversees C3PAOs, RPOs, and individual credentials through CAICO and SAICO.
+imageUrl: https://cdn.auditmation.io/logos/cyberab.jpg
+logo: https://cdn.auditmation.io/logos/cyberab.jpg
+code: cyberab
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://cyberab.org/
+tags: []
+aliases:
+  - The Cyber AB
+  - Cyber Accreditation Body
+  - CMMC Accreditation Body
+cpeVendors: []
