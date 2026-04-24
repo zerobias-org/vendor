@@ -1,0 +1,18 @@
+id: 8a16db5e-65e7-4ed8-92e2-82252feb0061
+name: Mile2
+description: >-
+  Mile2 (United American Technologies, LLC) provides IT security training and certifications, several of which are recognized on the DoD 8140.3 / DCWF baseline list. Issues CISSO, CPTE, CDFE, CIS, CPTC, CDRE, CIHE, CVE, and CSLO credentials.
+imageUrl: https://cdn.auditmation.io/logos/mile2.png
+logo: https://cdn.auditmation.io/logos/mile2.png
+code: mile2
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://mile2.com/
+tags: []
+aliases:
+  - United American Technologies
+  - Mile2.com
+cpeVendors: []
