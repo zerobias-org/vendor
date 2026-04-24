@@ -1,0 +1,19 @@
+id: b2698878-c2e1-46fa-99d2-6c5f6242c06e
+name: ISC2
+description: >-
+  ISC2 (formerly (ISC)²) is a nonprofit cybersecurity professional association that issues globally recognized certifications including CISSP, CCSP, CGRC, SSCP, CC, CSSLP, and the CISSP concentrations (ISSAP, ISSEP, ISSMP). ANSI-ISO/IEC 17024 accredited.
+imageUrl: https://cdn.auditmation.io/logos/isc2.svg
+logo: https://cdn.auditmation.io/logos/isc2.svg
+code: isc2
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://www.isc2.org/
+tags: []
+aliases:
+  - (ISC)²
+  - ISC squared
+  - International Information System Security Certification Consortium
+cpeVendors: []
