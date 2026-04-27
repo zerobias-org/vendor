@@ -173,7 +173,7 @@ jobs:
         with:
           packages-file: /tmp/published-packages.json
           branch: ${{ github.ref_name }}
-          dist-tag: ${{ github.ref_name == 'main' && 'latest' || github.ref_name == 'qa' && 'rc' || github.ref_name == 'dev' && 'dev' || 'uat' }}
+          dist-tag: ${{ github.ref_name == 'main' && 'latest' || github.ref_name == 'qa' && 'qa' || github.ref_name == 'dev' && 'dev' || 'uat' }}
         env:
           SLACK_RELEASES_WEBHOOK: ${{ secrets.SLACK_RELEASES_WEBHOOK }}
           SLACK_DEVOPS_NOTIFICATIONS: ${{ secrets.SLACK_DEVOPS_NOTIFICATIONS }}
