@@ -7,7 +7,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git@github.com:zerobias-org/vendor.git",
+    "url": "git+ssh://git@github.com/zerobias-org/vendor.git",
     "directory": "package/avigilon/"
   },
   "scripts": {
