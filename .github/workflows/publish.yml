@@ -89,6 +89,15 @@ jobs:
       ZB_SLOT: ci-${{ github.run_id }}-${{ github.run_attempt }}
     strategy:
       fail-fast: false
+      # Serialized: every per-vendor job runs `commitVersion` + `tagVersion` +
+      # `git push --follow-tags` against `main`. Running matrix entries in
+      # parallel races on that push — only the first job wins, the rest hit
+      # fast-forward rejection and the rebase fallback can't proceed because
+      # the tree is dirty (npm publish auto-corrects package.json, dataloader
+      # leaves node_modules/ etc.). Serializing avoids the race entirely.
+      # Trade-off: 6 vendors * ~3min = ~18min total instead of ~3min parallel.
+      # Acceptable at this size; revisit if vendor counts climb significantly.
+      max-parallel: 1
       matrix:
         vendor: ${{ fromJson(needs.detect.outputs.vendors) }}
     steps:
