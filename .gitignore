@@ -10,6 +10,7 @@ serverless.yml
 
 # Package Files #
 *.jar
+!gradle/wrapper/gradle-wrapper.jar
 *.war
 *.ear
 
@@ -43,6 +44,8 @@ build/
 .tags
 .lvimrc
 local.properties
+gradle-local.properties
+.zbb-monorepo/
 
 # Eclipse
 .classpath
