@@ -6,47 +6,30 @@ on:
     paths:
       - 'package/**'
       - '.github/workflows/publish.yml'
-      - 'build.gradle.kts'
-      - 'settings.gradle.kts'
-      - 'gradle.properties'
-      - 'gradle-ci.properties'
   workflow_dispatch:
     inputs:
       vendor:
-        description: 'Vendor to publish (e.g. accelq). Leave blank for all changed since last tag.'
+        description: 'Vendor to publish (e.g. github). Leave blank for all changed.'
         required: false
-      dry-run:
-        description: 'Dry run (no publish)'
-        required: false
-        type: boolean
-        default: false
-
-concurrency:
-  group: publish-${{ github.ref }}
-  cancel-in-progress: false
 
 env:
-  CI: true
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  ZB_TOKEN: ${{ secrets.ZB_TOKEN }}
   NEON_PARENT_BRANCH: content-master
   NEON_DB_ROLE: neondb_owner
   NEON_DB_NAME: zerobias
+  CI: true
 
 permissions:
   contents: write
-  id-token: write
   packages: write
-  pull-requests: write
+  id-token: write
 
 jobs:
-
-  # ─────────────────────────────────────────────────────────────
-  # 1. Detect changed vendors → JSON array of Gradle project paths
-  # ─────────────────────────────────────────────────────────────
   detect:
     runs-on: ubuntu-latest
     outputs:
       vendors: ${{ steps.changed.outputs.vendors }}
-      has_changes: ${{ steps.changed.outputs.has_changes }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -56,14 +39,9 @@ jobs:
       - name: Detect changed vendors
         id: changed
         run: |
-          set -euo pipefail
-
-          # Manual dispatch with explicit vendor wins.
           if [ -n "${{ inputs.vendor }}" ]; then
-            VENDORS="[\":${{ inputs.vendor }}\"]"
+            echo "vendors=[\"${{ inputs.vendor }}\"]" >> $GITHUB_OUTPUT
             echo "Manual dispatch: ${{ inputs.vendor }}"
-            echo "vendors=$VENDORS" >> $GITHUB_OUTPUT
-            echo "has_changes=true" >> $GITHUB_OUTPUT
             exit 0
           fi
 
@@ -71,57 +49,46 @@ jobs:
 
           if [ "$BRANCH" = "main" ]; then
             BASE_REF=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+            if [ -z "$BASE_REF" ]; then
+              echo "No tags found — publishing all vendors"
+              VENDORS=$(find package -mindepth 2 -maxdepth 2 -name "build.gradle.kts" | \
+                sed 's|^package/||; s|/build.gradle.kts||' | \
+                jq -R -s -c 'split("\n") | map(select(length > 0))')
+              echo "vendors=$VENDORS" >> $GITHUB_OUTPUT
+              exit 0
+            fi
           else
             BASE_REF="origin/main"
           fi
 
-          echo "Base ref: ${BASE_REF:-<none>}"
+          echo "Comparing against: $BASE_REF"
 
-          # A vendor dir = nearest ancestor of a changed file that contains
-          # build.gradle.kts. Same discovery rule as module/collectorbot:
-          # zbb requires the marker file for per-package targeting.
+          # For each changed file under package/, walk up to find build.gradle.kts
           VENDORS="[]"
-          if [ -z "$BASE_REF" ]; then
-            echo "No base ref — treating all vendors as changed"
-            CHANGED_FILES=$(find package -name build.gradle.kts -not -path '*/node_modules/*')
-          else
-            CHANGED_FILES=$(git diff --name-only "$BASE_REF" HEAD -- 'package/' || true)
-          fi
-
-          for file in $CHANGED_FILES; do
+          for file in $(git diff --name-only "$BASE_REF" HEAD -- 'package/'); do
             dir="$file"
-            while [ "$dir" != "package" ] && [ "$dir" != "." ] && [ "$dir" != "/" ]; do
-              if [ -f "$dir/build.gradle.kts" ] && [ "$dir" != "package" ]; then
-                # package/addigy → :addigy   (or package/adobe/ccf → :adobe:ccf)
-                rel="${dir#package/}"
-                proj=":${rel//\//:}"
-                VENDORS=$(echo "$VENDORS" | jq -c --arg p "$proj" 'if index($p) then . else . + [$p] end')
+            while [ "$dir" != "package" ] && [ "$dir" != "." ]; do
+              dir=$(dirname "$dir")
+              if [ -f "$dir/build.gradle.kts" ]; then
+                v=$(echo "$dir" | sed 's|^package/||')
+                VENDORS=$(echo "$VENDORS" | jq -c "if index(\"$v\") then . else . + [\"$v\"] end")
                 break
               fi
-              dir=$(dirname "$dir")
             done
           done
 
-          COUNT=$(echo "$VENDORS" | jq 'length')
-          echo "Detected $COUNT changed vendor(s): $VENDORS"
           echo "vendors=$VENDORS" >> $GITHUB_OUTPUT
-          if [ "$COUNT" -gt 0 ]; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          fi
+          echo "Changed vendors: $VENDORS"
 
-  # ─────────────────────────────────────────────────────────────
-  # 2. Publish each changed vendor in parallel
-  #   gate (validate + dataloader) → publishNpm → promoteAll
-  # ─────────────────────────────────────────────────────────────
   publish:
     needs: detect
-    if: needs.detect.outputs.has_changes == 'true'
+    if: needs.detect.outputs.vendors != '[]'
     runs-on: ubuntu-latest
+    env:
+      # Ephemeral slot for this CI publish run.
+      ZB_SLOT: ci-${{ github.run_id }}-${{ github.run_attempt }}
     strategy:
       fail-fast: false
-      max-parallel: 6
       matrix:
         vendor: ${{ fromJson(needs.detect.outputs.vendors) }}
     steps:
@@ -129,9 +96,11 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.WRITE_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Import Vault Secrets
+      # -- Vault: authenticate via GitHub OIDC and fetch credentials --
+      - name: Authenticate to Vault
+        id: vault
         uses: hashicorp/vault-action@v3
         with:
           url: ${{ secrets.VAULT_ADDR }}
@@ -139,155 +108,88 @@ jobs:
           role: publishing-role
           path: gh-actions
           secrets: |
+            operations-kv/data/ci/github writePackagesToken | NPM_TOKEN;
             operations-kv/data/ci/github readPackagesToken | READ_TOKEN;
-            operations-kv/data/ci/github writePackagesToken | WRITE_TOKEN;
-            operations-kv/data/ci/github zb-token | ZB_TOKEN;
-            operations-kv/data/ci/github dispatchToken | DISPATCH_TOKEN;
             operations-kv/data/neon/content api-key | NEON_API_KEY;
             operations-kv/data/neon/content project-id | NEON_PROJECT_ID;
-            operations-kv/data/slack devopsNotifications | SLACK_DEVOPS_NOTIFICATIONS;
-            operations-kv/data/slack releasesWebhook | SLACK_RELEASES_WEBHOOK;
 
-      - name: Create Neon branch (ephemeral Postgres for dataloader)
-        id: create_neon_branch
-        uses: neondatabase/create-branch-action@v6
-        with:
-          project_id: ${{ env.NEON_PROJECT_ID }}
-          parent_branch: ${{ env.NEON_PARENT_BRANCH }}
-          branch_name: publish-${{ github.event.repository.name }}-${{ github.run_id }}-${{ strategy.job-index }}
-          role: ${{ env.NEON_DB_ROLE }}
-          database: ${{ env.NEON_DB_NAME }}
-          api_key: ${{ env.NEON_API_KEY }}
-
-      - name: Export Neon PG environment
-        run: |
-          echo "::add-mask::${{ steps.create_neon_branch.outputs.password }}"
-          {
-            echo "PGHOST=${{ steps.create_neon_branch.outputs.db_host }}"
-            echo "PGPORT=5432"
-            echo "PGUSER=${{ env.NEON_DB_ROLE }}"
-            echo "PGPASSWORD=${{ steps.create_neon_branch.outputs.password }}"
-            echo "PGDATABASE=${{ env.NEON_DB_NAME }}"
-            echo "PGSSLMODE=require"
-          } >> $GITHUB_ENV
-
+      # -- Tool setup --
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version-file: '.nvmrc'
           registry-url: 'https://npm.pkg.github.com'
 
-      - name: Setup Java 21
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
+          distribution: 'temurin'
           java-version: '21'
-
-      - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
 
       - name: Configure git user
         run: |
-          git config --global user.email "ci@zerobias.com"
+          git config --global user.email "ci@neverfail.com"
           git config --global user.name "@$GITHUB_ACTOR"
 
-      - name: Install dataloader CLI
+      - name: Install global tools
         run: |
           cp .npmrc $HOME/.npmrc
-          npm install -g @zerobias-com/platform-dataloader@latest
-        env:
-          NPM_TOKEN: ${{ env.READ_TOKEN }}
-          ZB_TOKEN: ${{ env.ZB_TOKEN }}
+          cp .npmrc $NPM_CONFIG_USERCONFIG
+          npm i -g @zerobias-org/zbb
+          npm i -g @zerobias-com/platform-dataloader
 
       - name: Make gradlew executable
         run: chmod +x gradlew
 
-      - name: Gate ${{ matrix.vendor }}
+      # Bootstrap an ephemeral slot for this CI run. CI mode (auto-detected
+      # from CI=true) snapshots process.env as slot overrides — vault
+      # secrets exported above are picked up directly.
+      - name: Bootstrap zbb slot
+        run: |
+          zbb slot create $ZB_SLOT --ephemeral
+          zbb stack add .
         env:
-          NPM_TOKEN: ${{ env.READ_TOKEN }}
-          ZB_TOKEN: ${{ env.ZB_TOKEN }}
-        run: ./gradlew "${{ matrix.vendor }}:gate" --no-daemon
+          CI: 'true'
 
+      # -- Publish: preflight verifies gate stamp, skips tests, builds + publishes --
       - name: Publish ${{ matrix.vendor }}
-        if: inputs.dry-run != true
-        env:
-          NPM_TOKEN: ${{ env.WRITE_TOKEN }}
-          READ_TOKEN: ${{ env.READ_TOKEN }}
-          ZB_TOKEN: ${{ env.ZB_TOKEN }}
         run: |
-          ./gradlew \
-            "${{ matrix.vendor }}:publishNpm" \
-            "${{ matrix.vendor }}:promoteAll" \
-            --no-daemon
+          cd package/${{ matrix.vendor }}
+          zbb publish
 
-      - name: Dry-run publish ${{ matrix.vendor }}
-        if: inputs.dry-run == true
-        env:
-          NPM_TOKEN: ${{ env.WRITE_TOKEN }}
-          READ_TOKEN: ${{ env.READ_TOKEN }}
-          ZB_TOKEN: ${{ env.ZB_TOKEN }}
+      # -- Generate packages file for release announcement --
+      - name: Generate packages file
+        if: success()
         run: |
-          ./gradlew \
-            "${{ matrix.vendor }}:publishNpm" \
-            "${{ matrix.vendor }}:promoteAll" \
-            -PdryRun=true \
-            --no-daemon
+          cd package/${{ matrix.vendor }}
+          VERSION=$(node -p "require('./package.json').version")
+          NAME=$(node -p "require('./package.json').name")
+          echo "[{\"name\":\"$NAME\",\"version\":\"$VERSION\",\"location\":\"$(pwd)\"}]" > /tmp/published-packages.json
 
-      - name: Generate packages file for release announcement
-        if: success() && inputs.dry-run != true
-        id: pkgfile
-        run: |
-          DIR="package/$(echo '${{ matrix.vendor }}' | sed 's|^:||; s|:|/|g')"
-          NAME=$(jq -r '.name'    "$DIR/package.json")
-          VERSION=$(jq -r '.version' "$DIR/package.json")
-          FILE="/tmp/published-${{ strategy.job-index }}.json"
-          echo "[{\"name\":\"$NAME\",\"version\":\"$VERSION\",\"location\":\"$(pwd)/$DIR\"}]" > "$FILE"
-          echo "file=$FILE" >> $GITHUB_OUTPUT
-
-      - name: Release announcement
-        if: success() && inputs.dry-run != true
+      # -- Release announcement: Slack + event router --
+      - name: Release Announcement
+        if: success()
         uses: zerobias-org/devops/nx-actions/release-announcement@main
         with:
-          packages-file: ${{ steps.pkgfile.outputs.file }}
+          packages-file: /tmp/published-packages.json
           branch: ${{ github.ref_name }}
           dist-tag: ${{ github.ref_name == 'main' && 'latest' || github.ref_name == 'qa' && 'rc' || github.ref_name == 'dev' && 'dev' || 'uat' }}
         env:
-          SLACK_RELEASES_WEBHOOK: ${{ env.SLACK_RELEASES_WEBHOOK }}
-          SLACK_DEVOPS_NOTIFICATIONS: ${{ env.SLACK_DEVOPS_NOTIFICATIONS }}
+          SLACK_RELEASES_WEBHOOK: ${{ secrets.SLACK_RELEASES_WEBHOOK }}
+          SLACK_DEVOPS_NOTIFICATIONS: ${{ secrets.SLACK_DEVOPS_NOTIFICATIONS }}
           READ_TOKEN: ${{ env.READ_TOKEN }}
 
-      - name: Delete Neon branch
-        if: always()
-        uses: neondatabase/delete-branch-action@v3
-        with:
-          project_id: ${{ env.NEON_PROJECT_ID }}
-          branch: publish-${{ github.event.repository.name }}-${{ github.run_id }}-${{ strategy.job-index }}
-          api_key: ${{ env.NEON_API_KEY }}
-
-      - name: Slack failure notification
-        if: failure() && inputs.dry-run != true
-        uses: rtCamp/action-slack-notify@master
-        env:
-          SLACK_WEBHOOK: ${{ env.SLACK_DEVOPS_NOTIFICATIONS }}
-          SLACK_ICON_EMOJI: ':fire:'
-          MSG_MINIMAL: 'true'
-          SLACK_TITLE: ':fire: ${{ github.repository }} publish failed — ${{ matrix.vendor }}'
-          SLACK_MESSAGE: 'https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}'
-          SLACK_COLOR: danger
-
-  # ─────────────────────────────────────────────────────────────
-  # 3. Sync main → uat → qa → dev after successful main publish
-  # ─────────────────────────────────────────────────────────────
+  # Sync main → uat → qa → dev after successful publish (separate job = clean checkout)
   sync:
     needs: publish
-    if: github.ref == 'refs/heads/main' && inputs.dry-run != true
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.WRITE_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Sync branches
         uses: zerobias-org/devops/nx-actions/sync-branches@main
