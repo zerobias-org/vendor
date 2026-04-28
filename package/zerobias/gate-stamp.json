@@ -1,7 +1,7 @@
 {
-  "version": "1.0.6-uat.0",
+  "version": "2.0.1",
   "branch": "feat/gradle-migration",
-  "timestamp": "2026-04-17T02:37:40.861487Z",
+  "timestamp": "2026-04-28T16:14:48.505908554Z",
   "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
