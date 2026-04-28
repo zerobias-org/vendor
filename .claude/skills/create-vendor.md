@@ -220,6 +220,9 @@ the registry. Content is `plugins { id("zb.content") }` — exactly one line.
 - No `dependencies` section: vendor packages are pure metadata
 - No `nx:publish` / `prepublishtest` scripts: gradle owns the lifecycle now
 
+> **Migration cohort note (existing vendors moving to gradle):**
+> If you're bringing an existing 1.x vendor onto the gradle pipeline (not creating a new one), **bump `version` to `2.0.0` as part of the migration commit**. The 1.x line is reserved for the legacy lerna-era publish history; 2.x.x marks the gradle-era. Skip any vendor already at 2.x — they've been migrated already. Brand-new vendors (no prior 1.x publish) start at `1.0.0` as shown above; only existing vendors get the major bump.
+
 ### Step 8b: Create build.gradle.kts
 
 Single-line marker file at `package/{vendorCode}/build.gradle.kts`:
