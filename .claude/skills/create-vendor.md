@@ -168,10 +168,18 @@ cd package/{vendorCode}
 package/{vendorCode}/
 ├── package.json          # @zerobias-org/vendor-{code}
 ├── index.yml             # Vendor metadata
-├── logo.svg              # Official vendor logo
-├── npm-shrinkwrap.json   # Generated dependency lock
+├── logo.{svg|png|jpg}    # Official vendor logo
+├── build.gradle.kts      # one-line zb.content marker (REQUIRED for publish)
 └── .npmrc                # Registry configuration
 ```
+
+**`build.gradle.kts` is mandatory.** Without it, the gradle `Publish`
+workflow's `detect` job won't pick up the vendor and it will never reach
+the registry. Content is `plugins { id("zb.content") }` — exactly one line.
+
+> **Note:** `npm-shrinkwrap.json` was required under the old Lerna pipeline.
+> Under gradle/zb.content it's no longer needed; the publish task generates
+> a transient shrinkwrap on the fly and cleans up afterward. Don't commit one.
 
 ### Step 8: Create package.json
 
@@ -179,56 +187,83 @@ package/{vendorCode}/
 {
   "name": "@zerobias-org/vendor-{vendorCode}",
   "version": "1.0.0",
-  "description": "Vendor package for {Vendor Name}.",
+  "description": "Vendor package for {Vendor Name}",
   "author": "team@zerobias.com",
   "license": "ISC",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/vendor.git",
-    "directory": "vendor/"
+    "directory": "package/{vendorCode}/"
   },
-  "files": ["index.yml", "logo.svg"],
   "scripts": {
-    "nx:publish": "../../scripts/publish.sh",
-    "prepublishtest": "../../scripts/prepublish.sh",
-    "correct:deps": "ts-node ../../scripts/correctDeps.ts",
-    "validate": "ts-node ../../scripts/validate.ts"
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
   },
-  "auditmation": {
-    "package": "{vendorCode}",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": ["index.yml", "logo.*"],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "dataloader-version": "5.0.14"
-  },
-  "dependencies": {}
+    "package": "{vendorCode}"
+  }
 }
 ```
+
+**Schema notes:**
+- `zerobias` (NOT legacy `auditmation`) is the modern config block
+- `dataloader-version` is the package-format spec (currently `1.0.0`), not
+  the npm tool version
+- `files` uses a glob (`logo.*`) so any image extension ships
+- No `dependencies` section: vendor packages are pure metadata
+- No `nx:publish` / `prepublishtest` scripts: gradle owns the lifecycle now
+
+### Step 8b: Create build.gradle.kts
+
+Single-line marker file at `package/{vendorCode}/build.gradle.kts`:
+
+```kotlin
+plugins { id("zb.content") }
+```
+
+The root `settings.gradle.kts` walks `package/**` for `build.gradle.kts`
+and auto-includes any directory containing one as a Gradle subproject.
+Without this file the vendor is invisible to `./gradlew` and the publish
+workflow's `detect` step.
 
 ### Step 9: Create index.yml
 
 ```yaml
-code: {vendorCode}
-status: active
 id: {generate-uuid-v4}
 name: {Vendor Full Name}
+description: >-
+  Description of the vendor organization.
+imageUrl: https://cdn.auditmation.io/logos/{vendorCode}.{svg|png|jpg}
+logo: https://cdn.auditmation.io/logos/{vendorCode}.{svg|png|jpg}
+code: {vendorCode}
 type: vendor
 ownerId: 00000000-0000-0000-0000-000000000000
 created: {current-iso-timestamp}
 updated: {current-iso-timestamp}
+status: verified
 url: https://{vendor-website}.com
-description: >-
-  Description of the vendor organization.
-logo: https://cdn.auditmation.io/logos/{vendorCode}.svg
-cpeVendors:
-  - {vendorCode}
+tags: []
+aliases:
+  - {Common alternate name}
+  - {Acronym or expansion}
+cpeVendors: []
 ```
 
 **CRITICAL:**
 - Generate new UUID v4 for `id`
 - Use real current timestamp (not placeholder like `00:00:00.000Z`)
-- Include proper vendor URL and description
+- `code` MUST match `^[a-z0-9]+$` (lowercase alphanumeric only)
+- `code` MUST match the directory name and the `zerobias.package` field in package.json
+- `imageUrl` and `logo` should both reference the same CDN URL with the actual file extension
+- `status: verified` (modern format) — older vendors may show `status: active`
+- `cpeVendors` and `tags` can be empty arrays; populate when known
 
 ### Step 10: Extract and Download Logo
 
@@ -277,17 +312,34 @@ ls -lh logo.svg
 ### Step 11: Create .npmrc
 
 ```
-@zerobias-org:registry=https://npm.pkg.github.com/
-//npm.pkg.github.com/:_authToken=${ZB_TOKEN}
+@zerobias-org:registry=https://pkg.zerobias.org
+//pkg.zerobias.org/:_authToken=${ZB_TOKEN}
 ```
 
-### Step 12: Install and Build
+### Step 12: Validate Locally via Gradle
+
+Confirm the new vendor is auto-discovered by gradle and passes the gate:
 
 ```bash
-npm install
-npm shrinkwrap
-npm run validate
+# From repo root — verify the project shows up
+./gradlew projectPaths | grep ":{vendorCode}"
+
+# Run the gate (validate + dataloader); writes gate-stamp.json on success
+./gradlew :{vendorCode}:gate
 ```
+
+`gate` runs `validateContent` (schema check on `index.yml` + `package.json`)
+and `testIntegrationDataloader` (loads the artifact into an ephemeral
+Neon Postgres branch via `NEON_API_KEY` from your local slot). If both
+pass, gate writes `package/{vendorCode}/gate-stamp.json` recording the
+state — that file should be committed.
+
+> **Skip if no Neon credentials locally:** the integration step skips
+> cleanly when `NEON_API_KEY` is unset. CI runs the full gate against a
+> real Neon branch on every push.
+
+> **Legacy commands no longer needed:** `npm install`, `npm shrinkwrap`,
+> `npm run validate` were the Lerna-era flow. Gradle owns this now.
 
 ### Step 13: Commit and Push
 
@@ -295,10 +347,14 @@ npm run validate
 git add package/{vendorCode}/
 git commit -m "feat(vendor-{vendorCode}): add {Vendor Name} vendor package
 
-Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>"
 
 git push origin feat/vendor-{vendorCode}
 ```
+
+The commit should include all five files from Step 7:
+`package.json`, `index.yml`, `logo.{ext}`, `build.gradle.kts`, `.npmrc`.
+Plus `gate-stamp.json` if you ran the local gate in Step 12.
 
 ### Step 14: Create Pull Request
 
@@ -372,24 +428,35 @@ zerobias_execute("platform.Resource.linkResources", {
 
 ## Common Issues
 
-### npm-shrinkwrap.json errors
-```bash
-# Regenerate shrinkwrap
-rm -f npm-shrinkwrap.json
-npm install
-npm shrinkwrap
-```
+### Vendor not detected by `Publish` workflow
+Symptom: dev/qa/main publish runs but skips your vendor; npm registry
+shows 404 for `@zerobias-org/vendor-{code}`.
 
-### Validation fails
-- Check `index.yml` has all required fields
-- Verify UUID format (lowercase v4)
-- Ensure timestamps are real (not placeholders)
-- Check `package.json` naming matches `@zerobias-org/vendor-{code}`
+Root cause: missing `build.gradle.kts`. The workflow's `detect` job walks
+up from each changed file looking for `build.gradle.kts` — without one,
+the vendor is invisible.
+
+Fix: add the one-line marker file (Step 8b) and push. Next push triggers
+publish for that vendor.
+
+### Gate fails on `validateContent`
+- `index.yml` missing required fields — re-check Step 9
+- `code` field doesn't match `^[a-z0-9]+$` (lowercase alphanumeric only)
+- `code` doesn't match the directory name or `zerobias.package` in package.json
+- UUID is not v4 lowercase
+
+### Gate fails on `testIntegrationDataloader`
+- Locally: `NEON_API_KEY` not set in slot — the task should skip cleanly;
+  if it errors instead, check `zbb stack` is on the right slot.
+- CI: dataloader rejected the artifact. Read the dataloader's stderr in
+  the job log; common causes are duplicate IDs across vendor cohorts or
+  schema mismatches.
 
 ### Logo not found
-- Search for official vendor logo
-- Use placeholder if official not available
-- Document in PR that logo needs to be updated
+- Search for official vendor logo (SVG preferred, PNG/JPG OK)
+- Save to `package/{vendorCode}/logo.{ext}`
+- Update both `imageUrl` and `logo` fields in `index.yml` to match the extension
+- Document in PR if a placeholder was used pending an official asset
 
 ---
 
