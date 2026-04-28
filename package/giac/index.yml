@@ -1,0 +1,19 @@
+id: 60503b69-3ded-446b-8f01-f007a670b52f
+name: GIAC
+description: >-
+  Global Information Assurance Certification (GIAC), operated by the SANS Institute, is a premier certification body for information security professionals. Issues 60+ hands-on, practical certifications including GSEC, GCIH, GPEN, GCFA, GWAPT, GCSA, GSLC, and GSNA.
+imageUrl: https://cdn.auditmation.io/logos/giac.svg
+logo: https://cdn.auditmation.io/logos/giac.svg
+code: giac
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://www.giac.org/
+tags: []
+aliases:
+  - Global Information Assurance Certification
+  - SANS GIAC
+  - SANS Institute Certifications
+cpeVendors: []

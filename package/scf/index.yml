@@ -1,0 +1,18 @@
+id: 89c8ec36-2382-4e4a-9bd6-e3c815ad9160
+name: SCF Council
+description: >-
+  The SCF Council maintains the Secure Controls Framework (SCF) — a comprehensive multi-regulatory cybersecurity and privacy controls catalog that maps to NIST CSF, ISO 27001, HIPAA, DORA, NIS2, and many other regulatory bodies. Administers individual credentials (SCF Practitioner, Architect, Assessor) and organizational programs via Cyber AB.
+imageUrl: https://cdn.auditmation.io/logos/scf.png
+logo: https://cdn.auditmation.io/logos/scf.png
+code: scf
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://securecontrolsframework.com/
+tags: []
+aliases:
+  - Secure Controls Framework
+  - SCF
+cpeVendors: []

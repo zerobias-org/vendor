@@ -1,0 +1,17 @@
+id: 4c1800a8-e1d1-4688-a1fe-f5782a9574cf
+name: A2LA
+description: >-
+  The American Association for Laboratory Accreditation (A2LA) is a nonprofit, internationally recognized ISO/IEC 17011 accreditation body. A2LA is the designated accreditation body for FedRAMP Third-Party Assessment Organizations (3PAOs) per ISO/IEC 17020 and accredits a broad range of testing, calibration, inspection, and certification bodies.
+imageUrl: https://cdn.auditmation.io/logos/a2la.png
+logo: https://cdn.auditmation.io/logos/a2la.png
+code: a2la
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://a2la.org/
+tags: []
+aliases:
+  - American Association for Laboratory Accreditation
+cpeVendors: []

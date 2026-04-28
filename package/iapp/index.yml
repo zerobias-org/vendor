@@ -1,0 +1,17 @@
+id: 76f8d591-85b9-4aa4-9426-301ab2848f32
+name: IAPP
+description: >-
+  The International Association of Privacy Professionals (IAPP) is the largest global community of privacy professionals. Offers ANSI-ISO/IEC 17024 accredited certifications including CIPP/E, CIPP/US, CIPP/C, CIPP/A, CIPP/China, CIPM, CIPT, AIGP, PLS, and the FIP designation.
+imageUrl: https://cdn.auditmation.io/logos/iapp.png
+logo: https://cdn.auditmation.io/logos/iapp.png
+code: iapp
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://iapp.org/
+tags: []
+aliases:
+  - International Association of Privacy Professionals
+cpeVendors: []

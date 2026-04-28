@@ -1,0 +1,19 @@
+id: a95e0783-c995-4669-80b5-632b5085ebd8
+name: Offensive Security
+description: >-
+  Offensive Security (OffSec) is the leading provider of hands-on penetration testing and offensive security training and certifications. Issues OSCP, OSEP, OSWE, OSED, OSEE, OSWA, OSMR, OSDA, and the OSCE3 triple certification.
+imageUrl: https://cdn.auditmation.io/logos/offsec.svg
+logo: https://cdn.auditmation.io/logos/offsec.svg
+code: offsec
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://www.offsec.com/
+tags: []
+aliases:
+  - OffSec
+  - Offensive Security Ltd.
+  - Offensive Security Services
+cpeVendors: []

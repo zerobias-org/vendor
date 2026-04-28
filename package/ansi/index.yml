@@ -1,0 +1,17 @@
+id: 6d4ff179-af89-45f0-956d-f36eb6945324
+name: ANSI
+description: >-
+  The American National Standards Institute (ANSI) is a private, nonprofit organization that administers and coordinates the U.S. voluntary consensus standards and conformity assessment system. ANSI is an ISO/IEC 17024 accreditation body for individual certification programs — including those offered by (ISC)², IAPP, and many others.
+imageUrl: https://cdn.auditmation.io/logos/ansi.svg
+logo: https://cdn.auditmation.io/logos/ansi.svg
+code: ansi
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://www.ansi.org/
+tags: []
+aliases:
+  - American National Standards Institute
+cpeVendors: []
