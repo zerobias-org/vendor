@@ -1,0 +1,18 @@
+id: 1ce50800-543f-43aa-8cfd-610fea36ab6c
+name: HITRUST Alliance
+description: >-
+  HITRUST Alliance develops and maintains the HITRUST CSF (Common Security Framework), a widely adopted healthcare-focused information security framework. Certifies external assessors (CCSFP, CHQP) and issues organizational certifications at three assessment levels (e1, i1, r2).
+imageUrl: https://cdn.auditmation.io/logos/hitrust.svg
+logo: https://cdn.auditmation.io/logos/hitrust.svg
+code: hitrust
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://hitrustalliance.net/
+tags: []
+aliases:
+  - HITRUST
+  - Health Information Trust Alliance
+cpeVendors: []

@@ -1,0 +1,18 @@
+id: 2e3c99d0-a3c1-4000-8f99-6e89cbe4a412
+name: CREST
+description: >-
+  CREST (Council of Registered Ethical Security Testers) is an international not-for-profit accreditation and certification body serving the cyber assurance industry. Accredits organizations across seven service domains and issues individual credentials (CPSA, CRT, CCT, CRIA, CRIS); supports government schemes including CHECK, CBEST, ASSURE, TIBER-EU, and GBEST.
+imageUrl: https://cdn.auditmation.io/logos/crest.png
+logo: https://cdn.auditmation.io/logos/crest.png
+code: crest
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://www.crest-approved.org/
+tags: []
+aliases:
+  - Council of Registered Ethical Security Testers
+  - CREST International
+cpeVendors: []

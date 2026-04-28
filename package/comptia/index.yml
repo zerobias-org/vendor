@@ -1,0 +1,17 @@
+id: 17dddd35-dfcd-4a7f-a0e9-2e04fbda2a81
+name: CompTIA
+description: >-
+  The Computing Technology Industry Association (CompTIA) is a leading nonprofit trade association that issues vendor-neutral IT certifications, including Security+, CySA+, PenTest+, SecurityX (formerly CASP+), A+, Network+, Cloud+, and Linux+.
+imageUrl: https://cdn.auditmation.io/logos/comptia.svg
+logo: https://cdn.auditmation.io/logos/comptia.svg
+code: comptia
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://www.comptia.org/
+tags: []
+aliases:
+  - Computing Technology Industry Association
+cpeVendors: []

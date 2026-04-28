@@ -1,0 +1,18 @@
+id: 418b957f-c59b-4fc0-a5d1-9429a5c13913
+name: CAICO
+description: >-
+  The CMMC Assessor & Instructor Certification Organization (CAICO) is the authorized body that credentials individuals within the CMMC Ecosystem — Certified CMMC Professional (CCP), Certified CMMC Assessor (CCA), Lead CMMC Certified Assessor (LCCA), and CMMC Certified Instructor (CCI). ISACA has served as CAICO since 2025 under authorization from The Cyber AB.
+imageUrl: https://cdn.auditmation.io/logos/caico.jpg
+logo: https://cdn.auditmation.io/logos/caico.jpg
+code: caico
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://cyberab.org/CAICO
+tags: []
+aliases:
+  - CMMC Assessor and Instructor Certification Organization
+  - Cybersecurity Assessor and Instructor Certification Organization
+cpeVendors: []

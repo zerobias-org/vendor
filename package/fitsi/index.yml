@@ -1,0 +1,18 @@
+id: 1d996088-52c6-433e-88c4-a2cc5a63212b
+name: FITSI
+description: >-
+  The Federal IT Security Institute (FITSI) issues the Federal IT Security Professional (FITSP) certifications for U.S. federal information systems practitioners. The FITSP-A (Auditor) is accepted on the DoD 8140.3 / DCWF baseline list; also offers FITSP-M (Manager), FITSP-D (Designer), and FITSP-O (Operator).
+imageUrl: https://cdn.auditmation.io/logos/fitsi.jpg
+logo: https://cdn.auditmation.io/logos/fitsi.jpg
+code: fitsi
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://www.fitsi.org/
+tags: []
+aliases:
+  - Federal IT Security Institute
+  - FITSP
+cpeVendors: []

@@ -1,0 +1,17 @@
+id: 3b9c2cf1-c4e6-496e-9808-c913b059b22b
+name: SAICO
+description: >-
+  The SCF Assessor and Instructor Certification Organization (SAICO) is operated by the Secure Controls Framework Council and credentials individuals within the SCF Ecosystem — SCF Practitioner, SCF Architect, and SCF Assessor. Training and examinations delivered via training.securecontrolsframework.com; accredited through The Cyber AB.
+imageUrl: https://cdn.auditmation.io/logos/saico.png
+logo: https://cdn.auditmation.io/logos/saico.png
+code: saico
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://training.securecontrolsframework.com/
+tags: []
+aliases:
+  - SCF Assessor and Instructor Certification Organization
+cpeVendors: []
