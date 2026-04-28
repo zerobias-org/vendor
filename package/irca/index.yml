@@ -1,0 +1,19 @@
+id: 706c96f7-580a-4b88-8a1b-de8bdd32ed2d
+name: IRCA
+description: >-
+  The International Register of Certificated Auditors (IRCA), operated by the Chartered Quality Institute (CQI), is the world's original and largest international certification body for auditors of management systems. Certifies Lead Auditors for ISO/IEC 27001, ISO/IEC 27701, ISO 9001, ISO 22301, ISO 14001, ISO 42001, and other management-system standards.
+imageUrl: https://cdn.auditmation.io/logos/irca.jpg
+logo: https://cdn.auditmation.io/logos/irca.jpg
+code: irca
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+created: 2026-04-24T00:00:00.000Z
+updated: 2026-04-24T00:00:00.000Z
+status: verified
+url: https://www.quality.org/
+tags: []
+aliases:
+  - International Register of Certificated Auditors
+  - CQI-IRCA
+  - Chartered Quality Institute
+cpeVendors: []

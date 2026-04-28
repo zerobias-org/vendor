@@ -1,0 +1,29 @@
+{
+  "name": "@zerobias-org/vendor-iapp",
+  "version": "1.0.0",
+  "description": "Vendor package for IAPP",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/iapp/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../scripts/correctDeps.ts",
+    "validate": "tsx ../../scripts/validate.ts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "vendor",
+    "package": "iapp"
+  }
+}
