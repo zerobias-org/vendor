@@ -17,6 +17,17 @@ npm install
 npm run reset
 ```
 
+### Migration Status
+
+[`MIGRATION_STATUS.md`](./MIGRATION_STATUS.md) is the running tracker of which vendors are on the gradle pipeline vs the lerna-era 1.x line, plus pre-flight `flagged` vendors that will fail gate as-is (bad URL, malformed code, etc.). Regenerate with:
+
+```bash
+./scripts/migration-status.sh        # rewrite the tracker
+./scripts/migration-status.sh --check # exit non-zero if out of date (CI-friendly)
+```
+
+When picking the next batch to migrate, work from the `pending` rows; skip anything in the `Flagged` section until its index.yml / package.json drift is fixed.
+
 ### Working with Vendors
 ```bash
 # Create a new vendor package: copy template + add gradle marker
