@@ -197,8 +197,7 @@ the registry. Content is `plugins { id("zb.content") }` — exactly one line.
     "directory": "package/{vendorCode}/"
   },
   "scripts": {
-    "correct:deps": "tsx ../../scripts/correctDeps.ts",
-    "validate": "tsx ../../scripts/validate.ts"
+    "correct:deps": "tsx ../../scripts/correctDeps.ts"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -369,7 +368,8 @@ gh pr create --title "feat(vendor-{vendorCode}): add {Vendor Name}" --body "$(ca
 - **Package:** @zerobias-org/vendor-{vendorCode}
 
 ## Validation
-- [x] `npm run validate` passes
+- [x] `./gradlew :{vendorCode}:gate` passes (validate + dataloader)
+- [x] `package/{vendorCode}/gate-stamp.json` committed
 - [x] index.yml has all required fields
 - [x] Logo file present
 
