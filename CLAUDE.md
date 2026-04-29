@@ -10,18 +10,17 @@ This is a monorepo for managing vendor integration packages under the @zerobias-
 
 ### Development Setup
 ```bash
-# Install dependencies across all packages
-npm run bootstrap
+# Install root dependencies (commitlint hooks, tsx for scripts/correctDeps.ts)
+npm install
 
-# Clean and reset the repository
-npm run reset  # Full reset including dependencies
-npm run clean  # Clean build artifacts only
+# Reset workspace (deletes node_modules and reinstalls)
+npm run reset
 ```
 
 ### Working with Vendors
 ```bash
 # Create a new vendor package: copy template + add gradle marker
-cp -r templates/vendorA package/[vendor-name]
+cp -r templates/ package/[vendor-name]
 echo 'plugins { id("zb.content") }' > package/[vendor-name]/build.gradle.kts
 # Then update package.json, index.yml, and add appropriate logo
 
@@ -72,8 +71,8 @@ Each vendor package (`package/[vendor-name]/`) contains:
 ### Key Technologies
 - **Gradle (zb.content plugin)**: Drives validate / gate / publishNpm / promoteAll per vendor. Plugin lives in `zerobias-org/util` and resolves via `settings.gradle.kts`.
 - **zbb**: Lifecycle CLI used by CI (`zbb publish`); honors the workspace declaration for content-package discovery.
-- **TypeScript**: Used for the residual root script `scripts/correctDeps.ts` (executed via `tsx`). Validation rules live in the root `build.gradle.kts` (`extra["contentValidator"]`) composed from `SchemaPrimitives` shipped by `zerobias-org/util` build-tools — no per-vendor `scripts/validate.ts` invocation anymore.
-- **Lerna / Nx (legacy)**: Still referenced in root `package.json` scripts but the gradle pipeline has superseded them for new vendors. Don't add new lerna/nx config.
+- **TypeScript**: Used for the residual root script `scripts/correctDeps.ts` (executed via `tsx`). Validation rules live in the root `build.gradle.kts` (`extra["contentValidator"]`) composed from `SchemaPrimitives` shipped by `zerobias-org/util` build-tools.
+- **Lerna (legacy)**: Still referenced in root `package.json` scripts (`lerna:dry-run`, `lerna:version`) but unused — the gradle pipeline has superseded it. Don't add new lerna config. Nx has been removed entirely.
 - **Conventional Commits**: Enforced via commitlint for automated versioning
 
 ### Publishing Flow
@@ -87,7 +86,7 @@ Each vendor package (`package/[vendor-name]/`) contains:
 - **Authentication**: Set `ZB_TOKEN` environment variable for npm registry access
 - **Commit Format**: All commits must follow Conventional Commits specification
 - **Private Registry**: Packages publish to `npm.pkg.github.com/@zerobias-org`
-- **No Direct npm publish**: Always use `npm run nx:publish` to ensure dependencies are correct
+- **No Direct npm publish**: Publishing is driven by the gradle `Publish` workflow on push to `main`/`qa`/`dev`/`uat`; locally use `./gradlew :<vendor>:gate` to validate before push.
 - **Vendor Naming**: Package names must match `@zerobias-org/vendor-{code}` where `{code}` matches `^[\d_a-z]+$` (lowercase alphanumeric with underscores allowed) — same regex enforced by `com/platform/dataloader` `VendorFileHandler` and by this repo's gradle validator. The UI's `vspCodeValidator` is stricter (no underscores), so prefer plain lowercase alphanumeric for new codes.
 
 ---
