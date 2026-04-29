@@ -72,7 +72,7 @@ Each vendor package (`package/[vendor-name]/`) contains:
 ### Key Technologies
 - **Gradle (zb.content plugin)**: Drives validate / gate / publishNpm / promoteAll per vendor. Plugin lives in `zerobias-org/util` and resolves via `settings.gradle.kts`.
 - **zbb**: Lifecycle CLI used by CI (`zbb publish`); honors the workspace declaration for content-package discovery.
-- **TypeScript**: Used for the residual root scripts (`scripts/correctDeps.ts`, `scripts/validate.ts`) executed via `tsx`.
+- **TypeScript**: Used for the residual root script `scripts/correctDeps.ts` (executed via `tsx`). Validation rules live in the root `build.gradle.kts` (`extra["contentValidator"]`) composed from `SchemaPrimitives` shipped by `zerobias-org/util` build-tools — no per-vendor `scripts/validate.ts` invocation anymore.
 - **Lerna / Nx (legacy)**: Still referenced in root `package.json` scripts but the gradle pipeline has superseded them for new vendors. Don't add new lerna/nx config.
 - **Conventional Commits**: Enforced via commitlint for automated versioning
 

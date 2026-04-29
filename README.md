@@ -3,12 +3,15 @@ Monorepo of vendor.
 
 ## Contributing
 
-For detailed instructions on contributing to this repository, including how to add or update vendor logos, please see [CONTRIBUTING.md](./CONTRIBUTING.md).
+Vendor creation and logo work are documented as Claude Code skills/agents
+under `.claude/`:
 
-**Quick Links:**
-- [Fork and Branch Workflow](./CONTRIBUTING.md#fork-and-branch-workflow)
-- [Adding Vendor Logos](./CONTRIBUTING.md#adding-or-updating-vendor-logos)
-- [Submitting Pull Requests](./CONTRIBUTING.md#submitting-a-pull-request)
+- **[Create a vendor](./.claude/skills/create-vendor.md)** — full new-vendor walkthrough (driven from a ZeroBias task)
+- **[Logo agent](./.claude/zerobias-org-vendor-logo-agent.md)** — sourcing, validating, and updating vendor logos
+- **[Validate agent](./.claude/zerobias-org-vendor-validate-agent.md)** — what the gradle validator checks and how to extend it
+
+Repo-wide conventions (branching, conventional commits, gradle commands)
+are in [CLAUDE.md](./CLAUDE.md).
 
 # Starting Development
 ##  Fork Repository
@@ -39,17 +42,31 @@ Set `ZB_TOKEN` in your environment variables to authenticate with npm registry.
 
 Run the folowing script `sh scripts/createNewvendor.sh <folder_path>`
 
-### Install and Shrinkwrap
+### Mark the vendor for the gradle pipeline
 
-Run the following commands to update npm for your new vendor
-* `cd <folder_path>` cd into your new vendor directory
-* `npm install` run npm install
-* `npm shrinkwrap` run npm shrinkwrap
+Add a one-line marker so the publish workflow's `detect` job picks the vendor up:
+
+```bash
+echo 'plugins { id("zb.content") }' > package/<vendor-name>/build.gradle.kts
+```
 
 ### Validate new vendors
 
-In the root of the respository run the follow command to validate all edit or added vendors
-* `npm run validate` If any errors, edit what is needed and rerun
+Validation runs through gradle (`zb.content` plugin). The schema rules
+live in this repo's root `build.gradle.kts` (composed from
+`SchemaPrimitives` shipped by `zerobias-org/util`):
+
+```bash
+# Schema check only (fast)
+./gradlew :<vendor-name>:validateContent
+
+# Full gate (validate + dataloader against an ephemeral Neon branch);
+# writes gate-stamp.json on success — commit that file with your changes
+./gradlew :<vendor-name>:gate
+```
+
+> Legacy `npm install` / `npm shrinkwrap` / `npm run validate` are no
+> longer needed — gradle owns vendor lifecycle.
 
 **Now you can commit your changes following the instructions below, then open a PR against the main repository branch**
 
