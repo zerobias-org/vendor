@@ -4,7 +4,7 @@
 This agent automates the process of grabbing a vendor's logo from their homepage and integrating it into the vendor package.
 
 ## For Contributors
-If you're contributing to the zerobias-org/vendor repository, please see [CONTRIBUTING.md](../../CONTRIBUTING.md) for the complete fork and pull request workflow. This document focuses on the technical steps for adding logos.
+Repo-wide conventions (branching, conventional commits, gradle commands) live in [CLAUDE.md](../../CLAUDE.md). The full new-vendor walkthrough is at [.claude/skills/create-vendor.md](./skills/create-vendor.md). This document focuses on the technical steps for adding logos.
 
 ## Logo Format Rules
 - **Accepted formats**: SVG or PNG only
