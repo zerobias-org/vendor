@@ -6,6 +6,24 @@ plugins {
 
 group = "com.zerobias.content"
 
+/**
+ * Mirrors the dataloader's URL validation: `new URL(value)` from
+ * `@zerobias-org/types-core-js`. Strings must parse as absolute URLs
+ * with a scheme. Java's URI is permissive so we additionally require
+ * the scheme + host shape the dataloader enforces in practice.
+ */
+fun requireUrlFormat(value: Any?, field: String, tag: String) {
+    require(value is String && value.isNotBlank()) { "$tag $field must be a non-blank string" }
+    try {
+        val uri = java.net.URI(value)
+        require(uri.scheme != null && uri.host != null) {
+            "$tag $field must be an absolute URL (scheme + host): got '$value'"
+        }
+    } catch (e: Exception) {
+        throw IllegalArgumentException("$tag $field is not a valid URL: $value (${e.message})")
+    }
+}
+
 // ════════════════════════════════════════════════════════════
 // Vendor schema validator — owned by this repo.
 //
@@ -21,22 +39,42 @@ extra["contentValidator"] = { proj: org.gradle.api.Project ->
     require(projectDir.resolve("package.json").isFile) { "$tag package.json missing in ${projectDir.path}" }
     require(projectDir.resolve(".npmrc").isFile)       { "$tag .npmrc missing in ${projectDir.path}" }
 
-    // index.yml schema
+    // index.yml schema — mirrors com/platform/dataloader VendorFileHandler.
     val indexDoc = SchemaPrimitives.parseYaml(projectDir.resolve("index.yml"))
     SchemaPrimitives.requireUuid(indexDoc["id"], "index.yml id")
     SchemaPrimitives.requireNonBlankString(indexDoc["code"], "index.yml code")
     SchemaPrimitives.requireNonBlankString(indexDoc["name"], "index.yml name")
-    SchemaPrimitives.requireNonBlankString(indexDoc["description"], "index.yml description")
-    SchemaPrimitives.requireNonBlankString(indexDoc["url"], "index.yml url")
+    // status: VspStatusEnum from @zerobias-com/platform-core core.yml
     SchemaPrimitives.requireEnum(
         indexDoc["status"], "index.yml status",
-        setOf("active", "verified", "inactive", "deprecated"),
+        setOf("draft", "active", "rejected", "deleted", "verified"),
     )
-    indexDoc["aliases"]?.let { SchemaPrimitives.requireStringList(it, "index.yml aliases") }
-    indexDoc["tags"]?.let    { SchemaPrimitives.requireStringList(it, "index.yml tags") }
+    // description / url / logo are optional in the dataloader; only validate
+    // format when present. URL fields go through java.net.URI for the same
+    // shape check the dataloader performs via `new URL(...)`.
+    indexDoc["description"]?.let {
+        SchemaPrimitives.requireNonBlankString(it, "index.yml description")
+    }
+    indexDoc["url"]?.let { requireUrlFormat(it, "index.yml url", tag) }
+    indexDoc["logo"]?.let { requireUrlFormat(it, "index.yml logo", tag) }
+    // cpeVendors / aliases must be Arrays if present (dataloader: throws if not).
+    indexDoc["cpeVendors"]?.let { SchemaPrimitives.requireStringList(it, "index.yml cpeVendors") }
+    indexDoc["aliases"]?.let    { SchemaPrimitives.requireStringList(it, "index.yml aliases") }
+    // tags items must be UUIDs (dataloader maps each tag through `new UUID(tag)`).
+    indexDoc["tags"]?.let { tagsValue ->
+        require(tagsValue is List<*>) { "$tag index.yml tags must be a list" }
+        tagsValue.forEachIndexed { i, item ->
+            SchemaPrimitives.requireUuid(item, "index.yml tags[$i]")
+        }
+    }
 
     val code = indexDoc["code"] as String
     SchemaPrimitives.requireCodeMatchesDir(code, projectDir.name, "index.yml code")
+    // Mirrors the dataloader's VendorFileHandler code regex (lowercase letters,
+    // digits, underscores). Fast-fail at gate time instead of failing on prod.
+    require(Regex("^[\\d_a-z]+\$").matches(code)) {
+        "$tag code='$code' must match ^[\\d_a-z]+\$ (lowercase alphanumeric with underscores) — see com/platform/dataloader VendorFileHandler"
+    }
 
     // package.json schema — vendor-specific npm name + zerobias block
     val pkgDoc = SchemaPrimitives.parseJson(projectDir.resolve("package.json"))

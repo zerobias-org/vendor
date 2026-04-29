@@ -88,7 +88,7 @@ Each vendor package (`package/[vendor-name]/`) contains:
 - **Commit Format**: All commits must follow Conventional Commits specification
 - **Private Registry**: Packages publish to `npm.pkg.github.com/@zerobias-org`
 - **No Direct npm publish**: Always use `npm run nx:publish` to ensure dependencies are correct
-- **Vendor Naming**: Package names should match the pattern `@zerobias-org/vendor-[name]`
+- **Vendor Naming**: Package names must match `@zerobias-org/vendor-{code}` where `{code}` matches `^[\d_a-z]+$` (lowercase alphanumeric with underscores allowed) — same regex enforced by `com/platform/dataloader` `VendorFileHandler` and by this repo's gradle validator. The UI's `vspCodeValidator` is stricter (no underscores), so prefer plain lowercase alphanumeric for new codes.
 
 ---
 

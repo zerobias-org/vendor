@@ -258,7 +258,7 @@ cpeVendors: []
 **CRITICAL:**
 - Generate new UUID v4 for `id`
 - Use real current timestamp (not placeholder like `00:00:00.000Z`)
-- `code` MUST match `^[a-z0-9]+$` (lowercase alphanumeric only)
+- `code` MUST match `^[\d_a-z]+$` (lowercase alphanumeric with underscores allowed) — same regex enforced by `com/platform/dataloader` `VendorFileHandler` and by this repo's gradle validator. The UI's `vspCodeValidator` is stricter (rejects underscores), so prefer plain lowercase alphanumeric for new codes unless an underscore is unavoidable.
 - `code` MUST match the directory name and the `zerobias.package` field in package.json
 - `imageUrl` and `logo` should both reference the same CDN URL with the actual file extension
 - `status: verified` (modern format) — older vendors may show `status: active`
@@ -441,7 +441,7 @@ publish for that vendor.
 
 ### Gate fails on `validateContent`
 - `index.yml` missing required fields — re-check Step 9
-- `code` field doesn't match `^[a-z0-9]+$` (lowercase alphanumeric only)
+- `code` field doesn't match `^[\d_a-z]+$` (lowercase alphanumeric with underscores; matches dataloader `VendorFileHandler`)
 - `code` doesn't match the directory name or `zerobias.package` in package.json
 - UUID is not v4 lowercase
 
