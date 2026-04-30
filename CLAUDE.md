@@ -81,6 +81,7 @@ Each vendor package (`package/[vendor-name]/`) contains:
 
 ### Key Technologies
 - **Gradle (zb.content plugin)**: Drives validate / gate / publishNpm / promoteAll per vendor. Plugin lives in `zerobias-org/util` and resolves via `settings.gradle.kts`.
+- **Validator philosophy**: The dataloader is the source of truth for schema (UUID format, code regex, status enum, URL parse, tag UUIDs, etc.). The inline `extra["contentValidator"]` in `build.gradle.kts` only enforces things the dataloader **cannot** check: (1) filesystem ↔ npm ↔ `zerobias.package` triangulation via `SchemaPrimitives.requirePackageIdentity`, (2) logo file correctness (when present — magic bytes, size, files-array reference), (3) repo-wide unique `id` UUIDs (`:validateUniqueIds` root task). Dataloader running in `testIntegrationDataloader` during gate is the canonical schema check.
 - **zbb**: Lifecycle CLI used by CI (`zbb publish`); honors the workspace declaration for content-package discovery.
 - **TypeScript**: Used for the residual root script `scripts/correctDeps.ts` (executed via `tsx`). Validation rules live in the root `build.gradle.kts` (`extra["contentValidator"]`) composed from `SchemaPrimitives` shipped by `zerobias-org/util` build-tools.
 - **Lerna (legacy)**: Still referenced in root `package.json` scripts (`lerna:dry-run`, `lerna:version`) but unused — the gradle pipeline has superseded it. Don't add new lerna config. Nx has been removed entirely.
