@@ -1,4 +1,4 @@
-name: Publish
+name: Publish Vendor
 
 on:
   push:
@@ -12,186 +12,17 @@ on:
         description: 'Vendor to publish (e.g. github). Leave blank for all changed.'
         required: false
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  ZB_TOKEN: ${{ secrets.ZB_TOKEN }}
-  NEON_PARENT_BRANCH: content-master
-  NEON_DB_ROLE: neondb_owner
-  NEON_DB_NAME: zerobias
-  CI: true
-
 permissions:
   contents: write
   packages: write
   id-token: write
 
 jobs:
-  detect:
-    runs-on: ubuntu-latest
-    outputs:
-      vendors: ${{ steps.changed.outputs.vendors }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Detect changed vendors
-        id: changed
-        run: |
-          if [ -n "${{ inputs.vendor }}" ]; then
-            echo "vendors=[\"${{ inputs.vendor }}\"]" >> $GITHUB_OUTPUT
-            echo "Manual dispatch: ${{ inputs.vendor }}"
-            exit 0
-          fi
-
-          BRANCH="${GITHUB_REF#refs/heads/}"
-
-          if [ "$BRANCH" = "main" ]; then
-            BASE_REF=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
-            if [ -z "$BASE_REF" ]; then
-              echo "No tags found — publishing all vendors"
-              VENDORS=$(find package -mindepth 2 -maxdepth 2 -name "build.gradle.kts" | \
-                sed 's|^package/||; s|/build.gradle.kts||' | \
-                jq -R -s -c 'split("\n") | map(select(length > 0))')
-              echo "vendors=$VENDORS" >> $GITHUB_OUTPUT
-              exit 0
-            fi
-          else
-            BASE_REF="origin/main"
-          fi
-
-          echo "Comparing against: $BASE_REF"
-
-          # For each changed file under package/, walk up to find build.gradle.kts
-          VENDORS="[]"
-          for file in $(git diff --name-only "$BASE_REF" HEAD -- 'package/'); do
-            dir="$file"
-            while [ "$dir" != "package" ] && [ "$dir" != "." ]; do
-              dir=$(dirname "$dir")
-              if [ -f "$dir/build.gradle.kts" ]; then
-                v=$(echo "$dir" | sed 's|^package/||')
-                VENDORS=$(echo "$VENDORS" | jq -c "if index(\"$v\") then . else . + [\"$v\"] end")
-                break
-              fi
-            done
-          done
-
-          echo "vendors=$VENDORS" >> $GITHUB_OUTPUT
-          echo "Changed vendors: $VENDORS"
-
   publish:
-    needs: detect
-    if: needs.detect.outputs.vendors != '[]'
-    runs-on: ubuntu-latest
-    env:
-      # Ephemeral slot for this CI publish run.
-      ZB_SLOT: ci-${{ github.run_id }}-${{ github.run_attempt }}
-    strategy:
-      fail-fast: false
-      matrix:
-        vendor: ${{ fromJson(needs.detect.outputs.vendors) }}
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      # -- Vault: authenticate via GitHub OIDC and fetch credentials --
-      - name: Authenticate to Vault
-        id: vault
-        uses: hashicorp/vault-action@v3
-        with:
-          url: ${{ secrets.VAULT_ADDR }}
-          method: jwt
-          role: publishing-role
-          path: gh-actions
-          secrets: |
-            operations-kv/data/ci/github writePackagesToken | NPM_TOKEN;
-            operations-kv/data/ci/github readPackagesToken | READ_TOKEN;
-            operations-kv/data/neon/content api-key | NEON_API_KEY;
-            operations-kv/data/neon/content project-id | NEON_PROJECT_ID;
-
-      # -- Tool setup --
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.nvmrc'
-          registry-url: 'https://npm.pkg.github.com'
-
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: 'temurin'
-          java-version: '21'
-
-      - name: Configure git user
-        run: |
-          git config --global user.email "ci@neverfail.com"
-          git config --global user.name "@$GITHUB_ACTOR"
-
-      - name: Install global tools
-        run: |
-          cp .npmrc $HOME/.npmrc
-          cp .npmrc $NPM_CONFIG_USERCONFIG
-          npm i -g @zerobias-org/zbb
-          npm i -g @zerobias-com/platform-dataloader
-
-      - name: Make gradlew executable
-        run: chmod +x gradlew
-
-      # Bootstrap an ephemeral slot for this CI run. CI mode (auto-detected
-      # from CI=true) snapshots process.env as slot overrides — vault
-      # secrets exported above are picked up directly.
-      - name: Bootstrap zbb slot
-        run: |
-          zbb slot create $ZB_SLOT --ephemeral
-          zbb stack add .
-        env:
-          CI: 'true'
-
-      # -- Publish: preflight verifies gate stamp, skips tests, builds + publishes --
-      - name: Publish ${{ matrix.vendor }}
-        run: |
-          cd package/${{ matrix.vendor }}
-          zbb publish
-
-      # -- Generate packages file for release announcement --
-      - name: Generate packages file
-        if: success()
-        run: |
-          cd package/${{ matrix.vendor }}
-          VERSION=$(node -p "require('./package.json').version")
-          NAME=$(node -p "require('./package.json').name")
-          echo "[{\"name\":\"$NAME\",\"version\":\"$VERSION\",\"location\":\"$(pwd)\"}]" > /tmp/published-packages.json
-
-      # -- Release announcement: Slack + event router --
-      - name: Release Announcement
-        if: success()
-        uses: zerobias-org/devops/nx-actions/release-announcement@main
-        with:
-          packages-file: /tmp/published-packages.json
-          branch: ${{ github.ref_name }}
-          dist-tag: ${{ github.ref_name == 'main' && 'latest' || github.ref_name == 'qa' && 'qa' || github.ref_name == 'dev' && 'dev' || 'uat' }}
-        env:
-          SLACK_RELEASES_WEBHOOK: ${{ secrets.SLACK_RELEASES_WEBHOOK }}
-          SLACK_DEVOPS_NOTIFICATIONS: ${{ secrets.SLACK_DEVOPS_NOTIFICATIONS }}
-          READ_TOKEN: ${{ env.READ_TOKEN }}
-
-  # Sync main → uat → qa → dev after successful publish (separate job = clean checkout)
-  sync:
-    needs: publish
-    if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Sync branches
-        uses: zerobias-org/devops/nx-actions/sync-branches@main
-        with:
-          branch: ${{ github.ref_name }}
+    uses: zerobias-org/devops/.github/workflows/zbb-publish-reusable.yml@main
+    with:
+      package-depth: 1
+      ghcr-namespace: zerobias-org
+      dispatch-input-name: vendor
+      dispatch-input-value: ${{ inputs.vendor }}
+    secrets: inherit
