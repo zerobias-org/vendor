@@ -25,14 +25,21 @@ record.
 ## What gets checked
 
 The validator at `build.gradle.kts` (look for `extra["contentValidator"]`)
-enforces:
+enforces (mirrors `com/platform/dataloader` `VendorFileHandler` so failures
+shift left from prod load to gate time):
 
 - `index.yml` exists and parses as YAML
   - `id` is a valid UUID
-  - `code` is a non-blank string and matches the leaf directory name
-  - `name`, `description`, `url` are non-blank strings (no `{placeholder}` leftovers)
-  - `status` is one of: `active`, `verified`, `inactive`, `deprecated`
-  - `aliases` and `tags`, if present, are string lists
+  - `code` is a non-blank string, matches the leaf directory name, and
+    matches `^[\d_a-z]+$` (lowercase alphanumeric with underscores)
+  - `name` is a non-blank string
+  - `status` is one of `VspStatusEnum`: `draft`, `active`, `rejected`,
+    `deleted`, `verified`
+  - `description`, if present, is non-blank
+  - `url`, if present, is an absolute URL (scheme + host)
+  - `logo`, if present, is an absolute URL
+  - `aliases` and `cpeVendors`, if present, are string lists
+  - `tags`, if present, is a list of UUIDs (each item)
 - `package.json` exists and parses as JSON
   - `name` matches `@zerobias-org/vendor-<code>` (with dots replaced by dashes)
   - `description` is non-blank
