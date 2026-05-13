@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-cyclonedx",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "CycloneDX is the standard for multiple world governments and the defense industrial base.",
   "author": "team@zerobias.com",
   "license": "ISC",
