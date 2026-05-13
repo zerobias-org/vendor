@@ -83,16 +83,22 @@ fun validateLogo(projectDir: java.io.File, pkgDoc: Map<String, Any?>, tag: Strin
 
     val logo = candidates.single()
     val size = logo.length()
-    require(size in 500..(5L * 1024 * 1024)) {
-        "$tag ${logo.name} size $size bytes outside acceptable range (500B–5MB) — likely an error response or unscaled asset"
+    require(size in 50..(5L * 1024 * 1024)) {
+        "$tag ${logo.name} size $size bytes outside acceptable range (50B–5MB)"
     }
 
     val head = logo.inputStream().use { stream -> ByteArray(8).also { stream.read(it) } }
     when (logo.extension.lowercase()) {
         "svg" -> {
-            val text = String(head).trimStart()
+            // SVG is text — magic-byte check alone is fragile because S3/CloudFront
+            // XML error pages start with `<?xml` too. Require an actual <svg element
+            // somewhere in the file to separate real SVGs from XML error responses.
+            val text = logo.readText().trimStart()
             require(text.startsWith("<?xml") || text.startsWith("<svg") || text.startsWith("<!--")) {
                 "$tag ${logo.name} doesn't look like SVG (first bytes: ${head.joinToString(" ") { "%02x".format(it) }}). Possibly an HTML error page."
+            }
+            require(text.contains("<svg")) {
+                "$tag ${logo.name} XML has no <svg> element — likely an S3/CDN error response"
             }
         }
         "png" -> {
