@@ -46,6 +46,7 @@ build/
 local.properties
 gradle-local.properties
 .zbb-monorepo/
+.zbb-gradle/
 
 # Eclipse
 .classpath
