@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -186,7 +186,7 @@
     "@zerobias-org/vendor-hidglobal": "1.0.0",
     "@zerobias-org/vendor-hitrust": "1.0.0",
     "@zerobias-org/vendor-hk": "2.0.0",
-    "@zerobias-org/vendor-hl7": "2.0.0",
+    "@zerobias-org/vendor-hl7": "2.0.1",
     "@zerobias-org/vendor-hpe": "2.0.0",
     "@zerobias-org/vendor-hu": "2.0.0",
     "@zerobias-org/vendor-hubspot": "1.0.0",
