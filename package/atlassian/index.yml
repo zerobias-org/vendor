@@ -7,7 +7,7 @@ ownerId: 00000000-0000-0000-0000-000000000000
 created: 2021-04-14T12:20:32.650Z
 updated: 2021-11-24T20:04:48.268Z
 url: https://www.atlassian.com/
-description: Atlassian Corporation PLC
+description: Atlassian Corporation PLC.
 logo: https://cdn.auditmation.io/logos/atlassian.svg
 cpeVendors:
   - atlassian
