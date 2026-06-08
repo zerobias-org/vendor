@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -47,7 +47,7 @@
     "@zerobias-org/vendor-asciicorporation": "2.0.0",
     "@zerobias-org/vendor-at": "2.0.0",
     "@zerobias-org/vendor-atera": "2.0.0",
-    "@zerobias-org/vendor-atlassian": "2.0.0",
+    "@zerobias-org/vendor-atlassian": "2.0.1",
     "@zerobias-org/vendor-au": "2.0.0",
     "@zerobias-org/vendor-auditmation": "2.0.0",
     "@zerobias-org/vendor-automox": "2.0.0",
