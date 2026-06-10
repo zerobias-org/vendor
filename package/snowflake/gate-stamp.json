@@ -1,7 +1,7 @@
 {
-  "version": "2.0.1",
-  "branch": "main",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "version": "1.0.0-uat.0",
+  "branch": "fix/snowflake-gate-stamp",
+  "sourceHash": "be0be8cf70a2fc470ea2d81fe0768e721aaf612f07a663828cc6f3aceac6657f",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

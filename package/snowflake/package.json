@@ -1,14 +1,14 @@
 {
-  "name": "@zerobias-org/vendor-atlassian",
-  "version": "2.0.1",
-  "description": "Vendor package for atlassian",
+  "name": "@zerobias-org/vendor-snowflake",
+  "version": "1.0.0-rc.1",
+  "description": "Vendor package for Snowflake",
   "author": "team@zerobias.com",
   "license": "ISC",
   "type": "module",
   "repository": {
     "type": "git",
     "url": "git@github.com:zerobias-org/vendor.git",
-    "directory": "vendor/"
+    "directory": "package/snowflake/"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -20,6 +20,6 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "atlassian"
+    "package": "snowflake"
   }
 }
