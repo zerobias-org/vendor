@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -384,6 +384,7 @@
     "@zerobias-org/vendor-smartbear": "2.0.0",
     "@zerobias-org/vendor-smartsheet": "2.0.0",
     "@zerobias-org/vendor-snow": "2.0.0",
+    "@zerobias-org/vendor-snowflake": "1.0.0",
     "@zerobias-org/vendor-snyk": "2.0.0",
     "@zerobias-org/vendor-solarwinds": "1.0.0",
     "@zerobias-org/vendor-sonar": "2.0.0",
