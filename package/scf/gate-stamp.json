@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
-  "branch": "feat/gradle-marker-credential-issuers",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "branch": "main",
+  "sourceHash": "3f99dc0eaf078553ec6876972bc3510aa159d165c56d43e2c5a319f06596d066",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
