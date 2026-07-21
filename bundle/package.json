@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -364,7 +364,7 @@
     "@zerobias-org/vendor-saltstack": "2.0.0",
     "@zerobias-org/vendor-sap": "2.0.0",
     "@zerobias-org/vendor-scalefusion": "2.0.0",
-    "@zerobias-org/vendor-scf": "1.0.1",
+    "@zerobias-org/vendor-scf": "1.0.2",
     "@zerobias-org/vendor-se": "2.0.0",
     "@zerobias-org/vendor-securityscorecard": "2.0.0",
     "@zerobias-org/vendor-sei": "2.0.0",
