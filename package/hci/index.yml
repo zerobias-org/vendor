@@ -1,0 +1,13 @@
+id: ca618d7a-c6ef-4ced-ace6-6c4ab62773cf
+name: HCI
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+code: hci
+status: verified
+description: Patient engagement and clinical communication technology for healthcare facilities.
+aliases: []
+logo: https://cdn.auditmation.io/logos/hci.png
+imageUrl: https://cdn.auditmation.io/logos/hci.png
+url: https://www.hci-tv.com/
+tags: []
+cpeVendors: []
