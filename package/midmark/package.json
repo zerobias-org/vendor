@@ -1,0 +1,25 @@
+{
+  "name": "@zerobias-org/vendor-midmark",
+  "version": "1.0.0-rc.1",
+  "description": "Midmark",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/midmark/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "vendor",
+    "package": "midmark"
+  }
+}
