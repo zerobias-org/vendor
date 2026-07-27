@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -259,6 +259,7 @@
     "@zerobias-org/vendor-mendix": "2.0.0",
     "@zerobias-org/vendor-metricstream": "2.0.0",
     "@zerobias-org/vendor-microsoft": "2.0.2",
+    "@zerobias-org/vendor-midmark": "1.0.0",
     "@zerobias-org/vendor-mile2": "1.0.1",
     "@zerobias-org/vendor-miradore": "2.0.0",
     "@zerobias-org/vendor-miraxr": "2.0.0",

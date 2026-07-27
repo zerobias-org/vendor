@@ -1,0 +1,13 @@
+id: 72083736-cf6f-42d5-a1e6-25cc27bd4046
+name: Iatric Systems
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+code: iatric
+status: verified
+description: Iatric Systems, Inc. (a Harris Computer company) — healthcare IT and EHR interoperability solutions.
+aliases: []
+logo: https://cdn.auditmation.io/logos/iatric.png
+imageUrl: https://cdn.auditmation.io/logos/iatric.png
+url: https://iatric.com/
+tags: []
+cpeVendors: []
