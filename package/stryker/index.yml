@@ -1,0 +1,13 @@
+id: 90781471-2e3a-46cf-845d-b857981ebde5
+name: Stryker
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+code: stryker
+status: verified
+description: Stryker Corporation — medical technology company spanning MedSurg, Neurotechnology, and Orthopaedics.
+aliases: []
+logo: https://cdn.auditmation.io/logos/stryker.png
+imageUrl: https://cdn.auditmation.io/logos/stryker.png
+url: https://www.stryker.com/
+tags: []
+cpeVendors: []
