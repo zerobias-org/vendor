@@ -1,0 +1,25 @@
+{
+  "name": "@zerobias-org/vendor-stellarcyber",
+  "version": "1.0.0",
+  "description": "Vendor package for stellarcyber",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "vendor/"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "vendor",
+    "package": "stellarcyber"
+  }
+}
