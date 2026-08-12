@@ -200,7 +200,7 @@ the registry. Content is `plugins { id("zb.content") }` — exactly one line.
     "correct:deps": "tsx ../../scripts/correctDeps.ts"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org/"
   },
   "files": ["index.yml", "logo.*"],
   "zerobias": {

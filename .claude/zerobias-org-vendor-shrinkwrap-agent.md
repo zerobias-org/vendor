@@ -22,7 +22,7 @@ This agent handles the rebuilding of npm-shrinkwrap.json files for vendor packag
 ## Command Sequence
 
 ```bash
-cd /home/toor/local_zerobiasorg/vendor/package/{vendor}
+cd package/{vendor}    # from the vendor repo root
 rm -f npm-shrinkwrap.json
 npm install
 npm shrinkwrap
@@ -41,7 +41,7 @@ This agent should be run after:
 For vendor `eclipsefoundation`:
 
 ```bash
-cd /home/toor/local_zerobiasorg/vendor/package/eclipsefoundation
+cd package/eclipsefoundation    # from the vendor repo root
 rm -f npm-shrinkwrap.json
 npm install
 npm shrinkwrap
