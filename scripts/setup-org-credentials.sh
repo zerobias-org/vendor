@@ -45,12 +45,25 @@
 # export into YOUR shell — launching claude as ITS child makes them stick.)
 #
 # Every zerobias-org content repo ships an IDENTICAL copy of this script at
-# scripts/setup-org-credentials.sh — deliberate duplication, kept in sync.
-# Edit one, copy to all (the repos must never depend on the meta-repo).
+# scripts/setup-org-credentials.sh — deliberate duplication, kept in sync
+# (repos must never depend on the meta-repo). Copies live in: vendor,
+# suite, module, and the zerobias-org meta-repo (which runs it through a
+# cloned content repo's stack — see STACK_ROOT). After editing one: copy
+# to ALL, check `md5 -q` matches, and COMMIT in each repo — drift found
+# 2026-08-18 (module stale, suite copy on disk but never committed).
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-cd "$REPO_ROOT"   # zbb resolves the stack context from cwd
+# zbb needs an added-stack cwd — outside one, `env get/set` fail (get exits
+# 1 with EMPTY output, indistinguishable from unset). In content repos the
+# repo root IS the stack; the meta-repo has no zbb.yaml at its root, so its
+# copy borrows the first cloned content repo's stack.
+STACK_ROOT=""
+for d in "$REPO_ROOT" "$REPO_ROOT/vendor" "$REPO_ROOT/suite" "$REPO_ROOT/module"; do
+  [ -f "$d/zbb.yaml" ] && { STACK_ROOT="$d"; break; }
+done
+[ -n "$STACK_ROOT" ] || { printf 'No zbb.yaml at %s (or vendor/ suite/ module/ under it).\nRun from a content repo, or clone them first (scripts/clone-all.sh).\n' "$REPO_ROOT" >&2; exit 1; }
+cd "$STACK_ROOT"   # zbb resolves the stack context from cwd
 
 usage() {
   cat <<EOF
@@ -66,8 +79,9 @@ Options:
   --restore        Print export lines that restore your ORIGINAL shell
                    values from the newest backup this script stashed.
                    Use as:  eval "\$($0 --restore)"
-  --launch [args…] After setup is green, exec 'claude' from the repo root
-                   with the slot creds exported and verified. Everything
+  --launch [args…] After setup is green, exec 'claude' from the stack root
+                   (= repo root; in the meta-repo: the borrowed content
+                   repo) with the slot creds exported and verified. Everything
                    after --launch goes to claude, so a headless run is:
                    $0 --launch -p "make vendor x"
   -h, --help       Show this help.
@@ -137,7 +151,7 @@ launch_claude() {
     say "  It must be a PROD-issued registry key. Fix with: $0 --reconfigure"
     exit 1
   fi
-  say "Launching claude from $REPO_ROOT (slot $SLOT creds exported + verified)…"
+  say "Launching claude from $STACK_ROOT (slot $SLOT creds exported + verified)…"
   exec claude ${CLAUDE_ARGS[@]+"${CLAUDE_ARGS[@]}"}
 }
 # Run `zb status` with creds injected (needed once the profile holds ${VAR}
@@ -521,7 +535,7 @@ if ! $slot_ok || ! $owner_ok || ! $reg_ok || $RECONF; then
   # the repo's env vars are STACK-level — the stack must be in the slot
   # before `env set` can attach them ("no stack context" otherwise).
   # "already exists" is fine; any other add-failure is fatal.
-  if ! out=$(zbb --slot "$SLOT" stack add "$REPO_ROOT" 2>&1); then
+  if ! out=$(zbb --slot "$SLOT" stack add "$STACK_ROOT" 2>&1); then
     printf '%s\n' "$out" | grep -qi "already exists" \
       || { printf '%s\n' "$out"; say "✗ stack add failed — STOPPING."; exit 1; }
   fi
