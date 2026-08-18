@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-{code}",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.0",
   "description": "{name}",
   "author": "team@zerobias.com",
   "license": "ISC",
@@ -10,8 +10,11 @@
     "url": "git@github.com:zerobias-org/vendor.git",
     "directory": "package/{code}/"
   },
+  "scripts": {
+    "correct:deps": "tsx ../../scripts/correctDeps.ts"
+  },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org/"
   },
   "files": [
     "index.yml",
