@@ -52,13 +52,43 @@ set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_ROOT"   # zbb resolves the stack context from cwd
 
+usage() {
+  cat <<EOF
+Usage: $0 [--reconfigure] [--restore] [--launch [claude args…]]
+
+Check-first ZeroBias ORG credential setup. Verifies what's already in
+place (zbb slot env, ~/.npmrc scopes, zb MCP profile, org-OWNER key,
+registry key) and prompts only for the missing pieces. Safe to re-run.
+Run it YOURSELF in a normal terminal — not inside a Claude session.
+
+Options:
+  --reconfigure    Ignore stored values and ask fresh (switch org/env/key).
+  --restore        Print export lines that restore your ORIGINAL shell
+                   values from the newest backup this script stashed.
+                   Use as:  eval "\$($0 --restore)"
+  --launch [args…] After setup is green, exec 'claude' from the repo root
+                   with the slot creds exported and verified. Everything
+                   after --launch goes to claude, so a headless run is:
+                   $0 --launch -p "make vendor x"
+  -h, --help       Show this help.
+
+Env vars pre-seed the prompts (each one set = one prompt skipped):
+  SLOT              zbb slot name (default: reuse/create <env>-<org first 8>)
+  ZB_PLATFORM_URL   target platform, e.g. https://app.zerobias.com/api
+  ZB_ORG_ID         target org UUID (prompt also accepts the org NAME)
+  ZB_API_KEY        ORG key — org-OWNER API key of the TARGET env
+  ZB_TOKEN          REGISTRY key — PROD key that can read pkg.zerobias.org
+EOF
+}
+
 RECONF=false; LAUNCH=false; RESTORE=false; CLAUDE_ARGS=()
 while [ $# -gt 0 ]; do
   case "$1" in
     --reconfigure) RECONF=true; shift ;;
     --restore) RESTORE=true; shift ;;
     --launch) LAUNCH=true; shift; CLAUDE_ARGS=("$@"); set -- ;;
-    *) printf 'Unknown option: %s\n' "$1" >&2; exit 2 ;;
+    -h|--help) usage; exit 0 ;;
+    *) printf 'Unknown option: %s\n\n' "$1" >&2; usage >&2; exit 2 ;;
   esac
 done
 say()  { printf '%s\n' "$*"; }
