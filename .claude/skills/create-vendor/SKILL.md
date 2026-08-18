@@ -151,7 +151,8 @@ dotfiles are easy to miss):
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "<vendorCode>"
+    "package": "<vendorCode>",
+    "orgId": "<target-org-uuid>"
   }
 }
 ```
@@ -159,6 +160,15 @@ dotfiles are easy to miss):
 - Never hand-edit `version` afterwards — CI owns bumps.
 - No `dependencies` — vendor packages are pure metadata.
 - `zerobias.package` MUST equal the directory name and `index.yml` `code`.
+- **Set `zerobias.orgId: "<org-uuid>"` already now, before the first gate.**
+  The gate's Neon step behaves differently with it: orgId present → the
+  ephemeral branch is seeded with the org and the load runs org-scoped
+  (`dataloaderExec: Seeding org … (zerobias.orgId present)`), matching how
+  org-scoped tokens authorize; orgId absent → the package is treated as
+  global-catalog and org-scoped tokens can 401 the step. The gate-stamp's
+  sourceHash does NOT cover `package.json`, so setting (and later, in
+  Phase 7, deleting) orgId never invalidates the stamp — there is no
+  reason to defer it to Phase 5.
 
 **index.yml**:
 
@@ -230,7 +240,9 @@ zbb owns the lifecycle. Don't commit a shrinkwrap.
 Publishes an org-private rc version (`<X.Y.Z+1>-rc.<orgIdStripped>.<n>`, computed by zbb — never hand-authored) and queues
 a dataloader job into the target org — no PR, no shared catalog involved.
 
-1. Set the target in `package.json`: `"zerobias": { …, "orgId": "<org-uuid>" }`.
+1. Confirm the target is set in `package.json`: `"zerobias": { …, "orgId":
+   "<org-uuid>" }` — already done in Phase 3 (before the gate), where it
+   belongs; set it now only if it was somehow missed.
 2. Environment — must be in the **slot/stack env** (a plain shell `export`
    does not reach the gradle build). Secret in the slot's local env:
    `zbb --slot <slot> env set ZB_API_KEY <org-owner-key>` (and `ZB_TOKEN` =
@@ -324,6 +336,9 @@ calls): re-run the identical command ONCE before diagnosing or escalating —
 pod-side state (secret re-syncs, deploys) changes independently of your
 session, and a retry is far cheaper than a wrong escalation.
 
+- **`stack add` from a git worktree fails "Stack 'vendor' already exists"** →
+  harmless: zbb resolves stacks by `zbb.yaml` name, not path, so a worktree
+  of an added repo reaches the slot env without any `stack add`. Skip it.
 - **Publish workflow skips the vendor** → missing `build.gradle.kts`
   marker; add the one-liner and push.
 - **`validateContent` fails** → `code` regex / dir / `zerobias.package`

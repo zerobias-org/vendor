@@ -63,7 +63,7 @@ Two paths through this table:
 | 6 | `zbb` CLI | `command -v zbb && zbb --version` | `npm install -g @zerobias-org/zbb@latest` |
 | 7 | **`zb` MCP connected** (`.mcp.json` + profile) | `mcp__zb__zerobias_*` tools in session | credentials setup below |
 | 8 | **`zb-knowledge` MCP connected** (`.mcp.json` + launch env vars) | `mcp__zb-knowledge__*` tools in session; `health_check` succeeds | export `ZB_ORG_ID`/`ZB_API_KEY`, relaunch claude |
-| 9 | `ZB_API_KEY` (**ORG key** — org OWNER, never member; legacy fallback `ZB_TOKEN`) + `ZB_TOKEN` (**REGISTRY key**, prod-issued) + platform URLs in the slot env | `[ -n "$(zbb --slot <slot> env get ZB_TOKEN 2>/dev/null \| tail -n1)" ] && echo present` — exit code alone is a FALSE POSITIVE, and zbb may prefix a vault banner (value = last line) | credentials setup below |
+| 9 | `ZB_API_KEY` (**ORG key** — org OWNER, never member; legacy fallback `ZB_TOKEN` works on PROD targets ONLY — non-prod target + unset `ZB_API_KEY` = hard ❌, see ⚠ in Credentials) + `ZB_TOKEN` (**REGISTRY key**, prod-issued) + platform URLs in the slot env | `cd <repo> && [ -n "$(zbb --slot <slot> env get ZB_TOKEN 2>/dev/null \| tail -n1)" ] && echo present` — MUST run from inside the repo (any added-stack path): outside one, `env get` exits 1 with EMPTY output, indistinguishable from "unset" (false all-MISSING, hit 2026-08-18). Exit code alone is a FALSE POSITIVE the other way, and zbb may prefix a vault banner (value = last line) | credentials setup below |
 | 10 | Target org UUID known | from user / org config | ask the user |
 | 11 | Active `zb` profile org == target org, connection healthy | `zerobias_execute("meta.status")` → `healthy: true` + org matches target (CLI fallback: `zb status`) | `zb profile use <name>` / `zb setup`; org IDs are PER-ENVIRONMENT — a "No such Org" with working auth means wrong-env UUID, list memberships, never assume absence |
 | 12 | Key is org OWNER (= Organization Admin) | `zerobias_execute("dana.Me.whoAmI", {})` → `isAdmin: true` | get an owner key — members cannot load artifacts |
@@ -121,6 +121,19 @@ Two keys with distinct jobs, plus **org ID** and **platform URL**:
   registry accepts only PROD keys, this must be a prod-issued key. Rule:
   don't touch it if it works — the setup script verifies registry access
   and prompts only on failure.
+
+> ⚠ **Any target env other than `app.zerobias.com` REQUIRES `ZB_API_KEY`.**
+> `ZB_TOKEN` must be prod-issued (registry requirement) and keys are
+> per-environment, so when `ZB_PLATFORM_URL` is not
+> `https://app.zerobias.com/api`, the single-key fallback 401s on the
+> target env's `/dana/me` — always, not sometimes. Pre-flight rule:
+> target ≠ prod AND `ZB_API_KEY` unset in the slot = hard ❌ on row 9;
+> set the target-env org-owner key BEFORE starting, don't discover it at
+> `verifyOrgPublish`. On prod targets the fallback works — and setting
+> `ZB_API_KEY` to the same value as `ZB_TOKEN` is harmless there — so the
+> simple habit is: always set both keys explicitly.
+> (Cycle burned 2026-08-18: ci target, single-key slot →
+> `GET https://ci.zerobias.com/api/dana/me returned 401`.)
 
 These must be installed in three places, because each consumer reads a
 different store. The values come from the user, generated in the **TARGET
@@ -202,6 +215,11 @@ with all three values exported (read back from the slot). Anything after
 `--launch` is passed to claude, so `--launch -p "make vendor x"` starts a
 headless run the same way. Full reference:
 <https://github.com/zerobias-org/zerobias-org/blob/main/docs/MCPs.md>
+
+Repo-shipped `.claude/settings.json` pre-authorizes the flow's `zbb`
+commands (gate / env get / publishOrg). If the harness still prompts or a
+classifier denies one, have the user add the rule via `/permissions` —
+`env set` (key installs) stays approval-gated on purpose.
 
 ## Output
 
