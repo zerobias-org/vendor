@@ -86,19 +86,12 @@ Packages (SAML 403); the user-level `~/.npmrc` mapping to pkg.zerobias.org
 even for `-g` installs.
 
 **Hard version floors (org load):** `@zerobias-org/zbb` ≥ **1.0.10**, and the
-`zb.content`/build-tools plugin ≥ **1.0.136** — the first RELEASE containing
-the ZB_API_KEY split (util #110; org-load platform calls read
-`ZB_API_KEY || ZB_TOKEN`). The plugin resolves **mavenLocal-first**
-(`settings.gradle.kts` — there is NO composite build; a sibling `util` clone
-and its branch are irrelevant), so verify the split where it actually loads
-from: `unzip -p ~/.m2/repository/com/zerobias/build-tools/<ver>/build-tools-<ver>.jar
-| grep -a -c ZB_API_KEY` → non-zero. No `~/.m2` copy → the published
-GH-Packages release (≥1.0.136) is fine as-is.
-⚠ Suites WITH deps also need the @InputDirectory→@Internal org-task fix
-(util `fix/org-tasks-node-modules-input`, unreleased as of 2026-08-18): when
-it ships, bump this floor to that release AND delete the stale local
-`~/.m2/.../build-tools/1.0.137` dev build first — it shadows the
-identically-numbered release with different content.
+`zb.content`/build-tools plugin ≥ **1.0.137** (ZB_API_KEY split + org-task
+@Internal fix; older plugins fail suites-with-deps org publishes). Check the
+resolved version with `./gradlew buildEnvironment | grep build-tools` from
+the repo root. Below the floor while
+`~/.m2/repository/com/zerobias/build-tools` exists? Delete that dir and
+re-check — a local build shadows the release.
 
 **Slot naming (consistent, derived — never invent).** One slot per target
 org/env, canonically named `<env>-<org first 8>` (env = platform-host
