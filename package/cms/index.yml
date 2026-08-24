@@ -1,0 +1,14 @@
+id: e6e1ed09-a831-491e-914a-3387bf3cc81a
+name: CMS
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+code: cms
+status: verified
+description: Centers for Medicare & Medicaid Services — US federal agency (HHS) administering Medicare and Medicaid and publishing the Conditions of Participation.
+aliases:
+  - Centers for Medicare & Medicaid Services
+logo: https://cdn.auditmation.io/logos/cms.svg
+imageUrl: https://cdn.auditmation.io/logos/cms.svg
+url: https://www.cms.gov/
+tags: []
+cpeVendors: []
