@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -90,6 +90,7 @@
     "@zerobias-org/vendor-clickup": "2.0.0",
     "@zerobias-org/vendor-clockify": "2.0.0",
     "@zerobias-org/vendor-cloudflare": "2.0.0",
+    "@zerobias-org/vendor-cms": "1.0.0",
     "@zerobias-org/vendor-cn": "2.0.0",
     "@zerobias-org/vendor-cncf": "2.0.0",
     "@zerobias-org/vendor-co": "2.0.0",
@@ -422,6 +423,7 @@
     "@zerobias-org/vendor-testifysec": "2.0.0",
     "@zerobias-org/vendor-timesys": "2.0.0",
     "@zerobias-org/vendor-tisax": "2.0.0",
+    "@zerobias-org/vendor-tjc": "1.0.0",
     "@zerobias-org/vendor-toggl": "2.0.0",
     "@zerobias-org/vendor-topdesk": "2.0.0",
     "@zerobias-org/vendor-tr": "2.0.0",
