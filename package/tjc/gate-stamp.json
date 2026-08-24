@@ -1,7 +1,7 @@
 {
   "version": "1.0.0-uat.0",
-  "branch": "task/vendorDev-2",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "branch": "fix/gate-stamps-cms-tjc",
+  "sourceHash": "01b11cb9aa0f97adb622691c0148c9209bf72b1b04f94522f608964166c46af1",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
