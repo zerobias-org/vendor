@@ -1,0 +1,15 @@
+id: b261e1a5-3431-49d2-89a4-07dd54488af8
+name: The Joint Commission
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+code: tjc
+status: verified
+description: The Joint Commission — US healthcare accreditation body publishing the Comprehensive Accreditation Manuals (CAMH and related programs).
+aliases:
+  - TJC
+  - JCAHO
+logo: https://cdn.auditmation.io/logos/tjc.jpg
+imageUrl: https://cdn.auditmation.io/logos/tjc.jpg
+url: https://www.jointcommission.org/
+tags: []
+cpeVendors: []

@@ -45,12 +45,56 @@
 # export into YOUR shell — launching claude as ITS child makes them stick.)
 #
 # Every zerobias-org content repo ships an IDENTICAL copy of this script at
-# scripts/setup-org-credentials.sh — deliberate duplication, kept in sync.
-# Edit one, copy to all (the repos must never depend on the meta-repo).
+# scripts/setup-org-credentials.sh — deliberate duplication, kept in sync
+# (repos must never depend on the meta-repo). Copies live in: vendor,
+# suite, product, module, and the zerobias-org meta-repo (which runs it
+# through a cloned content repo's stack — see STACK_ROOT). After editing
+# one: copy to ALL, check `md5 -q` matches, and COMMIT in each repo.
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-cd "$REPO_ROOT"   # zbb resolves the stack context from cwd
+# zbb needs an added-stack cwd — outside one, `env get/set` fail (get exits
+# 1 with EMPTY output, indistinguishable from unset). In content repos the
+# repo root IS the stack; the meta-repo has no zbb.yaml at its root, so its
+# copy borrows the first cloned content repo's stack.
+STACK_ROOT=""
+for d in "$REPO_ROOT" "$REPO_ROOT/vendor" "$REPO_ROOT/suite" "$REPO_ROOT/module"; do
+  [ -f "$d/zbb.yaml" ] && { STACK_ROOT="$d"; break; }
+done
+[ -n "$STACK_ROOT" ] || { printf 'No zbb.yaml at %s (or vendor/ suite/ module/ under it).\nRun from a content repo, or clone them first (scripts/clone-all.sh).\n' "$REPO_ROOT" >&2; exit 1; }
+cd "$STACK_ROOT"   # zbb resolves the stack context from cwd
+
+usage() {
+  cat <<EOF
+Usage: $0 [--reconfigure] [--restore] [--launch [claude args…]]
+
+Check-first ZeroBias ORG credential setup. Verifies what's already in
+place (zbb slot env, ~/.npmrc scopes, zb MCP profile, org-OWNER key,
+registry key) and prompts only for the missing pieces. Safe to re-run.
+Run it YOURSELF in a normal terminal — not inside a Claude session.
+
+Options:
+  --reconfigure    Ignore stored values and ask fresh (switch org/env/key).
+  --restore        Print export lines that restore your ORIGINAL shell
+                   values from the newest backup this script stashed.
+                   Use as:  eval "\$($0 --restore)"
+  --launch [args…] After setup is green, exec 'claude' from the stack root
+                   (= repo root; in the meta-repo: the borrowed content
+                   repo) with the slot creds exported and verified. Everything
+                   after --launch goes to claude, so a headless run is:
+                   $0 --launch -p "make vendor x"
+                   and a session with Remote Control active from the start:
+                   $0 --launch --remote-control
+  -h, --help       Show this help.
+
+Env vars pre-seed the prompts (each one set = one prompt skipped):
+  SLOT              zbb slot name (default: reuse/create <env>-<org first 8>)
+  ZB_PLATFORM_URL   target platform, e.g. https://app.zerobias.com/api
+  ZB_ORG_ID         target org UUID (prompt also accepts the org NAME)
+  ZB_API_KEY        ORG key — org-OWNER API key of the TARGET env
+  ZB_TOKEN          REGISTRY key — PROD key that can read pkg.zerobias.org
+EOF
+}
 
 RECONF=false; LAUNCH=false; RESTORE=false; CLAUDE_ARGS=()
 while [ $# -gt 0 ]; do
@@ -58,7 +102,8 @@ while [ $# -gt 0 ]; do
     --reconfigure) RECONF=true; shift ;;
     --restore) RESTORE=true; shift ;;
     --launch) LAUNCH=true; shift; CLAUDE_ARGS=("$@"); set -- ;;
-    *) printf 'Unknown option: %s\n' "$1" >&2; exit 2 ;;
+    -h|--help) usage; exit 0 ;;
+    *) printf 'Unknown option: %s\n\n' "$1" >&2; usage >&2; exit 2 ;;
   esac
 done
 say()  { printf '%s\n' "$*"; }
@@ -107,7 +152,7 @@ launch_claude() {
     say "  It must be a PROD-issued registry key. Fix with: $0 --reconfigure"
     exit 1
   fi
-  say "Launching claude from $REPO_ROOT (slot $SLOT creds exported + verified)…"
+  say "Launching claude from $STACK_ROOT (slot $SLOT creds exported + verified)…"
   exec claude ${CLAUDE_ARGS[@]+"${CLAUDE_ARGS[@]}"}
 }
 # Run `zb status` with creds injected (needed once the profile holds ${VAR}
@@ -138,6 +183,21 @@ stash() { # $1=var $2=original-value
   printf 'export %s=%q\n' "$1" "$2" >> "$stash_file"
 }
 last_line() { printf '%s\n' "$1" | awk 'NF{v=$0} END{print v}'; }
+trim() { # strip CRs + leading/trailing whitespace — pasted values often carry both
+  local s="${1//$'\r'/}"
+  s="${s#"${s%%[![:space:]]*}"}"
+  printf '%s' "${s%"${s##*[![:space:]]}"}"
+}
+mask() { # $1=secret → abc…xyz preview so the user can recognize what they entered
+  if [ ${#1} -ge 8 ]; then printf '%s…%s' "${1:0:3}" "${1: -3}"; else printf '(too short to preview)'; fi
+}
+read_secret() { # $1=prompt $2=varname — hidden read; trimmed; masked echo-back
+  local _v
+  read -rsp "$1" _v; echo
+  _v=$(trim "$_v")
+  [ -n "$_v" ] && say "  got: $(mask "$_v") (${#_v} chars)"
+  printf -v "$2" '%s' "$_v"
+}
 # Accept bare hosts ("ci.zerobias.com"), with/without scheme, with/without /api.
 normalize_url() { # $1=raw → prints https://host/api form
   local u="$1"
@@ -206,7 +266,7 @@ resolve_org() { # $1=name-or-uuid → sets ZB_ORG_ID (+ORG_NAME); 1 = re-ask
 for v in ZB_PLATFORM_URL ZB_ORG_ID ZB_API_KEY ZB_TOKEN; do
   eval "cur=\${$v:-}"
   [ -n "$cur" ] || continue
-  clean=$(last_line "$cur")
+  clean=$(trim "$(last_line "$cur")")
   [ "$v" = "ZB_PLATFORM_URL" ] && clean=$(normalize_url "$clean")
   if [ "$clean" != "$cur" ] || ! valid "$v" "$clean"; then
     stash "$v" "$cur"
@@ -246,6 +306,7 @@ fi
 if [ -z "${ZB_PLATFORM_URL:-}" ]; then
   if [ -n "$def_url" ] && [ -n "$def_org" ]; then
     read -rp "Target [$def_url · ${def_name:-org} ${def_name:+(}$def_org${def_name:+)}] — Enter to keep, or type a new URL: " a || a=""
+    a=$(trim "$a")
     if [ -z "$a" ]; then
       ZB_PLATFORM_URL="$def_url"; ZB_ORG_ID="${ZB_ORG_ID:-$def_org}"
     else
@@ -253,6 +314,7 @@ if [ -z "${ZB_PLATFORM_URL:-}" ]; then
     fi
   else
     read -rp "Platform URL [https://app.zerobias.com/api]: " a || a=""
+    a=$(trim "$a")
     ZB_PLATFORM_URL=${a:-https://app.zerobias.com/api}
   fi
 fi
@@ -267,6 +329,7 @@ if [ -z "${ZB_ORG_ID:-}" ]; then
     else
       read -rp "Org (name or UUID): " a || a=""
     fi
+    a=$(trim "$a")
     [ -n "$a" ] || { say "✗ org is required."; exit 1; }
     resolve_org "$a" && break
     [ -t 0 ] || { say "✗ could not resolve org non-interactively."; exit 1; }
@@ -410,7 +473,7 @@ if [ -z "$picked" ]; then
   say "Generate one in the TARGET env's app UI (keys are PER-ENVIRONMENT,"
   say "and it must be an ORG OWNER key — member keys cannot load):"
   say "  ${ZB_PLATFORM_URL%/api} → Settings → API Keys"
-  read -rsp "ORG key — org OWNER API key (hidden): " ZB_API_KEY; echo
+  read_secret "ORG key — org OWNER API key (hidden): " ZB_API_KEY
   [ -n "$ZB_API_KEY" ] || { say "✗ the ORG key is required."; exit 1; }
 fi
 
@@ -458,7 +521,7 @@ if [ -z "$reg_picked" ]; then
   say "The registry key must be a PROD API key — pkg.zerobias.org currently"
   say "accepts only prod-issued keys, regardless of which env you publish"
   say "orgs into. Generate one at: https://app.zerobias.com → Settings → API Keys"
-  read -rsp "REGISTRY key — PROD API key (hidden): " a; echo
+  read_secret "REGISTRY key — PROD API key (hidden): " a
   [ -n "$a" ] || { say "✗ a registry key is required (used by gate + publish)."; exit 1; }
   ZB_TOKEN="$a"
   if registry_ok "$ZB_TOKEN"; then
@@ -491,7 +554,7 @@ if ! $slot_ok || ! $owner_ok || ! $reg_ok || $RECONF; then
   # the repo's env vars are STACK-level — the stack must be in the slot
   # before `env set` can attach them ("no stack context" otherwise).
   # "already exists" is fine; any other add-failure is fatal.
-  if ! out=$(zbb --slot "$SLOT" stack add "$REPO_ROOT" 2>&1); then
+  if ! out=$(zbb --slot "$SLOT" stack add "$STACK_ROOT" 2>&1); then
     printf '%s\n' "$out" | grep -qi "already exists" \
       || { printf '%s\n' "$out"; say "✗ stack add failed — STOPPING."; exit 1; }
   fi
