@@ -1,0 +1,11 @@
+name: Sync Env Branches
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  sync:
+    uses: zerobias-org/devops/.github/workflows/sync-env-branches-reusable.yml@main
+    secrets: inherit
