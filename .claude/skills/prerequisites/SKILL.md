@@ -68,7 +68,6 @@ Two paths through this table:
 | 11 | Active `zb` profile org == target org, connection healthy | `zerobias_execute("meta.status")` → `healthy: true` + org matches target (CLI fallback: `zb status`) | `zb profile use <name>` / `zb setup`; org IDs are PER-ENVIRONMENT — a "No such Org" with working auth means wrong-env UUID, list memberships, never assume absence |
 | 12 | Key is org OWNER (= Organization Admin) | `zerobias_execute("dana.Me.whoAmI", {})` → `isAdmin: true` | get an owner key — members cannot load artifacts |
 | — | **GitHub token for gradle plugin reads** (applies to EVERYONE on a clean machine; dev machines with locally-published `zb/*` in `~/.m2` are silently exempt) | `READ_TOKEN` / `NPM_TOKEN` / `GITHUB_TOKEN` env var present, `read:packages` scope — GitHub Packages Maven requires auth even for public reads (verified 2026-08-17) | EITHER export a PAT that has `read:packages` as `GITHUB_TOKEN`, OR use the gh keyring: `gh auth refresh -s read:packages && export GITHUB_TOKEN=$(gh auth token)`. ⚠ an INVALID `GITHUB_TOKEN` env var silently shadows a valid keyring login — `gh auth status` exposes it |
-| — | **build-tools plugin ≥ 1.0.137** (hard floor for org loads) | `./gradlew buildEnvironment \| grep build-tools` → ≥ 1.0.137 | usually a stale locally-published build-tools in `~/.m2` shadowing the release — remove `~/.m2/repository/com/zerobias/build-tools`; otherwise fix the GitHub-token row above |
 | — | Gate's Neon dataloader step | runs **iff `ZB_TOKEN` is present** (row 9 covers it; older `NEON_API_KEY` mentions are stale) | — |
 | — | `@zerobias-com/platform-dataloader` global *(optional — local Neon gate)* | `command -v dataloader` | `npm i -g @zerobias-com/platform-dataloader@latest` |
 
@@ -87,12 +86,16 @@ Packages (SAML 403); the user-level `~/.npmrc` mapping to pkg.zerobias.org
 even for `-g` installs.
 
 **Hard version floors (org load):** `@zerobias-org/zbb` ≥ **1.0.10**, and the
-`zb.content`/build-tools plugin ≥ **1.0.137** (ZB_API_KEY split + org-task
-@Internal fix; older plugins fail suites-with-deps org publishes). Check the
-resolved version with `./gradlew buildEnvironment | grep build-tools` from
-the repo root. Below the floor while
-`~/.m2/repository/com/zerobias/build-tools` exists? Delete that dir and
-re-check — a local build shadows the release.
+`zb.content`/build-tools plugin must contain the **ZB_API_KEY split** (util
+PR#110 — org-load platform calls read `ZB_API_KEY || ZB_TOKEN`). The plugin
+resolves **mavenLocal-first** (`settings.gradle.kts` — there is NO composite
+build; a sibling `util` clone and its branch are irrelevant), so verify the
+split where it actually loads from: `unzip -p
+~/.m2/repository/com/zerobias/build-tools/<ver>/build-tools-<ver>.jar | grep
+-a -c ZB_API_KEY` → non-zero (1.0.137 has it, verified 2026-08-17). With no
+`~/.m2` copy, the published GH-Packages plugin resolves instead — check that
+release contains the split before two-key org loads. ⚠ PIN AT RELEASE:
+replace "PR#110" with the concrete build-tools version once published.
 
 **Slot naming (consistent, derived — never invent).** One slot per target
 org/env, canonically named `<env>-<org first 8>` (env = platform-host

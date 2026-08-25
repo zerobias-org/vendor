@@ -282,9 +282,11 @@ a dataloader job into the target org — no PR, no shared catalog involved.
 
 Notes: org users can only queue org-private (`-rc.<org>`) loads — a plain
 catalog-semver load is 403 (platform-admin only). The `zb.content` plugin
-resolves the released registry line — org loads need build-tools
-≥ **1.0.137** (verify: `./gradlew buildEnvironment | grep build-tools`;
-a stale locally-published copy in `~/.m2` can shadow the release).
+resolves **mavenLocal-first** (`settings.gradle.kts` never uses
+`includeBuild` — a sibling `util` clone and its branch are irrelevant): a
+locally-published build-tools in `~/.m2` is what actually loads. Verify
+plugin capabilities (e.g. the ZB_API_KEY split) by grepping the `~/.m2`
+jar, not the util checkout.
 
 ## Phase 6 — user verification + sign-off  ⭐
 
