@@ -1,0 +1,17 @@
+id: f7623d9c-a8fd-4823-88b5-ceb11cc8c7e8
+name: X12
+description: ANSI-accredited developer of the X12 EDI standards, incl. HIPAA transactions and code lists.
+imageUrl: https://cdn.auditmation.io/logos/x12.svg
+logo: https://cdn.auditmation.io/logos/x12.svg
+code: x12
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+status: active
+url: https://x12.org/
+tags: []
+aliases:
+  - X12 Incorporated
+  - ASC X12
+  - Accredited Standards Committee X12
+  - ANSI X12
+cpeVendors: []
