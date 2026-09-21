@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -480,6 +480,7 @@
     "@zerobias-org/vendor-workflowmax": "2.0.0",
     "@zerobias-org/vendor-workplace": "1.0.0",
     "@zerobias-org/vendor-wrike": "2.0.0",
+    "@zerobias-org/vendor-x12": "1.0.0",
     "@zerobias-org/vendor-yoyogames": "2.0.0",
     "@zerobias-org/vendor-za": "2.0.0",
     "@zerobias-org/vendor-zed": "2.0.0",
