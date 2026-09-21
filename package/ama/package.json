@@ -1,0 +1,28 @@
+{
+  "name": "@zerobias-org/vendor-ama",
+  "version": "1.0.0",
+  "description": "Vendor package for American Medical Association",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/ama/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../scripts/correctDeps.ts"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org/"
+  },
+  "files": [
+    "index.yml",
+    "logo.*"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "vendor",
+    "package": "ama"
+  }
+}
