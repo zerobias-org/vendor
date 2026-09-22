@@ -1,7 +1,7 @@
 {
   "version": "2.0.0-uat.0",
-  "branch": "feat/migrate-batch-9",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "ca64cf3a4bc5f21bb2a0fd1fc6f66d473362db4c1e8c634bf760040e9c42cdff",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

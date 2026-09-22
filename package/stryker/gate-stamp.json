@@ -1,7 +1,7 @@
 {
   "version": "1.0.0-uat.0",
-  "branch": "feat/stryker-iatric-vendors",
-  "sourceHash": "09f31bdb4b0099e76646eb4c7bdcc84eb4538304efbeb2f88782806ec2adc946",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "65a56649523f83865706e0f5c82c698c688edd371820d4214504c3a0fab796ae",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
