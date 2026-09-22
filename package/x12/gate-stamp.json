@@ -1,7 +1,7 @@
 {
   "version": "1.0.0-uat.0",
-  "branch": "feat/vendor-x12",
-  "sourceHash": "3caf08b0ae800ff2030e7a21e093c59cc0517a33279cfae4d06162781f640a19",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "87f41da1fd381519be055f365a493f9545cb3cf7df65711909027b9075fd6675",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

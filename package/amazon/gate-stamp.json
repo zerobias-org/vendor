@@ -1,8 +1,7 @@
 {
-  "version": "2.0.1",
-  "branch": "feat/gradle-migration",
-  "timestamp": "2026-04-28T16:14:33.794714532Z",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "version": "2.0.1-uat.0",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "0d8172ebe9578a9720f78f72c1061fa0ec374370968dfa4190a3d1bb91cd321c",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

@@ -12,12 +12,13 @@
   },
   "scripts": {},
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
+    "logo.*",
     "logo.jpg",
-    "logo.*"
+    "npm-shrinkwrap.json"
   ],
   "zerobias": {
     "dataloader-version": "1.0.0",
