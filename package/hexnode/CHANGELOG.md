@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>2.0.1 (2026-09-22)</small>
+
+* build(vendor): move npm fully to pkg.zerobias.org ([d16f086](https://github.com/zerobias-org/vendor/commit/d16f0868))
+
 ## <small>1.0.12 (2026-01-30)</small>
 
 * chore(vendor): migrate packages devsupply-kite to zerobias config ([995e104](https://github.com/zerobias-org/vendor/commit/995e104))

@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-snowflake",
-  "version": "1.0.0-rc.1",
+  "version": "1.0.1",
   "description": "Vendor package for Snowflake",
   "author": "team@zerobias.com",
   "license": "ISC",
