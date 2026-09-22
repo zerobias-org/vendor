@@ -121,14 +121,30 @@ build.gradle.kts      # one-line zb.content marker (REQUIRED for publish detect)
 .npmrc                # REQUIRED — validator hard-fails with ".npmrc missing"
 ```
 
-**`.npmrc`** is REQUIRED (469/470 corpus packages ship the same two lines;
-`templates/.npmrc` has it, but verify the scaffold actually copied it —
-dotfiles are easy to miss):
+**`.npmrc`** is REQUIRED and must be byte-identical to the repo-root
+`.npmrc` (every package carries the same copy; CI overwrites it with the
+root file anyway). Copy it — never hand-write it, and never rely on
+`~/.npmrc` (npm reads only the package's own `.npmrc` plus the global
+one; it does NOT walk up to the repo root):
 
+```bash
+cp ../../.npmrc package/<vendorCode>/.npmrc
 ```
-@zerobias-org:registry=https://pkg.zerobias.org
-//pkg.zerobias.org/:_authToken=${ZB_TOKEN}
+
+It routes every scope to `pkg.zerobias.org` with `${ZB_TOKEN}` and sets
+`omit-lockfile-registry-resolved=true`.
+
+**`npm-shrinkwrap.json`** is REQUIRED and ships in the tarball (listed in
+`files[]`; the dataloader installs via `npm ci` when present). Generate it
+in the package dir — never `npm shrinkwrap` (ENOWORKSPACES):
+
+```bash
+npm install --package-lock-only --no-workspaces && mv package-lock.json npm-shrinkwrap.json
 ```
+
+The `.npmrc` flag keeps it free of `resolved` URLs; verify with
+`grep -c '"resolved"' npm-shrinkwrap.json` → `0`. Commit it (it is part
+of the gate-stamp `sourceHash`, so `git add` it BEFORE the final gate).
 
 **package.json** (matches the existing corpus — keep conventions):
 
@@ -147,7 +163,7 @@ dotfiles are easy to miss):
   },
   "scripts": { "correct:deps": "tsx ../../scripts/correctDeps.ts" },
   "publishConfig": { "registry": "https://pkg.zerobias.org/" },
-  "files": ["index.yml", "logo.*"],
+  "files": ["index.yml", "logo.*", "npm-shrinkwrap.json"],
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
@@ -232,8 +248,10 @@ publishGuard rejects publishes without a valid committed stamp. CI does
 not rerun your tests — it validates the committed stamp.
 
 If you gated before adding new files, re-gate after `git add`.
-Legacy `npm install` / `npm shrinkwrap` / `npm run validate` are gone —
-zbb owns the lifecycle. Don't commit a shrinkwrap.
+Legacy `npm shrinkwrap` / `npm run validate` are gone — zbb owns the
+lifecycle. The only npm step you run yourself is the shrinkwrap
+generation from Phase 2 (`npm install --package-lock-only --no-workspaces`);
+commit the resulting `npm-shrinkwrap.json`.
 
 ## Phase 5 — publishOrg + load into the user's org
 

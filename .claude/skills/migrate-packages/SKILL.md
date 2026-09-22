@@ -37,7 +37,7 @@ plugins { id("zb.content") }
 ```
 
 ### 2. Ensure `.npmrc`
-The validator requires `package/<vendor>/.npmrc`. If absent, copy from a sibling already-migrated vendor (e.g. `package/accelq/.npmrc`).
+The validator requires `package/<vendor>/.npmrc`, byte-identical to the repo-root `.npmrc`: `cp .npmrc package/<vendor>/.npmrc` (never from a sibling — siblings may be stale). Also ensure `package/<vendor>/npm-shrinkwrap.json` exists, has zero `"resolved"` entries, and is listed in `package.json` `files[]`; generate it with `npm install --package-lock-only --no-workspaces && mv package-lock.json npm-shrinkwrap.json` inside the package, and delete any stale `package-lock.json`. `git add` both before the gate — untracked files are invisible to the stamp's `sourceHash`.
 
 ### 3. Run **full** `:gate` (NOT just `:validateContent`)
 ```bash
@@ -79,7 +79,7 @@ One commit per vendor. Conventional commit format:
 ```
 feat(vendor-<vendor>)!: migrate to gradle pipeline (<oldVer> → 2.0.0)
 ```
-The `!` marks the major bump as breaking. Stage exactly: `package/<vendor>/build.gradle.kts`, `package/<vendor>/.npmrc` (if you added it), `package/<vendor>/package.json` (version bump), **`package/<vendor>/gate-stamp.json`** (mandatory — preflight rejects without it), and any drift fixes you made (e.g. `package/<vendor>/index.yml`, `package/<vendor>/logo.svg`).
+The `!` marks the major bump as breaking. Stage exactly: `package/<vendor>/build.gradle.kts`, `package/<vendor>/.npmrc` (if you added or refreshed it), `package/<vendor>/npm-shrinkwrap.json`, `package/<vendor>/package.json` (version bump + `files[]`), **`package/<vendor>/gate-stamp.json`** (mandatory — preflight rejects without it), and any drift fixes you made (e.g. `package/<vendor>/index.yml`, `package/<vendor>/logo.svg`).
 
 ### 7. (After the batch) Verify on a feature branch
 ```bash

@@ -1,7 +1,7 @@
 {
-  "version": "2.0.1",
-  "branch": "test/hl7-desc-validate",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "version": "2.0.1-uat.0",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "65ec2f93fa9904ad04a06b85df0f7d9b3abdadd43d67a245d214977ba367f5cb",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",

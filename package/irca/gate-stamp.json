@@ -1,8 +1,7 @@
 {
-  "version": "1.0.0",
-  "branch": "feat/gradle-marker-credential-issuers",
-  "timestamp": "2026-04-28T17:52:52.254360142Z",
-  "sourceHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "version": "1.0.0-uat.0",
+  "branch": "build/npmrc-canonical",
+  "sourceHash": "15096065f7f4b081fa1e0e224a11c3691f8bf381ca659ba82804fc358cd976f6",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
     "validate": "passed",
