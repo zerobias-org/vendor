@@ -14,11 +14,12 @@
     "correct:deps": "tsx ../../scripts/correctDeps.ts"
   },
   "publishConfig": {
-    "registry": "https://pkg.zerobias.org/"
+    "registry": "https://pkg.zerobias.org"
   },
   "files": [
     "index.yml",
-    "logo.*"
+    "logo.*",
+    "npm-shrinkwrap.json"
   ],
   "zerobias": {
     "dataloader-version": "1.0.0",
