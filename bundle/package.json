@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "1.0.25",
+  "version": "1.0.26",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -106,7 +106,7 @@
     "@zerobias-org/vendor-creadly": "2.0.1",
     "@zerobias-org/vendor-credly": "2.0.1",
     "@zerobias-org/vendor-crest": "1.0.2",
-    "@zerobias-org/vendor-crowdstrike": "2.0.1",
+    "@zerobias-org/vendor-crowdstrike": "2.0.2",
     "@zerobias-org/vendor-crytek": "2.0.1",
     "@zerobias-org/vendor-csa": "2.0.1",
     "@zerobias-org/vendor-cve": "1.0.1",
