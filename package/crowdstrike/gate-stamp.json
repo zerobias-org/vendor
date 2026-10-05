@@ -1,5 +1,5 @@
 {
-  "version": "2.0.1-uat.0",
+  "version": "2.0.2",
   "branch": "fix/vendor-crowdstrike-casing",
   "sourceHash": "f3f0a448652b6948ca8f989503047e47ed319585df621fb183ece1cf2a18c88f",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
