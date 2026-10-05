@@ -1,0 +1,14 @@
+id: 6c4484e1-79ab-468f-92d7-2b92e854a993
+name: American Medical Association
+description: Physician association that develops, maintains and licenses the CPT code set (HCPCS Level I).
+imageUrl: https://cdn.auditmation.io/logos/ama.svg
+logo: https://cdn.auditmation.io/logos/ama.svg
+code: ama
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+status: active
+url: https://www.ama-assn.org/
+tags: []
+aliases:
+  - AMA
+cpeVendors: []
