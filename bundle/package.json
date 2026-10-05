@@ -1,6 +1,6 @@
 {
   "name": "@zerobias-org/vendor-bundle",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "All installable vendors",
   "author": "team@auditmation.io",
   "license": "ISC",
@@ -32,6 +32,7 @@
     "@zerobias-org/vendor-aiven": "2.0.1",
     "@zerobias-org/vendor-akamai": "2.0.1",
     "@zerobias-org/vendor-allgress": "2.0.1",
+    "@zerobias-org/vendor-ama": "1.0.0",
     "@zerobias-org/vendor-amazon": "2.0.2",
     "@zerobias-org/vendor-anchore": "2.0.1",
     "@zerobias-org/vendor-ansi": "1.0.1",
