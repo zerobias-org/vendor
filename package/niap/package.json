@@ -1,0 +1,27 @@
+{
+  "name": "@zerobias-org/vendor-niap",
+  "version": "1.0.0",
+  "description": "Vendor package for National Information Assurance Partnership",
+  "author": "team@zerobias.com",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zerobias-org/vendor.git",
+    "directory": "package/niap/"
+  },
+  "scripts": {
+    "correct:deps": "tsx ../../scripts/correctDeps.ts"
+  },
+  "publishConfig": {
+    "registry": "https://pkg.zerobias.org"
+  },
+  "files": [
+    "index.yml"
+  ],
+  "zerobias": {
+    "dataloader-version": "1.0.0",
+    "import-artifact": "vendor",
+    "package": "niap"
+  }
+}
