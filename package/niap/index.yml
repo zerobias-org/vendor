@@ -1,0 +1,13 @@
+id: 47481e8f-4fed-4b23-8e3d-e7f8286bdfcd
+name: National Information Assurance Partnership
+description: US government program, run by NSA, that approves Common Criteria Protection Profiles and certifies products against them.
+code: niap
+type: vendor
+ownerId: 00000000-0000-0000-0000-000000000000
+status: active
+url: https://www.niap-ccevs.org/
+tags: []
+aliases:
+  - NIAP
+  - NIAP CCEVS
+cpeVendors: []
