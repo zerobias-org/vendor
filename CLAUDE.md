@@ -104,8 +104,9 @@ Driven by the `Publish` GitHub Actions workflow on push to `main` / `qa` / `dev`
 `/create-vendor`) — the
 [create-vendor skill](.claude/skills/create-vendor/SKILL.md) handles the
 whole flow; a ZeroBias task id is optional. Headless works too:
-`claude -p "make vendor x"` pre-flights credentials, runs to org load, and
-stops there (sign-off and PR stay human).
+`claude -p "make vendor x"` pre-flights credentials, runs to the gate (or
+the org load, for an org-only vendor), and stops there (sign-off and PR
+stay human).
 
 Hard prerequisites live in the
 [`prerequisites` skill](.claude/skills/prerequisites/SKILL.md) — run
@@ -117,11 +118,16 @@ the org). If one is missing: **install it or wait — never work around it**
 The content SDLC (the skill owns the details — don't restate them here):
 
 1. scaffold → `zbb --slot <slot> gate` (never bare `./gradlew`) → commit `gate-stamp.json`
-2. `publishOrg` → load into YOUR org → verify → 🙋 explicit user sign-off
-3. only then PR → base **`dev`**
+2. **Catalog package** (default): PR → base **`dev`**, no `zerobias.orgId`.
+3. **Org-only package** (`zerobias.orgId` set): `publishOrg` → load into that
+   org → verify → 🙋 explicit user sign-off.
+
+`zerobias.orgId` is the dataloader's package-ownership field for every
+content type, not something specific to vendors. See the dataloader's
+`docs/STABLE_IDS.md` ("Declared-owner validation", "Promotion").
 
 **No ZeroBias org?** (external contributors): stop after the gate and open
-the PR against `dev` — maintainers run the org verification on their side.
+the PR against `dev`. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### Key APIs (zb MCP)
 
