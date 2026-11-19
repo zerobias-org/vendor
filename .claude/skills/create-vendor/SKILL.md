@@ -1,9 +1,10 @@
 ---
 name: create-vendor
 description: >-
-  Create a new vendor package in the zerobias-org catalog and take it through
-  the full content SDLC — scaffold → gradle gate → publishOrg + org load →
-  user verifies the org artifact → PR to dev only after explicit sign-off.
+  Create a new vendor package and take it through the content SDLC. A
+  catalog vendor (the default) goes scaffold → gradle gate → PR to dev. An
+  org-only vendor (zerobias.orgId set, privately owned by one org) goes
+  scaffold → gate → publishOrg + org load → user verifies the org artifact.
   USE THIS when the user says "add vendor X", "I need a new vendor for Y",
   "register <company> as a vendor", or a ZeroBias task asks for a vendor
   package. Standalone: works in this repo alone (no meta-repo), and no
@@ -11,23 +12,34 @@ description: >-
 argument-hint: "[vendor name | task-id]"
 ---
 
-# create-vendor — new vendor package, org-first SDLC
+# create-vendor — new vendor package
 
 Vendors are the ROOT of the catalog dependency chain (vendor → suite? →
-product → …). This skill produces ONE vendor package and delivers it
-**org-first**: the default deliverable is the vendor loaded into the user's
-own org; the PR to `dev` happens only after the user signs off on the
-org-loaded result.
+product → …). This skill produces ONE vendor package.
+
+**Decide first: catalog package or org-only package.** This is the
+dataloader's ownership rule for EVERY content package type (vendor, suite,
+product, framework, …), not a vendor rule — source of truth:
+`com/platform/dataloader/docs/STABLE_IDS.md` ("Declared-owner validation",
+"Promotion"). In short, `zerobias.orgId` declares the package's OWNER and
+every row it loads is privately owned by that org. For this vendor:
+
+- **Catalog (default)** — shared content headed for the catalog. **No
+  `zerobias.orgId`.** No `publishOrg`, no org load.
+- **Org-only** — content that stays private to one org. Set
+  `zerobias.orgId` to that org; `publishOrg` loads it there. Deleting
+  `orgId` later does not make it catalog content — see "Promotion" in
+  `STABLE_IDS.md`.
 
 ```
 Phase 0 prerequisites (hard gate — /prerequisites must report READY)
 Phase 1 resolve + existence check
 Phase 2 branch (from dev)
-Phase 3 scaffold + author content
+Phase 3 scaffold + author content   ← orgId ONLY for an org-only vendor
 Phase 4 gate                        ← git add BEFORE gating
-Phase 5 publishOrg + org load
-Phase 6 user verifies org artifact  ← 🙋 explicit sign-off required
-Phase 7 PR --base dev               ← only after sign-off
+Phase 5 publishOrg + org load       ← org-only vendor only
+Phase 6 user verifies org artifact  ← org-only vendor only; 🙋 sign-off
+Phase 7 PR --base dev               ← catalog vendor
 ```
 
 **Modes.** Default is **request-driven**: the user names a vendor; no
@@ -38,10 +50,11 @@ name), additionally follow the **task-driven appendix** at the end.
 - **Pre-flight first**: run the `prerequisites` skill (Phase 0) before
   touching anything. If anything is missing, print the exact setup
   instructions and exit — never fail mid-flow.
-- **The run ENDS after Phase 5** (org load). Print what was created, the
-  verification link, and: *"verify the org artifact, then run
-  `claude -p 'open the PR for vendor <code>'` (or continue interactively)"*.
-  Phases 6–7 are human-gated and never run headless.
+- **The run ENDS before anything human-gated.** Catalog vendor: stop after
+  Phase 4 (gate) and print *"review, then run `claude -p 'open the PR for
+  vendor <code>'`"*. Org-only vendor: stop after Phase 5 (org load) and
+  print what was created plus the verification link. Phase 6 and Phase 7
+  never run headless.
 - **Decision forks stop the run**: vendor already exists, no official logo
   found, gate conflict → print a structured report of the state and the
   decision needed, exit cleanly, change nothing further.
@@ -167,8 +180,7 @@ of the gate-stamp `sourceHash`, so `git add` it BEFORE the final gate).
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "<vendorCode>",
-    "orgId": "<target-org-uuid>"
+    "package": "<vendorCode>"
   }
 }
 ```
@@ -176,15 +188,14 @@ of the gate-stamp `sourceHash`, so `git add` it BEFORE the final gate).
 - Never hand-edit `version` afterwards — CI owns bumps.
 - No `dependencies` — vendor packages are pure metadata.
 - `zerobias.package` MUST equal the directory name and `index.yml` `code`.
-- **Set `zerobias.orgId: "<org-uuid>"` already now, before the first gate.**
-  The gate's Neon step behaves differently with it: orgId present → the
-  ephemeral branch is seeded with the org and the load runs org-scoped
-  (`dataloaderExec: Seeding org … (zerobias.orgId present)`), matching how
-  org-scoped tokens authorize; orgId absent → the package is treated as
-  global-catalog and org-scoped tokens can 401 the step. The gate-stamp's
-  sourceHash does NOT cover `package.json`, so setting (and later, in
-  Phase 7, deleting) orgId never invalidates the stamp — there is no
-  reason to defer it to Phase 5.
+- **`zerobias.orgId` — org-only vendors ONLY.** A catalog vendor never
+  carries it (see "Decide first" above). For an org-only vendor, add
+  `"orgId": "<target-org-uuid>"` to the `zerobias` block now, before the
+  first gate: the gate's Neon step then seeds the org into the ephemeral
+  branch and loads org-scoped (`dataloaderExec: Seeding org …
+  (zerobias.orgId present)`). The gate-stamp's sourceHash DOES cover
+  `package.json` (verified 2026-11-18: removing `orgId` turned the stamp
+  `source-hash-changed`), so any later edit to it means re-gating.
 
 **index.yml**:
 
@@ -253,14 +264,22 @@ lifecycle. The only npm step you run yourself is the shrinkwrap
 generation from Phase 2 (`npm install --package-lock-only --no-workspaces`);
 commit the resulting `npm-shrinkwrap.json`.
 
-## Phase 5 — publishOrg + load into the user's org
+## Phase 5 — publishOrg + load into the user's org (org-only vendor only)
+
+**Catalog vendor: skip Phases 5–6 and go to Phase 7.** Its catalog load
+happens through CI after the PR merges.
 
 Publishes an org-private rc version (`<X.Y.Z+1>-rc.<orgIdStripped>.<n>`, computed by zbb — never hand-authored) and queues
 a dataloader job into the target org — no PR, no shared catalog involved.
 
-1. Confirm the target is set in `package.json`: `"zerobias": { …, "orgId":
-   "<org-uuid>" }` — already done in Phase 3 (before the gate), where it
-   belongs; set it now only if it was somehow missed.
+⚠ Needs build-tools with zerobias-org/util#138: older versions queue the
+job without `dana-org-id`, so it loads into the caller's DEFAULT org, not
+`zerobias.orgId`. Verify with `dataloader.Job.get({ jobId })` → `orgName`.
+Older versions also delete the committed `npm-shrinkwrap.json` after the
+publish (`git checkout -- npm-shrinkwrap.json` restores it).
+
+1. Confirm `package.json` declares `"zerobias": { …, "orgId":
+   "<org-uuid>" }` — set in Phase 3, before the gate.
 2. Environment — must be in the **slot/stack env** (a plain shell `export`
    does not reach the gradle build). Secret in the slot's local env:
    `zbb --slot <slot> env set ZB_API_KEY <org-owner-key>` (and `ZB_TOKEN` =
@@ -304,7 +323,7 @@ resolves the released registry line — org loads need build-tools
 ≥ **1.0.137** (verify: `./gradlew buildEnvironment | grep build-tools`;
 a stale locally-published copy in `~/.m2` can shadow the release).
 
-## Phase 6 — user verification + sign-off  ⭐
+## Phase 6 — user verification + sign-off (org-only vendor only)  ⭐
 
 Show the user the org-loaded vendor (catalog UI or the `store.Vendor.get`
 result). ⚠️ The logo will render BROKEN in the UI at this stage —
@@ -312,18 +331,21 @@ result). ⚠️ The logo will render BROKEN in the UI at this stage —
 `main`, where the publish workflow's `cdn-update` job uploads it (the
 dataloader never touches the CDN). Tell the user up front; have them judge
 the data fields, and verify the logo locally (it must be inside the
-published rc tarball). **Do NOT proceed to the PR until the user explicitly confirms**
-(e.g. "looks good, ship it"). Silence or further tweak requests are NOT
+published rc tarball). The vendor is done when the user explicitly
+confirms (e.g. "looks good"). Silence or further tweak requests are NOT
 sign-off — if unclear, ask. Headless runs never reach this phase — they
 stop after Phase 5 by design.
 
-## Phase 7 — PR to dev (after sign-off only)
+An org-only vendor does not go through Phase 7. Moving it into the shared
+catalog later is a promotion (dataloader `docs/STABLE_IDS.md`,
+"Promotion"), not deleting `orgId` — confirm with the user and platform
+before doing it.
 
-1. Flip ownership to the shared catalog: **delete `zerobias.orgId` from
-   `package.json`**. No re-gate needed — for content packages the
-   gate-stamp's sourceHash covers the `files` payload (`index.yml`,
-   `logo.*`), not `package.json`. Leftover `-rc.<org>.<n>` npm versions
-   don't collide with catalog semver.
+## Phase 7 — PR to dev (catalog vendor)
+
+1. Confirm `package.json` has **no** `zerobias.orgId` and the committed
+   `gate-stamp.json` is valid
+   (`cd <repo>/package/<vendorCode> && zbb gate --check`).
 2. Commit — selective staging, conventional message, no co-authors:
 
 ```bash
@@ -338,12 +360,11 @@ git push -u origin feat/vendor-<vendorCode>
 gh pr create --base dev \
   --title "feat(vendor-<vendorCode>): add <Vendor Name>" \
   --body "…summary, validation checklist (gate ✓, gate-stamp committed ✓,
-          org-loaded + user-verified ✓), and anything needing SME review
+          no zerobias.orgId ✓), and anything needing SME review
           (placeholder logo, unusual code, naming judgment calls)…"
 ```
 
-The PR is how content reaches the shared catalog; the org-private artifact
-from Phase 5 stays in the user's org either way.
+The PR is how content reaches the shared catalog.
 
 ## Common issues
 
