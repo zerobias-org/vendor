@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "cve"
+    "package": "cve",
+    "documentation": "README.md"
   }
 }
