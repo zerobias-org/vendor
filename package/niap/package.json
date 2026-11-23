@@ -22,6 +22,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "niap"
+    "package": "niap",
+    "documentation": "README.md"
   }
 }
