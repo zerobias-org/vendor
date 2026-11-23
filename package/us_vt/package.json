@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "us_vt"
+    "package": "us_vt",
+    "documentation": "README.md"
   }
 }
