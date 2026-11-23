@@ -1,6 +1,6 @@
 {
-  "version": "2.0.2",
-  "branch": "build/npmrc-canonical",
+  "version": "2.0.2-uat.0",
+  "branch": "docs/vendor-readme-pilot",
   "sourceHash": "0837d427815657807b03dc3fbe4ea56388c58f6ac538ea5bb691b825b3f6fe98",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
@@ -11,7 +11,8 @@
     "testDirect": "passed",
     "testDocker": "passed",
     "testDataloader": "passed",
-    "buildArtifacts": "passed"
+    "buildArtifacts": "passed",
+    "dataloaderExec": "passed"
   },
   "tests": {
       "unit": { "expected": 0, "ran": 0, "status": "skipped" },
