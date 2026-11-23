@@ -24,6 +24,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "ama"
+    "package": "ama",
+    "documentation": "README.md"
   }
 }
