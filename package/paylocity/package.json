@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "paylocity"
+    "package": "paylocity",
+    "documentation": "README.md"
   }
 }
