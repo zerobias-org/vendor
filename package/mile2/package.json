@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "mile2"
+    "package": "mile2",
+    "documentation": "README.md"
   }
 }
