@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "exabeam"
+    "package": "exabeam",
+    "documentation": "README.md"
   }
 }
