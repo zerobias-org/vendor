@@ -1,6 +1,6 @@
 {
-  "version": "2.0.2",
-  "branch": "build/npmrc-canonical",
+  "version": "2.0.2-uat.0",
+  "branch": "task/task-32",
   "sourceHash": "65ec2f93fa9904ad04a06b85df0f7d9b3abdadd43d67a245d214977ba367f5cb",
   "testHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "tasks": {
@@ -11,7 +11,8 @@
     "testDirect": "passed",
     "testDocker": "passed",
     "testDataloader": "passed",
-    "buildArtifacts": "passed"
+    "buildArtifacts": "passed",
+    "dataloaderExec": "passed"
   },
   "tests": {
       "unit": { "expected": 0, "ran": 0, "status": "skipped" },
