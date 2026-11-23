@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "iguazio"
+    "package": "iguazio",
+    "documentation": "README.md"
   }
 }
