@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "document360"
+    "package": "document360",
+    "documentation": "README.md"
   }
 }
