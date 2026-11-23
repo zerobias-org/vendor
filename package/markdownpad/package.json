@@ -22,6 +22,7 @@
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
     "package": "markdownpad",
-    "deprecated": true
+    "deprecated": true,
+    "documentation": "README.md"
   }
 }
