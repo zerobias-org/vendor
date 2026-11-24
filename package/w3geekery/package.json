@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "w3geekery"
+    "package": "w3geekery",
+    "documentation": "README.md"
   }
 }

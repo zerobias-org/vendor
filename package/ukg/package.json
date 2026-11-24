@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "ukg"
+    "package": "ukg",
+    "documentation": "README.md"
   }
 }
