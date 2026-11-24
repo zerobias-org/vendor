@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "base44"
+    "package": "base44",
+    "documentation": "README.md"
   }
 }
