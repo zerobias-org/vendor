@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "grokability"
+    "package": "grokability",
+    "documentation": "README.md"
   }
 }

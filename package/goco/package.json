@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "goco"
+    "package": "goco",
+    "documentation": "README.md"
   }
 }
