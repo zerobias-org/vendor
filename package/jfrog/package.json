@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "jfrog"
+    "package": "jfrog",
+    "documentation": "README.md"
   }
 }

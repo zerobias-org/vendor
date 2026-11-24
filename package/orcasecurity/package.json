@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "orcasecurity"
+    "package": "orcasecurity",
+    "documentation": "README.md"
   }
 }

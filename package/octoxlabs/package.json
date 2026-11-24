@@ -21,6 +21,7 @@
   "zerobias": {
     "dataloader-version": "1.0.0",
     "import-artifact": "vendor",
-    "package": "octoxlabs"
+    "package": "octoxlabs",
+    "documentation": "README.md"
   }
 }
